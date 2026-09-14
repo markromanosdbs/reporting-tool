@@ -41,4 +41,4 @@ jobs:
           action: "upload"
           app_location: "frontend/dist"
           output_location: "dist"
-          skip_app_build: true
+          skip_app_build: false
