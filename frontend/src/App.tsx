@@ -54,7 +54,8 @@ function App() {
 
   // Fetch available tables
   useEffect(() => {
-    axios.get('/api/tables').then((res) => {
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+    axios.get(`${apiUrl}/tables`).then((res) => {
       setTables(res.data.tables);
     });
   }, []);
@@ -62,7 +63,8 @@ function App() {
   const { data, isLoading, isError, error } = useQuery<ApiResponse>({
     queryKey: ['data', selectedTable, filters, page],
     queryFn: async () => {
-      const response = await axios.get('/api/data', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const response = await axios.get(`${apiUrl}/data`, {
         params: {
           table: selectedTable,
           ...filters,
