@@ -1,12 +1,14 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
+import https from 'https';
+import fs from 'fs';
 import { connectDB, closeDB } from './db.js';
 import componentsRouter from './routes/components.js';
 import commentsRouter from './routes/comments.js';
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8443;
 
 // Middleware
 app.use(cors({
@@ -28,10 +30,27 @@ app.use('/api', commentsRouter);
 async function start() {
   try {
     await connectDB();
-    app.listen(PORT, () => {
-      console.log(`✓ Server running on http://localhost:${PORT}`);
-      console.log(`✓ API available at http://localhost:${PORT}/api`);
-    });
+
+    // Read SSL certificates
+    const certPath = '../cert.pem';
+    const keyPath = '../key.pem';
+
+    if (fs.existsSync(certPath) && fs.existsSync(keyPath)) {
+      const cert = fs.readFileSync(certPath);
+      const key = fs.readFileSync(keyPath);
+      const httpsServer = https.createServer({ cert, key }, app);
+
+      httpsServer.listen(PORT, () => {
+        console.log(`✓ Server running on https://localhost:${PORT}`);
+        console.log(`✓ API available at https://localhost:${PORT}/api`);
+      });
+    } else {
+      console.warn('SSL certificates not found, falling back to HTTP');
+      app.listen(PORT, () => {
+        console.log(`✓ Server running on http://localhost:${PORT}`);
+        console.log(`✓ API available at http://localhost:${PORT}/api`);
+      });
+    }
 
     // Graceful shutdown
     process.on('SIGTERM', async () => {
