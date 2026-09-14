@@ -1,0 +1,46 @@
+name: Deploy Backend to App Service
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'backend/**'
+      - '.github/workflows/deploy-backend.yml'
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    name: Build and Deploy Backend
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ./backend
+        run: npm install
+
+      - name: Build TypeScript
+        working-directory: ./backend
+        run: npm run build
+
+      - name: Zip backend files
+        run: |
+          cd backend
+          zip -r ../backend-release.zip dist node_modules package*.json
+
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: reporting-tool-backend
+          publish-profile: ${{ secrets.AZURE_APP_SERVICE_PUBLISH_PROFILE }}
+          package: ./backend-release.zip
+
+      - name: Test API endpoint
+        run: |
+          sleep 10
+          curl -f https://reporting-tool-backend.azurewebsites.net/api/tables || exit 1
