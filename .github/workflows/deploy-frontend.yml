@@ -30,7 +30,7 @@ jobs:
         working-directory: ./frontend
         run: npm run build
         env:
-          VITE_API_URL: https://reporting-tool-backend.azurewebsites.net/api
+          VITE_API_URL: http://23.101.239.68:8080/api
 
       - name: Deploy to Static Web Apps
         id: builddeploy
