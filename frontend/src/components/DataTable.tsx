@@ -2748,9 +2748,9 @@ export default function DataTable({
                                 textOverflow: 'ellipsis',
                               }
                             : {
-                                width: '55px',
-                                minWidth: '55px',
-                                maxWidth: '55px',
+                                width: '70px',
+                                minWidth: '70px',
+                                maxWidth: '70px',
                                 padding: '4px 2px',
                                 textAlign: 'center',
                                 fontSize: '10px',
