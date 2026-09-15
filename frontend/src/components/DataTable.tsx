@@ -2175,7 +2175,7 @@ export default function DataTable({
                         <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
-                            {renderCommentButton(`Group - ${groupHeader}`, 'header', 0, 'header')}
+                            {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
                           </div>
                         </td>
                       );
@@ -2230,7 +2230,7 @@ export default function DataTable({
                       {isFirstColumn ? 'Part No' : (isBaseColumn ? '' : (
                         <div className="flex items-center justify-center gap-0.5">
                           <span>{partNumberText || ''}</span>
-                          {!isBaseColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
+                          {!isBaseColumn && renderCommentButton(`PartNum_${headerText}`, 'header', 0, 'header')}
                         </div>
                       ))}
                     </td>
@@ -2290,7 +2290,7 @@ export default function DataTable({
                         <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
-                            {renderCommentButton(`Group - ${groupHeader}`, 'header', 0, 'header')}
+                            {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
                           </div>
                         </td>
                       );
@@ -2345,7 +2345,7 @@ export default function DataTable({
                       {isFirstColumn ? 'Supplier' : (isBaseColumn ? '' : (
                         <div className="flex items-center justify-center gap-0.5">
                           <span>{supplierText || ''}</span>
-                          {!isBaseColumn && renderCommentButton(`Supplier - ${supplierText}`, 'header', 0, 'header')}
+                          {!isBaseColumn && renderCommentButton(`Supplier_${headerText}_${supplierText}`, 'header', 0, 'header')}
                         </div>
                       ))}
                     </td>

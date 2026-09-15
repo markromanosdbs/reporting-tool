@@ -42,6 +42,16 @@ export function CommentsSummary({ isOpen, onClose, tableName }: CommentsSummaryP
     }
   };
 
+  const handleDeleteComment = async (id: number) => {
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      await axios.delete(`${apiUrl}/comments/${id}`);
+      await fetchAllComments();
+    } catch (error) {
+      console.error('Error deleting comment:', error);
+    }
+  };
+
   const filteredComments = searchUser
     ? comments.filter((c) => c.user.toLowerCase().includes(searchUser.toLowerCase()))
     : comments;
@@ -90,6 +100,12 @@ export function CommentsSummary({ isOpen, onClose, tableName }: CommentsSummaryP
                         Quote: {comment.quote_no}, Line: {comment.line_no}
                       </span>
                     </div>
+                    <button
+                      onClick={() => handleDeleteComment(comment.id)}
+                      className="text-red-500 hover:text-red-700 text-xs font-bold"
+                    >
+                      ✕
+                    </button>
                   </div>
                   <p className="text-xs text-gray-500 mb-2">
                     Column: <span className="font-mono">{comment.column_name}</span>
