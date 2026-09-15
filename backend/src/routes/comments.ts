@@ -38,11 +38,11 @@ router.post('/comments', async (req: Request, res: Response) => {
 
     const { table, quoteNo, lineNo, columnName, user, commentText } = req.body;
 
-    if (!table || !quoteNo || !lineNo || !columnName || !user || !commentText) {
+    if (!table || !quoteNo || lineNo === null || lineNo === undefined || !columnName || !user || !commentText) {
       const missingFields = [];
       if (!table) missingFields.push('table');
       if (!quoteNo) missingFields.push('quoteNo');
-      if (!lineNo) missingFields.push('lineNo');
+      if (lineNo === null || lineNo === undefined) missingFields.push('lineNo');
       if (!columnName) missingFields.push('columnName');
       if (!user) missingFields.push('user');
       if (!commentText) missingFields.push('commentText');
