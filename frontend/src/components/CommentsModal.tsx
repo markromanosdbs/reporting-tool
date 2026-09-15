@@ -43,7 +43,8 @@ export function CommentsModal({
 
   const fetchComments = async () => {
     try {
-      const response = await axios.get('/api/comments', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const response = await axios.get(`${apiUrl}/comments`, {
         params: {
           table,
           quoteNo,
@@ -72,7 +73,8 @@ export function CommentsModal({
     console.log('Sending comment:', payload);
 
     try {
-      const response = await axios.post('/api/comments', payload);
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const response = await axios.post(`${apiUrl}/comments`, payload);
       console.log('Comment response:', response);
       setNewComment('');
       await fetchComments();
@@ -86,7 +88,8 @@ export function CommentsModal({
 
   const handleDeleteComment = async (id: number) => {
     try {
-      await axios.delete(`/api/comments/${id}`);
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      await axios.delete(`${apiUrl}/comments/${id}`);
       await fetchComments();
     } catch (error) {
       console.error('Error deleting comment:', error);
