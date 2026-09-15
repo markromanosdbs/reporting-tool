@@ -1619,9 +1619,32 @@ export default function DataTable({
     rowType?: string; // 'header', 'summary', or 'data'
   } | null>(null);
   const [tableWidth, setTableWidth] = useState(0);
+  const [cellsWithComments, setCellsWithComments] = useState<Set<string>>(new Set());
 
   // Virtualization ref
   const tbodyRef = useRef<HTMLTableSectionElement>(null);
+
+  // Fetch all comments for the table to show indicators
+  useEffect(() => {
+    const fetchCommentIndicators = async () => {
+      try {
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+        const response = await axios.get(`${apiUrl}/comments/summary/${tableName}`);
+        const commentSet = new Set<string>();
+        response.data.forEach((comment: any) => {
+          const key = `${comment.quote_no}_${comment.line_no}_${comment.column_name}`;
+          commentSet.add(key);
+        });
+        setCellsWithComments(commentSet);
+      } catch (error) {
+        console.error('Error fetching comment indicators:', error);
+      }
+    };
+
+    if (tableName) {
+      fetchCommentIndicators();
+    }
+  }, [tableName]);
 
   // Get base columns for the current table
   const BASE_COLUMNS = tableName && TABLE_BASE_COLUMNS[tableName]
@@ -2735,8 +2758,11 @@ export default function DataTable({
                         }
                       >
                         <div className="flex items-center justify-between gap-1 h-full">
-                          <span className="flex-1 truncate">
+                          <span className="flex-1 truncate relative">
                             {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                            {cellsWithComments.has(`${quoteNo}_${lineNo}_${columnKey}`) && (
+                              <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full" title="Has comments"></span>
+                            )}
                           </span>
                           {renderCommentButton(columnKey, quoteNo, lineNo, 'data')}
                         </div>
