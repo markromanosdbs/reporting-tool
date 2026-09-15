@@ -2123,8 +2123,11 @@ export default function DataTable({
                   const partNumber = PART_NUMBER_MAP[normalizedHeaderText] || PART_NUMBER_MAP[headerText] || '';
 
                   return (
-                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }}>
-                      {isFirstColumn ? 'Part Number' : partNumber}
+                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
+                      <div className="flex items-center justify-center gap-0.5">
+                        <span>{isFirstColumn ? 'Part Number' : partNumber}</span>
+                        {!isFirstColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
+                      </div>
                     </td>
                   );
                 })}
@@ -2148,8 +2151,8 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }}>
-                          Group
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                          <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
                       i++;
@@ -2169,8 +2172,11 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }}>
-                          {groupHeader}
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                          <div className="flex items-center justify-center gap-0.5">
+                            <span>{groupHeader}</span>
+                            {renderCommentButton(`Group - ${groupHeader}`, 'header', 0, 'header')}
+                          </div>
                         </td>
                       );
 
@@ -2219,8 +2225,14 @@ export default function DataTable({
                           transform: 'rotate(180deg)',
                         } : {})
                       }}
+                      className="group relative"
                     >
-                      {isFirstColumn ? 'Part No' : (isBaseColumn ? '' : (partNumberText || ''))}
+                      {isFirstColumn ? 'Part No' : (isBaseColumn ? '' : (
+                        <div className="flex items-center justify-center gap-0.5">
+                          <span>{partNumberText || ''}</span>
+                          {!isBaseColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
+                        </div>
+                      ))}
                     </td>
                   );
                 })}
@@ -2246,8 +2258,8 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }}>
-                          Group
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                          <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
                       i++;
@@ -2275,8 +2287,11 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }}>
-                          {groupHeader}
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid white', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                          <div className="flex items-center justify-center gap-0.5">
+                            <span>{groupHeader}</span>
+                            {renderCommentButton(`Group - ${groupHeader}`, 'header', 0, 'header')}
+                          </div>
                         </td>
                       );
 
@@ -2325,8 +2340,14 @@ export default function DataTable({
                           transform: 'rotate(180deg)',
                         } : {})
                       }}
+                      className="group relative"
                     >
-                      {isFirstColumn ? 'Supplier' : (isBaseColumn ? '' : (supplierText || ''))}
+                      {isFirstColumn ? 'Supplier' : (isBaseColumn ? '' : (
+                        <div className="flex items-center justify-center gap-0.5">
+                          <span>{supplierText || ''}</span>
+                          {!isBaseColumn && renderCommentButton(`Supplier - ${supplierText}`, 'header', 0, 'header')}
+                        </div>
+                      ))}
                     </td>
                   );
                 })}
