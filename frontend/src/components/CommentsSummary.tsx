@@ -32,7 +32,8 @@ export function CommentsSummary({ isOpen, onClose, tableName }: CommentsSummaryP
   const fetchAllComments = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`/api/comments/summary/${tableName}`);
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const response = await axios.get(`${apiUrl}/comments/summary/${tableName}`);
       setComments(response.data);
     } catch (error) {
       console.error('Error fetching comments summary:', error);
