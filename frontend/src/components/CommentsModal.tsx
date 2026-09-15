@@ -49,6 +49,7 @@ export function CommentsModal({
           table,
           quoteNo,
           lineNo,
+          columnName,
         },
       });
       setComments(response.data);

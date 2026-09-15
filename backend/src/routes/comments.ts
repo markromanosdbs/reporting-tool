@@ -3,26 +3,36 @@ import { getConnection } from '../db.js';
 
 const router = Router();
 
-// Get comments for a specific row
+// Get comments for a specific cell
 router.get('/comments', async (req: Request, res: Response) => {
   try {
-    const { table, quoteNo, lineNo } = req.query;
+    const { table, quoteNo, lineNo, columnName } = req.query;
 
-    if (!table || !quoteNo || !lineNo) {
+    if (!table || !quoteNo || lineNo === null || lineNo === undefined) {
       return res.status(400).json({ error: 'Missing required parameters: table, quoteNo, lineNo' });
     }
 
     const pool = await getConnection();
-    const result = await pool.request()
+    let query = `
+      SELECT [id], [table_name], [quote_no], [line_no], [column_name], [user], [timestamp], [comment_text]
+      FROM [dbo].[comments]
+      WHERE [table_name] = @table_name AND [quote_no] = @quote_no AND [line_no] = @line_no
+    `;
+
+    const request = pool.request()
       .input('table_name', String(table))
       .input('quote_no', String(quoteNo))
-      .input('line_no', Number(lineNo))
-      .query(`
-        SELECT [id], [table_name], [quote_no], [line_no], [column_name], [user], [timestamp], [comment_text]
-        FROM [dbo].[comments]
-        WHERE [table_name] = @table_name AND [quote_no] = @quote_no AND [line_no] = @line_no
-        ORDER BY [timestamp] DESC
-      `);
+      .input('line_no', Number(lineNo));
+
+    // If columnName is provided, filter by it
+    if (columnName) {
+      query += ` AND [column_name] = @column_name`;
+      request.input('column_name', String(columnName));
+    }
+
+    query += ` ORDER BY [timestamp] DESC`;
+
+    const result = await request.query(query);
 
     res.json(result.recordset);
   } catch (error) {
