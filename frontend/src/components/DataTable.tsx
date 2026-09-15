@@ -7,7 +7,6 @@ import {
   ColumnDef,
 } from '@tanstack/react-table';
 import { useVirtualizer } from '@tanstack/react-virtual';
-import { ExportButton } from './ExportButton';
 import { CommentsModal } from './CommentsModal';
 import clsx from 'clsx';
 
@@ -2127,7 +2126,6 @@ export default function DataTable({
           Showing {page * pageSize + 1} to {Math.min((page + 1) * pageSize, total)} of{' '}
           {total} records
         </div>
-        <ExportButton data={data} fileName="components_report" sums={sums} baseColumns={BASE_COLUMNS} />
       </div>
 
       <div
