@@ -34,7 +34,7 @@ router.get('/comments', async (req: Request, res: Response) => {
 // Add a new comment
 router.post('/comments', async (req: Request, res: Response) => {
   try {
-    console.log('[DEBUG] POST /comments request body:', req.body);
+    console.log('[COMMENTS POST] Request received. Body:', req.body);
 
     const { table, quoteNo, lineNo, columnName, user, commentText } = req.body;
 
@@ -46,14 +46,12 @@ router.post('/comments', async (req: Request, res: Response) => {
       if (!columnName) missingFields.push('columnName');
       if (!user) missingFields.push('user');
       if (!commentText) missingFields.push('commentText');
-      console.log('[DEBUG] Missing fields:', missingFields);
+      console.log('[COMMENTS] Missing fields:', missingFields);
       return res.status(400).json({ error: 'Missing required fields', missingFields });
     }
 
-    console.log('[DEBUG] Adding comment for:', { table, quoteNo, lineNo, columnName, user });
-
     const pool = await getConnection();
-    const result = await pool.request()
+    await pool.request()
       .input('table_name', String(table))
       .input('quote_no', String(quoteNo))
       .input('line_no', Number(lineNo))
@@ -65,10 +63,10 @@ router.post('/comments', async (req: Request, res: Response) => {
         VALUES (@table_name, @quote_no, @line_no, @column_name, @user_name, @comment_text, GETUTCDATE())
       `);
 
-    console.log('[DEBUG] Comment inserted successfully');
+    console.log('[COMMENTS] Comment added successfully');
     res.status(201).json({ success: true, message: 'Comment added successfully' });
   } catch (error) {
-    console.error('[ERROR] Error adding comment:', error);
+    console.error('[COMMENTS] Error adding comment:', error);
     res.status(500).json({ error: 'Failed to add comment', details: (error as any).message });
   }
 });
@@ -79,7 +77,7 @@ router.delete('/comments/:id', async (req: Request, res: Response) => {
     const { id } = req.params;
 
     const pool = await getConnection();
-    const result = await pool.request()
+    await pool.request()
       .input('id', Number(id))
       .query(`
         DELETE FROM [dbo].[comments]
