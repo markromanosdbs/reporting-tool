@@ -2413,8 +2413,11 @@ export default function DataTable({
                           : { minWidth: '70px' }
                       }
                     >
-                      <div className="flex items-center justify-between gap-1">
+                      <div className="flex items-center justify-between gap-1 relative">
                         <span>{headerText}</span>
+                        {cellsWithComments.has(`header_0_${headerText}`) && (
+                          <span className="w-3 h-3 bg-red-500 rounded-full flex-shrink-0" title="Has comments"></span>
+                        )}
                         {renderCommentButton(headerText, 'header', 0, 'header')}
                       </div>
                     </th>
@@ -2761,7 +2764,7 @@ export default function DataTable({
                           <span className="flex-1 truncate relative">
                             {flexRender(cell.column.columnDef.cell, cell.getContext())}
                             {cellsWithComments.has(`${quoteNo}_${lineNo}_${columnKey}`) && (
-                              <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full" title="Has comments"></span>
+                              <span className="absolute -top-2 -right-2 w-4 h-4 bg-red-500 rounded-full" title="Has comments"></span>
                             )}
                           </span>
                           {renderCommentButton(columnKey, quoteNo, lineNo, 'data')}
