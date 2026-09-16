@@ -2156,7 +2156,7 @@ export default function DataTable({
                   const partNumber = PART_NUMBER_MAP[normalizedHeaderText] || PART_NUMBER_MAP[headerText] || '';
 
                   return (
-                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
+                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', border: '1px solid black', borderRight: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
                       <div className="flex items-center justify-center gap-0.5">
                         <span>{isFirstColumn ? 'Part Number' : partNumber}</span>
                         {!isFirstColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
@@ -2205,7 +2205,7 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', border: '1px solid black', borderRight: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
                             {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
@@ -2298,7 +2298,7 @@ export default function DataTable({
                       i++;
                     } else if (isBaseColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#f5f5f5', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible' }}>
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#f5f5f5', border: '1px solid black', borderRight: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible' }}>
                         </td>
                       );
                       i++;
@@ -2320,7 +2320,7 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', border: '1px solid black', borderRight: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
                             {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
@@ -2356,6 +2356,7 @@ export default function DataTable({
                         padding: '2px 2px',
                         backgroundColor: isBaseColumn ? '#f5f5f5' : '#d8bfd8',
                         border: '1px solid black',
+                        borderRight: '1px solid black',
                         textAlign: 'center',
                         verticalAlign: 'bottom',
                         color: '#000000',
