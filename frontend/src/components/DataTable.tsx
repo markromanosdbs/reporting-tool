@@ -9,6 +9,7 @@ import {
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { ExportButton } from './ExportButton';
 import { CommentsModal } from './CommentsModal';
+import { AIAnalyst } from './AIAnalyst';
 import clsx from 'clsx';
 
 interface DataTableProps {
@@ -1577,6 +1578,7 @@ export default function DataTable({
   const [tableWidth, setTableWidth] = useState(0);
   const [cellsWithComments, setCellsWithComments] = useState<Set<string>>(new Set());
   const [allDataForSummary, setAllDataForSummary] = useState<any[]>([]);
+  const [isAnalystOpen, setIsAnalystOpen] = useState(false);
 
   // Virtualization ref
   const tbodyRef = useRef<HTMLTableSectionElement>(null);
@@ -1934,6 +1936,12 @@ export default function DataTable({
           {total} records
         </div>
         <div className="flex gap-2 items-center">
+          <button
+            onClick={() => setIsAnalystOpen(!isAnalystOpen)}
+            className="px-3 py-1 bg-purple-600 text-white rounded text-sm hover:bg-purple-700 font-medium"
+          >
+            🤖 AI Analyst
+          </button>
           <button
             onClick={onShowCommentsSummary}
             className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 font-medium"
@@ -2575,6 +2583,13 @@ export default function DataTable({
           username={username}
         />
       )}
+
+      {/* AI Analyst Panel */}
+      <AIAnalyst
+        tableName={tableName || 'door_screen_components'}
+        isOpen={isAnalystOpen}
+        onClose={() => setIsAnalystOpen(false)}
+      />
     </div>
   );
 }

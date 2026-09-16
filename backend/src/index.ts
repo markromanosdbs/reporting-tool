@@ -6,6 +6,7 @@ import fs from 'fs';
 import { connectDB, closeDB } from './db.js';
 import componentsRouter from './routes/components.js';
 import commentsRouter from './routes/comments.js';
+import analystRouter from './routes/analyst.js';
 
 const app = express();
 const PORT = process.env.PORT || 8443;
@@ -25,6 +26,7 @@ app.get('/api/health', (req, res) => {
 // API Routes
 app.use('/api', componentsRouter);
 app.use('/api', commentsRouter);
+app.use('/api', analystRouter);
 
 // Initialize database and start server
 async function start() {
