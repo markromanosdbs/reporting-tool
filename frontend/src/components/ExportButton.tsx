@@ -130,9 +130,9 @@ export function ExportButton({ data, fileName, sums, baseColumns }: ExportButton
   return (
     <button
       onClick={handleExport}
-      className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium"
+      className="px-3 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700 font-medium"
     >
-      📥 Export to Excel
+      📥 Export
     </button>
   );
 }
