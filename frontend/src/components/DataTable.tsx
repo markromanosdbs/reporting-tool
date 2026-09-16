@@ -1891,7 +1891,7 @@ export default function DataTable({
   const rowVirtualizer = useVirtualizer({
     count: rows.length,
     getScrollElement: () => document.getElementById('table-scroll-container'),
-    estimateSize: () => 32, // Estimate row height
+    estimateSize: () => 28, // Estimate row height
     overscan: 10, // Render 10 rows outside visible area for smoothness
     measureElement:
       typeof window !== 'undefined' &&
@@ -2445,7 +2445,7 @@ export default function DataTable({
                   .map((header, idx, arr) => (
                     <td
                       key={`next7-base-${idx}`}
-                      className="px-3 py-2 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
+                      className="px-3 py-1 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
                       style={{ minWidth: '70px', whiteSpace: 'nowrap', overflow: 'visible' }}
                     >
                       <div className="flex items-center justify-center gap-1">
@@ -2473,7 +2473,7 @@ export default function DataTable({
                           width: '55px',
                           minWidth: '55px',
                           maxWidth: '55px',
-                          padding: '4px 2px',
+                          padding: '2px 1px',
                           fontSize: '11px',
                           overflow: 'visible',
                           whiteSpace: 'nowrap',
@@ -2499,7 +2499,7 @@ export default function DataTable({
                 .map((header, idx, arr) => (
                   <td
                     key={`install-base-${idx}`}
-                    className="px-3 py-2 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
+                    className="px-3 py-1 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
                     style={{ minWidth: '70px', whiteSpace: 'nowrap', overflow: 'visible' }}
                   >
                     <div className="flex items-center justify-center gap-1">
@@ -2554,7 +2554,7 @@ export default function DataTable({
                   .map((header, idx, arr) => (
                     <td
                       key={`total-base-${idx}`}
-                      className="px-3 py-2 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
+                      className="px-3 py-1 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
                       style={{ minWidth: '70px', whiteSpace: 'nowrap', overflow: 'visible' }}
                     >
                       <div className="flex items-center justify-center gap-1">
@@ -2582,7 +2582,7 @@ export default function DataTable({
                           width: '55px',
                           minWidth: '55px',
                           maxWidth: '55px',
-                          padding: '4px 2px',
+                          padding: '2px 1px',
                           fontSize: '11px',
                           overflow: 'visible',
                           whiteSpace: 'nowrap',
@@ -2609,7 +2609,7 @@ export default function DataTable({
                 .map((header, idx, arr) => (
                   <td
                     key={`kanban-base-${idx}`}
-                    className="px-3 py-2 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
+                    className="px-3 py-1 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
                     style={{ minWidth: '70px', whiteSpace: 'nowrap', overflow: 'visible' }}
                   >
                     <div className="flex items-center justify-center gap-1">
@@ -2665,7 +2665,7 @@ export default function DataTable({
                   .map((header, idx, arr) => (
                     <td
                       key={`total-base-${idx}`}
-                      className="px-3 py-2 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
+                      className="px-3 py-1 text-gray-700 border-r border-gray-200 bg-white group relative text-center"
                       style={{ minWidth: '70px', whiteSpace: 'nowrap', overflow: 'visible' }}
                     >
                       <div className="flex items-center justify-center gap-1">
@@ -2693,7 +2693,7 @@ export default function DataTable({
                           width: '55px',
                           minWidth: '55px',
                           maxWidth: '55px',
-                          padding: '4px 2px',
+                          padding: '2px 1px',
                           fontSize: '11px',
                           overflow: 'visible',
                           whiteSpace: 'nowrap',
