@@ -20,6 +20,7 @@ interface DataTableProps {
   isLoading: boolean;
   tableName?: string;
   username?: string;
+  onShowCommentsSummary?: () => void;
 }
 
 // Table-specific base columns
@@ -1610,6 +1611,7 @@ export default function DataTable({
   isLoading,
   tableName,
   username = '',
+  onShowCommentsSummary,
 }: DataTableProps) {
   const [commentModal, setCommentModal] = useState<{
     isOpen: boolean;
@@ -2127,7 +2129,15 @@ export default function DataTable({
           Showing {page * pageSize + 1} to {Math.min((page + 1) * pageSize, total)} of{' '}
           {total} records
         </div>
-        <ExportButton data={data} fileName="components_report" sums={sums} baseColumns={BASE_COLUMNS} />
+        <div className="flex gap-2 items-center">
+          <button
+            onClick={onShowCommentsSummary}
+            className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 font-medium"
+          >
+            📋 Comments
+          </button>
+          <ExportButton data={data} fileName="components_report" sums={sums} baseColumns={BASE_COLUMNS} />
+        </div>
       </div>
 
       <div

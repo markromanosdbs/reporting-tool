@@ -108,12 +108,6 @@ function App() {
               Davidsons Blinds & Shutters Database
             </p>
           </div>
-          <button
-            onClick={() => setShowCommentsSummary(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium whitespace-nowrap"
-          >
-            📋 Comments Summary
-          </button>
         </div>
       </div>
 
@@ -163,6 +157,7 @@ function App() {
               isLoading={isLoading}
               tableName={selectedTable}
               username={username}
+              onShowCommentsSummary={() => setShowCommentsSummary(true)}
             />
           </div>
         )}
