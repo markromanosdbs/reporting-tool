@@ -1576,6 +1576,7 @@ export default function DataTable({
   } | null>(null);
   const [tableWidth, setTableWidth] = useState(0);
   const [cellsWithComments, setCellsWithComments] = useState<Set<string>>(new Set());
+  const [allDataForSummary, setAllDataForSummary] = useState<any[]>([]);
 
   // Virtualization ref
   const tbodyRef = useRef<HTMLTableSectionElement>(null);
@@ -1601,6 +1602,31 @@ export default function DataTable({
       fetchCommentIndicators();
     }
   }, [tableName]);
+
+  // Fetch all data for summary calculations (not paginated)
+  useEffect(() => {
+    const fetchAllDataForSummary = async () => {
+      try {
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+        const response = await axios.get(`${apiUrl}/data`, {
+          params: {
+            table: tableName,
+            skip: 0,
+            take: 50000, // Fetch up to 50k records for summary calculation
+          },
+        });
+        setAllDataForSummary(response.data.data || []);
+      } catch (error) {
+        console.error('Error fetching all data for summary:', error);
+        // Fallback to current page data if full fetch fails
+        setAllDataForSummary(data);
+      }
+    };
+
+    if (tableName) {
+      fetchAllDataForSummary();
+    }
+  }, [tableName, data]);
 
   // Get base columns for the current table
   const BASE_COLUMNS = tableName && TABLE_BASE_COLUMNS[tableName]
@@ -1793,8 +1819,9 @@ export default function DataTable({
   };
 
   // All tables use frontend-calculated sums for real-time updates
+  // Use all data for summary calculations, not just current page
 
-  const sums = calculateSums(data);
+  const sums = calculateSums(allDataForSummary.length > 0 ? allDataForSummary : data);
 
   // Generate columns dynamically from data, ordered with base columns first
   const columns: ColumnDef<any>[] = data.length
