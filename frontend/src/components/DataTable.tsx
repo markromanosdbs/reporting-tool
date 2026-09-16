@@ -2146,84 +2146,9 @@ export default function DataTable({
       >
         <table className="w-full text-sm" style={{ borderCollapse: 'collapse', borderSpacing: 0 }}>
           <thead style={{ borderTop: '2px solid black' }}>
-            {/* Part Number Row - Only for Roller Blind Components */}
-            {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
-                {table.getHeaderGroups()[0]?.headers.map((header) => {
-                  const headerText = String(header.column.columnDef.header || '');
-                  const isFirstColumn = header === table.getHeaderGroups()[0].headers[0];
-                  const normalizedHeaderText = headerText.replace(/_/g, ' ');
-                  const partNumber = PART_NUMBER_MAP[normalizedHeaderText] || PART_NUMBER_MAP[headerText] || '';
 
-                  return (
-                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
-                      <div className="flex items-center justify-center gap-0.5">
-                        <span>{isFirstColumn ? 'Part Number' : partNumber}</span>
-                        {!isFirstColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
-                      </div>
-                    </td>
-                  );
-                })}
-              </tr>
-            )}
-
-            {/* Group Header Row - Only for Roller Blind Components */}
-            {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#b3e5fc', height: '60px', borderBottom: '1px solid #333' }}>
-                {(() => {
-                  const headers = table.getHeaderGroups()[0]?.headers || [];
-                  const result: JSX.Element[] = [];
-                  let i = 0;
-
-                  while (i < headers.length) {
-                    const currentHeader = headers[i];
-                    const headerText = String(currentHeader.column.columnDef.header || '');
-                    const isFirstColumn = i === 0;
-                    const normalizedHeaderText = headerText.replace(/_/g, ' ');
-                    const groupHeader = GROUP_HEADER_MAP[normalizedHeaderText] || GROUP_HEADER_MAP[headerText] || '';
-
-                    if (isFirstColumn) {
-                      result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
-                          <div className="flex items-center justify-center">Group</div>
-                        </td>
-                      );
-                      i++;
-                    } else {
-                      let colSpan = 1;
-                      while (i + colSpan < headers.length) {
-                        const nextHeader = headers[i + colSpan];
-                        const nextHeaderText = String(nextHeader.column.columnDef.header || '');
-                        const nextNormalizedText = nextHeaderText.replace(/_/g, ' ');
-                        const nextGroupHeader = GROUP_HEADER_MAP[nextNormalizedText] || GROUP_HEADER_MAP[nextHeaderText] || '';
-
-                        if (nextGroupHeader === groupHeader) {
-                          colSpan++;
-                        } else {
-                          break;
-                        }
-                      }
-
-                      result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
-                          <div className="flex items-center justify-center gap-0.5">
-                            <span>{groupHeader}</span>
-                            {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
-                          </div>
-                        </td>
-                      );
-
-                      i += colSpan;
-                    }
-                  }
-
-                  return result;
-                })()}
-              </tr>
-            )}
-
-            {/* Part Number Row - For Door Screen, Roller Shutter, and External Blinds Components */}
-            {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
+            {/* Part Number Row - For all 4 header tables */}
+            {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components' || tableName === 'roller_blind_components') && (
               <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header, idx) => {
                   const headerText = String(header.column.columnDef.header || '');
@@ -2272,8 +2197,8 @@ export default function DataTable({
               </tr>
             )}
 
-            {/* Group Row - For Door Screen, Roller Shutter, and External Blinds Components */}
-            {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
+            {/* Group Row - For all 4 header tables */}
+            {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components' || tableName === 'roller_blind_components') && (
               <tr style={{ backgroundColor: '#b3e5fc', height: '60px', borderBottom: '1px solid #333' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
