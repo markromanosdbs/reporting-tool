@@ -2169,7 +2169,7 @@ export default function DataTable({
 
             {/* Group Header Row - Only for Roller Blind Components */}
             {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
+              <tr style={{ backgroundColor: '#b3e5fc', height: '60px', borderBottom: '1px solid #333' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
                   const result: JSX.Element[] = [];
@@ -2184,7 +2184,7 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
@@ -2291,7 +2291,7 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
