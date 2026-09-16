@@ -138,7 +138,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full px-2 py-6">
+      <div className="w-full px-2 py-2">
         <FilterPanel
           onFilterChange={handleFilterChange}
           isLoading={isLoading}
@@ -153,7 +153,7 @@ function App() {
         )}
 
         {data && (
-          <div className="bg-white rounded-lg shadow mt-6">
+          <div className="bg-white rounded-lg shadow mt-2">
             <DataTable
               data={data.data}
               total={data.total}
@@ -168,7 +168,7 @@ function App() {
         )}
 
         {isLoading && (
-          <div className="bg-white rounded-lg shadow p-8 mt-6 text-center">
+          <div className="bg-white rounded-lg shadow p-8 mt-2 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
             <p className="text-gray-600 mt-4">Loading data...</p>
           </div>
