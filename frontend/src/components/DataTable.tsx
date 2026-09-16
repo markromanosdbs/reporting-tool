@@ -1891,7 +1891,7 @@ export default function DataTable({
   const rowVirtualizer = useVirtualizer({
     count: rows.length,
     getScrollElement: () => document.getElementById('table-scroll-container'),
-    estimateSize: () => 40, // Estimate row height
+    estimateSize: () => 32, // Estimate row height
     overscan: 10, // Render 10 rows outside visible area for smoothness
     measureElement:
       typeof window !== 'undefined' &&
@@ -2740,7 +2740,7 @@ export default function DataTable({
                         style={
                           isBaseColumn
                             ? {
-                                padding: '8px',
+                                padding: '4px 6px',
                                 minWidth: '80px',
                                 fontSize: '12px',
                                 whiteSpace: 'nowrap',
@@ -2751,7 +2751,7 @@ export default function DataTable({
                                 width: '70px',
                                 minWidth: '70px',
                                 maxWidth: '70px',
-                                padding: '4px 2px',
+                                padding: '2px 1px',
                                 textAlign: 'center',
                                 fontSize: '10px',
                                 whiteSpace: 'nowrap',
