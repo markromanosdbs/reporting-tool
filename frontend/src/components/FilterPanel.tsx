@@ -30,9 +30,9 @@ export default function FilterPanel({ onFilterChange, isLoading }: FilterPanelPr
   };
 
   return (
-    <div className="bg-white rounded-lg shadow p-4">
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700 mb-2">
+    <div className="bg-white rounded-lg shadow p-3">
+      <div className="mb-2">
+        <label className="block text-sm font-medium text-gray-700 mb-1">
           Search by Quote No
         </label>
         <input
@@ -40,7 +40,7 @@ export default function FilterPanel({ onFilterChange, isLoading }: FilterPanelPr
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Enter quote no..."
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-3 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           disabled={isLoading}
         />
       </div>
@@ -49,14 +49,14 @@ export default function FilterPanel({ onFilterChange, isLoading }: FilterPanelPr
         <button
           onClick={handleApplyFilters}
           disabled={isLoading}
-          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+          className="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
         >
           Search
         </button>
         <button
           onClick={handleReset}
           disabled={isLoading}
-          className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+          className="px-3 py-1 text-sm bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
         >
           Reset
         </button>
