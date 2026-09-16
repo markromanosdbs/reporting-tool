@@ -2148,7 +2148,7 @@ export default function DataTable({
           <thead style={{ borderTop: '2px solid black' }}>
             {/* Part Number Row - Only for Roller Blind Components */}
             {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isFirstColumn = header === table.getHeaderGroups()[0].headers[0];
@@ -2156,7 +2156,7 @@ export default function DataTable({
                   const partNumber = PART_NUMBER_MAP[normalizedHeaderText] || PART_NUMBER_MAP[headerText] || '';
 
                   return (
-                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
+                    <td key={`pn-${header.id}`} style={{ padding: '2px 2px', backgroundColor: '#fff2cc', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: isFirstColumn ? '12px' : '8px', fontWeight: 'bold', minWidth: '55px', overflow: 'visible', writingMode: !isFirstColumn ? 'vertical-rl' : 'horizontal-tb', transform: !isFirstColumn ? 'rotate(180deg)' : 'none', height: !isFirstColumn ? '80px' : 'auto' }} className="group relative">
                       <div className="flex items-center justify-center gap-0.5">
                         <span>{isFirstColumn ? 'Part Number' : partNumber}</span>
                         {!isFirstColumn && renderCommentButton(`Part Number - ${headerText}`, 'header', 0, 'header')}
@@ -2169,7 +2169,7 @@ export default function DataTable({
 
             {/* Group Header Row - Only for Roller Blind Components */}
             {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
                   const result: JSX.Element[] = [];
@@ -2205,7 +2205,7 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#c0e0f8', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
                             {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
@@ -2224,7 +2224,7 @@ export default function DataTable({
 
             {/* Part Number Row - For Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', height: '60px', borderBottom: '1px solid #333' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header, idx) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isBaseColumn = BASE_COLUMNS.some(
@@ -2274,7 +2274,7 @@ export default function DataTable({
 
             {/* Group Row - For Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#b3e5fc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#b3e5fc', height: '60px', borderBottom: '1px solid #333' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
                   const result: JSX.Element[] = [];
@@ -2298,7 +2298,7 @@ export default function DataTable({
                       i++;
                     } else if (isBaseColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#f5f5f5', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible' }}>
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: '#f5f5f5', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible' }}>
                         </td>
                       );
                       i++;
@@ -2320,7 +2320,7 @@ export default function DataTable({
                       }
 
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
                             {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
@@ -2339,7 +2339,7 @@ export default function DataTable({
 
             {/* Supplier Row - For Roller Blind, Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'roller_blind_components' || tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#d8bfd8', height: '95px' }}>
+              <tr style={{ backgroundColor: '#d8bfd8', height: '95px', borderBottom: '1px solid #333' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header, idx) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isBaseColumn = BASE_COLUMNS.some(
@@ -2357,6 +2357,7 @@ export default function DataTable({
                         backgroundColor: isBaseColumn ? '#f5f5f5' : '#d8bfd8',
                         textAlign: 'center',
                         verticalAlign: 'bottom',
+                        borderRight: '1px solid #ccc',
                         color: '#000000',
                         fontSize: isFirstColumn ? '12px' : '11px',
                         fontWeight: 'bold',
