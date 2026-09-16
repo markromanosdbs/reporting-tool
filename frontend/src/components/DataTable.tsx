@@ -164,94 +164,78 @@ const DOOR_SCREEN_GROUPS: { [key: string]: string } = {
 
 // Roller Blind Components - Group mappings (with __ separator)
 const ROLLER_BLIND_GROUPS: { [key: string]: string } = {
-  'tubes': 'Tubes',
-  'base_rails': 'Base Rails',
-  'base_rail_end_caps': 'Base Rail End Caps',
-  'aluminium_pelmets': 'Aluminium Pelmets',
-  'cassettes_back': 'Cassettes - Back',
-  'square_cassettes_front': 'Square Cassettes - Front',
-  'round_cassettes_front': 'Round Cassettes - Front',
-  'cassettes_side_guides': 'Cassettes - Side Guides',
-  'misc._pelmets': 'Misc. Pelmets',
-  'box_120': 'Box 120',
-  '38mm_chain_winders': '38mm Chain Winders',
-  '38mm_fg_chain_winders': '38mm FG Chain Winders',
-  '43mm_chain_winders': '43mm Chain Winders',
-  '43mm_fg_chain_winders': '43mm FG Chain Winders',
-  '43mm_idles': '43mm Idles',
-  '40mm_brackets': '40mm Brackets',
-  'single_extension_brackets': 'Single Extension Brackets',
-  '40mm_motor_brackes': '40mm Motor Brackes',
-  '55mm_motor_brackes': '55mm Motor Brackes',
-  '40mm_bracket_covers': '40mm Bracket Covers',
-  '55mm_bracket_covers': '55mm Bracket Covers',
-  'dual_opposite_brackets': 'Dual Opposite Brackets',
-  'dual_same_side_brackets': 'Dual Same Side Brackets',
-  'dual_slimline_top_front_brackets': 'Dual Slimline Top Front Brackets',
-  'dual_slimline_top_back_brackets': 'Dual Slimline Top Back Brackets',
-  '40mm_link_brackets': '40mm Link Brackets',
-  '55mm_link_brackets': '55mm Link Brackets',
-  'dual_same_side_link_brackets': 'Dual Same Side Link Brackets',
-  'dual_slimline_linked_top_blind_front_roll': 'Dual Slimline Linked Top Blind Front Roll',
-  'dual_slimline_linked_top_blind_back_roll': 'Dual Slimline Linked Top Blind Back Roll',
-  'metal_chains': 'Metal Chains',
-  'plastic_chains_white': 'Plastic Chains - White',
-  'plastic_chains_black': 'Plastic Chains - Black',
-  'plastic_chains_cream': 'Plastic Chains - Cream',
-  'plastic_chains_grey': 'Plastic Chains - Grey',
-  'plastic_chains_barley': 'Plastic Chains - Barley',
-  'stainless_steel_chains': 'Stainless Steel Chains',
-  'helper_springs': 'Helper Springs',
-  '43mm_link': '43mm Link',
-  '60mm_link': '60mm Link',
-  '38mm_springs': '38mm Springs',
-  'spline': 'Spline',
-  '60mm_parts': '60mm Parts',
-  'chain_components': 'Chain Components',
-  'acmeda_motors': 'Acmeda Motors',
-  'somfy_motors': 'Somfy Motors',
-  'becker_motors': 'Becker Motors',
-  'acmeda_motors_accessories': 'Acmeda Motors - Accessories',
-  'universal_disc_adaptors': 'Universal Disc Adaptors',
-  'acmeda_6nm_motor_head': 'Acmeda 6nm Motor Head',
-  'automate_60mm': 'Automate 60mm',
-  'automate_ft_motor_adaptor_set': 'Automate FT Motor Adaptor Set',
-  'somfy_40mm': 'Somfy 40mm',
-  'somfy_50_crown': 'Somfy 50 Crown',
-  'somfy_accessories': 'Somfy Accessories',
-  'becker_40': 'Becker 40',
-  'becker_m50_60mm_tube': 'Becker M50 - 60mm Tube',
-  'adaptor_set': 'Adaptor Set',
-  'acmeda_motor_remote_accessories': 'Acmeda Motor Remote Accessories',
-  '12v_motor_covers': '12v Motor Covers',
-  'acmeda_channel_remotes': 'Acmeda Channel Remotes',
-  'acmeda_wall_mounted_white_remotes': 'Acmeda Wall Mounted White Remotes',
-  'acmeda_push_pro_remotes': 'Acmeda Push Pro Remotes',
-  'charging_cable': 'Charging Cable',
-  'wall_charger': 'Wall Charger',
-  'somfy_remotes': 'Somfy Remotes',
-  'somfy_wall_mounted_smoove_white_remote': 'Somfy Wall Mounted Smoove White Remote',
-  'somfy_wall_mounted_remote_cover_plate': 'Somfy Wall Mounted Remote Cover Plate',
-  'app_connector': 'App Connector',
-  'becker_remotes': 'Becker Remotes',
-  'becker_wall_mounted_white_remote': 'Becker Wall Mounted  White Remote',
-  'wall_switch': 'Wall Switch',
-  'cassette_square_cover_set': 'Cassette Square Cover Set',
-  'cassette_round_cover_set': 'Cassette Round Cover Set',
-  'end_plate_set': 'End Plate Set',
-  'square_cassette_chain_guide': 'Square Cassette Chain Guide',
-  'round_cassette_chain_guide': 'Round Cassette Chain Guide',
-  'cassette_side_guide': 'Cassette Side Guide',
-  'cassette_side_guide_funnel': 'Cassette Side Guide Funnel',
-  'cassette_side_guide_bottom_cap': 'Cassette Side Guide Bottom Cap',
-  'valance_brackets': 'Valance Brackets',
-  'valance_end_caps': 'Valance End Caps',
-  'valance_spline': 'Valance Spline',
-  'pelmet_95_end_caps': 'Pelmet 95 End Caps',
-  'pelmet_95_brackets': 'Pelmet 95 Brackets',
-  'mounting_rail_brackets': 'Mounting Rail Brackets',
-  'box_120_parts': 'Box 120 Parts',
-  'acmeda_motor_adaptor': 'Acmeda Motor Adaptor',
+  '38mm_tube': 'Tubes', '43mm_tube': 'Tubes', '43mm_heavy_duty_tube': 'Tubes', '60mm_tube': 'Tubes', '80mm_tube': 'Tubes',
+  'd30_bottom_rail_anodised_silver': 'Base Rails', 'd30_bottom_rail_white': 'Base Rails', 'd30_bottom_rail_black': 'Base Rails', 'd30_bottom_rail_sandstone': 'Base Rails', 'd30_bottom_rail_bone': 'Base Rails',
+  'd30_bottom_rail_end_caps_anodised_silver': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_white': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_black': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_sandstone': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_bone': 'Base Rail End Caps',
+  'lath': 'Base Rail End Caps', 'weight_bar': 'Base Rail End Caps',
+  'pelmet_95_anodised': 'Aluminium Pelmets', 'pelmet_95_white': 'Aluminium Pelmets', 'pelmet_95_black': 'Aluminium Pelmets', 'pelmet_95_cream': 'Aluminium Pelmets',
+  'cf90_cassette_back_black': 'Cassettes - Back', 'cf90_cassette_back_white': 'Cassettes - Back', 'cf90_cassette_back_anodised_silver': 'Cassettes - Back',
+  'cf90_cassette_square_front_white': 'Square Cassettes - Front', 'cf90_cassette_square_front_black': 'Square Cassettes - Front', 'cf90_cassette_square_front_anodised_silver': 'Square Cassettes - Front',
+  'cf90_cassette_round_front_white': 'Round Cassettes - Front', 'cf90_cassette_round_front_black': 'Round Cassettes - Front', 'cf90_cassette_round_front_anodised_silver': 'Round Cassettes - Front',
+  'cf90_cassette_side_guide_white': 'Cassettes - Side Guides', 'cf90_cassette_side_guide_black': 'Cassettes - Side Guides', 'cf90_cassette_side_guide_anodised_silver': 'Cassettes - Side Guides',
+  '38mm_chain_winder_white': '38mm Chain Winders', '38mm_chain_winder_black': '38mm Chain Winders', '38mm_chain_winder_birch_white': '38mm Chain Winders', '38mm_chain_winder_grey': '38mm Chain Winders', '38mm_chain_winder_barley': '38mm Chain Winders',
+  '38mm_fixed_guide_chain_winder_white': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_black': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_birch_white': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_grey': '38mm FG Chain Winders',
+  '43mm_chain_winder_white': '43mm Chain Winders', '43mm_chain_winder_black': '43mm Chain Winders', '43mm_chain_winder_birch_white': '43mm Chain Winders', '43mm_chain_winder_grey': '43mm Chain Winders', '43mm_chain_winder_beige': '43mm Chain Winders',
+  '43mm_fixed_guide_chain_winder_white': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_black': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_birch_white': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_grey': '43mm FG Chain Winders',
+  '43mm_idles_white': '43mm Idles', '43mm_idles_black': '43mm Idles', '43mm_idles_birch_white': '43mm Idles', '43mm_idles_grey': '43mm Idles', '43mm_idles_barley': '43mm Idles',
+  '40mm_bracket_white': '40mm Brackets', '40mm_bracket_black': '40mm Brackets', '40mm_bracket_birch_white': '40mm Brackets', '40mm_bracket_grey': '40mm Brackets', '40mm_bracket_barley': '40mm Brackets',
+  '55mm_bracket_white': 'Single Extension Brackets', '55mm_bracket_black': 'Single Extension Brackets', '55mm_bracket_birch_white': 'Single Extension Brackets', '55mm_bracket_grey': 'Single Extension Brackets',
+  '40mm_motor_bracket_white': '40mm Motor Brackets', '40mm_motor_bracket_black': '40mm Motor Brackets',
+  '55mm_motor_bracket_white': '55mm Motor Brackets', '55mm_motor_bracket_black': '55mm Motor Brackets',
+  '40mm_bracket_cover_white': '40mm Bracket Covers', '40mm_bracket_cover_black': '40mm Bracket Covers', '40mm_bracket_cover_birch_white': '40mm Bracket Covers', '40mm_bracket_cover_grey': '40mm Bracket Covers', '40mm_bracket_cover_beige': '40mm Bracket Covers',
+  '55mm_bracket_cover_white': '55mm Bracket Covers', '55mm_bracket_cover_black': '55mm Bracket Covers', '55mm_bracket_cover_birch_white': '55mm Bracket Covers', '55mm_bracket_cover_grey': '55mm Bracket Covers',
+  '50cm_metal_chain': 'Metal Chains', '75cm_metal_chain': 'Metal Chains', '100cm_metal_chain': 'Metal Chains', '125cm_metal_chain': 'Metal Chains', '150cm_metal_chain': 'Metal Chains', '175cm_metal_chain': 'Metal Chains', '200cm_metal_chain': 'Metal Chains',
+  '50cm_white_chain': 'Plastic Chains - White', '75cm_white_chain': 'Plastic Chains - White', '100cm_white_chain': 'Plastic Chains - White', '125cm_white_chain': 'Plastic Chains - White', '150cm_white_chain': 'Plastic Chains - White', '175cm_white_chain': 'Plastic Chains - White', '200cm_white_chain': 'Plastic Chains - White',
+  '50cm_black_chain': 'Plastic Chains - Black', '75cm_black_chain': 'Plastic Chains - Black', '100cm_black_chain': 'Plastic Chains - Black', '125cm_black_chain': 'Plastic Chains - Black', '150cm_black_chain': 'Plastic Chains - Black', '175cm_black_chain': 'Plastic Chains - Black', '200cm_black_chain': 'Plastic Chains - Black',
+  '50cm_cream_chain': 'Plastic Chains - Cream', '75cm_cream_chain': 'Plastic Chains - Cream', '100cm_cream_chain': 'Plastic Chains - Cream', '125cm_cream_chain': 'Plastic Chains - Cream', '150cm_cream_chain': 'Plastic Chains - Cream', '175cm_cream_chain': 'Plastic Chains - Cream', '200cm_cream_chain': 'Plastic Chains - Cream', '225cm_cream_chain': 'Plastic Chains - Cream',
+  '50cm_grey_chain': 'Plastic Chains - Grey', '75cm_grey_chain': 'Plastic Chains - Grey', '100cm_grey_chain': 'Plastic Chains - Grey', '125cm_grey_chain': 'Plastic Chains - Grey', '150cm_grey_chain': 'Plastic Chains - Grey', '175cm_grey_chain': 'Plastic Chains - Grey', '200cm_grey_chain': 'Plastic Chains - Grey',
+  '50cm_beige_chain': 'Plastic Chains - Beige', '75cm_beige_chain': 'Plastic Chains - Beige', '100cm_beige_chain': 'Plastic Chains - Beige', '125cm_beige_chain': 'Plastic Chains - Beige', '150cm_beige_chain': 'Plastic Chains - Beige', '175cm_beige_chain': 'Plastic Chains - Beige', '200cm_beige_chain': 'Plastic Chains - Beige', '225cm_beige_chain': 'Plastic Chains - Beige', '250cm_beige_chain': 'Plastic Chains - Beige',
+  '50cm_stainless_steel_chain': 'Stainless Steel Chains', '75cm_stainless_steel_chain': 'Stainless Steel Chains', '100cm_stainless_steel_chain': 'Stainless Steel Chains', '125cm_stainless_steel_chain': 'Stainless Steel Chains', '150cm_stainless_steel_chain': 'Stainless Steel Chains', '175cm_stainless_steel_chain': 'Stainless Steel Chains', '200cm_stainless_steel_chain': 'Stainless Steel Chains',
+  '43mm_heavy_duty_helper_springs_lhs': 'Helper Springs', '43mm_heavy_duty_helper_springs_rhs': 'Helper Springs', '60mm_heavy_duty_helper_springs_lhs': 'Helper Springs', '60mm_heavy_duty_helper_springs_rhs': 'Helper Springs',
+  '43mm_female_link_white': '43mm Link', '43mm_female_link_black': '43mm Link', '43mm_male_link_white': '43mm Link', '43mm_male_link_black': '43mm Link',
+  '38mm_senior_spring': '38mm Springs', '38mm_junior_spring': '38mm Springs',
+  '15mm_spline': 'Spline',
+  '60mm_idle_white': '60mm Parts', '60mm_idle_bracket_white': '60mm Parts',
+  'chain_safe': 'Chain Components', 'stopper_balls': 'Chain Components',
+  'acmeda_e6_motor': 'Acmeda Motors', 'acmeda_0_7nm_12v_motor': 'Acmeda Motors', 'acmeda_1_1nm_12v_motor': 'Acmeda Motors', 'acmeda_2nm_12v_motor': 'Acmeda Motors', 'acmeda_ft_15nm_motor': 'Acmeda Motors', 'acmeda_1_1nm_12v_dcrf_motor': 'Acmeda Motors',
+  'acmeda_1_1nm_12v_motor_crown_drive_kit_43mm': 'Acmeda Motors - Accessories', 'acmeda_2nm_12v_motor_crown_drive_kit_43mm': 'Acmeda Motors - Accessories', 'acmeda_6nm_12v_motor_crown_drive_kit': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_crown_60mm_tube': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_crown_80mm_tube': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_drive_wheel_60_80mm_tube': 'Acmeda Motors - Accessories',
+  'm40_universal_disc_adaptor': 'Universal Disc Adaptors', 'm50_universal_disc_adaptor': 'Universal Disc Adaptors',
+  'acmeda_6nm_motor_head_plate': 'Acmeda 6nm Motor Head', 'automate_motor_head_adaptor': 'Acmeda 6nm Motor Head',
+  'automate_60mm_crown': 'Automate 60mm', 'automate_60mm_drive': 'Automate 60mm',
+  'acmeda_10nm_12v_motor_adaptor_white': 'Acmeda motor adaptor',
+  'automate_ft_motor_adaptor_set_black': 'Automate FT Motor Adaptor Set', 'automate_ft_motor_adaptor_set_white': 'Automate FT Motor Adaptor Set',
+  'sonesse_40_rts_3_30_with_inline_connector_motor': 'Somfy Motors', 'somfy_12v_remote_sonesse_motor': 'Somfy Motors',
+  'somfy_43mm_12v_crown_drive': 'Somfy 40mm', 'somfy_40_crown': 'Somfy 40mm', 'somfy_40_drive': 'Somfy 40mm',
+  'somfy_50_crown_60mm_tube': 'Somfy 50 Crown', 'somfy50_crown_80mm_tube': 'Somfy 50 Crown',
+  'somfy_50_drive_60mm_80mm_tube': 'Somfy Accessories', 'm50_somfy_becker_motor_head_adaptor_set': 'Somfy Accessories', 'm50_somfy_motor_head_adaptor_plate': 'Somfy Accessories', 'universal_zamack_bracket': 'Somfy Accessories',
+  'becker_p4_30_c12a_motor': 'Becker Motors', 'becker_r20_17_c12a_motor': 'Becker Motors', 'becker_molex_connection': 'Becker Motors',
+  'becker_40_crown': 'Becker 40', 'becker_40_drive': 'Becker 40',
+  'becker_m50_drive_wheel_60mm_tube': 'Becker M50 - 60mm Tube', 'becker_m50_crown_60mm_tube': 'Becker M50 - 60mm Tube',
+  'm50_somfy_becker_motor_head_adaptor_set_2': 'Adaptor Set',
+  'pulse_pro_automation_hub': 'Acmeda Motor Remote Accessories', 'acmeda_solar_panel': 'Acmeda Motor Remote Accessories', 'acmeda_charging_cable': 'Acmeda Motor Remote Accessories', 'acmeda_3nm_10nm_charging_cable': 'Acmeda Motor Remote Accessories', '210mm_extension_charging_cable': 'Acmeda Motor Remote Accessories', '1200mm_extension_charging_cable': 'Acmeda Motor Remote Accessories', '1_channel_dry_contact_relay_module': 'Acmeda Motor Remote Accessories', 'usb_repeater': 'Acmeda Motor Remote Accessories', 'acmeda_external_battery_for_dcrf_motors': 'Acmeda Motor Remote Accessories', 'acmeda_power_panel_for_dcrf_motors': 'Acmeda Motor Remote Accessories',
+  '12v_motor_covers_white': '12v Motor Covers', '12v_motor_covers_black': '12v Motor Covers',
+  'acmeda_1_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_1_channel_black_remote': 'Acmeda Channel Remotes', 'acmeda_5_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_5_channel_black_remote': 'Acmeda Channel Remotes', 'acmeda_15_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_15_channel_black_remote': 'Acmeda Channel Remotes',
+  'acmeda_wall_mounted_single_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_2_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_5_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_15_channel_white_remote': 'Acmeda Wall Mounted White Remotes',
+  'acmeda_push_pro_white_remote': 'Acmeda Push Pro Remotes', 'acmeda_push_pro_black_remote': 'Acmeda Push Pro Remotes',
+  'acmeda_push_pro_charging_cable': 'Charging Cable',
+  'acmeda_wall_block': 'Wall Charger',
+  'somfy_single_channel_white_remote': 'Somfy Remotes', 'somfy_single_channel_silver_remote': 'Somfy Remotes', 'somfy_2_channel_white_remote': 'Somfy Remotes', 'somfy_2_channel_silver_remote': 'Somfy Remotes', 'somfy_5_channel_white_remote': 'Somfy Remotes', 'somfy_5_channel_silver_remote': 'Somfy Remotes', 'somfy_15_channel_white_remote': 'Somfy Remotes', 'somfy_15_channel_black_remote': 'Somfy Remotes',
+  'somfy_single_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote', 'somfy_2_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote', 'somfy_5_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote',
+  'somfy_wall_mounted_smoove_remote_cover_plate_black': 'Somfy Wall Mounted Remote Cover Plate', 'somfy_wall_mounted_smoove_remote_cover_plate_silver': 'Somfy Wall Mounted Remote Cover Plate',
+  'somfy_connexoon_app_connector': 'App Connector', 'somfy_12v_charger': 'App Connector',
+  'becker_single_channel_white_remote': 'Becker Remotes', 'becker_single_channel_black_remote': 'Becker Remotes', 'becker_5_channel_white_remote': 'Becker Remotes', 'becker_5_channel_black_remote': 'Becker Remotes', 'becker_10_channel_white_remote': 'Becker Remotes', 'becker_10_channel_black_remote': 'Becker Remotes',
+  'becker_wall_mounted_single_channel_white_remote': 'Becker Wall Mounted White Remote', 'becker_wall_mounted_5_channel_white_remote': 'Becker Wall Mounted White Remote',
+  'cf90_cassette_sqaure_cover_set_white': 'Cassette Square Cover Set', 'cf90_cassette_sqaure_cover_set_black': 'Cassette Square Cover Set',
+  'cf90_cassette_round_cover_set_white': 'Cassette Round Cover Set', 'cf90_cassette_round_cover_set_black': 'Cassette Round Cover Set',
+  'cf90_cassette_end_plate_set': 'End Plate Set',
+  'square_cassette_chain_guide_left': 'Square Cassette Chain Guide', 'square_cassette_chain_guide_right': 'Square Cassette Chain Guide',
+  'round_cassette_chain_guide_left': 'Round Cassette Chain Guide', 'round_cassette_chain_guide_right': 'Round Cassette Chain Guide',
+  'cf90_cassette_side_guide_ears': 'Cassette Side Guide', 'cf90_cassette_side_guide_locks': 'Cassette Side Guide',
+  'cassette_side_guide_funnel_white': 'Cassette Side Guide Funnel', 'cassette_side_guide_funnel_black': 'Cassette Side Guide Funnel',
+  'cassette_side_guide_bottom_cap_white': 'Cassette Side Guide Bottom Cap',
+  'valance_end_caps_black': 'Valance End Caps', 'valance_end_caps_white': 'Valance End Caps', 'valance_end_caps_cream': 'Valance End Caps', 'valance_end_caps_grey': 'Valance End Caps',
+  'valance_round_rubber_spline': 'Valance Spline',
+  'pelmet_95_end_caps_grey': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_white': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_black': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_cream': 'Pelmet 95 End Caps',
 };
 
 // Door Screen Components - Part Number mappings (with __ separator)
@@ -317,60 +301,30 @@ const DOOR_SCREEN_PART_NUMBERS: { [key: string]: string } = {
 
 // Roller Blind Components - Part Number mappings (289 entries)
 const ROLLER_BLIND_PART_NUMBERS: { [key: string]: string } = {
-  '12v_motor_covers__black': 'MT03-0502-059001',
-  '12v_motor_covers__white': 'MT03-0502-077001',
-  '38mm_chain_winders__barley': 'RB08-4002-283000',
-  '38mm_chain_winders__birch_white': 'RB08-4002-269000',
-  '38mm_chain_winders__black': 'RB08-4002-050000',
-  '38mm_chain_winders__grey': 'RB08-4002-338000',
-  '38mm_chain_winders__white': 'RB08-4002-069000',
-  '38mm_fg_chain_winders__birch_white': 'RB07-4002-269070',
-  '38mm_fg_chain_winders__black': 'RB07-4002-050070',
-  '38mm_fg_chain_winders__grey': 'RB07-4002-338070',
-  '38mm_fg_chain_winders__white': 'RB07-4002-069070',
-  '38mm_springs__junior': 'RB01-4001-069000',
-  '38mm_springs__senior': 'RB01-4002-069000',
-  '40mm_bracket_covers__barley': 'RB08-4151-283040',
-  '40mm_bracket_covers__birch_white': 'RB08-4151-269040',
-  '40mm_bracket_covers__black': 'RB08-4151-050040',
-  '40mm_bracket_covers__grey': 'RB08-4151-338040',
-  '40mm_bracket_covers__white': 'RB08-4151-069040',
-  '40mm_brackets__barley': 'RB08-8351-283040',
-  '40mm_brackets__birch_white': 'RB08-8351-269040',
-  '40mm_brackets__black': 'RB08-8351-050040',
-  '40mm_brackets__grey': 'RB08-8351-338040',
-  '40mm_brackets__white': 'RB08-8351-069040',
-  '40mm_link_brackets__black': 'RB41-0353-050040',
-  '40mm_link_brackets__cream': 'RB41-0353-269040',
-  '40mm_link_brackets__white': 'RB41-0353-069040',
-  '40mm_motor_brackes__black': 'RB40-8355-050040',
-  '40mm_motor_brackes__white': 'RB40-8355-069040',
-  '43mm_chain_winders__barley': 'RB08-4502-283000',
-  '43mm_chain_winders__birch_white': 'RB08-4502-269000',
-  '43mm_chain_winders__black': 'RB08-4502-050000',
-  '43mm_chain_winders__grey': 'RB08-4502-338000',
-  '43mm_chain_winders__white': 'RB08-4502-069000',
-  '43mm_fg_chain_winders__birch_white': 'RB07-4502-269070',
-  '43mm_fg_chain_winders__black': 'RB07-4502-050070',
-  '43mm_fg_chain_winders__grey': 'RB07-4502-338070',
-  '43mm_fg_chain_winders__white': 'RB07-4502-069070',
-  '43mm_idles__black': 'RB08-0503-050045',
-  '43mm_idles__white': 'RB08-0503-069045',
-  '43mm_link__female_black': 'RB41-1001-050045',
-  '43mm_link__female_white': 'RB41-1001-069045',
-  '43mm_link__male_black': 'RB41-1002-050045',
-  '43mm_link__male_white': 'RB41-1002-069045',
-  '55mm_bracket_covers__birch_white': 'RB08-4151-269055',
-  '55mm_bracket_covers__black': 'RB08-4151-050055',
-  '55mm_bracket_covers__grey': 'RB08-4151-338055',
-  '55mm_bracket_covers__white': 'RB08-4151-069055',
-  '55mm_link_brackets__birch_white': 'RB41-0353-269055',
-  '55mm_link_brackets__black': 'RB41-0353-050055',
-  '55mm_link_brackets__white': 'RB41-0353-069055',
-  '55mm_motor_brackes__black': 'RB40-8355-050055',
-  '55mm_motor_brackes__white': 'RB40-8355-069055',
-  '60mm_parts__idle_bracket_white': 'RB10-6500-069001',
-  '60mm_parts__idle_white': 'RB56-1001-061060',
+  '38mm_tube': 'RB93-6440-000582', '43mm_tube': 'RB93-6444-000580', '43mm_heavy_duty_tube': 'RB93-6449-000580', '60mm_tube': 'RB91-6260-000360', '80mm_tube': 'None',
+  'd30_bottom_rail_anodised_silver': 'RB91-1233-020580', 'd30_bottom_rail_white': 'RB91-1233-169580', 'd30_bottom_rail_black': 'RB91-1233-150580', 'd30_bottom_rail_sandstone': 'RB91-1233-269580', 'd30_bottom_rail_bone': 'RB91-1233-280580',
+  'd30_bottom_rail_end_caps_anodised_silver': 'RB91-2131-338002', 'd30_bottom_rail_end_caps_white': 'RB91-2131-069002', 'd30_bottom_rail_end_caps_black': 'RB91-2131-050002', 'd30_bottom_rail_end_caps_sandstone': 'RB91-2131-269002', 'd30_bottom_rail_end_caps_bone': 'RB91-2131-280002',
+  'lath': 'B0-RB020', 'weight_bar': 'VB05-0301-025300', 'pelmet_95_white': 'RB88-0150-069580', 'pelmet_95_black': 'RB88-0150-050580', 'pelmet_95_anodised': 'RB88-0150-020580', 'pelmet_95_cream': 'RB88-0150-269580',
+  'cf90_cassette_back_black': 'RC01-0101-050480', 'cf90_cassette_back_white': 'RC01-0101-069480', 'cf90_cassette_back_anodised_silver': 'None', 'cf90_cassette_square_front_white': 'RC01-0103-069480', 'cf90_cassette_square_front_black': 'RC01-0103-050480', 'cf90_cassette_square_front_anodised_silver': 'None',
+  'cf90_cassette_side_guide_white': 'RC91-0101-069580', 'cf90_cassette_side_guide_black': 'RC91-0101-050580', 'cf90_cassette_side_guide_anodised_silver': 'None',
+  '38mm_chain_winder_white': 'RB08-4002-069000', '38mm_chain_winder_black': 'RB08-4002-050000', '38mm_chain_winder_birch_white': 'RB08-4002-269000', '38mm_chain_winder_grey': 'RB08-4002-338000', '38mm_chain_winder_barley': 'RB08-4002-283000',
+  '43mm_chain_winder_white': 'RB08-4502-069000', '43mm_chain_winder_black': 'RB08-4502-050000', '43mm_chain_winder_birch_white': 'RB08-4502-269000', '43mm_chain_winder_grey': 'RB08-4502-338000', '43mm_chain_winder_beige': 'RB08-4502-283000',
+  '40mm_bracket_white': 'RB08-8351-069040', '40mm_bracket_black': 'RB08-8351-050040', '40mm_bracket_birch_white': 'RB08-8351-269040', '40mm_bracket_grey': 'RB08-8351-338040', '40mm_bracket_barley': 'RB08-8351-283040',
+  '55mm_motor_bracket_white': 'RB40-8355-069055', '55mm_motor_bracket_black': 'RB40-8355-050055', '40mm_motor_bracket_white': 'RB40-8355-069040', '40mm_motor_bracket_black': 'RB40-8355-050040',
+  '50cm_metal_chain': 'VA01-1401-S20050', '75cm_metal_chain': 'VA01-1401-S20075', '100cm_metal_chain': 'VA01-1401-S20100', '125cm_metal_chain': 'VA01-1401-S20125', '150cm_metal_chain': 'VA01-1401-S20150', '175cm_metal_chain': 'VA01-1401-S20175', '200cm_metal_chain': 'VA01-1401-S20200',
+  '50cm_white_chain': 'VA01-1406-069050', '75cm_white_chain': 'VA01-1406-069075', '100cm_white_chain': 'VA01-1406-069100', '125cm_white_chain': 'VA01-1406-069125', '150cm_white_chain': 'VA01-1406-069150', '175cm_white_chain': 'VA01-1406-069175', '200cm_white_chain': 'VA01-1406-069200',
+  '50cm_black_chain': 'VA01-1406-050050', '75cm_black_chain': 'VA01-1406-050075', '100cm_black_chain': 'VA01-1406-050100', '125cm_black_chain': 'VA01-1406-050125', '150cm_black_chain': 'VA01-1406-050150', '175cm_black_chain': 'VA01-1406-050175', '200cm_black_chain': 'VA01-1406-050200',
+  '50cm_cream_chain': 'VA01-1406-412050', '75cm_cream_chain': 'VA01-1406-412075', '100cm_cream_chain': 'VA01-1406-412100', '125cm_cream_chain': 'VA01-1406-412125', '150cm_cream_chain': 'VA01-1406-412150', '175cm_cream_chain': 'VA01-1406-412175', '200cm_cream_chain': 'VA01-1406-412200', '225cm_cream_chain': 'VA01-1406-412225',
+  '50cm_grey_chain': 'VA01-1406-338050', '75cm_grey_chain': 'VA01-1406-338075', '100cm_grey_chain': 'VA01-1406-338100', '125cm_grey_chain': 'VA01-1406-338125', '150cm_grey_chain': 'VA01-1406-338150', '175cm_grey_chain': 'VA01-1406-338175', '200cm_grey_chain': 'VA01-1406-338200',
+  '50cm_beige_chain': 'VA01-1406-283050', '75cm_beige_chain': 'VA01-1406-283075', '100cm_beige_chain': 'VA01-1406-283100', '125cm_beige_chain': 'VA01-1406-283125', '150cm_beige_chain': 'VA01-1406-283150', '175cm_beige_chain': 'VA01-1406-283175', '200cm_beige_chain': 'VA01-1406-283200', '225cm_beige_chain': 'VA01-1406-283225', '250cm_beige_chain': 'VA01-1406-283250',
+  '50cm_stainless_steel_chain': 'VA01-1401-X10050', '75cm_stainless_steel_chain': 'VA01-1401-X10075', '100cm_stainless_steel_chain': 'VA01-1401-X10100', '125cm_stainless_steel_chain': 'VA01-1401-X10125', '150cm_stainless_steel_chain': 'VA01-1401-X10150', '175cm_stainless_steel_chain': 'VA01-1401-X10175', '200cm_stainless_steel_chain': 'VA01-1401-X10200',
+  '43mm_heavy_duty_helper_springs_lhs': 'RB04-4392-393001', '43mm_heavy_duty_helper_springs_rhs': 'RB04-4392-338002', '60mm_heavy_duty_helper_springs_lhs': 'RB10-6040-050041', '60mm_heavy_duty_helper_springs_rhs': 'RB10-6040-050042',
+  '43mm_female_link_white': 'RB41-1001-069045', '43mm_female_link_black': 'RB41-1001-050045', '43mm_male_link_white': 'RB41-1002-069045', '43mm_male_link_black': 'RB41-1002-050045',
+  '38mm_senior_spring': 'RB01-4002-069000', '38mm_junior_spring': 'RB01-4001-069000', '15mm_spline': 'RB92-1502-001075',
+  '60mm_idle_white': 'RB56-1001-061060', '60mm_idle_bracket_white': 'RB10-6500-069001', 'chain_safe': 'SS91-1312-001040', 'stopper_balls': 'VA92-1012-001000',
+  'acmeda_e6_motor': 'MT01-1135-069001', 'acmeda_0_7nm_12v_motor': 'MT01-1325-069032', 'acmeda_1_1nm_12v_motor': 'MT01-1325-069033', 'acmeda_2nm_12v_motor': 'MT01-1328-069009', 'acmeda_1_1nm_12v_dcrf_motor': 'MT01-1225-069004', 'acmeda_ft_15nm_motor': 'MT01-1145-050001',
+  'sonesse_40_rts_3_30_with_inline_connector_motor': '1002091', 'somfy_12v_remote_sonesse_motor': '1240512',
+  'becker_p4_30_c12a_motor': '2009 130 124 0', 'becker_r20_17_c12a_motor': '2020 130 156 0',
   'acmeda_6nm_motor_head__adaptor': 'RB56-0711-050509',
   'acmeda_6nm_motor_head__plate': 'RB40-1402-069401',
   'acmeda_channel_remotes__1_channel_black': 'MT02-0101-050004',
@@ -1520,7 +1474,7 @@ function getSupplierFromColumnName(columnName: string, tableName?: string): stri
 function getGroupFromColumnName(columnName: string, tableName?: string): string {
   if (!columnName) return '';
 
-  const colLower = columnName.toLowerCase().replace(/\s+/g, '_');
+  const colLower = columnName.toLowerCase().replace(/[\s\-]+/g, '_');
   const colorSuffixes = ['_apo_grey', '_birch_white', '_black', '_brown', '_deep_ocean', '_jasper', '_paperbark', '_pale_eucalypt', '_primrose', '_ultra_silver', '_woodland_grey_green_tone', '_white', '_monument', '_surfmist', '_dune', '_woodland_grey_dulux', '_custom_powdercoat', '_grey', '_beige', '_cream', '_barley', '_anodised_silver', '_bone', '_cream', '_barley', '_lhs', '_rhs', '_50cm', '_75cm', '_100cm', '_125cm', '_150cm', '_175cm', '_200cm', '_225cm', '_250cm', '_275cm', '_300cm', '_325cm', '_350cm', '_375cm', '_400cm', '_back_', '_cover_', '_mill_finish', '_clear_beige', '_magnolia_cream', '_shale_grey', '_woodland_grey', '_red', '_green', '_silver', '_bronze', '_jasper', '_deep_ocean'];
 
   // Door Screen Components
@@ -1577,7 +1531,7 @@ function getGroupFromColumnName(columnName: string, tableName?: string): string 
 function getPartNumberFromColumnName(columnName: string, tableName?: string): string {
   if (!columnName) return '';
 
-  const colLower = columnName.toLowerCase().replace(/\s+/g, '_');
+  const colLower = columnName.toLowerCase().replace(/[\s\-]+/g, '_');
 
   // Door Screen Components
   if (tableName === 'door_screen_components') {
@@ -1918,183 +1872,6 @@ export default function DataTable({
       return () => tableContainer.removeEventListener('scroll', handleTableScroll);
     }
   }, [data]);
-
-  // Part Number dictionary from Excel macro
-  const PART_NUMBER_MAP: { [key: string]: string } = {
-    '38mm_tube': 'RB93-6440-000582', '43mm_tube': 'RB93-6444-000580', '43mm_heavy_duty_tube': 'RB93-6449-000580', '60mm_tube': 'RB91-6260-000360', '80mm_tube': 'None',
-    'd30_bottom_rail_anodised_silver': 'RB91-1233-020580', 'd30_bottom_rail_white': 'RB91-1233-169580', 'd30_bottom_rail_black': 'RB91-1233-150580', 'd30_bottom_rail_sandstone': 'RB91-1233-269580', 'd30_bottom_rail_bone': 'RB91-1233-280580',
-    'd30_bottom_rail_end_caps_anodised_silver': 'RB91-2131-338002', 'd30_bottom_rail_end_caps_white': 'RB91-2131-069002', 'd30_bottom_rail_end_caps_black': 'RB91-2131-050002', 'd30_bottom_rail_end_caps_sandstone': 'RB91-2131-269002', 'd30_bottom_rail_end_caps_bone': 'RB91-2131-280002',
-    'lath': 'B0-RB020', 'weight_bar': 'VB05-0301-025300', 'pelmet_95_white': 'RB88-0150-069580', 'pelmet_95_black': 'RB88-0150-050580', 'pelmet_95_anodised': 'RB88-0150-020580', 'pelmet_95_cream': 'RB88-0150-269580',
-    'cf90_cassette_back_black': 'RC01-0101-050480', 'cf90_cassette_back_white': 'RC01-0101-069480', 'cf90_cassette_back_anodised_silver': 'None', 'cf90_cassette_square_front_white': 'RC01-0103-069480', 'cf90_cassette_square_front_black': 'RC01-0103-050480', 'cf90_cassette_square_front_anodised_silver': 'None',
-    'cf90_cassette_side_guide_white': 'RC91-0101-069580', 'cf90_cassette_side_guide_black': 'RC91-0101-050580', 'cf90_cassette_side_guide_anodised_silver': 'None',
-    '38mm_chain_winder_white': 'RB08-4002-069000', '38mm_chain_winder_black': 'RB08-4002-050000', '38mm_chain_winder_birch_white': 'RB08-4002-269000', '38mm_chain_winder_grey': 'RB08-4002-338000', '38mm_chain_winder_barley': 'RB08-4002-283000',
-    '43mm_chain_winder_white': 'RB08-4502-069000', '43mm_chain_winder_black': 'RB08-4502-050000', '43mm_chain_winder_birch_white': 'RB08-4502-269000', '43mm_chain_winder_grey': 'RB08-4502-338000', '43mm_chain_winder_beige': 'RB08-4502-283000',
-    '40mm_bracket_white': 'RB08-8351-069040', '40mm_bracket_black': 'RB08-8351-050040', '40mm_bracket_birch_white': 'RB08-8351-269040', '40mm_bracket_grey': 'RB08-8351-338040', '40mm_bracket_barley': 'RB08-8351-283040',
-    '55mm_motor_bracket_white': 'RB40-8355-069055', '55mm_motor_bracket_black': 'RB40-8355-050055', '40mm_motor_bracket_white': 'RB40-8355-069040', '40mm_motor_bracket_black': 'RB40-8355-050040',
-    '50cm_metal_chain': 'VA01-1401-S20050', '75cm_metal_chain': 'VA01-1401-S20075', '100cm_metal_chain': 'VA01-1401-S20100', '125cm_metal_chain': 'VA01-1401-S20125', '150cm_metal_chain': 'VA01-1401-S20150', '175cm_metal_chain': 'VA01-1401-S20175', '200cm_metal_chain': 'VA01-1401-S20200',
-    '50cm_white_chain': 'VA01-1406-069050', '75cm_white_chain': 'VA01-1406-069075', '100cm_white_chain': 'VA01-1406-069100', '125cm_white_chain': 'VA01-1406-069125', '150cm_white_chain': 'VA01-1406-069150', '175cm_white_chain': 'VA01-1406-069175', '200cm_white_chain': 'VA01-1406-069200',
-    '50cm_black_chain': 'VA01-1406-050050', '75cm_black_chain': 'VA01-1406-050075', '100cm_black_chain': 'VA01-1406-050100', '125cm_black_chain': 'VA01-1406-050125', '150cm_black_chain': 'VA01-1406-050150', '175cm_black_chain': 'VA01-1406-050175', '200cm_black_chain': 'VA01-1406-050200',
-    '50cm_cream_chain': 'VA01-1406-412050', '75cm_cream_chain': 'VA01-1406-412075', '100cm_cream_chain': 'VA01-1406-412100', '125cm_cream_chain': 'VA01-1406-412125', '150cm_cream_chain': 'VA01-1406-412150', '175cm_cream_chain': 'VA01-1406-412175', '200cm_cream_chain': 'VA01-1406-412200', '225cm_cream_chain': 'VA01-1406-412225',
-    '50cm_grey_chain': 'VA01-1406-338050', '75cm_grey_chain': 'VA01-1406-338075', '100cm_grey_chain': 'VA01-1406-338100', '125cm_grey_chain': 'VA01-1406-338125', '150cm_grey_chain': 'VA01-1406-338150', '175cm_grey_chain': 'VA01-1406-338175', '200cm_grey_chain': 'VA01-1406-338200',
-    '50cm_beige_chain': 'VA01-1406-283050', '75cm_beige_chain': 'VA01-1406-283075', '100cm_beige_chain': 'VA01-1406-283100', '125cm_beige_chain': 'VA01-1406-283125', '150cm_beige_chain': 'VA01-1406-283150', '175cm_beige_chain': 'VA01-1406-283175', '200cm_beige_chain': 'VA01-1406-283200', '225cm_beige_chain': 'VA01-1406-283225', '250cm_beige_chain': 'VA01-1406-283250',
-    '50cm_stainless_steel_chain': 'VA01-1401-X10050', '75cm_stainless_steel_chain': 'VA01-1401-X10075', '100cm_stainless_steel_chain': 'VA01-1401-X10100', '125cm_stainless_steel_chain': 'VA01-1401-X10125', '150cm_stainless_steel_chain': 'VA01-1401-X10150', '175cm_stainless_steel_chain': 'VA01-1401-X10175', '200cm_stainless_steel_chain': 'VA01-1401-X10200',
-    '43mm_heavy_duty_helper_springs_lhs': 'RB04-4392-393001', '43mm_heavy_duty_helper_springs_rhs': 'RB04-4392-338002', '60mm_heavy_duty_helper_springs_lhs': 'RB10-6040-050041', '60mm_heavy_duty_helper_springs_rhs': 'RB10-6040-050042',
-    '43mm_female_link_white': 'RB41-1001-069045', '43mm_female_link_black': 'RB41-1001-050045', '43mm_male_link_white': 'RB41-1002-069045', '43mm_male_link_black': 'RB41-1002-050045',
-    '38mm_senior_spring': 'RB01-4002-069000', '38mm_junior_spring': 'RB01-4001-069000', '15mm_spline': 'RB92-1502-001075',
-    '60mm_idle_white': 'RB56-1001-061060', '60mm_idle_bracket_white': 'RB10-6500-069001', 'chain_safe': 'SS91-1312-001040', 'stopper_balls': 'VA92-1012-001000',
-    'acmeda_e6_motor': 'MT01-1135-069001', 'acmeda_0_7nm_12v_motor': 'MT01-1325-069032', 'acmeda_1_1nm_12v_motor': 'MT01-1325-069033', 'acmeda_2nm_12v_motor': 'MT01-1328-069009', 'acmeda_1_1nm_12v_dcrf_motor': 'MT01-1225-069004', 'acmeda_ft_15nm_motor': 'MT01-1145-050001',
-    'sonesse_40_rts_3_30_with_inline_connector_motor': '1002091', 'somfy_12v_remote_sonesse_motor': '1240512',
-    'becker_p4_30_c12a_motor': '2009 130 124 0', 'becker_r20_17_c12a_motor': '2020 130 156 0',
-  };
-
-  // Group Header dictionary - Complete mapping from supplier breakdown
-  const GROUP_HEADER_MAP: { [key: string]: string } = {
-    // Tubes
-    '38mm_tube': 'Tubes', '43mm_tube': 'Tubes', '43mm_heavy_duty_tube': 'Tubes', '60mm_tube': 'Tubes', '80mm_tube': 'Tubes',
-    // Base Rails
-    'd30_bottom_rail_anodised_silver': 'Base Rails', 'd30_bottom_rail_white': 'Base Rails', 'd30_bottom_rail_black': 'Base Rails', 'd30_bottom_rail_sandstone': 'Base Rails', 'd30_bottom_rail_bone': 'Base Rails',
-    // Base Rail End Caps
-    'd30_bottom_rail_end_caps_anodised_silver': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_white': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_black': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_sandstone': 'Base Rail End Caps', 'd30_bottom_rail_end_caps_bone': 'Base Rail End Caps',
-    'lath': 'Base Rail End Caps', 'weight_bar': 'Base Rail End Caps',
-    // Aluminium Pelmets
-    'pelmet_95_anodised': 'Aluminium Pelmets', 'pelmet_95_white': 'Aluminium Pelmets', 'pelmet_95_black': 'Aluminium Pelmets', 'pelmet_95_cream': 'Aluminium Pelmets',
-    // Cassettes - Back
-    'cf90_cassette_back_black': 'Cassettes - Back', 'cf90_cassette_back_white': 'Cassettes - Back', 'cf90_cassette_back_anodised_silver': 'Cassettes - Back',
-    // Square Cassettes - Front
-    'cf90_cassette_square_front_white': 'Square Cassettes - Front', 'cf90_cassette_square_front_black': 'Square Cassettes - Front', 'cf90_cassette_square_front_anodised_silver': 'Square Cassettes - Front',
-    // Round Cassettes - Front
-    'cf90_cassette_round_front_white': 'Round Cassettes - Front', 'cf90_cassette_round_front_black': 'Round Cassettes - Front', 'cf90_cassette_round_front_anodised_silver': 'Round Cassettes - Front',
-    // Cassettes - Side Guides
-    'cf90_cassette_side_guide_white': 'Cassettes - Side Guides', 'cf90_cassette_side_guide_black': 'Cassettes - Side Guides', 'cf90_cassette_side_guide_anodised_silver': 'Cassettes - Side Guides',
-    // 38mm Chain Winders
-    '38mm_chain_winder_white': '38mm Chain Winders', '38mm_chain_winder_black': '38mm Chain Winders', '38mm_chain_winder_birch_white': '38mm Chain Winders', '38mm_chain_winder_grey': '38mm Chain Winders', '38mm_chain_winder_barley': '38mm Chain Winders',
-    // 38mm FG Chain Winders
-    '38mm_fixed_guide_chain_winder_white': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_black': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_birch_white': '38mm FG Chain Winders', '38mm_fixed_guide_chain_winder_grey': '38mm FG Chain Winders',
-    // 43mm Chain Winders
-    '43mm_chain_winder_white': '43mm Chain Winders', '43mm_chain_winder_black': '43mm Chain Winders', '43mm_chain_winder_birch_white': '43mm Chain Winders', '43mm_chain_winder_grey': '43mm Chain Winders', '43mm_chain_winder_beige': '43mm Chain Winders',
-    // 43mm FG Chain Winders
-    '43mm_fixed_guide_chain_winder_white': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_black': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_birch_white': '43mm FG Chain Winders', '43mm_fixed_guide_chain_winder_grey': '43mm FG Chain Winders',
-    // 43mm Idles
-    '43mm_idles_white': '43mm Idles', '43mm_idles_black': '43mm Idles', '43mm_idles_birch_white': '43mm Idles', '43mm_idles_grey': '43mm Idles', '43mm_idles_barley': '43mm Idles',
-    // 40mm Brackets
-    '40mm_bracket_white': '40mm Brackets', '40mm_bracket_black': '40mm Brackets', '40mm_bracket_birch_white': '40mm Brackets', '40mm_bracket_grey': '40mm Brackets', '40mm_bracket_barley': '40mm Brackets',
-    // Single Extension Brackets
-    '55mm_bracket_white': 'Single Extension Brackets', '55mm_bracket_black': 'Single Extension Brackets', '55mm_bracket_birch_white': 'Single Extension Brackets', '55mm_bracket_grey': 'Single Extension Brackets',
-    // 40mm Motor Brackets
-    '40mm_motor_bracket_white': '40mm Motor Brackets', '40mm_motor_bracket_black': '40mm Motor Brackets',
-    // 55mm Motor Brackets
-    '55mm_motor_bracket_white': '55mm Motor Brackets', '55mm_motor_bracket_black': '55mm Motor Brackets',
-    // 40mm Bracket Covers
-    '40mm_bracket_cover_white': '40mm Bracket Covers', '40mm_bracket_cover_black': '40mm Bracket Covers', '40mm_bracket_cover_birch_white': '40mm Bracket Covers', '40mm_bracket_cover_grey': '40mm Bracket Covers', '40mm_bracket_cover_beige': '40mm Bracket Covers',
-    // 55mm Bracket Covers
-    '55mm_bracket_cover_white': '55mm Bracket Covers', '55mm_bracket_cover_black': '55mm Bracket Covers', '55mm_bracket_cover_birch_white': '55mm Bracket Covers', '55mm_bracket_cover_grey': '55mm Bracket Covers',
-    // Metal Chains
-    '50cm_metal_chain': 'Metal Chains', '75cm_metal_chain': 'Metal Chains', '100cm_metal_chain': 'Metal Chains', '125cm_metal_chain': 'Metal Chains', '150cm_metal_chain': 'Metal Chains', '175cm_metal_chain': 'Metal Chains', '200cm_metal_chain': 'Metal Chains',
-    // Plastic Chains - White
-    '50cm_white_chain': 'Plastic Chains - White', '75cm_white_chain': 'Plastic Chains - White', '100cm_white_chain': 'Plastic Chains - White', '125cm_white_chain': 'Plastic Chains - White', '150cm_white_chain': 'Plastic Chains - White', '175cm_white_chain': 'Plastic Chains - White', '200cm_white_chain': 'Plastic Chains - White',
-    // Plastic Chains - Black
-    '50cm_black_chain': 'Plastic Chains - Black', '75cm_black_chain': 'Plastic Chains - Black', '100cm_black_chain': 'Plastic Chains - Black', '125cm_black_chain': 'Plastic Chains - Black', '150cm_black_chain': 'Plastic Chains - Black', '175cm_black_chain': 'Plastic Chains - Black', '200cm_black_chain': 'Plastic Chains - Black',
-    // Plastic Chains - Cream
-    '50cm_cream_chain': 'Plastic Chains - Cream', '75cm_cream_chain': 'Plastic Chains - Cream', '100cm_cream_chain': 'Plastic Chains - Cream', '125cm_cream_chain': 'Plastic Chains - Cream', '150cm_cream_chain': 'Plastic Chains - Cream', '175cm_cream_chain': 'Plastic Chains - Cream', '200cm_cream_chain': 'Plastic Chains - Cream', '225cm_cream_chain': 'Plastic Chains - Cream',
-    // Plastic Chains - Grey
-    '50cm_grey_chain': 'Plastic Chains - Grey', '75cm_grey_chain': 'Plastic Chains - Grey', '100cm_grey_chain': 'Plastic Chains - Grey', '125cm_grey_chain': 'Plastic Chains - Grey', '150cm_grey_chain': 'Plastic Chains - Grey', '175cm_grey_chain': 'Plastic Chains - Grey', '200cm_grey_chain': 'Plastic Chains - Grey',
-    // Plastic Chains - Beige
-    '50cm_beige_chain': 'Plastic Chains - Beige', '75cm_beige_chain': 'Plastic Chains - Beige', '100cm_beige_chain': 'Plastic Chains - Beige', '125cm_beige_chain': 'Plastic Chains - Beige', '150cm_beige_chain': 'Plastic Chains - Beige', '175cm_beige_chain': 'Plastic Chains - Beige', '200cm_beige_chain': 'Plastic Chains - Beige', '225cm_beige_chain': 'Plastic Chains - Beige', '250cm_beige_chain': 'Plastic Chains - Beige',
-    // Stainless Steel Chains
-    '50cm_stainless_steel_chain': 'Stainless Steel Chains', '75cm_stainless_steel_chain': 'Stainless Steel Chains', '100cm_stainless_steel_chain': 'Stainless Steel Chains', '125cm_stainless_steel_chain': 'Stainless Steel Chains', '150cm_stainless_steel_chain': 'Stainless Steel Chains', '175cm_stainless_steel_chain': 'Stainless Steel Chains', '200cm_stainless_steel_chain': 'Stainless Steel Chains',
-    // Helper Springs
-    '43mm_heavy_duty_helper_springs_lhs': 'Helper Springs', '43mm_heavy_duty_helper_springs_rhs': 'Helper Springs', '60mm_heavy_duty_helper_springs_lhs': 'Helper Springs', '60mm_heavy_duty_helper_springs_rhs': 'Helper Springs',
-    // 43mm Link
-    '43mm_female_link_white': '43mm Link', '43mm_female_link_black': '43mm Link', '43mm_male_link_white': '43mm Link', '43mm_male_link_black': '43mm Link',
-    // 38mm Springs
-    '38mm_senior_spring': '38mm Springs', '38mm_junior_spring': '38mm Springs',
-    // Spline
-    '15mm_spline': 'Spline',
-    // 60mm Parts
-    '60mm_idle_white': '60mm Parts', '60mm_idle_bracket_white': '60mm Parts',
-    // Chain Components
-    'chain_safe': 'Chain Components', 'stopper_balls': 'Chain Components',
-    // Acmeda Motors
-    'acmeda_e6_motor': 'Acmeda Motors', 'acmeda_0_7nm_12v_motor': 'Acmeda Motors', 'acmeda_1_1nm_12v_motor': 'Acmeda Motors', 'acmeda_2nm_12v_motor': 'Acmeda Motors', 'acmeda_ft_15nm_motor': 'Acmeda Motors', 'acmeda_1_1nm_12v_dcrf_motor': 'Acmeda Motors',
-    // Acmeda Motors - Accessories
-    'acmeda_1_1nm_12v_motor_crown_drive_kit_43mm': 'Acmeda Motors - Accessories', 'acmeda_2nm_12v_motor_crown_drive_kit_43mm': 'Acmeda Motors - Accessories', 'acmeda_6nm_12v_motor_crown_drive_kit': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_crown_60mm_tube': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_crown_80mm_tube': 'Acmeda Motors - Accessories', 'acmeda_10nm_12v_motor_drive_wheel_60_80mm_tube': 'Acmeda Motors - Accessories',
-    // Universal Disc Adaptors
-    'm40_universal_disc_adaptor': 'Universal Disc Adaptors', 'm50_universal_disc_adaptor': 'Universal Disc Adaptors',
-    // Acmeda 6nm Motor Head
-    'acmeda_6nm_motor_head_plate': 'Acmeda 6nm Motor Head', 'automate_motor_head_adaptor': 'Acmeda 6nm Motor Head',
-    // Automate 60mm
-    'automate_60mm_crown': 'Automate 60mm', 'automate_60mm_drive': 'Automate 60mm',
-    // Acmeda motor adaptor
-    'acmeda_10nm_12v_motor_adaptor_white': 'Acmeda motor adaptor',
-    // Automate FT Motor Adaptor Set
-    'automate_ft_motor_adaptor_set_black': 'Automate FT Motor Adaptor Set', 'automate_ft_motor_adaptor_set_white': 'Automate FT Motor Adaptor Set',
-    // Somfy Motors
-    'sonesse_40_rts_3_30_with_inline_connector_motor': 'Somfy Motors', 'somfy_12v_remote_sonesse_motor': 'Somfy Motors',
-    // Somfy 40mm
-    'somfy_43mm_12v_crown_drive': 'Somfy 40mm', 'somfy_40_crown': 'Somfy 40mm', 'somfy_40_drive': 'Somfy 40mm',
-    // Somfy 50 Crown
-    'somfy_50_crown_60mm_tube': 'Somfy 50 Crown', 'somfy50_crown_80mm_tube': 'Somfy 50 Crown',
-    // Somfy Accessories
-    'somfy_50_drive_60mm_80mm_tube': 'Somfy Accessories', 'm50_somfy_becker_motor_head_adaptor_set': 'Somfy Accessories', 'm50_somfy_motor_head_adaptor_plate': 'Somfy Accessories', 'universal_zamack_bracket': 'Somfy Accessories',
-    // Becker Motors
-    'becker_p4_30_c12a_motor': 'Becker Motors', 'becker_r20_17_c12a_motor': 'Becker Motors', 'becker_molex_connection': 'Becker Motors',
-    // Becker 40
-    'becker_40_crown': 'Becker 40', 'becker_40_drive': 'Becker 40',
-    // Becker M50 - 60mm Tube
-    'becker_m50_drive_wheel_60mm_tube': 'Becker M50 - 60mm Tube', 'becker_m50_crown_60mm_tube': 'Becker M50 - 60mm Tube',
-    // Adaptor Set
-    'm50_somfy_becker_motor_head_adaptor_set_2': 'Adaptor Set',
-    // Acmeda Motor Remote Accessories
-    'pulse_pro_automation_hub': 'Acmeda Motor Remote Accessories', 'acmeda_solar_panel': 'Acmeda Motor Remote Accessories', 'acmeda_charging_cable': 'Acmeda Motor Remote Accessories', 'acmeda_3nm_10nm_charging_cable': 'Acmeda Motor Remote Accessories', '210mm_extension_charging_cable': 'Acmeda Motor Remote Accessories', '1200mm_extension_charging_cable': 'Acmeda Motor Remote Accessories', '1_channel_dry_contact_relay_module': 'Acmeda Motor Remote Accessories', 'usb_repeater': 'Acmeda Motor Remote Accessories', 'acmeda_external_battery_for_dcrf_motors': 'Acmeda Motor Remote Accessories', 'acmeda_power_panel_for_dcrf_motors': 'Acmeda Motor Remote Accessories',
-    // 12v Motor Covers
-    '12v_motor_covers_white': '12v Motor Covers', '12v_motor_covers_black': '12v Motor Covers',
-    // Acmeda Channel Remotes
-    'acmeda_1_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_1_channel_black_remote': 'Acmeda Channel Remotes', 'acmeda_5_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_5_channel_black_remote': 'Acmeda Channel Remotes', 'acmeda_15_channel_white_remote': 'Acmeda Channel Remotes', 'acmeda_15_channel_black_remote': 'Acmeda Channel Remotes',
-    // Acmeda Wall Mounted White Remotes
-    'acmeda_wall_mounted_single_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_2_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_5_channel_white_remote': 'Acmeda Wall Mounted White Remotes', 'acmeda_wall_mounted_15_channel_white_remote': 'Acmeda Wall Mounted White Remotes',
-    // Acmeda Push Pro Remotes
-    'acmeda_push_pro_white_remote': 'Acmeda Push Pro Remotes', 'acmeda_push_pro_black_remote': 'Acmeda Push Pro Remotes',
-    // Charging Cable
-    'acmeda_push_pro_charging_cable': 'Charging Cable',
-    // Wall Charger
-    'acmeda_wall_block': 'Wall Charger',
-    // Somfy Remotes
-    'somfy_single_channel_white_remote': 'Somfy Remotes', 'somfy_single_channel_silver_remote': 'Somfy Remotes', 'somfy_2_channel_white_remote': 'Somfy Remotes', 'somfy_2_channel_silver_remote': 'Somfy Remotes', 'somfy_5_channel_white_remote': 'Somfy Remotes', 'somfy_5_channel_silver_remote': 'Somfy Remotes', 'somfy_15_channel_white_remote': 'Somfy Remotes', 'somfy_15_channel_black_remote': 'Somfy Remotes',
-    // Somfy Wall Mounted Smoove White Remote
-    'somfy_single_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote', 'somfy_2_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote', 'somfy_5_channel_wall_mounted_smoove_remote_white': 'Somfy Wall Mounted Smoove White Remote',
-    // Somfy Wall Mounted Remote Cover Plate
-    'somfy_wall_mounted_smoove_remote_cover_plate_black': 'Somfy Wall Mounted Remote Cover Plate', 'somfy_wall_mounted_smoove_remote_cover_plate_silver': 'Somfy Wall Mounted Remote Cover Plate',
-    // App Connector
-    'somfy_connexoon_app_connector': 'App Connector', 'somfy_12v_charger': 'App Connector',
-    // Becker Remotes
-    'becker_single_channel_white_remote': 'Becker Remotes', 'becker_single_channel_black_remote': 'Becker Remotes', 'becker_5_channel_white_remote': 'Becker Remotes', 'becker_5_channel_black_remote': 'Becker Remotes', 'becker_10_channel_white_remote': 'Becker Remotes', 'becker_10_channel_black_remote': 'Becker Remotes',
-    // Becker Wall Mounted White Remote
-    'becker_wall_mounted_single_channel_white_remote': 'Becker Wall Mounted White Remote', 'becker_wall_mounted_5_channel_white_remote': 'Becker Wall Mounted White Remote',
-    // Cassette Square Cover Set
-    'cf90_cassette_sqaure_cover_set_white': 'Cassette Square Cover Set', 'cf90_cassette_sqaure_cover_set_black': 'Cassette Square Cover Set',
-    // Cassette Round Cover Set
-    'cf90_cassette_round_cover_set_white': 'Cassette Round Cover Set', 'cf90_cassette_round_cover_set_black': 'Cassette Round Cover Set',
-    // End Plate Set
-    'cf90_cassette_end_plate_set': 'End Plate Set',
-    // Square Cassette Chain Guide
-    'square_cassette_chain_guide_left': 'Square Cassette Chain Guide', 'square_cassette_chain_guide_right': 'Square Cassette Chain Guide',
-    // Round Cassette Chain Guide
-    'round_cassette_chain_guide_left': 'Round Cassette Chain Guide', 'round_cassette_chain_guide_right': 'Round Cassette Chain Guide',
-    // Cassette Side Guide
-    'cf90_cassette_side_guide_ears': 'Cassette Side Guide', 'cf90_cassette_side_guide_locks': 'Cassette Side Guide',
-    // Cassette Side Guide Funnel
-    'cassette_side_guide_funnel_white': 'Cassette Side Guide Funnel', 'cassette_side_guide_funnel_black': 'Cassette Side Guide Funnel',
-    // Cassette Side Guide Bottom Cap
-    'cassette_side_guide_bottom_cap_white': 'Cassette Side Guide Bottom Cap',
-    // Valance End Caps
-    'valance_end_caps_black': 'Valance End Caps', 'valance_end_caps_white': 'Valance End Caps', 'valance_end_caps_cream': 'Valance End Caps', 'valance_end_caps_grey': 'Valance End Caps',
-    // Valance Spline
-    'valance_round_rubber_spline': 'Valance Spline',
-    // Pelmet 95 End Caps
-    'pelmet_95_end_caps_grey': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_white': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_black': 'Pelmet 95 End Caps', 'pelmet_95_end_caps_cream': 'Pelmet 95 End Caps',
-  };
-  // For backward compatibility, keep a map for display names (spaces instead of underscores)
-  const SUPPLIER_MAP: { [key: string]: string } = {};
 
   // Columns that don't get 90° rotation
   const EXCLUDED_ROTATION_COLS = [
