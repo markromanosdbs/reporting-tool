@@ -2148,7 +2148,7 @@ export default function DataTable({
           <thead style={{ borderTop: '2px solid black' }}>
             {/* Part Number Row - Only for Roller Blind Components */}
             {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', borderBottom: '1px solid black', height: '60px' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isFirstColumn = header === table.getHeaderGroups()[0].headers[0];
@@ -2169,7 +2169,7 @@ export default function DataTable({
 
             {/* Group Header Row - Only for Roller Blind Components */}
             {tableName === 'roller_blind_components' && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', borderBottom: '1px solid black', height: '60px' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
                   const result: JSX.Element[] = [];
@@ -2224,7 +2224,7 @@ export default function DataTable({
 
             {/* Part Number Row - For Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#fff2cc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#fff2cc', borderBottom: '1px solid black', height: '60px' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header, idx) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isBaseColumn = BASE_COLUMNS.some(
@@ -2274,7 +2274,7 @@ export default function DataTable({
 
             {/* Group Row - For Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#b3e5fc', height: '60px' }}>
+              <tr style={{ backgroundColor: '#b3e5fc', borderBottom: '1px solid black', height: '60px' }}>
                 {(() => {
                   const headers = table.getHeaderGroups()[0]?.headers || [];
                   const result: JSX.Element[] = [];
@@ -2339,7 +2339,7 @@ export default function DataTable({
 
             {/* Supplier Row - For Roller Blind, Door Screen, Roller Shutter, and External Blinds Components */}
             {(tableName === 'roller_blind_components' || tableName === 'door_screen_components' || tableName === 'roller_shutter_components' || tableName === 'external_blinds_components') && (
-              <tr style={{ backgroundColor: '#d8bfd8', height: '95px' }}>
+              <tr style={{ backgroundColor: '#d8bfd8', borderBottom: '1px solid black', height: '95px' }}>
                 {table.getHeaderGroups()[0]?.headers.map((header, idx) => {
                   const headerText = String(header.column.columnDef.header || '');
                   const isBaseColumn = BASE_COLUMNS.some(
