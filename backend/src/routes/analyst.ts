@@ -54,11 +54,11 @@ router.post('/analyst/analyze', async (req: Request, res: Response) => {
     const tableResult = await pool.request().query(tableQuery);
     const currentTableRecords = tableResult.recordset || [];
 
-    // Get all records from dbsproduction InventoryItems
+    // Get all records from dbsproduction view
     const inventoryQuery = `
-      SELECT DISTINCT BuzNo, LineNo, InventoryItem, ProductionStatus
-      FROM InventoryItems
-      WHERE BuzNo IS NOT NULL AND LineNo IS NOT NULL
+      SELECT DISTINCT [Buz and Line No.], [InventoryItem], [ProductionStatus]
+      FROM [dbsproduction]
+      WHERE [Buz and Line No.] IS NOT NULL AND [InventoryItem] IS NOT NULL
     `;
     const inventoryResult = await braxPool.request().query(inventoryQuery);
     const inventoryRecords = inventoryResult.recordset || [];
@@ -74,25 +74,31 @@ router.post('/analyst/analyze', async (req: Request, res: Response) => {
         return;
       }
 
+      // Parse "Buz and Line No." format: "40426.A 1" -> buzNo: "40426.A", lineNo: 1
+      const buzAndLineStr = String(inv['Buz and Line No.']).trim();
+      const parts = buzAndLineStr.split(/\s+/);
+      const buzNo = parts[0]; // e.g., "40426.A"
+      const lineNo = parseInt(parts[1] || '0', 10); // e.g., 1
+
       const existsInTable = currentTableRecords.some(
         (record: any) =>
-          String(record.quote_no).trim() === String(inv.BuzNo).trim() &&
-          record.line_no === inv.LineNo
+          String(record.quote_no).trim() === buzNo &&
+          record.line_no === lineNo
       );
 
       if (!existsInTable) {
         // Missing job
         missingJobs.push({
-          buzNo: inv.BuzNo,
-          lineNo: inv.LineNo,
+          buzNo: buzNo,
+          lineNo: lineNo,
           inventoryItem: inv.InventoryItem,
           message: `Hey, this job is missing here. Need uploading?`,
         });
       } else if (inv.ProductionStatus === 'Completed') {
         // Completed job still in table
         completedJobs.push({
-          buzNo: inv.BuzNo,
-          lineNo: inv.LineNo,
+          buzNo: buzNo,
+          lineNo: lineNo,
           inventoryItem: inv.InventoryItem,
           productionStatus: inv.ProductionStatus,
           message: `Hey, this job is already completed, the auto update didn't work?`,
