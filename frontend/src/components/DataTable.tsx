@@ -2184,7 +2184,7 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
@@ -2240,7 +2240,7 @@ export default function DataTable({
                       style={{
                         padding: '2px 2px',
                         backgroundColor: isBaseColumn ? '#f5f5f5' : '#fff2cc',
-                        border: '1px solid black',
+                        borderRight: '1px solid #ccc',
                         textAlign: 'center',
                         verticalAlign: 'middle',
                         color: '#000000',
@@ -2291,7 +2291,7 @@ export default function DataTable({
 
                     if (isFirstColumn) {
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', border: '1px solid black', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} style={{ padding: '4px 2px', backgroundColor: 'white', borderRight: '1px solid #ccc', textAlign: 'center', verticalAlign: 'middle', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: '55px', maxWidth: '55px', overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
                           <div className="flex items-center justify-center">Group</div>
                         </td>
                       );
@@ -2388,7 +2388,7 @@ export default function DataTable({
             )}
 
             {table.getHeaderGroups().map((headerGroup) => (
-              <tr key={headerGroup.id} style={{ height: '320px' }}>
+              <tr key={headerGroup.id} style={{ height: '320px', borderBottom: '1px solid #333' }}>
                 {headerGroup.headers.map((header) => {
                   const headerText = String(
                     header.column.columnDef.header || ''
@@ -2401,7 +2401,7 @@ export default function DataTable({
                     <th
                       key={header.id}
                       className={clsx(
-                        'font-semibold border border-black group relative',
+                        'font-semibold group relative',
                         isBaseColumn
                           ? 'px-2 py-2 text-left bg-gray-200 text-gray-800 text-xs'
                           : 'bg-gray-100 text-gray-700'
@@ -2419,8 +2419,9 @@ export default function DataTable({
                               padding: '4px 2px',
                               fontSize: '10px',
                               overflow: 'visible',
+                              borderRight: '1px solid #ccc',
                             }
-                          : { minWidth: '70px' }
+                          : { minWidth: '70px', borderRight: '1px solid #ccc' }
                       }
                     >
                       <div className="flex items-center justify-between gap-1 relative">
