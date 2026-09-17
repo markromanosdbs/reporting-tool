@@ -184,5 +184,7 @@ export function AIAnalyst({ tableName, isOpen, onClose, onOpen }: AIAnalystProps
         <p>Last checked: {new Date().toLocaleTimeString()}</p>
       </div>
     </div>
+      )}
+    </>
   );
 }
