@@ -23,12 +23,14 @@ interface AIAnalystProps {
   tableName: string;
   isOpen: boolean;
   onClose: () => void;
+  onOpen: () => void;
 }
 
-export function AIAnalyst({ tableName, isOpen, onClose }: AIAnalystProps) {
+export function AIAnalyst({ tableName, isOpen, onClose, onOpen }: AIAnalystProps) {
   const [analysis, setAnalysis] = useState<AnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showPulse, setShowPulse] = useState(true);
 
   useEffect(() => {
     if (!isOpen || !tableName) return;
@@ -42,6 +44,7 @@ export function AIAnalyst({ tableName, isOpen, onClose }: AIAnalystProps) {
           table: tableName,
         });
         setAnalysis(response.data);
+        setShowPulse(false);
       } catch (err) {
         console.error('Error running analysis:', err);
         setError('Failed to run analysis');
@@ -53,10 +56,25 @@ export function AIAnalyst({ tableName, isOpen, onClose }: AIAnalystProps) {
     runAnalysis();
   }, [tableName, isOpen]);
 
-  if (!isOpen) return null;
-
   return (
-    <div className="fixed right-0 top-0 h-screen w-96 bg-white border-l border-gray-300 shadow-lg z-40 flex flex-col">
+    <>
+      {/* Floating Avatar Button */}
+      {!isOpen && (
+        <button
+          onClick={onOpen}
+          className="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 z-50 border-4 border-white"
+          title="Click to open AI Analyst"
+        >
+          <span className="text-3xl">🤖</span>
+          {showPulse && (
+            <span className="absolute inset-0 rounded-full bg-blue-400 opacity-75 animate-pulse"></span>
+          )}
+        </button>
+      )}
+
+      {/* Side Panel */}
+      {isOpen && (
+        <div className="fixed right-0 top-0 h-screen w-96 bg-white border-l border-gray-300 shadow-lg z-40 flex flex-col">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4 flex justify-between items-center">
         <div className="flex items-center gap-2">

@@ -1937,12 +1937,6 @@ export default function DataTable({
         </div>
         <div className="flex gap-2 items-center">
           <button
-            onClick={() => setIsAnalystOpen(!isAnalystOpen)}
-            className="px-3 py-1 bg-purple-600 text-white rounded text-sm hover:bg-purple-700 font-medium"
-          >
-            🤖 AI Analyst
-          </button>
-          <button
             onClick={onShowCommentsSummary}
             className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 font-medium"
           >
@@ -2589,6 +2583,7 @@ export default function DataTable({
         tableName={tableName || 'door_screen_components'}
         isOpen={isAnalystOpen}
         onClose={() => setIsAnalystOpen(false)}
+        onOpen={() => setIsAnalystOpen(true)}
       />
     </div>
   );
