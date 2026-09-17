@@ -1876,13 +1876,8 @@ export default function DataTable({
   const rowVirtualizer = useVirtualizer({
     count: rows.length,
     getScrollElement: () => document.getElementById('table-scroll-container'),
-    estimateSize: () => 28, // Estimate row height
+    estimateSize: () => 28, // Estimate row height - don't measure each row (expensive with many columns)
     overscan: 10, // Render 10 rows outside visible area for smoothness
-    measureElement:
-      typeof window !== 'undefined' &&
-      navigator.userAgentData?.mobile === false
-        ? (element) => element?.getBoundingClientRect().height
-        : undefined,
   });
 
   useEffect(() => {
