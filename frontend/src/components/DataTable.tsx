@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import axios from 'axios';
 import {
   useReactTable,
@@ -1826,42 +1826,42 @@ export default function DataTable({
   const sums = calculateSums(allDataForSummary.length > 0 ? allDataForSummary : data);
 
   // Generate columns dynamically from data, ordered with base columns first
-  const columns: ColumnDef<any>[] = data.length
-    ? (() => {
-        const allKeys = Object.keys(data[0]);
-        const orderedKeys = [
-          ...allKeys.filter((key) =>
-            BASE_COLUMNS.some((base) => base.toLowerCase() === key.toLowerCase())
-          ),
-          ...allKeys.filter(
-            (key) =>
-              !BASE_COLUMNS.some((base) => base.toLowerCase() === key.toLowerCase())
-          ),
-        ];
+  const columns: ColumnDef<any>[] = useMemo(() => {
+    if (!data.length) return [];
 
-        return orderedKeys.map((key) => ({
-          accessorKey: key,
-          header: key,
-          cell: (info) => {
-            const value = info.getValue();
-            if (typeof value === 'number') {
-              return <span className="text-right font-medium">{value}</span>;
-            }
-            // Format dispatch_date to yyyy-mm-dd
-            if (key === 'dispatch_date' && value) {
-              try {
-                const date = new Date(value as string);
-                const formatted = date.toISOString().split('T')[0];
-                return <span>{formatted}</span>;
-              } catch {
-                return <span>{String(value)}</span>;
-              }
-            }
-            return <span>{String(value || '')}</span>;
-          },
-        }));
-      })()
-    : [];
+    const allKeys = Object.keys(data[0]);
+    const orderedKeys = [
+      ...allKeys.filter((key) =>
+        BASE_COLUMNS.some((base) => base.toLowerCase() === key.toLowerCase())
+      ),
+      ...allKeys.filter(
+        (key) =>
+          !BASE_COLUMNS.some((base) => base.toLowerCase() === key.toLowerCase())
+      ),
+    ];
+
+    return orderedKeys.map((key) => ({
+      accessorKey: key,
+      header: key,
+      cell: (info) => {
+        const value = info.getValue();
+        if (typeof value === 'number') {
+          return <span className="text-right font-medium">{value}</span>;
+        }
+        // Format dispatch_date to yyyy-mm-dd
+        if (key === 'dispatch_date' && value) {
+          try {
+            const date = new Date(value as string);
+            const formatted = date.toISOString().split('T')[0];
+            return <span>{formatted}</span>;
+          } catch {
+            return <span>{String(value)}</span>;
+          }
+        }
+        return <span>{String(value || '')}</span>;
+      },
+    }));
+  }, [data]);
 
   const table = useReactTable({
     data,
