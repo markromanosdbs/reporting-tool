@@ -9,7 +9,7 @@ import {
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { ExportButton } from './ExportButton';
 import { CommentsModal } from './CommentsModal';
-import { AIAnalyst } from './AIAnalyst';
+import { DataAnalyst } from './DataAnalyst';
 import clsx from 'clsx';
 
 interface DataTableProps {
@@ -2578,8 +2578,8 @@ export default function DataTable({
         />
       )}
 
-      {/* AI Analyst Panel */}
-      <AIAnalyst
+      {/* Data Analyst Panel */}
+      <DataAnalyst
         tableName={tableName || 'door_screen_components'}
         isOpen={isAnalystOpen}
         onClose={() => setIsAnalystOpen(false)}

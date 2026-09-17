@@ -19,14 +19,14 @@ interface AnalysisResult {
   totalIssues: number;
 }
 
-interface AIAnalystProps {
+interface DataAnalystProps {
   tableName: string;
   isOpen: boolean;
   onClose: () => void;
   onOpen: () => void;
 }
 
-export function AIAnalyst({ tableName, isOpen, onClose, onOpen }: AIAnalystProps) {
+export function DataAnalyst({ tableName, isOpen, onClose, onOpen }: DataAnalystProps) {
   const [analysis, setAnalysis] = useState<AnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -63,7 +63,7 @@ export function AIAnalyst({ tableName, isOpen, onClose, onOpen }: AIAnalystProps
         <button
           onClick={onOpen}
           className="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 z-50 border-4 border-white"
-          title="Click to open AI Analyst"
+          title="Click to open Data Analyst"
         >
           <span className="text-3xl">🤖</span>
           {showPulse && (
