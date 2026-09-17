@@ -62,7 +62,7 @@ export function DataAnalyst({ tableName, isOpen, onClose, onOpen }: DataAnalystP
       {!isOpen && (
         <button
           onClick={onOpen}
-          className="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 z-50 border-4 border-white"
+          className="fixed bottom-24 right-8 w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 z-50 border-4 border-white"
           title="Click to open Data Analyst"
         >
           <span className="text-3xl">🤖</span>
