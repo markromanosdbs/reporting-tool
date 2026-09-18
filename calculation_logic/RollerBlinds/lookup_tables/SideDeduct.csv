@@ -1,0 +1,40 @@
+No,0
+Side by Side(Face),1
+Side by Side(Reveal),-1
+Thru,0
+Bay - Face Fit (1 End Butting),25
+Bay - Face Fit (Both Ends Butting),50
+Face Fit (Recess Deduction),3
+Face Fit (Recess Side by Side Deduction),2
+Face Fit (Recess 5mm Deduction),5
+Face Fit (Recess 10mm Deduction),10
+Recess Fit (No Deduction),-3
+Recess Fit (5mm Deduction),2
+Recess Fit (7mm Deduction),4
+Recess Fit (10mm Deduction),7
+Recess Fit (15mm Deduction),12
+Recess Fit (20mm Deduction),17
+1 Blind inside an Existing Aluminium Pelmet,6
+2 Blinds inside an Existing Aluminium Pelmet,3
+3 Blinds inside an Existing Aluminium Pelmet,2
+1 Blind inside an Existing Cassette,10
+2 Blinds inside an Existing Cassette,5
+3 Blinds inside an Existing Cassette,3
+Outside of Bracket to Outside of Link Bracket,4
+Outside of Link Bracket to Outside of Link Bracket,8
+Outside of Bracket to Centre of Link Bracket,0
+Outside of Link Bracket to Centre of Link Bracket,4
+Inside of Bracket to Inside of Link Bracket,-4
+Inside of Link Bracket to Inside of Link Bracket,-8
+"Thru (Recess Fit, Front Measurement)",-70
+"Butt (Recess Fit, Front Measurement)",0
+Inside of Bracket to Inside of Bracket,-9
+Skirting Board Each Side,16
+Skirting Board 1 Side,8
+,
+,
+,
+,
+,
+,
+,

@@ -1,0 +1,17 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,=Data!AW11
+B,Location,=Data!AY11
+C,Installation Deliver or Supply Only,"=IF(Data!AV11="""","""",IF(OR($A$6=""Wholesale B2B"",$A$6=""Wholesale""),""W/Sale Deliver"",'Job Sheet'!AJ11))"
+D,Bracket,"=IF('Job Sheet'!D11=""Yes - Back Blind"","""",'Job Sheet'!AS11)"
+E,Bracket Colour,"=IF(D11="""","""",'Assembly(b)'!G11)"
+F,Safety Tag & Chain Safe,"=IF(AND(OR(C11=""Deliver"",C11=""Supply Only""),'Job Sheet'!L11=""Chain Winder""),""Yes - Attach"",IF('Job Sheet'!L11=""Chain Winder"",""Yes"",""""))"
+G,12v Motor Covers,='Job Sheet'!BG11
+H,Control Option,"=IF('Job Sheet'!R11=""Not Required"","""",'Job Sheet'!R11)"
+I,Motor Extras,"=IF('Job Sheet'!N11=""None"","""",'Job Sheet'!N11)"
+J,Motor Tails / Batterys,"=IF('Job Sheet'!AT11=""No"","""",'Job Sheet'!AT11)"
+K,Pelmets & Parts,"=IF(Pelmets!A11="""","""",""Check Pelmet Form"")"
+L,"=IF(SUM(L11:L10000)=0,"""",CONCATENATE(SUM(L11:L10000),"" x Screws "",SUM(M11:M10000),"" x Chain Stops""))","=IF(Data!AV11="""","""",IF(AND(Pelmets!F11<>"""",OR(F11=""Yes"",F11=""Yes - Attach""),OR(C11=""Supply Only"",$A$6=""Just Roller Blinds"")),Pelmets!F11*2+1,IF(AND(Pelmets!F11<>"""",OR(C11=""Supply Only"",$A$6=""Just Roller Blinds"")),Pelmets!F11*2,IF(AND(OR(F11=""Yes"",F11=""Yes - Attach""),OR(C11=""Supply Only"",$A$6=""Just Roller Blinds"")),5,IF(OR(C11=""Supply Only"",$A$6=""Just Roller Blinds""),4,IF(AND(OR(F11=""Yes"",F11=""Yes - Attach""),$G$2=""Creative Blinds""),1,""""))))))"
+M,,"=IF(AND(OR(F11=""Yes"",F11=""Yes - Attach""),OR($A$6=""Just Roller Blinds"",C11=""Supply Only"",$G$2=""Creative Blinds"")),2,"""")"
+N,Comment,='Job Sheet'!AO11
+O,Sign,=A11
+P,Blind total,"=IF(Data!AV11="""","""",1)"

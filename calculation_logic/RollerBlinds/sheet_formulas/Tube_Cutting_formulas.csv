@@ -1,0 +1,18 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,=Data!AW11
+B,Location,='Job Sheet'!B11
+C,Tube ,='Job Sheet'!AV11
+D,Tube Length,='Job Sheet'!AW11
+E,Bottom Trim,='Job Sheet'!S11
+F,Blind/Rail Finish,='Job Sheet'!BD11
+G,B/Rail Length,"=IF(E11=""Double Lath"",CONCATENATE('Job Sheet'!AX11,"" x 2""),'Job Sheet'!AX11)"
+H,Lath,"=IF(OR(Data!AV11="""",IFERROR(VLOOKUP(E11,TimberLath,2,FALSE),"""")=""N/A""),"""",IFERROR(VLOOKUP(E11,TimberLath,2,FALSE),""""))"
+I,B/Rail Weight Bar,"=IF(E11=""Plain"","""",IF('Job Sheet'!G11<450,G11-29,""""))"
+J,Pelmet or Cassette Type,"=IF('Job Sheet'!BH11=""DBS to Make"",'Job Sheet'!AA11,"""")"
+K,Pelmet or Cassette Colour,"=IF(J11=""Zipscreen Hooding"",CONCATENATE(""Powdercoat"","" - "",'Job Sheet'!AB11),IF('Job Sheet'!BH11=""DBS to Make"",'Job Sheet'!AB11,""""))"
+L,Pelmet or Back Cassette Length,"=IF(OR(J11="""",IFERROR(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,3,FALSE),"""")=""N/A""),"""",'Job Sheet'!G11-IFERROR(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,3,FALSE),0))"
+M, Fascia or Cassette Cover  Length,"=IF(OR(J11="""",IFERROR(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,4,FALSE),"""")=""N/A""),"""",'Job Sheet'!G11-IFERROR(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,4,FALSE),0))"
+N,Side Channel Length,"=IF(Data!AV11="""","""",IF(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,5,FALSE)=""N/A"","""",IF(OR(J11=""Square Cassette with Side & Bottom Channels"",J11=""Round Cassette with Side & Bottom Channels""),CONCATENATE('Job Sheet'!H11-VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,5,FALSE),"" x 2 (Back & Front)"","" "",'Job Sheet'!BA11-110,"" x 1  (Back & Front)""),CONCATENATE('Job Sheet'!H11-VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,5,FALSE),"" x 2 (Back & Front)""))))"
+O,Mounting Rail,"=IF('Job Sheet'!AA11=""Mounting Rail"",'Job Sheet'!G11,"""")"
+P,Comment,='Job Sheet'!AO11
+Q,Sign,=A11

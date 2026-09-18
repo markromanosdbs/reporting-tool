@@ -1,0 +1,11 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,=Data!AW11
+B,Location,=Data!AY11
+C,Fabric Direction,='Job Sheet'!O11
+D,Bottom Trim,"=IF(AND('Job Sheet'!S11=""D30 Bottom Rail with Noise Reducing Strip"",'Tube Cutting'!N11<>""""),""D30 Bottom Rail with Noise Reducing Strip & Fluffy Strip"",'Job Sheet'!S11)"
+E,Blind/Rail Finish,='Tube Cutting'!F11
+F,Sticker,"=IF(Data!BA11="""","""",IF(AND(OR(D11=""D30 Bottom Rail"",D11=""D30 Bottom Rail with Noise Reducing Strip"",D11=""HD Bottom Rail with Noise Reducing Strip"",D11=""D30 Bottom Rail with Noise Reducing Strip & Fluffy Strip""))*OR('Assembly(b)'!$A$6=""Retail Customer"",'Assembly(b)'!$A$6=""Commercial"",Data!$BE$5=""CARR.00"",Data!$BE$5=""CARR.""),""Davidson's"",IF(OR('Assembly(b)'!$A$6=""Wholesale B2B"",'Assembly(b)'!$A$6=""Wholesale"",D11=""Bottom Rail in Pocket""),""None"",IF(OR('Assembly(b)'!$A$6=""Brax Retail"",'Assembly(b)'!$A$6=""Brax Wholesale"",'Assembly(b)'!$A$6=""Brax B2B""),""Brax"",IF('Assembly(b)'!$A$6=""Just Roller Blinds"",""Just Roller Blinds"","""")))))"
+G,Centre Measurement,"=IF(Data!AW11="""","""",IF(OR(E11=""Silver Pull Ring"",E11=""Gold Pull Ring"",E11=""Cloth Pull Ring"",E11=""Fringe with Cloth Pull Ring"",E11=""Fringe with Turks Head Pull"",E11=""Braid with Cloth Pull Ring"",E11=""Braid with Turks Head Pull"",D11=""Standard Scallop""),('Job Sheet'!AY11/2),""""))"
+H,Braid/Fringe Colours,='Job Sheet'!Z11
+I,Comment,='Job Sheet'!AO11
+J,Sign,=A11

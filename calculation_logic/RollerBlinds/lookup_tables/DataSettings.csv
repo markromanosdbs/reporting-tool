@@ -1,0 +1,21 @@
+DATASETTINGS,,,,,
+Sheet Name,First Row,Last Row,Right Column,Include in PDF,No of Copy in PDF
+Job Sheet,11,20,BH,True,1
+Installation,11,20,V,True,1
+Pelmets,11,20,O,True,1
+Fabric Cutting,11,20,R,True,1
+Tube Cutting,11,20,Q,True,1
+Assembly(a),11,20,J,True,1
+Assembly(b),11,20,P,True,1
+Bagging,11,20,P,True,1
+Tubing,11,20,I,True,1
+Electrical Form,11,20,M,True,1
+Upholstered Pelmet Order Form,8,17,O,True,1
+Components,5,14,PW,False,0
+Labels,11,20,K,False,2
+Deductions,0,0,A,False,0
+Tube Size & Chain Drops,0,0,A,False,0
+Component Colour Matching,0,0,A,False,0
+,,,,,
+,,,,,
+,,,,,

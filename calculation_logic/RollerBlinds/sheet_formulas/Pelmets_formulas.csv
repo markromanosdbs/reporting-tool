@@ -1,0 +1,16 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,"=IF(OR(C11="""",Data!AW11=""""),"""",Data!AW11)"
+B,Location,"=IF(OR(C11="""",Data!AW11=""""),"""",'Job Sheet'!B11)"
+C,Pelmet or Cassette Type,"=IF('Job Sheet'!AA11=""None"","""",'Job Sheet'!AA11)"
+D,Pelmet or Cassette Colour,='Job Sheet'!AB11
+E,Pelmet End Caps,"=IF(OR('Job Sheet'!BC11=""N/A"",'Job Sheet'!BC11=""No""),"""",'Job Sheet'!BC11)"
+F,Pelmet or Fascia Brackets,"=IF(OR(Data!AV11="""",C11=""""),"""",IF(AND(C11=""Aluminium Valance - Fabric Covered"",'Fabric Cutting'!F11>3000,'Job Sheet'!B11=""Face""),""1 x Valance Centre Join Bracket"",IF(AND(C11=""Aluminium Valance - Fabric Covered"",'Job Sheet'!BB11=""Yes""),CONCATENATE(VLOOKUP('Job Sheet'!G11,PelmetBrackets,2,TRUE),"" x Valance Reveal Brackets""),IF(C11=""Aluminium Pelmet"",VLOOKUP('Job Sheet'!G11,PelmetBrackets,2,TRUE),IF(C11=""Mounting Rail"",CONCATENATE(VLOOKUP('Job Sheet'!G11,PelmetBrackets,2,TRUE),"" + 4 Bracket Screws""),"""")))))"
+G,Pelmet or Fascia End Caps,"=IF(A11="""","""",IF('Job Sheet'!BC11=""Yes"",""Yes"",""""))"
+H,Fabric Covered Valance End Cap Colour,"=IF(AND(OR('Job Sheet'!AA11=""Aluminium Valance - Fabric Covered"",'Job Sheet'!AA11=""Aluminium Valance""),'Job Sheet'!BC11=""Yes""),bpLOOKUP(Data!$AV11,""PELRETURN"",CustOrdOpt,6,FALSE),"""")"
+I,Control Side,"=IF(C11="""","""",IF(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,9,FALSE)=""Yes"",'Assembly(b)'!H11,""""))"
+J,Side Guide Funnel Sets & Screws,"=IF('Tube Cutting'!N11="""","""",""Funnel x 2 & Screws x 4"")"
+K,Side Guide Bottom Caps & Screws,"=IF('Tube Cutting'!N11="""","""",""Bottom Caps x 2 & Screws x 4"")"
+L,Side Guide Ears,"=IF('Tube Cutting'!J11=""None"","""",IF('Tube Cutting'!J11="""","""",IF(VLOOKUP(CONCATENATE('Job Sheet'!AA11,'Job Sheet'!J11,'Job Sheet'!AR11),PelmetDeduct,7,FALSE)=""Yes"",""2"","""")))"
+M,Side Guide Locks,"=IF('Tube Cutting'!N11="""","""",IF(C11=""Square Cassette with Side & Bottom Channels"",VLOOKUP('Job Sheet'!G11,SideGuideLocks,2,TRUE)+VLOOKUP('Job Sheet'!H11,SideGuideLocks,2,TRUE),VLOOKUP('Job Sheet'!H11,SideGuideLocks,2,TRUE)))"
+N,Comment,"=IF(A11="""","""",'Job Sheet'!AO11)"
+O,Sign,=A11

@@ -1,0 +1,14 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,"=IF(Data!AX11="""","""",'Job Sheet'!A11)"
+B,Location,"=IF(C11="""","""",'Job Sheet'!B11)"
+C,Electrician Required,"=IF(bpLOOKUP(Data!$AV11,""ELECTRICIAN"",CustOrdOpt,6,FALSE)=""Yes"",""Yes"","""")"
+D,Product,"=IF(C11="""","""",Data!AX11)"
+E,Fit,"=IF(C11="""","""",'Job Sheet'!J11)"
+F,Control Type,"=IF(C11="""","""",'Job Sheet'!L11)"
+G,Controller,"=IF(C11="""","""",'Job Sheet'!R11)"
+H,Receiver,
+I,House Construction,"=bpLOOKUP(Data!$AV11,""HOUSECONSTRUCTION"",CustOrdOpt,6,FALSE)"
+J,Roof Style,"=bpLOOKUP(Data!$AV11,""ROOF"",CustOrdOpt,6,FALSE)"
+K,Switchboard Upgrade,"=bpLOOKUP(Data!$AV11,""SWITCHBOARD"",CustOrdOpt,6,FALSE)"
+L,Number of Storeys,"=bpLOOKUP(Data!$AV11,""STOREYS"",CustOrdOpt,6,FALSE)"
+M,Comment,"=IF(C11="""","""",'Job Sheet'!AO11)"

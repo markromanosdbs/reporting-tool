@@ -1,0 +1,11 @@
+Column,Header,Formula (row 11 / first data row)
+A,Procedure,"=IF(K11="""","""",VLOOKUP(K11,PackingProcedure,2,FALSE))"
+B,Tube No.,"=IF($A$11=""N/A"",""X"",CONCATENATE($B$3,""."",$B$4,"" - 1""))"
+C,Blinds in Tube,"=IF($A$11=""N/A"",""X"","""")"
+D,Length (cm),"=IF(OR($A$11=""N/A"",$A$11=""A""),""X"","""")"
+E,Width (cm),"=IF(OR($A$11=""N/A"",$A$11=""A""),""X"","""")"
+F,Height (cm),"=IF(OR($A$11=""N/A"",$A$11=""A""),""X"","""")"
+G,Weight (kg),"=IF(OR($A$11=""N/A"",$A$11=""A""),""X"","""")"
+H,Notes,"=IF($A$11=""N/A"",""X"","""")"
+I,Sign,1
+K,Packing Type,"=IF(D2=""Brax Window Treatments"",""Brax"",IF(OR(Bagging!C11=""Supply Only"",Bagging!C11=""Installation""),""N/A"",Bagging!C11))"

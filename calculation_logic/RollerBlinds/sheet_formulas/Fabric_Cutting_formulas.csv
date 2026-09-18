@@ -1,0 +1,19 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,='Job Sheet'!A11
+B,Location,='Job Sheet'!B11
+C,Fabric Type & Colour,='Job Sheet'!I11
+D,Fabric Location,"=IF(Data!AV11="""","""",VLOOKUP(C11,ColourMatch,10,FALSE))"
+E,Cutting Head,"=IF(Data!AV11="""","""",VLOOKUP(C11,ColourMatch,9,FALSE))"
+F,Skin Width,='Job Sheet'!AY11
+G,Skin Drop,"=IF(Data!AV11="""","""",IF(OR('Job Sheet'!Y11=""N/A"",'Job Sheet'!Y11=""N/A.""),'Job Sheet'!AZ11,CONCATENATE('Job Sheet'!AZ11,"" Exact"")))"
+H,Top & Tail,"=IF(F11<500,""Yes"","""")"
+I,Fabric Width,"=IF(Data!AV11="""","""",VLOOKUP(C11,ColourMatch,11,FALSE))"
+J,Cutting Order,
+K,Fabric Required,
+L,Flip Fabric?,"=IF(Data!AV11="""","""",IF(AND(VLOOKUP(C11,ColourMatch,12,FALSE)=""Yes"",'Job Sheet'!O11=""Back""),""Yes"",""No""))"
+M,Bottom Trim,='Job Sheet'!S11
+N,Cotton Colour,"=IF(Data!AV11="""","""",IF(OR(M11=""D30 Bottom Rail"",M11=""D30 Bottom Rail with Noise Reducing Strip""),"""",VLOOKUP(Data!BN11&"" ""&Data!BO11&"" ""&Data!BP11,ColourMatch,7,FALSE)))"
+O,Fabric Width Valance ,"=IF('Job Sheet'!AA11=""Aluminium Valance - Fabric Covered"",'Job Sheet'!G11+4,"""")"
+P,Fabric Drop Valance ,"=IF('Job Sheet'!AA11=""Aluminium Valance - Fabric Covered"",200,"""")"
+Q,Comment,='Job Sheet'!AO11
+R,Sign,=A11

@@ -1,0 +1,14 @@
+Right|N/A|Back,R
+Left|N/A|Front,R
+Right|N/A|Front,L
+Left|N/A|Back,L
+,
+Right|Control|Back,R
+Left|Control|Front,R
+Right|Control|Front,L
+Left|Control|Back,L
+Right|RHS Blind Independent Link|Back,R
+Left|LHS Blind Independent Link|Front,R
+Right|RHS Blind Independent Link|Front,L
+Left|LHS Blind Independent Link|Back,L
+,

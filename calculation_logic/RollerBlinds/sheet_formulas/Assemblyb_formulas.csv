@@ -1,0 +1,17 @@
+Column,Header,Formula (row 11 / first data row)
+A,Sticker No.,=Data!AW11
+B,Location,='Job Sheet'!B11
+C,Chain Colour,"=IF('Job Sheet'!BF11=""No Chain"","""",'Job Sheet'!BF11)"
+D,Chain Length,"=IF(OR('Job Sheet'!L11=""Chain Winder"",'Job Sheet'!L11=""Chain Winder 60mm"",'Job Sheet'!L11=""Chain Winder Fixed Guide""),IF(AND(bpLOOKUP(Data!$AV11,""CHAINLENGTH"",CustOrdOpt,6,FALSE)=""Default"",Data!BB11>1),VLOOKUP('Job Sheet'!H11,ChainSize,2,TRUE),IF(Data!BB11>1,bpLOOKUP(Data!$AV11,""CHAINLENGTH"",CustOrdOpt,6,FALSE),"""")),"""")"
+E,Tube,='Job Sheet'!AV11
+F,Control,"=IF(Data!AV11="""","""",VLOOKUP('Job Sheet'!AR11,MotorLookUp,2,FALSE))"
+G,Component Colour,='Job Sheet'!BE11
+H,Control Side,"=IF(AND('Job Sheet'!L11=""Spring"",K11=""Front""),""Right"",IF(AND('Job Sheet'!L11=""Spring"",K11=""Back""),""Left"",'Job Sheet'!M11))"
+I,Helper Spring,"=IF('Job Sheet'!AU11=""No"","""",'Job Sheet'!AU11)"
+J,Linked Layout Code,"=IF('Job Sheet'!Y11=""N/A"",""None"",'Job Sheet'!Y11)"
+K,Fabric Direction,='Job Sheet'!O11
+L,Hairspray,"=IF(Data!BO11="""","""",IF(ISNUMBER(SEARCH(""Light Filtering"",Data!BO11)),""Yes"",""""))"
+M,Test,"=IF(Data!AV11="""","""",IF(OR('Job Sheet'!C11<450,$A$6=""Wholesale"",$A$6=""Wholesale B2B""),""Yes"",IF(AND('Job Sheet'!L11=""Chain Winder"",'Job Sheet'!AJ11=""Installation""),""No"",IF('Job Sheet'!L11=""Linked"",""Test if Motor Link"",""Yes""))))"
+N,Pelmet or Cassette Type,"=IF('Job Sheet'!AA11=""None"","""",'Job Sheet'!AA11)"
+O,Comment,='Job Sheet'!AO11
+P,Sign,=A11
