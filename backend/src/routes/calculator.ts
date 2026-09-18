@@ -4,11 +4,39 @@ import { RollerBlindsCalculator } from '../services/RollerBlindsCalculator.js';
 
 const router = Router();
 
+// Product code to table and calculator mapping
+const PRODUCT_MAPPING: { [key: string]: { table: string; productType: string } } = {
+  'ROLL': { table: 'ComponentsReport_RollerBlinds', productType: 'roller_blind_components' },
+  'CURT': { table: 'ComponentsReport_CurtainTracks', productType: 'curtain_tracks' },
+  'CTRA': { table: 'ComponentsReport_CurtainTracks', productType: 'curtain_tracks' },
+  'SQNT': { table: 'ComponentsReport_SqualonetScreens', productType: 'squalonet_retractable_screens' },
+  'PANG': { table: 'ComponentsReport_PanelGlides', productType: 'panel_glides' },
+  'AUTO': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'SDPB': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'FGSUN': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'VERTC': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'PAAW': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'WIRG': { table: 'ComponentsReport_ExternalBlinds', productType: 'external_blinds_components' },
+  'RLSH': { table: 'ComponentsReport_RollerShutters', productType: 'roller_shutter_components' },
+  'SECD': { table: 'ComponentsReport_DoorScreen', productType: 'door_screen_components' },
+  'GRIL': { table: 'ComponentsReport_DoorScreen', productType: 'door_screen_components' },
+};
+
 /**
- * POST /api/calculator/roller-blinds
- * Calculate components for a Roller Blinds order line
+ * Determine product type from inventory description
+ * Product code is first 4 characters (e.g., "ROLL Texstyle..." → "ROLL")
  */
-router.post('/calculator/roller-blinds', async (req: Request, res: Response) => {
+function getProductCode(inventoryDescn: string): string | null {
+  if (!inventoryDescn) return null;
+  const code = inventoryDescn.substring(0, 4).toUpperCase();
+  return PRODUCT_MAPPING[code] ? code : null;
+}
+
+/**
+ * POST /api/calculate
+ * Calculate components for any order line (routes to product-specific calculator)
+ */
+router.post('/calculate', async (req: Request, res: Response) => {
   try {
     const { orderItemPkId } = req.body;
 
@@ -42,33 +70,54 @@ router.post('/calculator/roller-blinds', async (req: Request, res: Response) => 
       }
     }
 
-    // Extract dimensions
+    // Extract dimensions and product info
     const itemWidth = parseInt(optionsMap['ITEMWIDTH'] || '0', 10);
     const itemHeight = parseInt(optionsMap['ITEMHEIGHT'] || '0', 10);
     const fabricName = optionsMap['INVENTORYDESCN'] || 'Unknown Fabric';
 
-    // Run calculation
-    const calculator = new RollerBlindsCalculator();
-    const jobSheetOutput = await calculator.calculate(
-      orderItemPkId,
-      optionsMap,
-      itemWidth,
-      itemHeight,
-      fabricName
-    );
+    // Determine product type from Item Code
+    const productCode = getProductCode(fabricName);
+    if (!productCode || !PRODUCT_MAPPING[productCode]) {
+      return res.status(400).json({ error: 'Unknown product type from Item Code' });
+    }
 
-    // Insert/update in ComponentsReport_RollerBlinds
+    const { table: componentsTable, productType } = PRODUCT_MAPPING[productCode];
+
+    // Route to appropriate calculator based on product type
+    let jobSheetOutput: any;
+
+    if (productCode === 'ROLL') {
+      // Roller Blinds calculator
+      const calculator = new RollerBlindsCalculator();
+      jobSheetOutput = await calculator.calculate(
+        orderItemPkId,
+        optionsMap,
+        itemWidth,
+        itemHeight,
+        fabricName
+      );
+    } else {
+      // Other product types not yet implemented
+      return res.status(501).json({
+        error: 'Not yet implemented',
+        message: `Calculation engine for ${productType} (${productCode}) is not yet available`,
+        orderItemPkId,
+        productCode,
+      });
+    }
+
+    // Insert/update in the appropriate ComponentsReport table
     const now = new Date();
     await pool.request().query(`
-      IF EXISTS (SELECT 1 FROM [dbo].[ComponentsReport_RollerBlinds] WHERE [OrderItemPkId] = @pkId)
+      IF EXISTS (SELECT 1 FROM [dbo].[${componentsTable}] WHERE [OrderItemPkId] = @pkId)
       BEGIN
-        UPDATE [dbo].[ComponentsReport_RollerBlinds]
+        UPDATE [dbo].[${componentsTable}]
         SET [LastCalculatedDate] = @now
         WHERE [OrderItemPkId] = @pkId
       END
       ELSE
       BEGIN
-        INSERT INTO [dbo].[ComponentsReport_RollerBlinds] ([OrderItemPkId], [LastCalculatedDate])
+        INSERT INTO [dbo].[${componentsTable}] ([OrderItemPkId], [LastCalculatedDate])
         VALUES (@pkId, @now)
       END
     `, { pkId: orderItemPkId, now });
@@ -76,12 +125,15 @@ router.post('/calculator/roller-blinds', async (req: Request, res: Response) => 
     res.json({
       success: true,
       orderItemPkId,
+      productCode,
+      productType,
+      componentsTable,
       jobSheet: jobSheetOutput,
       message: 'Calculation completed successfully'
     });
 
   } catch (error) {
-    console.error('Error calculating roller blinds:', error);
+    console.error('Error calculating components:', error);
     res.status(500).json({ error: 'Calculation failed', details: String(error) });
   }
 });
