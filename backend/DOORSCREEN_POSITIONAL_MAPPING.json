@@ -1,0 +1,8090 @@
+[
+ {
+  "excelCol": 10,
+  "section": "Standard Door Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 11,
+  "section": "Standard Door Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 12,
+  "section": "Standard Door Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 13,
+  "section": "Standard Door Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 14,
+  "section": "Standard Door Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 15,
+  "section": "Standard Door Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 16,
+  "section": "Standard Door Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 17,
+  "section": "Standard Door Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 18,
+  "section": "Standard Door Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 19,
+  "section": "Standard Door Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 20,
+  "section": "Standard Door Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 21,
+  "section": "Standard Door Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 22,
+  "section": "Standard Door Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 23,
+  "section": "Standard Door Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 24,
+  "section": "Standard Door Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 25,
+  "section": "Standard Door Frame",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 26,
+  "section": "Standard Door Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 27,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 28,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 29,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 30,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 31,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 32,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 33,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 34,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 35,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 36,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 37,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 38,
+  "section": "Invisi-Gard Door Frame",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 39,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 40,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 41,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 42,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Dulux_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 43,
+  "section": "Invisi-Gard Door Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 44,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 45,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 46,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 47,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 48,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 49,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 50,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 51,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 52,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 53,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 54,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 55,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 56,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 57,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 58,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 59,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 60,
+  "section": "Screen Frame 37mm x 11mm",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 61,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 62,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 63,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 64,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 65,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 66,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 67,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 68,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 69,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 70,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 71,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 72,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 73,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 74,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 75,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 76,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Dulux_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 77,
+  "section": "Invisi-Gard Screen Frame 37mm x 11mm",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_4",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 78,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 79,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 80,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 81,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 82,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 83,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 84,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 85,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 86,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 87,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 88,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 89,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 90,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 91,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 92,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 93,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Dulux_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 94,
+  "section": "Invisi-Gard Screen Frame 37mm x 9mm",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_5",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 95,
+  "section": "Short Leg Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 96,
+  "section": "Short Leg Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 97,
+  "section": "Short Leg Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 98,
+  "section": "Short Leg Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 99,
+  "section": "Short Leg Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 100,
+  "section": "Short Leg Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 101,
+  "section": "Short Leg Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 102,
+  "section": "Short Leg Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 103,
+  "section": "Short Leg Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 104,
+  "section": "Short Leg Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 105,
+  "section": "Short Leg Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 106,
+  "section": "Short Leg Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 107,
+  "section": "Short Leg Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 108,
+  "section": "Short Leg Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 109,
+  "section": "Short Leg Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 110,
+  "section": "Short Leg Frame",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 111,
+  "section": "Short Leg Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_6",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 112,
+  "section": "Long Leg Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 113,
+  "section": "Long Leg Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 114,
+  "section": "Long Leg Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 115,
+  "section": "Long Leg Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 116,
+  "section": "Long Leg Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 117,
+  "section": "Long Leg Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 118,
+  "section": "Long Leg Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 119,
+  "section": "Long Leg Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 120,
+  "section": "Long Leg Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 121,
+  "section": "Long Leg Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 122,
+  "section": "Long Leg Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 123,
+  "section": "Long Leg Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 124,
+  "section": "Long Leg Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 125,
+  "section": "Long Leg Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 126,
+  "section": "Long Leg Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 127,
+  "section": "Long Leg Frame",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 128,
+  "section": "Long Leg Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_7",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 129,
+  "section": "9mm Flyscreen Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 130,
+  "section": "9mm Flyscreen Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 131,
+  "section": "9mm Flyscreen Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 132,
+  "section": "9mm Flyscreen Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 133,
+  "section": "9mm Flyscreen Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 134,
+  "section": "9mm Flyscreen Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 135,
+  "section": "9mm Flyscreen Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 136,
+  "section": "9mm Flyscreen Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 137,
+  "section": "9mm Flyscreen Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 138,
+  "section": "9mm Flyscreen Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 139,
+  "section": "9mm Flyscreen Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 140,
+  "section": "9mm Flyscreen Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 141,
+  "section": "9mm Flyscreen Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 142,
+  "section": "9mm Flyscreen Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 143,
+  "section": "9mm Flyscreen Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 144,
+  "section": "9mm Flyscreen Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 145,
+  "section": "11mm Flyscreen Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 146,
+  "section": "11mm Flyscreen Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 147,
+  "section": "11mm Flyscreen Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 148,
+  "section": "11mm Flyscreen Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 149,
+  "section": "11mm Flyscreen Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 150,
+  "section": "11mm Flyscreen Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 151,
+  "section": "11mm Flyscreen Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 152,
+  "section": "11mm Flyscreen Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 153,
+  "section": "11mm Flyscreen Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 154,
+  "section": "11mm Flyscreen Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 155,
+  "section": "11mm Flyscreen Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 156,
+  "section": "11mm Flyscreen Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 157,
+  "section": "11mm Flyscreen Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 158,
+  "section": "11mm Flyscreen Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 159,
+  "section": "11mm Flyscreen Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 160,
+  "section": "11mm Flyscreen Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 161,
+  "section": "F Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 162,
+  "section": "F Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 163,
+  "section": "F Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 164,
+  "section": "F Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 165,
+  "section": "F Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 166,
+  "section": "F Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 167,
+  "section": "F Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 168,
+  "section": "F Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 169,
+  "section": "F Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 170,
+  "section": "F Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 171,
+  "section": "F Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 172,
+  "section": "F Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 173,
+  "section": "F Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 174,
+  "section": "F Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 175,
+  "section": "F Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 176,
+  "section": "F Frame",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_8",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 177,
+  "section": "F Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 178,
+  "section": "Z Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 179,
+  "section": "Z Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 180,
+  "section": "Z Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 181,
+  "section": "Z Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 182,
+  "section": "Z Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 183,
+  "section": "Z Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 184,
+  "section": "Z Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 185,
+  "section": "Z Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 186,
+  "section": "Z Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 187,
+  "section": "Z Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 188,
+  "section": "Z Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 189,
+  "section": "Z Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 190,
+  "section": "Z Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 191,
+  "section": "Z Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 192,
+  "section": "Z Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 193,
+  "section": "Z Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_11",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 194,
+  "section": "High Step Z Frame",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 195,
+  "section": "High Step Z Frame",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 196,
+  "section": "High Step Z Frame",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 197,
+  "section": "High Step Z Frame",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 198,
+  "section": "High Step Z Frame",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 199,
+  "section": "High Step Z Frame",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 200,
+  "section": "High Step Z Frame",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 201,
+  "section": "High Step Z Frame",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 202,
+  "section": "High Step Z Frame",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 203,
+  "section": "High Step Z Frame",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 204,
+  "section": "High Step Z Frame",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 205,
+  "section": "High Step Z Frame",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 206,
+  "section": "High Step Z Frame",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 207,
+  "section": "High Step Z Frame",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 208,
+  "section": "High Step Z Frame",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 209,
+  "section": "High Step Z Frame",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_12",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 210,
+  "section": "Receiving Channel",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 211,
+  "section": "Receiving Channel",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 212,
+  "section": "Receiving Channel",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 213,
+  "section": "Receiving Channel",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 214,
+  "section": "Receiving Channel",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 215,
+  "section": "Receiving Channel",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 216,
+  "section": "Receiving Channel",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 217,
+  "section": "Receiving Channel",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 218,
+  "section": "Receiving Channel",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 219,
+  "section": "Receiving Channel",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 220,
+  "section": "Receiving Channel",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 221,
+  "section": "Receiving Channel",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 222,
+  "section": "Receiving Channel",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 223,
+  "section": "Receiving Channel",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 224,
+  "section": "Receiving Channel",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 225,
+  "section": "Receiving Channel",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_9",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 226,
+  "section": "Receiving Channel",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_13",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 227,
+  "section": "T Mullion",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 228,
+  "section": "T Mullion",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 229,
+  "section": "T Mullion",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 230,
+  "section": "T Mullion",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 231,
+  "section": "T Mullion",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 232,
+  "section": "T Mullion",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 233,
+  "section": "T Mullion",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 234,
+  "section": "T Mullion",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 235,
+  "section": "T Mullion",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 236,
+  "section": "T Mullion",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 237,
+  "section": "T Mullion",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 238,
+  "section": "T Mullion",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 239,
+  "section": "T Mullion",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 240,
+  "section": "T Mullion",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 241,
+  "section": "T Mullion",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 242,
+  "section": "T Mullion",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_14",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 243,
+  "section": "Bug Strip",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 244,
+  "section": "Bug Strip",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 245,
+  "section": "Bug Strip",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 246,
+  "section": "Bug Strip",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 247,
+  "section": "Bug Strip",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 248,
+  "section": "Bug Strip",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 249,
+  "section": "Bug Strip",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 250,
+  "section": "Bug Strip",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 251,
+  "section": "Bug Strip",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 252,
+  "section": "Bug Strip",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 253,
+  "section": "Bug Strip",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 254,
+  "section": "Bug Strip",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 255,
+  "section": "Bug Strip",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 256,
+  "section": "Bug Strip",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 257,
+  "section": "Bug Strip",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 258,
+  "section": "Bug Strip",
+  "header": "Woodland Grey (Dulux)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Dulux_10",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 259,
+  "section": "Bug Strip",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_15",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 260,
+  "section": "Top Track",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 261,
+  "section": "Top Track",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 262,
+  "section": "Top Track",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 263,
+  "section": "Top Track",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 264,
+  "section": "Top Track",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 265,
+  "section": "Top Track",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 266,
+  "section": "Top Track",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 267,
+  "section": "Top Track",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 268,
+  "section": "Top Track",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 269,
+  "section": "Top Track",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 270,
+  "section": "Top Track",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 271,
+  "section": "Top Track",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 272,
+  "section": "Top Track",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 273,
+  "section": "Top Track",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 274,
+  "section": "Top Track",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 275,
+  "section": "Top Track",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_16",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 276,
+  "section": "Top Track with Pip",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 277,
+  "section": "Top Track with Pip",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 278,
+  "section": "Top Track with Pip",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 279,
+  "section": "Top Track with Pip",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 280,
+  "section": "Top Track with Pip",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 281,
+  "section": "Top Track with Pip",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 282,
+  "section": "Top Track with Pip",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 283,
+  "section": "Top Track with Pip",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 284,
+  "section": "Top Track with Pip",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 285,
+  "section": "Top Track with Pip",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 286,
+  "section": "Top Track with Pip",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 287,
+  "section": "Top Track with Pip",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 288,
+  "section": "Top Track with Pip",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 289,
+  "section": "Top Track with Pip",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 290,
+  "section": "Top Track with Pip",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 291,
+  "section": "Top Track with Pip",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_17",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 292,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 293,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 294,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 295,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 296,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 297,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 298,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 299,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 300,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 301,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 302,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 303,
+  "section": "Bottom Fit Bottom Track",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 304,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 305,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 306,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 307,
+  "section": "Bottom Fit Bottom Track",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_18",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 308,
+  "section": "Face Fit Bottom Track",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 309,
+  "section": "Face Fit Bottom Track",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 310,
+  "section": "Face Fit Bottom Track",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 311,
+  "section": "Face Fit Bottom Track",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 312,
+  "section": "Face Fit Bottom Track",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 313,
+  "section": "Face Fit Bottom Track",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 314,
+  "section": "Face Fit Bottom Track",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 315,
+  "section": "Face Fit Bottom Track",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 316,
+  "section": "Face Fit Bottom Track",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 317,
+  "section": "Face Fit Bottom Track",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 318,
+  "section": "Face Fit Bottom Track",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 319,
+  "section": "Face Fit Bottom Track",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 320,
+  "section": "Face Fit Bottom Track",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 321,
+  "section": "Face Fit Bottom Track",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 322,
+  "section": "Face Fit Bottom Track",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 323,
+  "section": "Face Fit Bottom Track",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_19",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 324,
+  "section": "H Channel",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 325,
+  "section": "H Channel",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 326,
+  "section": "H Channel",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 327,
+  "section": "H Channel",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 328,
+  "section": "H Channel",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 329,
+  "section": "H Channel",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 330,
+  "section": "H Channel",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 331,
+  "section": "H Channel",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 332,
+  "section": "H Channel",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 333,
+  "section": "H Channel",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 334,
+  "section": "H Channel",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 335,
+  "section": "H Channel",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 336,
+  "section": "H Channel",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 337,
+  "section": "H Channel",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 338,
+  "section": "H Channel",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 339,
+  "section": "H Channel",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_20",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 340,
+  "section": "H Bottom Track",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 341,
+  "section": "H Bottom Track",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 342,
+  "section": "H Bottom Track",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 343,
+  "section": "H Bottom Track",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 344,
+  "section": "H Bottom Track",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 345,
+  "section": "H Bottom Track",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 346,
+  "section": "H Bottom Track",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 347,
+  "section": "H Bottom Track",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 348,
+  "section": "H Bottom Track",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 349,
+  "section": "H Bottom Track",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 350,
+  "section": "H Bottom Track",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 351,
+  "section": "H Bottom Track",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 352,
+  "section": "H Bottom Track",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 353,
+  "section": "H Bottom Track",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 354,
+  "section": "H Bottom Track",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 355,
+  "section": "H Bottom Track",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_21",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 356,
+  "section": "Mid Rail",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 357,
+  "section": "Mid Rail",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 358,
+  "section": "Mid Rail",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 359,
+  "section": "Mid Rail",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 360,
+  "section": "Mid Rail",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 361,
+  "section": "Mid Rail",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 362,
+  "section": "Mid Rail",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 363,
+  "section": "Mid Rail",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 364,
+  "section": "Mid Rail",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 365,
+  "section": "Mid Rail",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 366,
+  "section": "Mid Rail",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 367,
+  "section": "Mid Rail",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 368,
+  "section": "Mid Rail",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 369,
+  "section": "Mid Rail",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 370,
+  "section": "Mid Rail",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 371,
+  "section": "Mid Rail",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_22",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 372,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Apo Grey",
+  "supplier": "Alspec",
+  "sqlColumn": "Apo_Grey_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 373,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Birch White",
+  "supplier": "Alspec",
+  "sqlColumn": "Birch_White_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 374,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 375,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Brown",
+  "supplier": "Alspec",
+  "sqlColumn": "Brown_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 376,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Deep Ocean",
+  "supplier": "Alspec",
+  "sqlColumn": "Deep_Ocean_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 377,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 378,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 379,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Pale Eucalypt",
+  "supplier": "Alspec",
+  "sqlColumn": "Pale_Eucalypt_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 380,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 381,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Ultra Silver",
+  "supplier": "Alspec",
+  "sqlColumn": "Ultra_Silver_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 382,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 383,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 384,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 385,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 386,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 387,
+  "section": "Invisi-Gard Mid Rail",
+  "header": "Custom Powdercoat",
+  "supplier": "Alspec",
+  "sqlColumn": "Custom_Powdercoat_23",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 388,
+  "section": "Sill Winder Covers",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 389,
+  "section": "Sill Winder Covers",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 390,
+  "section": "Sill Winder Covers",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 391,
+  "section": "Sill Winder Covers",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 392,
+  "section": "Sill Winder Covers",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 393,
+  "section": "Sill Winder Covers",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 394,
+  "section": "Sill Winder Covers",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 395,
+  "section": "Sill Winder Covers",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 396,
+  "section": "Sill Winder Covers",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 397,
+  "section": "Sill Winder Covers",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 398,
+  "section": "Sill Winder Covers",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 399,
+  "section": "Sill Winder Covers",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 400,
+  "section": "Sill Winder Covers",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 401,
+  "section": "Sill Winder Covers",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 402,
+  "section": "Sill Winder Covers",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 403,
+  "section": "Sill Winder Covers",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_24",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 404,
+  "section": "Wedges",
+  "header": "Cover Strip",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Cover_Strip",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 405,
+  "section": "Wedges",
+  "header": "1.6mm Wedge",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N1_6mm_Wedge",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 406,
+  "section": "Wedges",
+  "header": "2.0mm Wedge",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N2_0mm_Wedge",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 407,
+  "section": "Wedges",
+  "header": "Invisi-Gard Wedge",
+  "supplier": "Alspec",
+  "sqlColumn": "Invisi_Gard_Wedge",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 408,
+  "section": "Wedges",
+  "header": "Invisi-Gard Insulator",
+  "supplier": "Alspec",
+  "sqlColumn": "Invisi_Gard_Insulator",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 409,
+  "section": "Wedges",
+  "header": "Invisi-Gard Keeper",
+  "supplier": "Alspec",
+  "sqlColumn": "Invisi_Gard_Keeper",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 410,
+  "section": "Misc.",
+  "header": "Bug Strip Felt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Bug_Strip_Felt",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 411,
+  "section": "Misc.",
+  "header": "Flyscreen Spline",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Flyscreen_Spline",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 412,
+  "section": "Triple Lock Kits",
+  "header": "Hinged High",
+  "supplier": "Alspec",
+  "sqlColumn": "Hinged_High",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 413,
+  "section": "Triple Lock Kits",
+  "header": "Hinged Low",
+  "supplier": "Alspec",
+  "sqlColumn": "Hinged_Low",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 414,
+  "section": "Triple Lock Kits",
+  "header": "Hinged Pool",
+  "supplier": "Alspec",
+  "sqlColumn": "Hinged_Pool",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 415,
+  "section": "Triple Lock Kits",
+  "header": "Hinged Adjustable",
+  "supplier": "Alspec",
+  "sqlColumn": "Hinged_Adjustable",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 416,
+  "section": "Triple Lock Kits",
+  "header": "Sliding High",
+  "supplier": "Alspec",
+  "sqlColumn": "Sliding_High",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 417,
+  "section": "Triple Lock Kits",
+  "header": "Sliding Low",
+  "supplier": "Alspec",
+  "sqlColumn": "Sliding_Low",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 418,
+  "section": "Triple Lock Kits",
+  "header": "Sliding Pool",
+  "supplier": "Alspec",
+  "sqlColumn": "Sliding_Pool",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 419,
+  "section": "Triple Lock Kits",
+  "header": "Sliding Adjustable",
+  "supplier": "Alspec",
+  "sqlColumn": "Sliding_Adjustable",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 420,
+  "section": "Corner Blocks",
+  "header": "Door Frame",
+  "supplier": "Alspec",
+  "sqlColumn": "Door_Frame",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 421,
+  "section": "Corner Blocks",
+  "header": "Standard Screen Frame",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Standard_Screen_Frame",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 422,
+  "section": "Corner Blocks",
+  "header": "9mm Invisi-Screen",
+  "supplier": "Alspec",
+  "sqlColumn": "N9mm_Invisi_Screen",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 423,
+  "section": "Corner Blocks",
+  "header": "11mm Invisi-Screen",
+  "supplier": "Alspec",
+  "sqlColumn": "N11mm_Invisi_Screen",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 424,
+  "section": "Corner Blocks",
+  "header": "9mm Flyscreen",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N9mm_Flyscreen",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 425,
+  "section": "Corner Blocks",
+  "header": "11mm Flyscreen",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N11mm_Flyscreen",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 426,
+  "section": "Flywire Parts",
+  "header": "D Pulls 9mm",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "D_Pulls_9mm",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 427,
+  "section": "Flywire Parts",
+  "header": "D Pulls 11mm",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "D_Pulls_11mm",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 428,
+  "section": "Flywire Parts",
+  "header": "Swivel Clips Extended",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Swivel_Clips_Extended",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 429,
+  "section": "Flywire Parts",
+  "header": "Swivel Clips Flush",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Swivel_Clips_Flush",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 430,
+  "section": "Flywire Parts",
+  "header": "Plunger Pins",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Plunger_Pins",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 431,
+  "section": "Misc.",
+  "header": "Bass Latch",
+  "supplier": "Alspec",
+  "sqlColumn": "Bass_Latch",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 432,
+  "section": "Misc.",
+  "header": "Guide Blocks",
+  "supplier": "Alspec",
+  "sqlColumn": "Guide_Blocks",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 433,
+  "section": "Door Closers",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 434,
+  "section": "Door Closers",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 435,
+  "section": "Door Closers",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 436,
+  "section": "Door Closers",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 437,
+  "section": "Door Closers",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 438,
+  "section": "Door Closers",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 439,
+  "section": "Door Closers",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 440,
+  "section": "Door Closers",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 441,
+  "section": "Door Closers",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 442,
+  "section": "Hinged Handle",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 443,
+  "section": "Hinged Handle",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 444,
+  "section": "Hinged Handle",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 445,
+  "section": "Hinged Handle",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 446,
+  "section": "Hinged Handle",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 447,
+  "section": "Hinged Handle",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 448,
+  "section": "Hinged Handle",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 449,
+  "section": "Hinged Handle",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 450,
+  "section": "Hinged Handle",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 451,
+  "section": "Push 2 Go Locks",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 452,
+  "section": "Push 2 Go Locks",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 453,
+  "section": "Push 2 Go Locks",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 454,
+  "section": "Push 2 Go Locks",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 455,
+  "section": "Push 2 Go Locks",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 456,
+  "section": "Push 2 Go Locks",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 457,
+  "section": "Push 2 Go Locks",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 458,
+  "section": "Push 2 Go Locks",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 459,
+  "section": "Push 2 Go Locks",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 460,
+  "section": "Sliding Handle",
+  "header": "Black",
+  "supplier": "Alspec",
+  "sqlColumn": "Black_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 461,
+  "section": "Sliding Handle",
+  "header": "Dune",
+  "supplier": "Alspec",
+  "sqlColumn": "Dune_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 462,
+  "section": "Sliding Handle",
+  "header": "Jasper",
+  "supplier": "Alspec",
+  "sqlColumn": "Jasper_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 463,
+  "section": "Sliding Handle",
+  "header": "Monument",
+  "supplier": "Alspec",
+  "sqlColumn": "Monument_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 464,
+  "section": "Sliding Handle",
+  "header": "Paperbark",
+  "supplier": "Alspec",
+  "sqlColumn": "Paperbark_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 465,
+  "section": "Sliding Handle",
+  "header": "Primrose",
+  "supplier": "Alspec",
+  "sqlColumn": "Primrose_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 466,
+  "section": "Sliding Handle",
+  "header": "Surfmist",
+  "supplier": "Alspec",
+  "sqlColumn": "Surfmist_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 467,
+  "section": "Sliding Handle",
+  "header": "White",
+  "supplier": "Alspec",
+  "sqlColumn": "White_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 468,
+  "section": "Sliding Handle",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "Alspec",
+  "sqlColumn": "Woodland_Grey_Green_Tone_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 469,
+  "section": "Misc.",
+  "header": "Lock Barrel",
+  "supplier": "Alspec",
+  "sqlColumn": "Lock_Barrel",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 470,
+  "section": "Misc.",
+  "header": "Extended Striker Plates",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Extended_Striker_Plates",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 471,
+  "section": "Misc.",
+  "header": "Sliding Door Wheels",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Sliding_Door_Wheels",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 472,
+  "section": "Misc.",
+  "header": "Hinges - Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Hinges_Black",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 473,
+  "section": "Flywire Parts",
+  "header": "Flyscreen Spring Clips",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Flyscreen_Spring_Clips",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 474,
+  "section": "Pet Doors",
+  "header": "Small - Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Small_Black",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 475,
+  "section": "Pet Doors",
+  "header": "Medium - Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Medium_Black",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 476,
+  "section": "Pet Doors",
+  "header": "Large - Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Large_Black",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 477,
+  "section": "Pet Doors",
+  "header": "Small - White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Small_White",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 478,
+  "section": "Pet Doors",
+  "header": "Medium - White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Medium_White",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 479,
+  "section": "Pet Doors",
+  "header": "Large - White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Large_White",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 480,
+  "section": "Misc.",
+  "header": "Patio Bolts",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Patio_Bolts",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 481,
+  "section": "Misc.",
+  "header": "Water Closer",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Water_Closer",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 482,
+  "section": "Misc.",
+  "header": "Leg Frame Corner Block",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Leg_Frame_Corner_Block",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 483,
+  "section": "Misc.",
+  "header": "Invisi-Gard Mid Rail Stakes",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Invisi_Gard_Mid_Rail_Stakes",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 484,
+  "section": "Misc.",
+  "header": "Flyscreen Mid Rail Stakes",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Flyscreen_Mid_Rail_Stakes",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 485,
+  "section": "Misc.",
+  "header": "Ultralock",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultralock",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 486,
+  "section": "Screen Mesh",
+  "header": "Screen Mesh Size",
+  "supplier": "",
+  "sqlColumn": "Screen_Mesh_Size",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 487,
+  "section": "Screen Mesh",
+  "header": "Screen Mesh Type",
+  "supplier": "",
+  "sqlColumn": "Screen_Mesh_Type",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 488,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "750 x 2000",
+  "supplier": "Alspec",
+  "sqlColumn": "N750_x_2000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 489,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "750 x 2400",
+  "supplier": "Alspec",
+  "sqlColumn": "N750_x_2400",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 490,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "750 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N750_x_3000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 491,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "900 x 2000",
+  "supplier": "Alspec",
+  "sqlColumn": "N900_x_2000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 492,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "900 x 2400",
+  "supplier": "Alspec",
+  "sqlColumn": "N900_x_2400",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 493,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "900 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N900_x_3000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 494,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1200 x 2000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1200_x_2000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 495,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1200 x 2400",
+  "supplier": "Alspec",
+  "sqlColumn": "N1200_x_2400",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 496,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1200 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1200_x_3000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 497,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1500 x 2000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_2000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 498,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1500 x 2400",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_2400",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 499,
+  "section": "Woven Stainless Steel Mesh",
+  "header": "1500 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_3000",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 500,
+  "section": "Perforated Aluminium",
+  "header": "750 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N750_x_2000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 501,
+  "section": "Perforated Aluminium",
+  "header": "750 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N750_x_2400_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 502,
+  "section": "Perforated Aluminium",
+  "header": "750 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N750_x_3000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 503,
+  "section": "Perforated Aluminium",
+  "header": "900 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N900_x_2000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 504,
+  "section": "Perforated Aluminium",
+  "header": "900 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N900_x_2400_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 505,
+  "section": "Perforated Aluminium",
+  "header": "900 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N900_x_3000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 506,
+  "section": "Perforated Aluminium",
+  "header": "1200 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N1200_x_2000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 507,
+  "section": "Perforated Aluminium",
+  "header": "1200 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N1200_x_2400_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 508,
+  "section": "Perforated Aluminium",
+  "header": "1200 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1200_x_3000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 509,
+  "section": "Perforated Aluminium",
+  "header": "1500 x 2000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_2000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 510,
+  "section": "Perforated Aluminium",
+  "header": "1500 x 2400",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_2400_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 511,
+  "section": "Perforated Aluminium",
+  "header": "1500 x 3000",
+  "supplier": "Alspec",
+  "sqlColumn": "N1500_x_3000_2",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 512,
+  "section": "Privacy Guard",
+  "header": "750 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N750_x_2000_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 513,
+  "section": "Privacy Guard",
+  "header": "750 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N750_x_2400_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 514,
+  "section": "Privacy Guard",
+  "header": "900 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N900_x_2000_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 515,
+  "section": "Privacy Guard",
+  "header": "900 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N900_x_2400_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 516,
+  "section": "Privacy Guard",
+  "header": "1200 x 2000",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N1200_x_2000_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 517,
+  "section": "Privacy Guard",
+  "header": "1200 x 2400",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "N1200_x_2400_3",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 518,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 519,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 520,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 521,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 522,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 523,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 524,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 525,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 526,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 527,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 528,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 529,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 530,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 531,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 532,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 533,
+  "section": "Standard Diamond Grill 750 x 2050",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_25",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 534,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 535,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 536,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 537,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 538,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 539,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 540,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 541,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 542,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 543,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 544,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 545,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 546,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 547,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 548,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 549,
+  "section": "Standard Diamond Grill 835 x 2050",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_26",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 550,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 551,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 552,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 553,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 554,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 555,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 556,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 557,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 558,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 559,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 560,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 561,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 562,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 563,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 564,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 565,
+  "section": "Standard Diamond Grill 920 x 2050",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_27",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 566,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 567,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 568,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 569,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 570,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 571,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 572,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 573,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 574,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 575,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 576,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 577,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 578,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 579,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 580,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 581,
+  "section": "Standard Diamond Grill 1200 x 2050",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_28",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 582,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 583,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 584,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 585,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 586,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 587,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 588,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 589,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 590,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 591,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 592,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 593,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 594,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 595,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 596,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 597,
+  "section": "Standard Diamond Grill 920 x 2450",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_29",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 598,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 599,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 600,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 601,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 602,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 603,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 604,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 605,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 606,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 607,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 608,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 609,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 610,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 611,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 612,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 613,
+  "section": "Standard Diamond Grill 1200 x 2450",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_30",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 614,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 615,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 616,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 617,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 618,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 619,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 620,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 621,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 622,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 623,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 624,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 625,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 626,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 627,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 628,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 629,
+  "section": "Decorative Diamond Grill 770 x 2045",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_31",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 630,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 631,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 632,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 633,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 634,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 635,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 636,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 637,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 638,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 639,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 640,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 641,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 642,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 643,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 644,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 645,
+  "section": "Decorative Diamond Grill 900 x 2045",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_32",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 646,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 647,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 648,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 649,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 650,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 651,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 652,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 653,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 654,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 655,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 656,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 657,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 658,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 659,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 660,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 661,
+  "section": "Decorative Diamond Grill 1150 x 2050",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_33",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 662,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 663,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 664,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 665,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 666,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 667,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 668,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 669,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 670,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 671,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 672,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 673,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 674,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 675,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 676,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 677,
+  "section": "DVA Mesh 700 x 2000",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_34",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 678,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 679,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 680,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 681,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 682,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 683,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 684,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 685,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 686,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 687,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 688,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 689,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 690,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 691,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 692,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 693,
+  "section": "DVA Mesh 825 x 2000",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_35",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 694,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 695,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 696,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 697,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 698,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 699,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 700,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 701,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 702,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 703,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 704,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 705,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 706,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 707,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 708,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 709,
+  "section": "DVA Mesh 900 x 2200",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_36",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 710,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 711,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 712,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 713,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 714,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 715,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 716,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 717,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 718,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 719,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 720,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 721,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 722,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 723,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 724,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 725,
+  "section": "DVA Mesh 900 x 2400",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_37",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 726,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 727,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 728,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 729,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 730,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 731,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 732,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 733,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 734,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 735,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 736,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 737,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 738,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 739,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 740,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 741,
+  "section": "DVA Mesh 1200 x 2200",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_38",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 742,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 743,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 744,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 745,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 746,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 747,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 748,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 749,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 750,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 751,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 752,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 753,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 754,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 755,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 756,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 757,
+  "section": "DVA Mesh 1200 x 2400",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_39",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 758,
+  "section": "Flyscreen Mesh",
+  "header": "Fibreglass Mesh (50m)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Fibreglass_Mesh_50m",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 759,
+  "section": "Flyscreen Mesh",
+  "header": "Aluminium Mesh",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Aluminium_Mesh",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 760,
+  "section": "Flyscreen Mesh",
+  "header": "Tuffscreen",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Tuffscreen",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 761,
+  "section": "Flyscreen Mesh",
+  "header": "Stainless Steel Mesh",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Stainless_Steel_Mesh",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 762,
+  "section": "Flyscreen Mesh",
+  "header": "Stainless Steel Ember Guard Mesh",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Stainless_Steel_Ember_Guard_Mesh",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 763,
+  "section": "Flyscreen Mesh",
+  "header": "PetMesh (30m)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "PetMesh_30m",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 764,
+  "section": "Flyscreen Mesh",
+  "header": "Flyscreen Mesh",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Flyscreen_Mesh",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 765,
+  "section": "Colonial Cast SP13AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 766,
+  "section": "Colonial Cast SP13AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 767,
+  "section": "Colonial Cast SP13AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 768,
+  "section": "Colonial Cast SP13AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 769,
+  "section": "Colonial Cast SP13AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 770,
+  "section": "Colonial Cast SP13AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 771,
+  "section": "Colonial Cast SP13AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 772,
+  "section": "Colonial Cast SP13AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 773,
+  "section": "Colonial Cast SP13AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 774,
+  "section": "Colonial Cast SP13AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 775,
+  "section": "Colonial Cast SP13AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 776,
+  "section": "Colonial Cast SP13AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 777,
+  "section": "Colonial Cast SP13AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 778,
+  "section": "Colonial Cast SP13AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 779,
+  "section": "Colonial Cast SP13AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 780,
+  "section": "Colonial Cast SP13AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_40",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 781,
+  "section": "Colonial Cast SP13BB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 782,
+  "section": "Colonial Cast SP13BB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 783,
+  "section": "Colonial Cast SP13BB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 784,
+  "section": "Colonial Cast SP13BB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 785,
+  "section": "Colonial Cast SP13BB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 786,
+  "section": "Colonial Cast SP13BB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 787,
+  "section": "Colonial Cast SP13BB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 788,
+  "section": "Colonial Cast SP13BB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 789,
+  "section": "Colonial Cast SP13BB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 790,
+  "section": "Colonial Cast SP13BB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 791,
+  "section": "Colonial Cast SP13BB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 792,
+  "section": "Colonial Cast SP13BB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 793,
+  "section": "Colonial Cast SP13BB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 794,
+  "section": "Colonial Cast SP13BB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 795,
+  "section": "Colonial Cast SP13BB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 796,
+  "section": "Colonial Cast SP13BB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_41",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 797,
+  "section": "Colonial Cast SP14AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 798,
+  "section": "Colonial Cast SP14AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 799,
+  "section": "Colonial Cast SP14AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 800,
+  "section": "Colonial Cast SP14AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 801,
+  "section": "Colonial Cast SP14AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 802,
+  "section": "Colonial Cast SP14AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 803,
+  "section": "Colonial Cast SP14AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 804,
+  "section": "Colonial Cast SP14AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 805,
+  "section": "Colonial Cast SP14AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 806,
+  "section": "Colonial Cast SP14AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 807,
+  "section": "Colonial Cast SP14AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 808,
+  "section": "Colonial Cast SP14AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 809,
+  "section": "Colonial Cast SP14AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 810,
+  "section": "Colonial Cast SP14AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 811,
+  "section": "Colonial Cast SP14AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 812,
+  "section": "Colonial Cast SP14AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_42",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 813,
+  "section": "Colonial Cast SP17AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 814,
+  "section": "Colonial Cast SP17AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 815,
+  "section": "Colonial Cast SP17AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 816,
+  "section": "Colonial Cast SP17AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 817,
+  "section": "Colonial Cast SP17AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 818,
+  "section": "Colonial Cast SP17AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 819,
+  "section": "Colonial Cast SP17AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 820,
+  "section": "Colonial Cast SP17AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 821,
+  "section": "Colonial Cast SP17AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 822,
+  "section": "Colonial Cast SP17AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 823,
+  "section": "Colonial Cast SP17AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 824,
+  "section": "Colonial Cast SP17AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 825,
+  "section": "Colonial Cast SP17AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 826,
+  "section": "Colonial Cast SP17AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 827,
+  "section": "Colonial Cast SP17AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 828,
+  "section": "Colonial Cast SP17AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_43",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 829,
+  "section": "Colonial Cast SP27AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 830,
+  "section": "Colonial Cast SP27AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 831,
+  "section": "Colonial Cast SP27AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 832,
+  "section": "Colonial Cast SP27AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 833,
+  "section": "Colonial Cast SP27AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 834,
+  "section": "Colonial Cast SP27AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 835,
+  "section": "Colonial Cast SP27AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 836,
+  "section": "Colonial Cast SP27AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 837,
+  "section": "Colonial Cast SP27AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 838,
+  "section": "Colonial Cast SP27AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 839,
+  "section": "Colonial Cast SP27AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 840,
+  "section": "Colonial Cast SP27AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 841,
+  "section": "Colonial Cast SP27AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 842,
+  "section": "Colonial Cast SP27AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 843,
+  "section": "Colonial Cast SP27AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 844,
+  "section": "Colonial Cast SP27AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_44",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 845,
+  "section": "Colonial Cast SP29AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 846,
+  "section": "Colonial Cast SP29AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 847,
+  "section": "Colonial Cast SP29AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 848,
+  "section": "Colonial Cast SP29AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 849,
+  "section": "Colonial Cast SP29AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 850,
+  "section": "Colonial Cast SP29AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 851,
+  "section": "Colonial Cast SP29AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 852,
+  "section": "Colonial Cast SP29AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 853,
+  "section": "Colonial Cast SP29AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 854,
+  "section": "Colonial Cast SP29AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 855,
+  "section": "Colonial Cast SP29AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 856,
+  "section": "Colonial Cast SP29AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 857,
+  "section": "Colonial Cast SP29AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 858,
+  "section": "Colonial Cast SP29AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 859,
+  "section": "Colonial Cast SP29AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 860,
+  "section": "Colonial Cast SP29AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_45",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 861,
+  "section": "Colonial Cast SP34AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 862,
+  "section": "Colonial Cast SP34AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 863,
+  "section": "Colonial Cast SP34AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 864,
+  "section": "Colonial Cast SP34AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 865,
+  "section": "Colonial Cast SP34AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 866,
+  "section": "Colonial Cast SP34AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 867,
+  "section": "Colonial Cast SP34AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 868,
+  "section": "Colonial Cast SP34AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 869,
+  "section": "Colonial Cast SP34AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 870,
+  "section": "Colonial Cast SP34AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 871,
+  "section": "Colonial Cast SP34AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 872,
+  "section": "Colonial Cast SP34AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 873,
+  "section": "Colonial Cast SP34AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 874,
+  "section": "Colonial Cast SP34AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 875,
+  "section": "Colonial Cast SP34AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 876,
+  "section": "Colonial Cast SP34AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_46",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 877,
+  "section": "Colonial Cast SP37AB",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 878,
+  "section": "Colonial Cast SP37AB",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 879,
+  "section": "Colonial Cast SP37AB",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 880,
+  "section": "Colonial Cast SP37AB",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 881,
+  "section": "Colonial Cast SP37AB",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 882,
+  "section": "Colonial Cast SP37AB",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 883,
+  "section": "Colonial Cast SP37AB",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 884,
+  "section": "Colonial Cast SP37AB",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 885,
+  "section": "Colonial Cast SP37AB",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 886,
+  "section": "Colonial Cast SP37AB",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 887,
+  "section": "Colonial Cast SP37AB",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 888,
+  "section": "Colonial Cast SP37AB",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 889,
+  "section": "Colonial Cast SP37AB",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 890,
+  "section": "Colonial Cast SP37AB",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 891,
+  "section": "Colonial Cast SP37AB",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 892,
+  "section": "Colonial Cast SP37AB",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_47",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 893,
+  "section": "Colonial Cast SP52",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 894,
+  "section": "Colonial Cast SP52",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 895,
+  "section": "Colonial Cast SP52",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 896,
+  "section": "Colonial Cast SP52",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 897,
+  "section": "Colonial Cast SP52",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 898,
+  "section": "Colonial Cast SP52",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 899,
+  "section": "Colonial Cast SP52",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 900,
+  "section": "Colonial Cast SP52",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 901,
+  "section": "Colonial Cast SP52",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 902,
+  "section": "Colonial Cast SP52",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 903,
+  "section": "Colonial Cast SP52",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 904,
+  "section": "Colonial Cast SP52",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 905,
+  "section": "Colonial Cast SP52",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 906,
+  "section": "Colonial Cast SP52",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 907,
+  "section": "Colonial Cast SP52",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 908,
+  "section": "Colonial Cast SP52",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_48",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 909,
+  "section": "Colonial Cast SP53",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 910,
+  "section": "Colonial Cast SP53",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 911,
+  "section": "Colonial Cast SP53",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 912,
+  "section": "Colonial Cast SP53",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 913,
+  "section": "Colonial Cast SP53",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 914,
+  "section": "Colonial Cast SP53",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 915,
+  "section": "Colonial Cast SP53",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 916,
+  "section": "Colonial Cast SP53",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 917,
+  "section": "Colonial Cast SP53",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 918,
+  "section": "Colonial Cast SP53",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 919,
+  "section": "Colonial Cast SP53",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 920,
+  "section": "Colonial Cast SP53",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 921,
+  "section": "Colonial Cast SP53",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 922,
+  "section": "Colonial Cast SP53",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 923,
+  "section": "Colonial Cast SP53",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 924,
+  "section": "Colonial Cast SP53",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_49",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 925,
+  "section": "Colonial Cast SP55",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 926,
+  "section": "Colonial Cast SP55",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 927,
+  "section": "Colonial Cast SP55",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 928,
+  "section": "Colonial Cast SP55",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 929,
+  "section": "Colonial Cast SP55",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 930,
+  "section": "Colonial Cast SP55",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 931,
+  "section": "Colonial Cast SP55",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 932,
+  "section": "Colonial Cast SP55",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 933,
+  "section": "Colonial Cast SP55",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 934,
+  "section": "Colonial Cast SP55",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 935,
+  "section": "Colonial Cast SP55",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 936,
+  "section": "Colonial Cast SP55",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 937,
+  "section": "Colonial Cast SP55",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 938,
+  "section": "Colonial Cast SP55",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 939,
+  "section": "Colonial Cast SP55",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 940,
+  "section": "Colonial Cast SP55",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_50",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 941,
+  "section": "Colonial Cast SP56",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 942,
+  "section": "Colonial Cast SP56",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 943,
+  "section": "Colonial Cast SP56",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 944,
+  "section": "Colonial Cast SP56",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 945,
+  "section": "Colonial Cast SP56",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 946,
+  "section": "Colonial Cast SP56",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 947,
+  "section": "Colonial Cast SP56",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 948,
+  "section": "Colonial Cast SP56",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 949,
+  "section": "Colonial Cast SP56",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 950,
+  "section": "Colonial Cast SP56",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 951,
+  "section": "Colonial Cast SP56",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 952,
+  "section": "Colonial Cast SP56",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 953,
+  "section": "Colonial Cast SP56",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 954,
+  "section": "Colonial Cast SP56",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 955,
+  "section": "Colonial Cast SP56",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 956,
+  "section": "Colonial Cast SP56",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_51",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 957,
+  "section": "Colonial Cast SP65",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 958,
+  "section": "Colonial Cast SP65",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 959,
+  "section": "Colonial Cast SP65",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 960,
+  "section": "Colonial Cast SP65",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 961,
+  "section": "Colonial Cast SP65",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 962,
+  "section": "Colonial Cast SP65",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 963,
+  "section": "Colonial Cast SP65",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 964,
+  "section": "Colonial Cast SP65",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 965,
+  "section": "Colonial Cast SP65",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 966,
+  "section": "Colonial Cast SP65",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 967,
+  "section": "Colonial Cast SP65",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 968,
+  "section": "Colonial Cast SP65",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 969,
+  "section": "Colonial Cast SP65",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 970,
+  "section": "Colonial Cast SP65",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 971,
+  "section": "Colonial Cast SP65",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_56",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 972,
+  "section": "Colonial Cast SP65",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_52",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 973,
+  "section": "Colonial Cast SP72",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 974,
+  "section": "Colonial Cast SP72",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 975,
+  "section": "Colonial Cast SP72",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 976,
+  "section": "Colonial Cast SP72",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 977,
+  "section": "Colonial Cast SP72",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 978,
+  "section": "Colonial Cast SP72",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 979,
+  "section": "Colonial Cast SP72",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 980,
+  "section": "Colonial Cast SP72",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 981,
+  "section": "Colonial Cast SP72",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 982,
+  "section": "Colonial Cast SP72",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 983,
+  "section": "Colonial Cast SP72",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 984,
+  "section": "Colonial Cast SP72",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 985,
+  "section": "Colonial Cast SP72",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 986,
+  "section": "Colonial Cast SP72",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 987,
+  "section": "Colonial Cast SP72",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_57",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 988,
+  "section": "Colonial Cast SP72",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_53",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 989,
+  "section": "Colonial Cast SP74",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 990,
+  "section": "Colonial Cast SP74",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 991,
+  "section": "Colonial Cast SP74",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 992,
+  "section": "Colonial Cast SP74",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 993,
+  "section": "Colonial Cast SP74",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 994,
+  "section": "Colonial Cast SP74",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 995,
+  "section": "Colonial Cast SP74",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 996,
+  "section": "Colonial Cast SP74",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 997,
+  "section": "Colonial Cast SP74",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 998,
+  "section": "Colonial Cast SP74",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 999,
+  "section": "Colonial Cast SP74",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1000,
+  "section": "Colonial Cast SP74",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1001,
+  "section": "Colonial Cast SP74",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1002,
+  "section": "Colonial Cast SP74",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1003,
+  "section": "Colonial Cast SP74",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_58",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1004,
+  "section": "Colonial Cast SP74",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_54",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1005,
+  "section": "Colonial Cast SP78",
+  "header": "Apo Grey",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Apo_Grey_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1006,
+  "section": "Colonial Cast SP78",
+  "header": "Birch White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Birch_White_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1007,
+  "section": "Colonial Cast SP78",
+  "header": "Black",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Black_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1008,
+  "section": "Colonial Cast SP78",
+  "header": "Brown",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Brown_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1009,
+  "section": "Colonial Cast SP78",
+  "header": "Deep Ocean",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Deep_Ocean_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1010,
+  "section": "Colonial Cast SP78",
+  "header": "Jasper",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Jasper_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1011,
+  "section": "Colonial Cast SP78",
+  "header": "Paperbark",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Paperbark_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1012,
+  "section": "Colonial Cast SP78",
+  "header": "Pale Eucalypt",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Pale_Eucalypt_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1013,
+  "section": "Colonial Cast SP78",
+  "header": "Primrose",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Primrose_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1014,
+  "section": "Colonial Cast SP78",
+  "header": "Ultra Silver",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Ultra_Silver_55",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1015,
+  "section": "Colonial Cast SP78",
+  "header": "Woodland Grey (Green Tone)",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Woodland_Grey_Green_Tone_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1016,
+  "section": "Colonial Cast SP78",
+  "header": "White",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "White_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1017,
+  "section": "Colonial Cast SP78",
+  "header": "Monument",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Monument_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1018,
+  "section": "Colonial Cast SP78",
+  "header": "Surfmist",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Surfmist_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1019,
+  "section": "Colonial Cast SP78",
+  "header": "Dune",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Dune_59",
+  "nameMatch": true
+ },
+ {
+  "excelCol": 1020,
+  "section": "Colonial Cast SP78",
+  "header": "Custom Powdercoat",
+  "supplier": "PR Aluminium",
+  "sqlColumn": "Custom_Powdercoat_55",
+  "nameMatch": true
+ }
+]

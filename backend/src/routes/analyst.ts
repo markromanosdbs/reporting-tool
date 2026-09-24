@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
-import { getConnection, getBraxConnection } from '../db.js';
+import { getBraxConnection } from '../db.js';
+import { fetchTableData } from '../services/ReportData.js';
 
 const router = Router();
 
@@ -46,13 +47,10 @@ router.post('/analyst/analyze', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Invalid table name' });
     }
 
-    const pool = await getConnection();
     const braxPool = await getBraxConnection();
 
-    // Get all records from current table
-    const tableQuery = `SELECT quote_no, line_no FROM ${table}`;
-    const tableResult = await pool.request().query(tableQuery);
-    const currentTableRecords = tableResult.recordset || [];
+    // The rows the page shows for this table (Door Screen: calculated from braxreportsDB)
+    const { data: currentTableRecords } = await fetchTableData(table, 0, 50000, '');
 
     // Get all records from dbsproduction view
     const inventoryQuery = `
@@ -92,7 +90,10 @@ router.post('/analyst/analyze', async (req: Request, res: Response) => {
           buzNo: buzNo,
           lineNo: lineNo,
           inventoryItem: inv.InventoryItem,
-          message: `Hey, this job is missing here. Need uploading?`,
+          message: table === 'door_screen_components'
+            // Door Screen is calculated automatically, so a missing job means it couldn't be calculated
+            ? `Hey, this job is in production but has no components. Its options may not be in SalesOrderOptions_DASON yet.`
+            : `Hey, this job is missing here. Need uploading?`,
         });
       } else if (inv.ProductionStatus === 'Completed') {
         // Completed job still in table

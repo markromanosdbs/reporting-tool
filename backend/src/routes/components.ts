@@ -1,154 +1,19 @@
 import { Router, Request, Response } from 'express';
-import { getConnection, getBraxConnection } from '../db.js';
+import { getConnection } from '../db.js';
+import { VALID_TABLES, sanitizeTableName, fetchTableData } from '../services/ReportData.js';
+import { calculateSummary } from '../services/SummaryCalculator.js';
 
 const router = Router();
 
-const VALID_TABLES = [
-  'door_screen_components',
-  'curtain_tracks',
-  'external_blinds_components',
-  'panel_glides',
-  'roller_blind_components',
-  'roller_shutter_components',
-  'squalonet_retractable_screens',
-];
-
-// Tables that need job tracking data from braxreportsDB
-const TABLES_WITH_JOB_TRACKING = [
-  'door_screen_components',
-  'curtain_tracks',
-  'external_blinds_components',
-  'panel_glides',
-  'roller_blind_components',
-  'roller_shutter_components',
-  'squalonet_retractable_screens',
-];
-
-interface QueryParams {
-  skip?: number;
-  take?: number;
-  search?: string;
-  product?: string;
-  customer?: string;
-  table?: string;
-}
-
-function sanitizeTableName(table: string): string {
-  if (!VALID_TABLES.includes(table)) {
-    return 'door_screen_components';
-  }
-  return table;
-}
 
 router.get('/data', async (req: Request, res: Response) => {
   try {
-    const pool = await getConnection();
-
     const skip = parseInt(req.query.skip as string) || 0;
     const take = parseInt(req.query.take as string) || 1000;
     const table = sanitizeTableName((req.query.table as string) || 'door_screen_components');
     const search = (req.query.search as string) || '';
 
-    // Build WHERE clause - search by quote_no
-    let whereClause = 'WHERE 1=1';
-
-    if (search) {
-      whereClause += ` AND quote_no LIKE @search`;
-    }
-
-    // Count total records with filters
-    const countRequest = pool.request();
-    if (search) countRequest.input('search', `%${search}%`);
-
-    const countResult = await countRequest.query(
-      `SELECT COUNT(*) as total FROM [${table}] ${whereClause}`
-    );
-    const total = countResult.recordset[0]?.total || 0;
-
-    // Fetch paginated data with filters
-    const dataQuery = `
-      SELECT * FROM [${table}]
-      ${whereClause}
-      ORDER BY 1
-      OFFSET @skip ROWS
-      FETCH NEXT @take ROWS ONLY
-    `;
-
-    const dataRequest = pool.request()
-      .input('skip', skip)
-      .input('take', take);
-
-    if (search) dataRequest.input('search', `%${search}%`);
-
-    const finalResult = await dataRequest.query(dataQuery);
-
-    let data: any[] = finalResult.recordset;
-
-    // For tables with job tracking, fetch and merge tracking data
-    if (TABLES_WITH_JOB_TRACKING.includes(table) && data.length > 0) {
-      try {
-        // Build list of quote_no + line_no combinations to query
-        const lookupKeys = data.map((row: any) => `'${row.quote_no} ${row.line_no}'`).join(',');
-
-        console.log(`[DEBUG] Looking up ${data.length} records from braxreportsDB`);
-        console.log(`[DEBUG] Sample lookup keys: ${lookupKeys.substring(0, 200)}`);
-
-        // Get separate connection to braxreportsDB
-        const braxPool = await getBraxConnection();
-
-        // Query job tracking data from braxreportsDB
-        // Use dbswip for curtain_tracks, dbsproduction for other tables
-        const viewName = table === 'curtain_tracks' ? '[dbo].[dbswip]' : '[dbo].[dbsproduction]';
-        const trackingQuery = `
-          SELECT
-            [Buz and Line No.],
-            [ProductionStatus],
-            [InstallationStatus],
-            [DateScheduled]
-          FROM ${viewName}
-          WHERE [Buz and Line No.] IN (${lookupKeys})
-        `;
-
-        const trackingResult = await braxPool.request().query(trackingQuery);
-
-        console.log(`[DEBUG] Found ${trackingResult.recordset.length} matching records in braxreportsDB`);
-
-        // Create lookup map for tracking data
-        const trackingMap = new Map();
-        trackingResult.recordset.forEach((row: any) => {
-          trackingMap.set(row['Buz and Line No.'], {
-            job_tracking_action: row.ProductionStatus || '',
-            dispatch_action: row.InstallationStatus || '',
-            dispatch_date: row.DateScheduled || null,
-          });
-        });
-
-        // Merge tracking data into component data
-        data = data.map((row: any) => ({
-          ...row,
-          job_tracking_action: trackingMap.get(`${row.quote_no} ${row.line_no}`)?.job_tracking_action || '',
-          dispatch_action: trackingMap.get(`${row.quote_no} ${row.line_no}`)?.dispatch_action || '',
-          dispatch_date: trackingMap.get(`${row.quote_no} ${row.line_no}`)?.dispatch_date || null,
-        }));
-      } catch (trackingError) {
-        console.error('[ERROR] Error fetching tracking data:', trackingError);
-        // Continue without tracking data if there's an error
-        data = data.map((row: any) => ({
-          ...row,
-          job_tracking_action: '',
-          dispatch_action: '',
-          dispatch_date: null,
-        }));
-      }
-    } else if (!TABLES_WITH_JOB_TRACKING.includes(table)) {
-      // For Curtain Tracks, add empty tracking fields
-      data = data.map((row: any) => ({
-        ...row,
-        job_tracking_action: '',
-        dispatch_action: '',
-        dispatch_date: null,
-      }));
-    }
+    const { data, total } = await fetchTableData(table, skip, take, search);
 
     res.json({
       data,
@@ -160,6 +25,22 @@ router.get('/data', async (req: Request, res: Response) => {
   } catch (error) {
     console.error('Error fetching data:', error);
     res.status(500).json({ error: 'Failed to fetch data', details: (error as any).message });
+  }
+});
+
+/**
+ * GET /api/summary?table=...
+ * Summary rows (Total Required, Install Booked, Install Booked next 7 days, Kanban)
+ * over all rows of the table — calculated here rather than in the browser.
+ */
+router.get('/summary', async (req: Request, res: Response) => {
+  try {
+    const table = sanitizeTableName((req.query.table as string) || 'door_screen_components');
+    const { data } = await fetchTableData(table, 0, 50000, '');
+    res.json({ table, rows: data.length, sums: calculateSummary(table, data) });
+  } catch (error) {
+    console.error('Error calculating summary:', error);
+    res.status(500).json({ error: 'Failed to calculate summary', details: (error as any).message });
   }
 });
 

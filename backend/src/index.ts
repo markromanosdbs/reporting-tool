@@ -3,11 +3,13 @@ import express from 'express';
 import cors from 'cors';
 import https from 'https';
 import fs from 'fs';
-import { connectDB, closeDB } from './db.js';
+import { connectDB, closeDB, getBraxConnection } from './db.js';
 import componentsRouter from './routes/components.js';
 import commentsRouter from './routes/comments.js';
 import analystRouter from './routes/analyst.js';
 import calculatorRouter from './routes/calculator.js';
+import { warmUpDoorScreenEngines } from './services/jobsheet/DoorScreenJobSheet.js';
+import { warmUpDoorScreenPage } from './services/jobsheet/DoorScreenReport.js';
 
 const app = express();
 const PORT = process.env.PORT || 8443;
@@ -33,7 +35,9 @@ app.use('/api', calculatorRouter);
 // Initialize database and start server
 async function start() {
   try {
+    console.log('🚀 Starting server...');
     await connectDB();
+    console.log('✓ Database connected, setting up server...');
 
     // Read SSL certificates
     const certPath = '../cert.pem';
@@ -56,6 +60,13 @@ async function start() {
       });
     }
 
+    // Load the Door Screen job sheet templates now rather than on the first page load
+    warmUpDoorScreenEngines()
+      .then(() => console.log('✓ Door Screen job sheet templates loaded'))
+      .then(async () => warmUpDoorScreenPage(await getBraxConnection()))
+      .then(() => console.log('✓ Door Screen jobs calculated'))
+      .catch(e => console.error('Door Screen template load failed:', e));
+
     // Graceful shutdown
     process.on('SIGTERM', async () => {
       console.log('SIGTERM received, closing connections...');
@@ -63,7 +74,7 @@ async function start() {
       process.exit(0);
     });
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error('❌ Failed to start server:', error);
     process.exit(1);
   }
 }

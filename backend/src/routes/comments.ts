@@ -1,5 +1,7 @@
 import { Router, Request, Response } from 'express';
-import { getConnection } from '../db.js';
+import { getBraxConnection, asDbo } from '../db.js';
+
+// Comments live in braxreportsDB.dbo.comments; writes go through asDbo (see db.ts).
 
 const router = Router();
 
@@ -12,7 +14,7 @@ router.get('/comments', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing required parameters: table, quoteNo, lineNo' });
     }
 
-    const pool = await getConnection();
+    const pool = await getBraxConnection();
     let query = `
       SELECT [id], [table_name], [quote_no], [line_no], [column_name], [user], [timestamp], [comment_text]
       FROM [dbo].[comments]
@@ -60,7 +62,7 @@ router.post('/comments', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing required fields', missingFields });
     }
 
-    const pool = await getConnection();
+    const pool = await getBraxConnection();
     await pool.request()
       .input('table_name', String(table))
       .input('quote_no', String(quoteNo))
@@ -68,10 +70,10 @@ router.post('/comments', async (req: Request, res: Response) => {
       .input('column_name', String(columnName))
       .input('user_name', String(user))
       .input('comment_text', String(commentText))
-      .query(`
+      .query(asDbo(`
         INSERT INTO [dbo].[comments] ([table_name], [quote_no], [line_no], [column_name], [user], [comment_text], [timestamp])
-        VALUES (@table_name, @quote_no, @line_no, @column_name, @user_name, @comment_text, GETUTCDATE())
-      `);
+        VALUES (@table_name, @quote_no, @line_no, @column_name, @user_name, @comment_text, GETUTCDATE());
+      `));
 
     console.log('[COMMENTS] Comment added successfully');
     res.status(201).json({ success: true, message: 'Comment added successfully' });
@@ -86,13 +88,13 @@ router.delete('/comments/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
 
-    const pool = await getConnection();
+    const pool = await getBraxConnection();
     await pool.request()
       .input('id', Number(id))
-      .query(`
+      .query(asDbo(`
         DELETE FROM [dbo].[comments]
-        WHERE [id] = @id
-      `);
+        WHERE [id] = @id;
+      `));
 
     res.json({ success: true, message: 'Comment deleted successfully' });
   } catch (error) {
@@ -106,7 +108,7 @@ router.get('/comments/summary/:table', async (req: Request, res: Response) => {
   try {
     const { table } = req.params;
 
-    const pool = await getConnection();
+    const pool = await getBraxConnection();
     const result = await pool.request()
       .input('table_name', String(table))
       .query(`

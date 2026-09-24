@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
+import type { CSSProperties } from 'react';
 import axios from 'axios';
 import {
   useReactTable,
@@ -11,6 +12,7 @@ import { ExportButton } from './ExportButton';
 import { CommentsModal } from './CommentsModal';
 import { DataAnalyst } from './DataAnalyst';
 import clsx from 'clsx';
+import DOOR_SCREEN_HEADER_LABELS from '../config/doorScreenHeaderLabels.json';
 
 interface DataTableProps {
   data: any[];
@@ -143,7 +145,9 @@ const DOOR_SCREEN_GROUPS: { [key: string]: string } = {
   'dva_mesh_700_x_2000': 'DVA Mesh 700 x 2000',
   'dva_mesh_825_x_2000': 'DVA Mesh 825 x 2000',
   'dva_mesh_900_x_2200': 'DVA Mesh 900 x 2200',
+  'dva_mesh_900_x_2400': 'DVA Mesh 900 x 2400',
   'dva_mesh_1200_x_2200': 'DVA Mesh 1200 x 2200',
+  'dva_mesh_1200_x_2400': 'DVA Mesh 1200 x 2400',
   'flyscreen_mesh': 'Flyscreen Mesh',
   'colonial_cast_sp13ab': 'Colonial Cast SP13AB',
   'colonial_cast_sp13bb': 'Colonial Cast SP13BB',
@@ -1376,6 +1380,65 @@ const ROLLER_SHUTTER_PART_NUMBERS: { [key: string]: string } = {
   'somfy__15_channel_white_remote': '',
 };
 
+// ---- Door Screen header look, copied from the "AA_Door & Screen Components" Excel report ----
+// Colours are the report's theme colours as Excel renders them (HSL tint).
+const DS_PEACH = '#F6C6AD';        // section fill (Accent 2, 60% lighter)
+const DS_PART_BLANK = '#FF0000';   // conditional format: Part No cell is blank
+const DS_PR_ALUMINIUM = '#A6CAEC'; // conditional format: Supplier contains "PR Aluminium"
+const DS_ALSPEC = '#E59EDD';       // conditional format: Supplier contains "Alspec"
+const DS_BORDER = '1px solid #000000';
+const DS_OUTLINE = '2px solid #000000'; // medium outline around Standard Door Frame
+const DS_FONT = 'Arial, sans-serif';
+
+// Sections the report fills peach in the Group row (all others are white)
+const DS_PEACH_SECTIONS = new Set([
+  'standard_door_frame', 'screen_frame_37mm_x_11mm', 'invisi_gard_screen_frame_37mm_x_9mm', 'long_leg_frame',
+  '11mm_flyscreen_frame', 'z_frame', 'receiving_channel', 'bug_strip', 'top_track_with_pip', 'face_fit_bottom_track',
+  'h_bottom_track', 'invisi_gard_mid_rail', 'woven_stainless_steel_mesh', 'privacy_guard',
+  'standard_diamond_grill_835_x_2050', 'standard_diamond_grill_1200_x_2050', 'decorative_diamond_grill_770_x_2045',
+  'decorative_diamond_grill_1150_x_2050', 'dva_mesh_825_x_2000', 'dva_mesh_1200_x_2200', 'dva_mesh_1200_x_2400',
+]);
+
+const dsSection = (columnName: string) => columnName.split('__')[0];
+
+// Main header row: the report's label (colour / part name) and fill for each component column
+const DS_HEADER_LABELS = DOOR_SCREEN_HEADER_LABELS as unknown as Record<string, [string, string]>;
+const DS_HEADER_FILLS: Record<string, string> = { p: DS_PEACH, g: '#D9D9D9', '': '#FFFFFF' };
+// Base column labels as in the report (the page's internal column names are unchanged)
+const DS_BASE_LABELS: Record<string, string> = {
+  job_tracking_action: 'Job Tracking Action', dispatch_action: 'Dispatch Action', dispatch_date: 'Dispatch Date',
+  quote_no: 'Quote No.', line_no: 'Line No', order_item_code: 'Order Item Code', product: 'Product',
+  business_name: 'Customer', quote_ref: 'Quote Ref',
+};
+
+function dsGroupFill(columnName: string): string {
+  return DS_PEACH_SECTIONS.has(dsSection(columnName)) ? DS_PEACH : '#FFFFFF';
+}
+
+function dsSupplierFill(supplier: string): string {
+  if (/pr aluminium/i.test(supplier)) return DS_PR_ALUMINIUM;
+  if (/alspec/i.test(supplier)) return DS_ALSPEC;
+  return '#FFFFFF';
+}
+
+/**
+ * Thin black grid, plus the report's medium outline around the Standard Door Frame section.
+ * All four sides are set explicitly so no other border rule can override them.
+ */
+function dsBorders(
+  columnName: string,
+  outline: { top?: boolean; sides?: boolean } = {},
+  colSpanEnd?: string,
+): CSSProperties {
+  const inSdf = dsSection(columnName) === 'standard_door_frame';
+  return {
+    borderTop: outline.top && inSdf ? DS_OUTLINE : DS_BORDER,
+    borderBottom: DS_BORDER,
+    borderLeft: outline.sides && columnName === 'standard_door_frame__apo_grey' ? DS_OUTLINE : DS_BORDER,
+    borderRight: outline.sides && (colSpanEnd ?? columnName) === 'standard_door_frame__custom_powdercoat' ? DS_OUTLINE : DS_BORDER,
+  };
+}
+
 function getSupplierFromColumnName(columnName: string, tableName?: string): string {
   if (!columnName) return '';
 
@@ -1577,7 +1640,7 @@ export default function DataTable({
   } | null>(null);
   const [tableWidth, setTableWidth] = useState(0);
   const [cellsWithComments, setCellsWithComments] = useState<Set<string>>(new Set());
-  const [allDataForSummary, setAllDataForSummary] = useState<any[]>([]);
+  const [sums, setSums] = useState<{ [key: string]: any }>({});
   const [isAnalystOpen, setIsAnalystOpen] = useState(false);
 
   // Virtualization ref
@@ -1603,30 +1666,27 @@ export default function DataTable({
     if (tableName) {
       fetchCommentIndicators();
     }
+
+    // Reload the marks whenever a comment is added or deleted anywhere on the page
+    window.addEventListener('comments-changed', fetchCommentIndicators);
+    return () => window.removeEventListener('comments-changed', fetchCommentIndicators);
   }, [tableName]);
 
-  // Fetch all data for summary calculations (not paginated)
+  // Summary rows (Total Required, Install Booked, next 7 days, Kanban) are calculated by the backend
   useEffect(() => {
-    const fetchAllDataForSummary = async () => {
+    const fetchSummary = async () => {
       try {
         const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
-        const response = await axios.get(`${apiUrl}/data`, {
-          params: {
-            table: tableName,
-            skip: 0,
-            take: 50000, // Fetch up to 50k records for summary calculation
-          },
-        });
-        setAllDataForSummary(response.data.data || []);
+        const response = await axios.get(`${apiUrl}/summary`, { params: { table: tableName } });
+        setSums(response.data.sums || {});
       } catch (error) {
-        console.error('Error fetching all data for summary:', error);
-        // Fallback to current page data if full fetch fails
-        setAllDataForSummary(data);
+        console.error('Error fetching summary:', error);
+        setSums({});
       }
     };
 
     if (tableName) {
-      fetchAllDataForSummary();
+      fetchSummary();
     }
   }, [tableName, data]);
 
@@ -1634,196 +1694,6 @@ export default function DataTable({
   const BASE_COLUMNS = tableName && TABLE_BASE_COLUMNS[tableName]
     ? TABLE_BASE_COLUMNS[tableName]
     : TABLE_BASE_COLUMNS['door_screen_components'];
-  // Calculate sums with SQL formula logic (divisors, confirmation filtering, date ranges)
-  const calculateSums = (rows: any[]) => {
-    const sums: { [key: string]: any } = {};
-
-    if (rows.length === 0) return sums;
-
-    const firstRow = rows[0];
-    // Use date strings for comparison to avoid timezone issues
-    const today = new Date();
-    const todayStr = today.toISOString().split('T')[0]; // YYYY-MM-DD
-    const sevenDaysLater = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
-    const sevenDaysLaterStr = sevenDaysLater.toISOString().split('T')[0]; // YYYY-MM-DD
-
-    // Skip base columns that shouldn't have sums calculated
-    const skipColumns = ['id', 'job_tracking_action', 'dispatch_action', 'dispatch_date',
-                        'quote_no', 'line_no', 'order_item_code', 'product', 'business_name',
-                        'quote_ref', 'fabric', 'fabric_sqm', 'fabric_width', 'fabric_drop'];
-
-    Object.keys(firstRow).forEach((key) => {
-      // Skip non-numeric and base columns
-      if (skipColumns.includes(key)) return;
-
-      const numericValues = rows
-        .map((row) => {
-          const val = row[key];
-          if (typeof val === 'string') {
-            const num = parseFloat(val);
-            return isNaN(num) ? 0 : num;
-          }
-          return typeof val === 'number' && !isNaN(val) ? val : 0;
-        });
-
-      // Only apply divisor if column is a component column (getDivisor returns > 1 or has special logic)
-      const divisor = getDivisor(key);
-
-      // Total Required: sum all values / divisor
-      const total = numericValues.reduce((a, b) => a + b, 0) / divisor;
-
-      // Install Booked: sum values where dispatch_action === 'Confirmed' / divisor
-      const ib_total = rows
-        .reduce((sum, row, idx) => {
-          const isConfirmed = row.dispatch_action === 'Confirmed';
-          return sum + (isConfirmed ? numericValues[idx] : 0);
-        }, 0) / divisor;
-
-      // Install Booked next 7 days: sum values where Confirmed AND dispatch_date within 7 days / divisor
-      const ib7_total = rows
-        .reduce((sum, row, idx) => {
-          const isConfirmed = row.dispatch_action === 'Confirmed';
-          // Compare dates as strings (YYYY-MM-DD format) to avoid timezone issues
-          const dispatchDateStr = row.dispatch_date ? row.dispatch_date.split('T')[0] : null;
-          const isWithin7Days = dispatchDateStr && dispatchDateStr >= todayStr && dispatchDateStr < sevenDaysLaterStr;
-          return sum + (isConfirmed && isWithin7Days ? numericValues[idx] : 0);
-        }, 0) / divisor;
-
-      // Store the main total for backward compatibility
-      sums[key] = total;
-
-      // Also store the detailed breakdown for summary rows
-      if (!sums._details) sums._details = {};
-      sums._details[key] = { total, ib_total, ib7_total, kanban_min: 0 };
-    });
-
-    return sums;
-  };
-
-  // Table-specific divisor maps (from SQL stored procedures)
-  const DIVISOR_MAPS: { [key: string]: { [key: string]: number } } = {
-    'roller_blind_components': {
-      'd30_bottom_rail_anodised_silver': 5800, 'd30_bottom_rail_white': 5800, 'd30_bottom_rail_black': 5800, 'd30_bottom_rail_sandstone': 5800, 'd30_bottom_rail_bone': 5800,
-      'pelmet_95_anodised': 5800, 'pelmet_95_white': 5800, 'pelmet_95_black': 5800, 'pelmet_95_cream': 5800,
-      'cf90_cassette_back_black': 4800, 'cf90_cassette_back_white': 4800, 'cf90_cassette_back_cream': 4800, 'cf90_cassette_back_anodised_silver': 4800,
-      'cf90_cassette_square_front_white': 4800, 'cf90_cassette_square_front_black': 4800, 'cf90_cassette_square_front_cream': 4800, 'cf90_cassette_square_front_anodised_silver': 4800,
-      'cf90_cassette_round_front_white': 4800, 'cf90_cassette_round_front_black': 4800, 'cf90_cassette_round_front_cream': 4800, 'cf90_cassette_round_front_anodised_silver': 4800,
-      'cf90_cassette_side_guide_white': 5800, 'cf90_cassette_side_guide_black': 5800, 'cf90_cassette_side_guide_cream': 5800, 'cf90_cassette_side_guide_anodised_silver': 5800,
-      'aluminium_valance_100mm_white': 5800, 'mounting_rail': 5800, 'lath': 3600, 'weight_bar': 2000,
-      '15mm_spline': 100000, '38mm_tube': 5800, '43mm_tube': 5800, '43mm_heavy_duty_tube': 5800, '60mm_tube': 3600, '80mm_tube': 4800,
-      '38mm_chain_winder_white': 1, '38mm_chain_winder_black': 1, '43mm_chain_winder_white': 1, '43mm_chain_winder_black': 1,
-      '40mm_bracket_white': 1, '40mm_bracket_black': 1, '55mm_bracket_white': 1, '55mm_bracket_black': 1,
-    },
-    'roller_shutter_components': {
-      // Pattern-based divisors from SQL: axle_idle, bottom_bar_end_cap, steel_weight_bar, perforated_slat, pelmet_back_cover, angle, square_tube, axle, bottom_bar, side_guides
-    }
-  };
-
-  const getDivisor = (columnName: string): number => {
-    const mapForTable = DIVISOR_MAPS[tableName || 'roller_blind_components'] || DIVISOR_MAPS['roller_blind_components'];
-
-    // For roller_shutter_components, use pattern matching from SQL CASE statement
-    if (tableName === 'roller_shutter_components') {
-      if (columnName.includes('axle_idle') || columnName.includes('bottom_bar_end_cap')) return 1;
-      if (columnName.includes('steel_weight_bar')) return 300;
-      if (columnName.includes('perforated_slat')) return 30;
-      if (columnName.includes('pelmet_back_cover') || columnName.includes('angle') ||
-          columnName.includes('square_tube') || columnName.includes('axle') ||
-          columnName.includes('bottom_bar') || columnName.includes('side_guides')) return 5800;
-      return 1;
-    }
-
-    // For door_screen_components, use pattern matching from SQL CASE statement
-    if (tableName === 'door_screen_components') {
-      if (columnName.includes('standard_door_frame')) return 5950;
-      if (columnName.includes('invisi_gard_door_frame')) return 6150;
-      if (columnName === 'misc__flyscreen_spline') return 408000;
-      if (columnName === 'misc__bug_strip_felt') return 500000;
-      return 1;
-    }
-
-    // For curtain_tracks, use specific column name mappings from SQL CASE statement
-    if (tableName === 'curtain_tracks') {
-      if (columnName === 'wavefold_tape_metres') return 100;
-      if (columnName === 'wavefold_track_white_metres' || columnName === 'wavefold_track_black_metres' ||
-          columnName === 'wavefold_track_matt_satin_metres' || columnName === 'streamline_track_white_metres' ||
-          columnName === 'streamline_matt_black_ink_metres' || columnName === 'streamline_birch_white_metres' ||
-          columnName === 'streamline_matt_satin_metres') return 6;
-      if (columnName === 'conduit') return 5000;
-      return 1;
-    }
-
-    // For squalonet_retractable_screens, use pattern matching with priority order from SQL CASE statement
-    // NOTE: Order matters - tape checks before track checks, magnet_holder before magnet
-    if (tableName === 'squalonet_retractable_screens') {
-      // Tape + track combinations (highest priority - must check before plain track)
-      if ((columnName.includes('tape') && columnName.includes('top_track')) ||
-          (columnName.includes('tape') && columnName.includes('top') && columnName.includes('track'))) return 66000;
-      if ((columnName.includes('tape') && columnName.includes('bottom_track')) ||
-          (columnName.includes('tape') && columnName.includes('bottom') && columnName.includes('track'))) return 550000;
-      // Magnet combinations (magnet_holder before plain magnet)
-      if (columnName.includes('magnet_holder') ||
-          (columnName.includes('magnet') && columnName.includes('holder'))) return 6000;
-      if (columnName.includes('magnet')) return 200000;
-      // Other components
-      if (columnName.includes('handle_bar') ||
-          (columnName.includes('handle') && columnName.includes('bar'))) return 6000;
-      if (columnName.includes('starting') && columnName.includes('channel')) return 6000;
-      if (columnName.includes('receiving') && columnName.includes('channel')) return 6000;
-      if ((columnName.includes('top') && columnName.includes('track')) ||
-          columnName.includes('top_track')) return 6000;
-      if ((columnName.includes('bottom') && columnName.includes('track')) ||
-          columnName.includes('bottom_track')) return 6000;
-      if (columnName.includes('angle')) return 5800;
-      return 1;
-    }
-
-    // For external_blinds_components, use substring matching from SQL CHARINDEX statement
-    if (tableName === 'external_blinds_components') {
-      if (columnName.includes('5_side_bottom_rail')) return 6500;
-      if (columnName.includes('hooding')) return 6600;
-      if (columnName.includes('50mm_tube')) return 6500;
-      if (columnName.includes('63mm_tube')) return 6500;
-      if (columnName.includes('70mm_tube')) return 6500;
-      if (columnName.includes('78mm_tube')) return 6000;
-      if (columnName.includes('85mm_tube')) return 6000;
-      if (columnName.includes('pull_stick_white_lengths')) return 3000;
-      if (columnName.includes('fixed_guide_12mm_ballast')) return 3000;
-      if (columnName.includes('inner_nylon_guide')) return 3000;
-      if (columnName.includes('3_6mm_spline')) return 500000;
-      if (columnName.includes('6mm_spline_soft')) return 500000;
-      if (columnName.includes('6mm_spline_hard')) return 6000;
-      return 1;
-    }
-
-    // For panel_glides, use pattern matching with priority from SQL LIKE statements
-    // NOTE: Order matters - channel checks before plain patterns, bar_end_caps before plain bar
-    if (tableName === 'panel_glides') {
-      // Channel track end caps (check before plain channel_track)
-      if ((columnName.includes('channel_track_end_caps')) ||
-          (columnName.includes('channel') && columnName.includes('end') && columnName.includes('cap'))) return 1;
-      // Channel track
-      if ((columnName.includes('channel_track')) ||
-          (columnName.includes('channel') && columnName.includes('track'))) return 4800;
-      // Panel bar end caps (check before plain panel_bar)
-      if ((columnName.includes('panel_bar_end_caps')) ||
-          (columnName.includes('panel') && columnName.includes('bar') && columnName.includes('end') && columnName.includes('cap'))) return 1;
-      // Panel bar
-      if ((columnName.includes('panel_bar')) ||
-          (columnName.includes('panel') && columnName.includes('bar'))) return 5800;
-      // Spline
-      if (columnName.includes('spline')) return 100000;
-      // Everything else (D30 Bottom Rail, Roller Car, Nut & Bolt, Flick Stick, Brackets)
-      return 1;
-    }
-
-    return mapForTable[columnName] || 1;
-  };
-
-  // All tables use frontend-calculated sums for real-time updates
-  // Use all data for summary calculations, not just current page
-
-  const sums = calculateSums(allDataForSummary.length > 0 ? allDataForSummary : data);
 
   // Generate columns dynamically from data, ordered with base columns first
   const columns: ColumnDef<any>[] = useMemo(() => {
@@ -1960,13 +1830,16 @@ export default function DataTable({
                   const partNumberText = getPartNumberFromColumnName(headerText, tableName);
                   const shouldRotate = !EXCLUDED_ROTATION_COLS.includes(headerText);
 
+                  const dsCell = tableName === 'door_screen_components' && !isBaseColumn;
+
                   return (
                     <td
                       key={`partnum-${header.id}`}
                       style={{
                         padding: '2px 2px',
-                        backgroundColor: isBaseColumn ? '#f5f5f5' : '#fff2cc',
+                        backgroundColor: isBaseColumn ? '#f5f5f5' : (dsCell ? (partNumberText ? '#FFFFFF' : DS_PART_BLANK) : '#fff2cc'),
                         borderRight: '1px solid #ccc',
+
                         textAlign: 'center',
                         verticalAlign: 'middle',
                         color: '#000000',
@@ -1982,7 +1855,8 @@ export default function DataTable({
                           writingMode: 'vertical-rl',
                           textOrientation: 'mixed',
                           transform: 'rotate(180deg)',
-                        } : {})
+                        } : {}),
+                        ...(dsCell ? { fontFamily: DS_FONT, fontWeight: 'normal', fontSize: '9pt', ...dsBorders(headerText) } : {}),
                       }}
                       className="group relative"
                     >
@@ -2045,8 +1919,13 @@ export default function DataTable({
                         }
                       }
 
+                      const lastHeaderText = String(headers[i + colSpan - 1].column.columnDef.header || '');
+                      const dsGroup = tableName === 'door_screen_components'
+                        ? { backgroundColor: dsGroupFill(headerText), fontFamily: DS_FONT, fontSize: '10pt', ...dsBorders(headerText, { top: true, sides: true }, lastHeaderText) }
+                        : {};
+
                       result.push(
-                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2' }} className="group relative">
+                        <td key={`gh-${currentHeader.id}`} colSpan={colSpan} style={{ padding: '4px 2px', backgroundColor: '#b3e5fc', textAlign: 'center', verticalAlign: 'middle', borderRight: '1px solid #ccc', color: '#000000', fontSize: '11px', fontWeight: 'bold', minWidth: `${55 * colSpan}px`, maxWidth: `${55 * colSpan}px`, overflow: 'visible', whiteSpace: 'normal', wordBreak: 'break-word', lineHeight: '1.2', ...dsGroup }} className="group relative">
                           <div className="flex items-center justify-center gap-0.5">
                             <span>{groupHeader}</span>
                             {renderCommentButton(`Group_${groupHeader}_${i}`, 'header', 0, 'header')}
@@ -2074,6 +1953,7 @@ export default function DataTable({
                   const isFirstColumn = idx === 0;
                   const supplierText = getSupplierFromColumnName(headerText, tableName);
                   const shouldRotate = !EXCLUDED_ROTATION_COLS.includes(headerText);
+                  const dsCell = tableName === 'door_screen_components' && !isBaseColumn;
 
                   return (
                     <td
@@ -2097,7 +1977,8 @@ export default function DataTable({
                           writingMode: 'vertical-rl',
                           textOrientation: 'mixed',
                           transform: 'rotate(180deg)',
-                        } : {})
+                        } : {}),
+                        ...(dsCell ? { backgroundColor: dsSupplierFill(supplierText), fontFamily: DS_FONT, fontWeight: 'normal', fontSize: '8pt', ...dsBorders(headerText, { sides: true }) } : {}),
                       }}
                       className="group relative"
                     >
@@ -2114,7 +1995,7 @@ export default function DataTable({
             )}
 
             {table.getHeaderGroups().map((headerGroup) => (
-              <tr key={headerGroup.id} style={{ height: '320px', borderBottom: '1px solid #333' }}>
+              <tr key={headerGroup.id} style={{ height: tableName === 'door_screen_components' ? '110px' : '320px', borderBottom: '1px solid #333' }}>
                 {headerGroup.headers.map((header) => {
                   const headerText = String(
                     header.column.columnDef.header || ''
@@ -2122,6 +2003,24 @@ export default function DataTable({
                   const isBaseColumn = BASE_COLUMNS.some(
                     (base) => base.toLowerCase() === headerText.toLowerCase()
                   );
+                  // Door Screen: show the report's label; comments stay keyed on the column name
+                  const isDoorScreen = tableName === 'door_screen_components';
+                  const dsLabel = isDoorScreen ? DS_HEADER_LABELS[headerText] : undefined;
+                  const displayText = isDoorScreen
+                    ? (isBaseColumn ? (DS_BASE_LABELS[headerText] ?? headerText) : (dsLabel?.[0] ?? headerText))
+                    : headerText;
+                  const dsHeaderStyle: CSSProperties = isDoorScreen && !isBaseColumn ? {
+                    height: '110px',
+                    backgroundColor: DS_HEADER_FILLS[dsLabel?.[1] ?? ''],
+                    color: '#000000',
+                    fontFamily: DS_FONT,
+                    fontSize: '8pt',
+                    fontWeight: 'normal',
+                    lineHeight: '1.1',
+                    whiteSpace: 'normal',
+                    textAlign: 'center',
+                    ...dsBorders(headerText, { sides: true }),
+                  } : {};
 
                   return (
                     <th
@@ -2146,12 +2045,13 @@ export default function DataTable({
                               fontSize: '10px',
                               overflow: 'visible',
                               borderRight: '1px solid #ccc',
+                              ...dsHeaderStyle,
                             }
                           : { minWidth: '70px', borderRight: '1px solid #ccc' }
                       }
                     >
-                      <div className="flex items-center justify-between gap-1 relative">
-                        <span>{headerText}</span>
+                      <div className={clsx('flex items-center gap-1 relative', dsLabel ? 'justify-center' : 'justify-between')}>
+                        <span>{displayText}</span>
                         {cellsWithComments.has(`header_0_${headerText}`) && (
                           <span className="w-3 h-3 bg-red-500 rounded-full flex-shrink-0" title="Has comments"></span>
                         )}

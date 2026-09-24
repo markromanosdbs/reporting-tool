@@ -79,6 +79,7 @@ export function CommentsModal({
       console.log('Comment response:', response);
       setNewComment('');
       await fetchComments();
+      window.dispatchEvent(new Event('comments-changed')); // refresh comment marks in the table
     } catch (error) {
       console.error('Error adding comment:', error);
       alert('Error adding comment: ' + (error as any).message);
@@ -92,6 +93,7 @@ export function CommentsModal({
       const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
       await axios.delete(`${apiUrl}/comments/${id}`);
       await fetchComments();
+      window.dispatchEvent(new Event('comments-changed')); // refresh comment marks in the table
     } catch (error) {
       console.error('Error deleting comment:', error);
     }

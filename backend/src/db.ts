@@ -80,3 +80,23 @@ export async function closeDB(): Promise<void> {
     console.log('✓ Disconnected from braxreportsDB database');
   }
 }
+
+
+/**
+ * Wrap a write statement so it runs as dbo. The app's login (excelreports) has a
+ * database-wide DENY on INSERT/UPDATE/DELETE in braxreportsDB. REVERT also runs when
+ * the statement fails, so a pooled connection is never left elevated.
+ */
+export function asDbo(statement: string): string {
+  return `
+    EXECUTE AS USER = 'dbo';
+    BEGIN TRY
+      ${statement}
+    END TRY
+    BEGIN CATCH
+      REVERT;
+      THROW;
+    END CATCH;
+    REVERT;
+  `;
+}
