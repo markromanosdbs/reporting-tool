@@ -68,6 +68,10 @@ export const ROLLER_SHUTTERS: ProductConfig = {
   parseDescn: parseRollerShutterSlat,
   baseColumns: { Quote_No: 4, Line_No: 5, Order_Item_Code: 6, Product: 7, Business_Name: 8, Quote_Ref: 9 },
   envFlag: 'ROLLERSHUTTERS_FROM_ENGINE',
+  // all open jobs, like Curtain Tracks (user request 30 Sep 2026): dbsproduction only has the lines already
+  // in production; dbswip also has the ones still being ordered/checked
+  jobsView: 'dbswip',
+  excludeStatuses: ['Completed', 'Cancelled'],
 };
 
 // ---- External Blinds: one page, one template per product code (each has its own job sheet formulas) ----
