@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import sql from 'mssql';
 import { JobSheetEngine, CellInput, DataSheetInput } from './JobSheetEngine.js';
+import { loadTemplateEngine } from './preparedTemplates.js';
 import { ComponentsMapper } from '../ComponentsMapper.js';
 
 /**
@@ -14,10 +15,11 @@ import { ComponentsMapper } from '../ComponentsMapper.js';
 const here = path.dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_DIR = path.resolve(here, '../../../templates');
 
-const TEMPLATES: Record<string, string> = {
+export const DOOR_SCREEN_TEMPLATES: Record<string, string> = {
   SECD: 'DoorScreen_SECD_Template.xlsm',
   GRIL: 'DoorScreen_GRIL_Template.xlsm',
 };
+const TEMPLATES = DOOR_SCREEN_TEMPLATES;
 
 // Data!AX on each line (BUZ InventoryGroup.Descn)
 const GROUP_DESCN: Record<string, string> = { SECD: 'Doors', GRIL: 'Screens & Grills' };
@@ -53,7 +55,7 @@ const engines: Record<string, Promise<JobSheetEngine>> = {};
 function getEngine(group: string): Promise<JobSheetEngine> {
   const file = TEMPLATES[group];
   if (!file) throw new Error(`No Door Screen template for group ${group}`);
-  engines[group] ??= JobSheetEngine.fromTemplate(path.join(TEMPLATE_DIR, file));
+  engines[group] ??= loadTemplateEngine(file);
   return engines[group];
 }
 
@@ -91,6 +93,7 @@ export interface OrderInfo {
   CustomerGroup?: string;
   SalesRep?: string;
   Installer?: string;
+  DateScheduled?: Date | string | null;   // WIP schedule date: Data!BF on the line (CTRA shows the colour only when it is set)
 }
 
 export async function calculateDoorScreenLine(

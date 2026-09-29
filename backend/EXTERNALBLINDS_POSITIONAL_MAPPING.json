@@ -1,0 +1,3258 @@
+[
+ {
+  "excelCol": 10,
+  "section": "",
+  "header": "Fabric",
+  "supplier": "",
+  "sqlColumn": "Fabric",
+  "legacy": "fabric"
+ },
+ {
+  "excelCol": 11,
+  "section": "",
+  "header": "Fabric Sqm",
+  "supplier": "",
+  "sqlColumn": "Fabric_Sqm",
+  "legacy": "fabric_sqm"
+ },
+ {
+  "excelCol": 12,
+  "section": "",
+  "header": "Fabric Width",
+  "supplier": "",
+  "sqlColumn": "Fabric_Width",
+  "legacy": "fabric_width"
+ },
+ {
+  "excelCol": 13,
+  "section": "",
+  "header": "Fabric Drop",
+  "supplier": "",
+  "sqlColumn": "Fabric_Drop",
+  "legacy": "fabric_drop"
+ },
+ {
+  "excelCol": 14,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc",
+  "legacy": "colourbond_under_roll_hooding_zinc"
+ },
+ {
+  "excelCol": 15,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black",
+  "legacy": "colourbond_under_roll_hooding_black"
+ },
+ {
+  "excelCol": 16,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green",
+  "legacy": "colourbond_under_roll_hooding_caulfield_green"
+ },
+ {
+  "excelCol": 17,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal",
+  "legacy": "colourbond_under_roll_hooding_charcoal"
+ },
+ {
+  "excelCol": 18,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune",
+  "legacy": "colourbond_under_roll_hooding_dune"
+ },
+ {
+  "excelCol": 19,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red",
+  "legacy": "colourbond_under_roll_hooding_heritage_red"
+ },
+ {
+  "excelCol": 20,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone",
+  "legacy": "colourbond_under_roll_hooding_ironstone"
+ },
+ {
+  "excelCol": 21,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper",
+  "legacy": "colourbond_under_roll_hooding_jasper"
+ },
+ {
+  "excelCol": 22,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino",
+  "legacy": "colourbond_under_roll_hooding_merino"
+ },
+ {
+  "excelCol": 23,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green",
+  "legacy": "colourbond_under_roll_hooding_mist_green"
+ },
+ {
+  "excelCol": 24,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue",
+  "legacy": "colourbond_under_roll_hooding_mountain_blue"
+ },
+ {
+  "excelCol": 25,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose",
+  "legacy": "colourbond_under_roll_hooding_primrose"
+ },
+ {
+  "excelCol": 26,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey",
+  "legacy": "colourbond_under_roll_hooding_shale_grey"
+ },
+ {
+  "excelCol": 27,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey",
+  "legacy": "colourbond_under_roll_hooding_slate_grey"
+ },
+ {
+  "excelCol": 28,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "Surfmist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surfmist",
+  "legacy": "colourbond_under_roll_hooding_surf_mist"
+ },
+ {
+  "excelCol": 29,
+  "section": "Colourbond Under-Roll Hooding",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White",
+  "legacy": "colourbond_under_roll_hooding_white"
+ },
+ {
+  "excelCol": 30,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_2",
+  "legacy": "colourbond_under_roll_hood_ends_zinc"
+ },
+ {
+  "excelCol": 31,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_2",
+  "legacy": "colourbond_under_roll_hood_ends_black"
+ },
+ {
+  "excelCol": 32,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_2",
+  "legacy": "colourbond_under_roll_hood_ends_caulfield_green"
+ },
+ {
+  "excelCol": 33,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_2",
+  "legacy": "colourbond_under_roll_hood_ends_charcoal"
+ },
+ {
+  "excelCol": 34,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_2",
+  "legacy": "colourbond_under_roll_hood_ends_dune"
+ },
+ {
+  "excelCol": 35,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_2",
+  "legacy": "colourbond_under_roll_hood_ends_heritage_red"
+ },
+ {
+  "excelCol": 36,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_2",
+  "legacy": "colourbond_under_roll_hood_ends_ironstone"
+ },
+ {
+  "excelCol": 37,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_2",
+  "legacy": "colourbond_under_roll_hood_ends_jasper"
+ },
+ {
+  "excelCol": 38,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_2",
+  "legacy": "colourbond_under_roll_hood_ends_merino"
+ },
+ {
+  "excelCol": 39,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_2",
+  "legacy": "colourbond_under_roll_hood_ends_mist_green"
+ },
+ {
+  "excelCol": 40,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_2",
+  "legacy": "colourbond_under_roll_hood_ends_mountain_blue"
+ },
+ {
+  "excelCol": 41,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_2",
+  "legacy": "colourbond_under_roll_hood_ends_primrose"
+ },
+ {
+  "excelCol": 42,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_2",
+  "legacy": "colourbond_under_roll_hood_ends_shale_grey"
+ },
+ {
+  "excelCol": 43,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_2",
+  "legacy": "colourbond_under_roll_hood_ends_slate_grey"
+ },
+ {
+  "excelCol": 44,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "Surfmist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surfmist_2",
+  "legacy": "colourbond_under_roll_hood_ends_surf_mist"
+ },
+ {
+  "excelCol": 45,
+  "section": "Colourbond Under-Roll Hood Ends",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_2",
+  "legacy": "colourbond_under_roll_hood_ends_white"
+ },
+ {
+  "excelCol": 46,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_zinc"
+ },
+ {
+  "excelCol": 47,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_black"
+ },
+ {
+  "excelCol": 48,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_caulfield_green"
+ },
+ {
+  "excelCol": 49,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_charcoal"
+ },
+ {
+  "excelCol": 50,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_dune"
+ },
+ {
+  "excelCol": 51,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_heritage_red"
+ },
+ {
+  "excelCol": 52,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_ironstone"
+ },
+ {
+  "excelCol": 53,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_jasper"
+ },
+ {
+  "excelCol": 54,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_merino"
+ },
+ {
+  "excelCol": 55,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_mist_green"
+ },
+ {
+  "excelCol": 56,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_mountain_blue"
+ },
+ {
+  "excelCol": 57,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_primrose"
+ },
+ {
+  "excelCol": 58,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_shale_grey"
+ },
+ {
+  "excelCol": 59,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_slate_grey"
+ },
+ {
+  "excelCol": 60,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "Surf Mist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surf_Mist",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_surf_mist"
+ },
+ {
+  "excelCol": 61,
+  "section": "Colourbond Under-Roll Hood Ends with Holes",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_3",
+  "legacy": "colourbond_under_roll_hood_ends_with_holes_white"
+ },
+ {
+  "excelCol": 62,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_4",
+  "legacy": "colourbond_over_roll_hooding_zinc"
+ },
+ {
+  "excelCol": 63,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_4",
+  "legacy": "colourbond_over_roll_hooding_black"
+ },
+ {
+  "excelCol": 64,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_4",
+  "legacy": "colourbond_over_roll_hooding_caulfield_green"
+ },
+ {
+  "excelCol": 65,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_4",
+  "legacy": "colourbond_over_roll_hooding_charcoal"
+ },
+ {
+  "excelCol": 66,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_4",
+  "legacy": "colourbond_over_roll_hooding_dune"
+ },
+ {
+  "excelCol": 67,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_4",
+  "legacy": "colourbond_over_roll_hooding_heritage_red"
+ },
+ {
+  "excelCol": 68,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_4",
+  "legacy": "colourbond_over_roll_hooding_ironstone"
+ },
+ {
+  "excelCol": 69,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_4",
+  "legacy": "colourbond_over_roll_hooding_jasper"
+ },
+ {
+  "excelCol": 70,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_4",
+  "legacy": "colourbond_over_roll_hooding_merino"
+ },
+ {
+  "excelCol": 71,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_4",
+  "legacy": "colourbond_over_roll_hooding_mist_green"
+ },
+ {
+  "excelCol": 72,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_4",
+  "legacy": "colourbond_over_roll_hooding_mountain_blue"
+ },
+ {
+  "excelCol": 73,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_4",
+  "legacy": "colourbond_over_roll_hooding_primrose"
+ },
+ {
+  "excelCol": 74,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_4",
+  "legacy": "colourbond_over_roll_hooding_shale_grey"
+ },
+ {
+  "excelCol": 75,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_4",
+  "legacy": "colourbond_over_roll_hooding_slate_grey"
+ },
+ {
+  "excelCol": 76,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "Surfmist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surfmist_3",
+  "legacy": "colourbond_over_roll_hooding_surf_mist"
+ },
+ {
+  "excelCol": 77,
+  "section": "Colourbond Over-Roll Hooding",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_4",
+  "legacy": "colourbond_over_roll_hooding_white"
+ },
+ {
+  "excelCol": 78,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_5",
+  "legacy": "colourbond_over_roll_hood_ends_zinc"
+ },
+ {
+  "excelCol": 79,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_5",
+  "legacy": "colourbond_over_roll_hood_ends_black"
+ },
+ {
+  "excelCol": 80,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_5",
+  "legacy": "colourbond_over_roll_hood_ends_caulfield_green"
+ },
+ {
+  "excelCol": 81,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_5",
+  "legacy": "colourbond_over_roll_hood_ends_charcoal"
+ },
+ {
+  "excelCol": 82,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_5",
+  "legacy": "colourbond_over_roll_hood_ends_dune"
+ },
+ {
+  "excelCol": 83,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_5",
+  "legacy": "colourbond_over_roll_hood_ends_heritage_red"
+ },
+ {
+  "excelCol": 84,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_5",
+  "legacy": "colourbond_over_roll_hood_ends_ironstone"
+ },
+ {
+  "excelCol": 85,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_5",
+  "legacy": "colourbond_over_roll_hood_ends_jasper"
+ },
+ {
+  "excelCol": 86,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_5",
+  "legacy": "colourbond_over_roll_hood_ends_merino"
+ },
+ {
+  "excelCol": 87,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_5",
+  "legacy": "colourbond_over_roll_hood_ends_mist_green"
+ },
+ {
+  "excelCol": 88,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_5",
+  "legacy": "colourbond_over_roll_hood_ends_mountain_blue"
+ },
+ {
+  "excelCol": 89,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_5",
+  "legacy": "colourbond_over_roll_hood_ends_primrose"
+ },
+ {
+  "excelCol": 90,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_5",
+  "legacy": "colourbond_over_roll_hood_ends_shale_grey"
+ },
+ {
+  "excelCol": 91,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_5",
+  "legacy": "colourbond_over_roll_hood_ends_slate_grey"
+ },
+ {
+  "excelCol": 92,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "Surf Mist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surf_Mist_2",
+  "legacy": "colourbond_over_roll_hood_ends_surf_mist"
+ },
+ {
+  "excelCol": 93,
+  "section": "Colourbond Over-Roll Hood Ends",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_5",
+  "legacy": "colourbond_over_roll_hood_ends_white"
+ },
+ {
+  "excelCol": 94,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_zinc"
+ },
+ {
+  "excelCol": 95,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_black"
+ },
+ {
+  "excelCol": 96,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_caulfield_green"
+ },
+ {
+  "excelCol": 97,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_charcoal"
+ },
+ {
+  "excelCol": 98,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_dune"
+ },
+ {
+  "excelCol": 99,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_heritage_red"
+ },
+ {
+  "excelCol": 100,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_ironstone"
+ },
+ {
+  "excelCol": 101,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_jasper"
+ },
+ {
+  "excelCol": 102,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_merino"
+ },
+ {
+  "excelCol": 103,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_mist_green"
+ },
+ {
+  "excelCol": 104,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_mountain_blue"
+ },
+ {
+  "excelCol": 105,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_primrose"
+ },
+ {
+  "excelCol": 106,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_shale_grey"
+ },
+ {
+  "excelCol": 107,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_slate_grey"
+ },
+ {
+  "excelCol": 108,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "Surf Mist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surf_Mist_3",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_surf_mist"
+ },
+ {
+  "excelCol": 109,
+  "section": "Colourbond Over-Roll Hood Ends with Holes",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_6",
+  "legacy": "colourbond_over_roll_hood_ends_with_holes_white"
+ },
+ {
+  "excelCol": 110,
+  "section": "Tubes",
+  "header": "50mm Tube",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Tube",
+  "legacy": "50mm_tube"
+ },
+ {
+  "excelCol": 111,
+  "section": "Tubes",
+  "header": "63mm Tube",
+  "supplier": "Challenger",
+  "sqlColumn": "N63mm_Tube",
+  "legacy": "63mm_tube"
+ },
+ {
+  "excelCol": 112,
+  "section": "Tubes",
+  "header": "70mm Tube",
+  "supplier": "Challenger",
+  "sqlColumn": "N70mm_Tube",
+  "legacy": "70mm_tube"
+ },
+ {
+  "excelCol": 113,
+  "section": "Tubes",
+  "header": "78mm Tube",
+  "supplier": "Challenger",
+  "sqlColumn": "N78mm_Tube",
+  "legacy": "78mm_tube"
+ },
+ {
+  "excelCol": 114,
+  "section": "Tubes",
+  "header": "85mm Tube",
+  "supplier": "Challenger",
+  "sqlColumn": "N85mm_Tube",
+  "legacy": "85mm_tube"
+ },
+ {
+  "excelCol": 115,
+  "section": "Drives & Idles",
+  "header": "50mm Drive End",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Drive_End",
+  "legacy": "50mm_drive_end"
+ },
+ {
+  "excelCol": 116,
+  "section": "Drives & Idles",
+  "header": "50mm Idle with Hole",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Idle_with_Hole",
+  "legacy": "50mm_idle_with_hole"
+ },
+ {
+  "excelCol": 117,
+  "section": "Drives & Idles",
+  "header": "63mm Drive End",
+  "supplier": "Challenger",
+  "sqlColumn": "N63mm_Drive_End",
+  "legacy": "63mm_drive_end"
+ },
+ {
+  "excelCol": 118,
+  "section": "Drives & Idles",
+  "header": "63mm Idle with Hole",
+  "supplier": "Challenger",
+  "sqlColumn": "N63mm_Idle_with_Hole",
+  "legacy": "63mm_idle_with_hole"
+ },
+ {
+  "excelCol": 119,
+  "section": "Drives & Idles",
+  "header": "70mm Drive End",
+  "supplier": "Challenger",
+  "sqlColumn": "N70mm_Drive_End",
+  "legacy": "70mm_drive_end"
+ },
+ {
+  "excelCol": 120,
+  "section": "Drives & Idles",
+  "header": "70mm Idle with Hole",
+  "supplier": "Challenger",
+  "sqlColumn": "N70mm_Idle_with_Hole",
+  "legacy": "70mm_idle_with_hole"
+ },
+ {
+  "excelCol": 121,
+  "section": "Drives & Idles",
+  "header": "78mm Drive End",
+  "supplier": "Challenger",
+  "sqlColumn": "N78mm_Drive_End",
+  "legacy": "78mm_drive_end"
+ },
+ {
+  "excelCol": 122,
+  "section": "Drives & Idles",
+  "header": "78mm Idle with Hole",
+  "supplier": "Challenger",
+  "sqlColumn": "N78mm_Idle_with_Hole",
+  "legacy": "78mm_idle_with_hole"
+ },
+ {
+  "excelCol": 123,
+  "section": "Drives & Idles",
+  "header": "85mm Drive End",
+  "supplier": "Challenger",
+  "sqlColumn": "N85mm_Drive_End",
+  "legacy": "85mm_drive_end"
+ },
+ {
+  "excelCol": 124,
+  "section": "Drives & Idles",
+  "header": "85mm Idle with Hole",
+  "supplier": "Challenger",
+  "sqlColumn": "N85mm_Idle_with_Hole",
+  "legacy": "85mm_idle_with_hole"
+ },
+ {
+  "excelCol": 125,
+  "section": "5 Sided Bottom Rail",
+  "header": "Zinc",
+  "supplier": "Challenger",
+  "sqlColumn": "Zinc_7",
+  "legacy": "5_side_bottom_rail_zinc"
+ },
+ {
+  "excelCol": 126,
+  "section": "5 Sided Bottom Rail",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_7",
+  "legacy": "5_side_bottom_rail_black"
+ },
+ {
+  "excelCol": 127,
+  "section": "5 Sided Bottom Rail",
+  "header": "Caulfield Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Caulfield_Green_7",
+  "legacy": "5_side_bottom_rail_caulfield_green"
+ },
+ {
+  "excelCol": 128,
+  "section": "5 Sided Bottom Rail",
+  "header": "Charcoal",
+  "supplier": "Challenger",
+  "sqlColumn": "Charcoal_7",
+  "legacy": "5_side_bottom_rail_charcoal"
+ },
+ {
+  "excelCol": 129,
+  "section": "5 Sided Bottom Rail",
+  "header": "Dune",
+  "supplier": "Challenger",
+  "sqlColumn": "Dune_7",
+  "legacy": "5_side_bottom_rail_dune"
+ },
+ {
+  "excelCol": 130,
+  "section": "5 Sided Bottom Rail",
+  "header": "Heritage Red",
+  "supplier": "Challenger",
+  "sqlColumn": "Heritage_Red_7",
+  "legacy": "5_side_bottom_rail_heritage_red"
+ },
+ {
+  "excelCol": 131,
+  "section": "5 Sided Bottom Rail",
+  "header": "Ironstone",
+  "supplier": "Challenger",
+  "sqlColumn": "Ironstone_7",
+  "legacy": "5_side_bottom_rail_ironstone"
+ },
+ {
+  "excelCol": 132,
+  "section": "5 Sided Bottom Rail",
+  "header": "Jasper",
+  "supplier": "Challenger",
+  "sqlColumn": "Jasper_7",
+  "legacy": "5_side_bottom_rail_jasper"
+ },
+ {
+  "excelCol": 133,
+  "section": "5 Sided Bottom Rail",
+  "header": "Merino",
+  "supplier": "Challenger",
+  "sqlColumn": "Merino_7",
+  "legacy": "5_side_bottom_rail_merino"
+ },
+ {
+  "excelCol": 134,
+  "section": "5 Sided Bottom Rail",
+  "header": "Mist Green",
+  "supplier": "Challenger",
+  "sqlColumn": "Mist_Green_7",
+  "legacy": "5_side_bottom_rail_mist_green"
+ },
+ {
+  "excelCol": 135,
+  "section": "5 Sided Bottom Rail",
+  "header": "Mountain Blue",
+  "supplier": "Challenger",
+  "sqlColumn": "Mountain_Blue_7",
+  "legacy": "5_side_bottom_rail_mountain_blue"
+ },
+ {
+  "excelCol": 136,
+  "section": "5 Sided Bottom Rail",
+  "header": "Primrose",
+  "supplier": "Challenger",
+  "sqlColumn": "Primrose_7",
+  "legacy": "5_side_bottom_rail_primrose"
+ },
+ {
+  "excelCol": 137,
+  "section": "5 Sided Bottom Rail",
+  "header": "Shale Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Shale_Grey_7",
+  "legacy": "5_side_bottom_rail_shale_grey"
+ },
+ {
+  "excelCol": 138,
+  "section": "5 Sided Bottom Rail",
+  "header": "Slate Grey",
+  "supplier": "Challenger",
+  "sqlColumn": "Slate_Grey_7",
+  "legacy": "5_side_bottom_rail_slate_grey"
+ },
+ {
+  "excelCol": 139,
+  "section": "5 Sided Bottom Rail",
+  "header": "Surf Mist",
+  "supplier": "Challenger",
+  "sqlColumn": "Surf_Mist_4",
+  "legacy": "5_side_bottom_rail_surf_mist"
+ },
+ {
+  "excelCol": 140,
+  "section": "5 Sided Bottom Rail",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_7",
+  "legacy": "5_side_bottom_rail_white"
+ },
+ {
+  "excelCol": 141,
+  "section": "Misc.",
+  "header": "Pivot Pin & Plate",
+  "supplier": "Challenger",
+  "sqlColumn": "Pivot_Pin_Plate",
+  "legacy": "pivot_pin_plate"
+ },
+ {
+  "excelCol": 142,
+  "section": "Misc.",
+  "header": "Pivot Pin & Plate Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "Pivot_Pin_Plate_Stainless_Steel",
+  "legacy": "pivot_pin_plate_stainless_steel"
+ },
+ {
+  "excelCol": 143,
+  "section": "Misc.",
+  "header": "5 Sided Bottom Rail Pull Ring",
+  "supplier": "Challenger",
+  "sqlColumn": "N5_Sided_Bottom_Rail_Pull_Ring",
+  "legacy": "5_sided_bottom_rail_pull_ring"
+ },
+ {
+  "excelCol": 144,
+  "section": "Misc.",
+  "header": "5 Sided Bottom Rail End Cap",
+  "supplier": "Challenger",
+  "sqlColumn": "N5_Sided_Bottom_Rail_End_Cap",
+  "legacy": "5_sided_bottom_rail_end_cap"
+ },
+ {
+  "excelCol": 145,
+  "section": "Springs",
+  "header": "50mm Small Spring",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Small_Spring",
+  "legacy": "50mm_small_spring"
+ },
+ {
+  "excelCol": 146,
+  "section": "Springs",
+  "header": "50mm Standard Spring",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Standard_Spring",
+  "legacy": "50mm_standard_spring"
+ },
+ {
+  "excelCol": 147,
+  "section": "Springs",
+  "header": "63mm Spring",
+  "supplier": "Challenger",
+  "sqlColumn": "N63mm_Spring",
+  "legacy": "63mm_spring"
+ },
+ {
+  "excelCol": 148,
+  "section": "Auto Guide",
+  "header": "900mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N900mm",
+  "legacy": "auto_guide_900mm"
+ },
+ {
+  "excelCol": 149,
+  "section": "Auto Guide",
+  "header": "1050mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1050mm",
+  "legacy": "auto_guide_1050mm"
+ },
+ {
+  "excelCol": 150,
+  "section": "Auto Guide",
+  "header": "1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1200mm",
+  "legacy": "auto_guide_1200mm"
+ },
+ {
+  "excelCol": 151,
+  "section": "Auto Guide",
+  "header": "1350mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1350mm",
+  "legacy": "auto_guide_1350mm"
+ },
+ {
+  "excelCol": 152,
+  "section": "Auto Guide",
+  "header": "1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1500mm",
+  "legacy": "auto_guide_1500mm"
+ },
+ {
+  "excelCol": 153,
+  "section": "Auto Guide",
+  "header": "1650mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1650mm",
+  "legacy": "auto_guide1650mm"
+ },
+ {
+  "excelCol": 154,
+  "section": "Auto Guide",
+  "header": "1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1800mm",
+  "legacy": "auto_guide_1800mm"
+ },
+ {
+  "excelCol": 155,
+  "section": "Auto Guide",
+  "header": "1950mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1950mm",
+  "legacy": "auto_guide_1950mm"
+ },
+ {
+  "excelCol": 156,
+  "section": "Auto Guide",
+  "header": "2100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2100mm",
+  "legacy": "auto_guide_2100mm"
+ },
+ {
+  "excelCol": 157,
+  "section": "Auto Guide",
+  "header": "2400mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2400mm",
+  "legacy": "auto_guide_2400mm"
+ },
+ {
+  "excelCol": 158,
+  "section": "Auto Guide",
+  "header": "2700mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2700mm",
+  "legacy": "auto_guide_2700mm"
+ },
+ {
+  "excelCol": 159,
+  "section": "Auto Guide",
+  "header": "3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N3000mm",
+  "legacy": "auto_guide_3000mm"
+ },
+ {
+  "excelCol": 160,
+  "section": "Auto Guide Stainless Steel",
+  "header": "900mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N900mm_2",
+  "legacy": "auto_guide_900mm_stainless_steel"
+ },
+ {
+  "excelCol": 161,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1050mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1050mm_2",
+  "legacy": "auto_guide_1050mm_stainless_steel"
+ },
+ {
+  "excelCol": 162,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1200mm_2",
+  "legacy": "auto_guide_1200mm_stainless_steel"
+ },
+ {
+  "excelCol": 163,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1350mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1350mm_2",
+  "legacy": "auto_guide_1350mm_stainless_steel"
+ },
+ {
+  "excelCol": 164,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1500mm_2",
+  "legacy": "auto_guide_1500mm_stainless_steel"
+ },
+ {
+  "excelCol": 165,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1650mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1650mm_2",
+  "legacy": "auto_guide1650mm_stainless_steel"
+ },
+ {
+  "excelCol": 166,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1800mm_2",
+  "legacy": "auto_guide_1800mm_stainless_steel"
+ },
+ {
+  "excelCol": 167,
+  "section": "Auto Guide Stainless Steel",
+  "header": "1950mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1950mm_2",
+  "legacy": "auto_guide_1950mm_stainless_steel"
+ },
+ {
+  "excelCol": 168,
+  "section": "Auto Guide Stainless Steel",
+  "header": "2100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2100mm_2",
+  "legacy": "auto_guide_2100mm_stainless_steel"
+ },
+ {
+  "excelCol": 169,
+  "section": "Auto Guide Stainless Steel",
+  "header": "2400mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2400mm_2",
+  "legacy": "auto_guide_2400mm_stainless_steel"
+ },
+ {
+  "excelCol": 170,
+  "section": "Auto Guide Stainless Steel",
+  "header": "2700mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2700mm_2",
+  "legacy": "auto_guide_2700mm_stainless_steel"
+ },
+ {
+  "excelCol": 171,
+  "section": "Auto Guide Stainless Steel",
+  "header": "3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N3000mm_2",
+  "legacy": "auto_guide_3000mm_stainless_steel"
+ },
+ {
+  "excelCol": 172,
+  "section": "Auto Arm",
+  "header": "150mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm",
+  "legacy": "auto_arm_150mm"
+ },
+ {
+  "excelCol": 173,
+  "section": "Auto Arm",
+  "header": "225mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N225mm",
+  "legacy": "auto_arm_225mm"
+ },
+ {
+  "excelCol": 174,
+  "section": "Auto Arm",
+  "header": "300mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm",
+  "legacy": "auto_arm_300mm"
+ },
+ {
+  "excelCol": 175,
+  "section": "Auto Arm",
+  "header": "450mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N450mm",
+  "legacy": "auto_arm_450mm"
+ },
+ {
+  "excelCol": 176,
+  "section": "Auto Arm",
+  "header": "600mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N600mm",
+  "legacy": "auto_arm_600mm"
+ },
+ {
+  "excelCol": 177,
+  "section": "Auto Arm",
+  "header": "900mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N900mm_3",
+  "legacy": "auto_arm_900mm"
+ },
+ {
+  "excelCol": 178,
+  "section": "Auto Arm Stainless Steel",
+  "header": "150mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm_2",
+  "legacy": "auto_arm_150mm_stainless_steel"
+ },
+ {
+  "excelCol": 179,
+  "section": "Auto Arm Stainless Steel",
+  "header": "225mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N225mm_2",
+  "legacy": "auto_arm_225mm_stainless_steel"
+ },
+ {
+  "excelCol": 180,
+  "section": "Auto Arm Stainless Steel",
+  "header": "300mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm_2",
+  "legacy": "auto_arm_300mm_stainless_steel"
+ },
+ {
+  "excelCol": 181,
+  "section": "Auto Arm Stainless Steel",
+  "header": "600mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N600mm_2",
+  "legacy": "auto_arm_600mm_stainless_steel"
+ },
+ {
+  "excelCol": 182,
+  "section": "Misc.",
+  "header": "U Bracket",
+  "supplier": "Challenger",
+  "sqlColumn": "U_Bracket",
+  "legacy": "u_bracket"
+ },
+ {
+  "excelCol": 183,
+  "section": "Misc.",
+  "header": "U Bracket Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "U_Bracket_Stainless_Steel",
+  "legacy": "u_bracket_stainless_steel"
+ },
+ {
+  "excelCol": 184,
+  "section": "Misc.",
+  "header": "Guide End Cap",
+  "supplier": "Challenger",
+  "sqlColumn": "Guide_End_Cap",
+  "legacy": "guide_end_cap"
+ },
+ {
+  "excelCol": 185,
+  "section": "Pull Stick",
+  "header": "Pull Stick 1500mm White",
+  "supplier": "Challenger",
+  "sqlColumn": "Pull_Stick_1500mm_White",
+  "legacy": "pull_stick_1500mm_white"
+ },
+ {
+  "excelCol": 186,
+  "section": "Pull Stick",
+  "header": "Pull Stick White Lengths",
+  "supplier": "Challenger",
+  "sqlColumn": "Pull_Stick_White_Lengths",
+  "legacy": "pull_stick_white_lengths"
+ },
+ {
+  "excelCol": 187,
+  "section": "Pull Stick",
+  "header": "Pull Stick Hook",
+  "supplier": "Challenger",
+  "sqlColumn": "Pull_Stick_Hook",
+  "legacy": "pull_stick_hook"
+ },
+ {
+  "excelCol": 188,
+  "section": "Pull Stick",
+  "header": "Pull Stick End Cap",
+  "supplier": "Challenger",
+  "sqlColumn": "Pull_Stick_End_Cap",
+  "legacy": "pull_stick_end_cap"
+ },
+ {
+  "excelCol": 189,
+  "section": "Brackets",
+  "header": "Spring Brackets",
+  "supplier": "Challenger",
+  "sqlColumn": "Spring_Brackets",
+  "legacy": "spring_brackets"
+ },
+ {
+  "excelCol": 190,
+  "section": "Brackets",
+  "header": "Spring Brackets Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "Spring_Brackets_Stainless_Steel",
+  "legacy": "spring_brackets_stainless_steel"
+ },
+ {
+  "excelCol": 191,
+  "section": "Misc.",
+  "header": "Side Fix Bracket for Guide",
+  "supplier": "Challenger",
+  "sqlColumn": "Side_Fix_Bracket_for_Guide",
+  "legacy": "side_fix_bracket_for_guide"
+ },
+ {
+  "excelCol": 192,
+  "section": "Misc.",
+  "header": "Side Fix Bracket for U Bracket",
+  "supplier": "Challenger",
+  "sqlColumn": "Side_Fix_Bracket_for_U_Bracket",
+  "legacy": "side_fix_bracket_for_u_bracket"
+ },
+ {
+  "excelCol": 193,
+  "section": "Misc.",
+  "header": "Telescopic Corner Bracket Small",
+  "supplier": "Challenger",
+  "sqlColumn": "Telescopic_Corner_Bracket_Small",
+  "legacy": "telescopic_corner_bracket_small"
+ },
+ {
+  "excelCol": 194,
+  "section": "Misc.",
+  "header": "Telescopic Corner Bracket Universal",
+  "supplier": "Challenger",
+  "sqlColumn": "Telescopic_Corner_Bracket_Universal",
+  "legacy": "telescopic_corner_bracket_universal"
+ },
+ {
+  "excelCol": 195,
+  "section": "Gearboxes",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_8",
+  "legacy": "gearbox_7_1_black"
+ },
+ {
+  "excelCol": 196,
+  "section": "Gearboxes",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_8",
+  "legacy": "gearbox_7_1_white"
+ },
+ {
+  "excelCol": 197,
+  "section": "Crank Handle",
+  "header": "Black 1000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_1000mm",
+  "legacy": "crank_handle_black_1000mm"
+ },
+ {
+  "excelCol": 198,
+  "section": "Crank Handle",
+  "header": "Black 1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_1200mm",
+  "legacy": "crank_handle_black_1200mm"
+ },
+ {
+  "excelCol": 199,
+  "section": "Crank Handle",
+  "header": "Black 1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_1500mm",
+  "legacy": "crank_handle_black_1500mm"
+ },
+ {
+  "excelCol": 200,
+  "section": "Crank Handle",
+  "header": "Black 1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_1800mm",
+  "legacy": "crank_handle_black_1800mm"
+ },
+ {
+  "excelCol": 201,
+  "section": "Crank Handle",
+  "header": "Black 2200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_2200mm",
+  "legacy": "crank_handle_black_2200mm"
+ },
+ {
+  "excelCol": 202,
+  "section": "Crank Handle",
+  "header": "Black 2500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_2500mm",
+  "legacy": "crank_handle_black_2500mm"
+ },
+ {
+  "excelCol": 203,
+  "section": "Crank Handle",
+  "header": "Black 3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_3000mm",
+  "legacy": "crank_handle_black_3000mm"
+ },
+ {
+  "excelCol": 204,
+  "section": "Crank Handle",
+  "header": "White 1000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_1000mm",
+  "legacy": "crank_handle_white_1000mm"
+ },
+ {
+  "excelCol": 205,
+  "section": "Crank Handle",
+  "header": "White 1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_1200mm",
+  "legacy": "crank_handle_white_1200mm"
+ },
+ {
+  "excelCol": 206,
+  "section": "Crank Handle",
+  "header": "White 1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_1500mm",
+  "legacy": "crank_handle_white_1500mm"
+ },
+ {
+  "excelCol": 207,
+  "section": "Crank Handle",
+  "header": "White 1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_1800mm",
+  "legacy": "crank_handle_white_1800mm"
+ },
+ {
+  "excelCol": 208,
+  "section": "Crank Handle",
+  "header": "White 2200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_2200mm",
+  "legacy": "crank_handle_white_2200mm"
+ },
+ {
+  "excelCol": 209,
+  "section": "Crank Handle",
+  "header": "White 2500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_2500mm",
+  "legacy": "crank_handle_white_2500mm"
+ },
+ {
+  "excelCol": 210,
+  "section": "Crank Handle",
+  "header": "White 3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "White_3000mm",
+  "legacy": "crank_handle_white_3000mm"
+ },
+ {
+  "excelCol": 211,
+  "section": "Fixed Guide",
+  "header": "900mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N900mm_4",
+  "legacy": "fixed_guide_900mm"
+ },
+ {
+  "excelCol": 212,
+  "section": "Fixed Guide",
+  "header": "1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1200mm_3",
+  "legacy": "fixed_guide_1200mm"
+ },
+ {
+  "excelCol": 213,
+  "section": "Fixed Guide",
+  "header": "1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1500mm_3",
+  "legacy": "fixed_guide_1500mm"
+ },
+ {
+  "excelCol": 214,
+  "section": "Fixed Guide",
+  "header": "1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1800mm_3",
+  "legacy": "fixed_guide_1800mm"
+ },
+ {
+  "excelCol": 215,
+  "section": "Fixed Guide",
+  "header": "2100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2100mm_3",
+  "legacy": "fixed_guide_2100mm"
+ },
+ {
+  "excelCol": 216,
+  "section": "Fixed Guide",
+  "header": "2400mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2400mm_3",
+  "legacy": "fixed_guide_2400mm"
+ },
+ {
+  "excelCol": 217,
+  "section": "Fixed Guide",
+  "header": "2700mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2700mm_3",
+  "legacy": "fixed_guide_2700mm"
+ },
+ {
+  "excelCol": 218,
+  "section": "Fixed Guide",
+  "header": "3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N3000mm_3",
+  "legacy": "fixed_guide_3000mm"
+ },
+ {
+  "excelCol": 219,
+  "section": "Fixed Guide",
+  "header": "3500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N3500mm",
+  "legacy": "fixed_guide_3500mm"
+ },
+ {
+  "excelCol": 220,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "900mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N900mm_5",
+  "legacy": "fixed_guide_900mm_stainless_steel"
+ },
+ {
+  "excelCol": 221,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "1200mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1200mm_4",
+  "legacy": "fixed_guide_1200mm_stainless_steel"
+ },
+ {
+  "excelCol": 222,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "1500mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1500mm_4",
+  "legacy": "fixed_guide_1500mm_stainless_steel"
+ },
+ {
+  "excelCol": 223,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "1800mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N1800mm_4",
+  "legacy": "fixed_guide_1800mm_stainless_steel"
+ },
+ {
+  "excelCol": 224,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "2100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2100mm_4",
+  "legacy": "fixed_guide_2100mm_stainless_steel"
+ },
+ {
+  "excelCol": 225,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "2400mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2400mm_4",
+  "legacy": "fixed_guide_2400mm_stainless_steel"
+ },
+ {
+  "excelCol": 226,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "2700mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N2700mm_4",
+  "legacy": "fixed_guide_2700mm_stainless_steel"
+ },
+ {
+  "excelCol": 227,
+  "section": "Fixed Guide Stainless Steel",
+  "header": "3000mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N3000mm_4",
+  "legacy": "fixed_guide_3000mm_stainless_steel"
+ },
+ {
+  "excelCol": 228,
+  "section": "Misc.",
+  "header": "Fixed Guide 12mm Ballast",
+  "supplier": "Bluescope",
+  "sqlColumn": "Fixed_Guide_12mm_Ballast",
+  "legacy": "fixed_guide_12mm_ballast"
+ },
+ {
+  "excelCol": 229,
+  "section": "L Bracket",
+  "header": "150mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm_3",
+  "legacy": "fixed_guide_l_bracket_150mm"
+ },
+ {
+  "excelCol": 230,
+  "section": "L Bracket",
+  "header": "225mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N225mm_3",
+  "legacy": "fixed_guide_l_bracket_225mm"
+ },
+ {
+  "excelCol": 231,
+  "section": "L Bracket",
+  "header": "300mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm_3",
+  "legacy": "fixed_guide_l_bracket_300mm"
+ },
+ {
+  "excelCol": 232,
+  "section": "L Bracket",
+  "header": "450mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N450mm_2",
+  "legacy": "fixed_guide_l_bracket_450mm"
+ },
+ {
+  "excelCol": 233,
+  "section": "L Bracket",
+  "header": "600mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N600mm_3",
+  "legacy": "fixed_guide_l_bracket_600mm"
+ },
+ {
+  "excelCol": 234,
+  "section": "L Bracket",
+  "header": "150mm Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm_Stainless_Steel",
+  "legacy": "fixed_guide_l_bracket_150mm_stainless_steel"
+ },
+ {
+  "excelCol": 235,
+  "section": "L Bracket",
+  "header": "225mm Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "N225mm_Stainless_Steel",
+  "legacy": "fixed_guide_l_bracket_225mm_stainless_steel"
+ },
+ {
+  "excelCol": 236,
+  "section": "L Bracket",
+  "header": "300mm Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm_Stainless_Steel",
+  "legacy": "fixed_guide_l_bracket_300mm_stainless_steel"
+ },
+ {
+  "excelCol": 237,
+  "section": "Misc.",
+  "header": "Fixed Guide Runners",
+  "supplier": "Challenger",
+  "sqlColumn": "Fixed_Guide_Runners",
+  "legacy": "fixed_guide_runners"
+ },
+ {
+  "excelCol": 238,
+  "section": "Fixed Guide Pulley",
+  "header": "150mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm_4",
+  "legacy": "fixed_guide_pulley_150mm_single"
+ },
+ {
+  "excelCol": 239,
+  "section": "Fixed Guide Pulley",
+  "header": "225mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N225mm_4",
+  "legacy": "fixed_guide_pulley_225mm_single"
+ },
+ {
+  "excelCol": 240,
+  "section": "Fixed Guide Pulley",
+  "header": "300mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm_4",
+  "legacy": "fixed_guide_pulley_300mm_single"
+ },
+ {
+  "excelCol": 241,
+  "section": "Fixed Guide Pulley",
+  "header": "150mm Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "N150mm_Stainless_Steel_2",
+  "legacy": "fixed_guide_pulley_150mm_single_stainless_steel"
+ },
+ {
+  "excelCol": 242,
+  "section": "Fixed Guide Pulley",
+  "header": "300mm Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "N300mm_Stainless_Steel_2",
+  "legacy": "fixed_guide_pulley_300mm_single_stainless_steel"
+ },
+ {
+  "excelCol": 243,
+  "section": "Misc.",
+  "header": "Fixed Guide Pulleys",
+  "supplier": "Challenger",
+  "sqlColumn": "Fixed_Guide_Pulleys",
+  "legacy": "fixed_guide_pulleys"
+ },
+ {
+  "excelCol": 244,
+  "section": "Misc.",
+  "header": "Fixed Guide Cleats",
+  "supplier": "Challenger",
+  "sqlColumn": "Fixed_Guide_Cleats",
+  "legacy": "fixed_guide_cleats"
+ },
+ {
+  "excelCol": 245,
+  "section": "Misc.",
+  "header": "Sash Cord - Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Sash_Cord_Black",
+  "legacy": "sash_cord_black"
+ },
+ {
+  "excelCol": 246,
+  "section": "Misc.",
+  "header": "Sash Cord - White",
+  "supplier": "Challenger",
+  "sqlColumn": "Sash_Cord_White",
+  "legacy": "sash_cord_white"
+ },
+ {
+  "excelCol": 247,
+  "section": "Gearbox Brackets",
+  "header": "Black",
+  "supplier": "Challenger",
+  "sqlColumn": "Black_9",
+  "legacy": "gearbox_brackets_62mm_black"
+ },
+ {
+  "excelCol": 248,
+  "section": "Gearbox Brackets",
+  "header": "White",
+  "supplier": "Challenger",
+  "sqlColumn": "White_9",
+  "legacy": "gearbox_brackets_62mm_white"
+ },
+ {
+  "excelCol": 249,
+  "section": "Gearbox Brackets",
+  "header": "80mm Black",
+  "supplier": "Challenger",
+  "sqlColumn": "N80mm_Black",
+  "legacy": "gearbox_brackets_80mm_black"
+ },
+ {
+  "excelCol": 250,
+  "section": "Gearbox Brackets",
+  "header": "80mm White",
+  "supplier": "Challenger",
+  "sqlColumn": "N80mm_White",
+  "legacy": "gearbox_brackets_80mm_white"
+ },
+ {
+  "excelCol": 251,
+  "section": "Gearbox Brackets",
+  "header": "Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel",
+  "legacy": "stainless_steel"
+ },
+ {
+  "excelCol": 252,
+  "section": "Misc.",
+  "header": "50mm Round End Cap",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_Round_End_Cap",
+  "legacy": "50mm_round_end_cap"
+ },
+ {
+  "excelCol": 253,
+  "section": "Misc.",
+  "header": "Stainless Steel Cable",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Cable",
+  "legacy": "stainless_steel_cable"
+ },
+ {
+  "excelCol": 254,
+  "section": "Misc.",
+  "header": "Stainless Steel L Bracket",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_L_Bracket",
+  "legacy": "stainless_steel_l_bracket"
+ },
+ {
+  "excelCol": 255,
+  "section": "Misc.",
+  "header": "Stainless Steel Bush Bottom Fix",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Bush_Bottom_Fix",
+  "legacy": "stainless_steel_bush_bottom_fix"
+ },
+ {
+  "excelCol": 256,
+  "section": "Misc.",
+  "header": "Stainless Steel Bush Top Fix",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Bush_Top_Fix",
+  "legacy": "stainless_steel_bush_top_fix"
+ },
+ {
+  "excelCol": 257,
+  "section": "Misc.",
+  "header": "Stainless Steel Deck Plate",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Deck_Plate",
+  "legacy": "stainless_steel_deck_plate"
+ },
+ {
+  "excelCol": 258,
+  "section": "Misc.",
+  "header": "Chain Adaptor",
+  "supplier": "Challenger",
+  "sqlColumn": "Chain_Adaptor",
+  "legacy": "chain_adaptor"
+ },
+ {
+  "excelCol": 259,
+  "section": "Misc.",
+  "header": "Chain Adaptor Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "Chain_Adaptor_Stainless_Steel",
+  "legacy": "chain_adaptor_stainless_steel"
+ },
+ {
+  "excelCol": 260,
+  "section": "Misc.",
+  "header": "Stainless Steel Drop Path Ring",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Drop_Path_Ring",
+  "legacy": "stainless_steel_drop_path_ring"
+ },
+ {
+  "excelCol": 261,
+  "section": "Misc.",
+  "header": "Stainless Steel Double Swivel Dog Clip",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Stainless_Steel_Double_Swivel_Dog_Clip",
+  "legacy": "stainless_steel_double_swivel_dog_clip"
+ },
+ {
+  "excelCol": 262,
+  "section": "Misc.",
+  "header": "Stainless Steel Saddle",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_Saddle",
+  "legacy": "stainless_steel_saddle"
+ },
+ {
+  "excelCol": 263,
+  "section": "Misc.",
+  "header": "Stainless Steel",
+  "supplier": "Challenger",
+  "sqlColumn": "Stainless_Steel_2",
+  "legacy": "misc_stainless_steel"
+ },
+ {
+  "excelCol": 264,
+  "section": "U Bracket Stand Out",
+  "header": "25mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N25mm",
+  "legacy": "u_bracket_stand_out_25mm"
+ },
+ {
+  "excelCol": 265,
+  "section": "U Bracket Stand Out",
+  "header": "50mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm",
+  "legacy": "u_bracket_stand_out_50mm"
+ },
+ {
+  "excelCol": 266,
+  "section": "U Bracket Stand Out",
+  "header": "75mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N75mm",
+  "legacy": "u_bracket_stand_out_75mm"
+ },
+ {
+  "excelCol": 267,
+  "section": "U Bracket Stand Out",
+  "header": "100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N100mm",
+  "legacy": "u_bracket_stand_out_100mm"
+ },
+ {
+  "excelCol": 268,
+  "section": "U Bracket Stand Out",
+  "header": "125mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N125mm",
+  "legacy": "u_bracket_stand_out_125mm"
+ },
+ {
+  "excelCol": 269,
+  "section": "Guide Stand Out",
+  "header": "25mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N25mm_2",
+  "legacy": "guide_stand_out_25mm"
+ },
+ {
+  "excelCol": 270,
+  "section": "Guide Stand Out",
+  "header": "50mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_2",
+  "legacy": "guide_stand_out_50mm"
+ },
+ {
+  "excelCol": 271,
+  "section": "Guide Stand Out",
+  "header": "75mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N75mm_2",
+  "legacy": "guide_stand_out_75mm"
+ },
+ {
+  "excelCol": 272,
+  "section": "Guide Stand Out",
+  "header": "100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N100mm_2",
+  "legacy": "guide_stand_out_100mm"
+ },
+ {
+  "excelCol": 273,
+  "section": "Guide Stand Out",
+  "header": "125mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N125mm_2",
+  "legacy": "guide_stand_out_125mm"
+ },
+ {
+  "excelCol": 274,
+  "section": "Hood Stand Out",
+  "header": "25mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N25mm_3",
+  "legacy": "hood_stand_out_25mm_zinc"
+ },
+ {
+  "excelCol": 275,
+  "section": "Hood Stand Out",
+  "header": "50mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N50mm_3",
+  "legacy": "hood_stand_out_50mm_zinc"
+ },
+ {
+  "excelCol": 276,
+  "section": "Hood Stand Out",
+  "header": "75mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N75mm_3",
+  "legacy": "hood_stand_out_75mm_zinc"
+ },
+ {
+  "excelCol": 277,
+  "section": "Hood Stand Out",
+  "header": "100mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N100mm_3",
+  "legacy": "hood_stand_out_100mm_zinc"
+ },
+ {
+  "excelCol": 278,
+  "section": "Hood Stand Out",
+  "header": "125mm",
+  "supplier": "Challenger",
+  "sqlColumn": "N125mm_3",
+  "legacy": "hood_stand_out_125mm_zinc"
+ },
+ {
+  "excelCol": 279,
+  "section": "Spline",
+  "header": "3.6mm Spline",
+  "supplier": "Challenger",
+  "sqlColumn": "N3_6mm_Spline",
+  "legacy": "3_6mm_spline"
+ },
+ {
+  "excelCol": 280,
+  "section": "Spline",
+  "header": "6mm Spline Soft",
+  "supplier": "Challenger",
+  "sqlColumn": "N6mm_Spline_Soft",
+  "legacy": "6mm_spline_soft"
+ },
+ {
+  "excelCol": 281,
+  "section": "Spline",
+  "header": "5mm Spline Hard",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "N5mm_Spline_Hard",
+  "legacy": "6mm_spline_hard"
+ },
+ {
+  "excelCol": 282,
+  "section": "Verticali",
+  "header": "Verticali Standard Headbox Rear Mill Finish",
+  "supplier": "BAC Wholesale",
+  "sqlColumn": "Verticali_Standard_Headbox_Rear_Mill_Finish",
+  "legacy": "verticali_extruded_std_headbox_rear_mill_finish"
+ },
+ {
+  "excelCol": 283,
+  "section": "Verticali",
+  "header": "Verticali Standard Headbox Front Mill Finish",
+  "supplier": "BAC Wholesale",
+  "sqlColumn": "Verticali_Standard_Headbox_Front_Mill_Finish",
+  "legacy": "verticali_extruded_std_headbox_front_mill_finish"
+ },
+ {
+  "excelCol": 284,
+  "section": "Verticali",
+  "header": "Verticali Square Headbox Rear Mill Finish",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Square_Headbox_Rear_Mill_Finish",
+  "legacy": "verticali_extruded_square_headbox_rear_mill_finish"
+ },
+ {
+  "excelCol": 285,
+  "section": "Verticali",
+  "header": "Verticali Square Headbox Front Mill Finish",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Square_Headbox_Front_Mill_Finish",
+  "legacy": "verticali_extruded_square_headbox_front_mill_finish"
+ },
+ {
+  "excelCol": 286,
+  "section": "Verticali",
+  "header": "Verticali 125mm Tube",
+  "supplier": "BAC Wholesale",
+  "sqlColumn": "Verticali_125mm_Tube",
+  "legacy": "verticali_125mm_tube"
+ },
+ {
+  "excelCol": 287,
+  "section": "Verticali",
+  "header": "Verticali Outer Side Guide",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Outer_Side_Guide",
+  "legacy": "verticali_outer_side_guide"
+ },
+ {
+  "excelCol": 288,
+  "section": "Verticali",
+  "header": "Verticali Verticali Inner Side Guide",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Verticali_Inner_Side_Guide",
+  "legacy": "verticali_verticali_inner_side_guide"
+ },
+ {
+  "excelCol": 289,
+  "section": "Verticali",
+  "header": "Verticali Bottom Rail",
+  "supplier": "BAC Wholesale",
+  "sqlColumn": "Verticali_Bottom_Rail",
+  "legacy": "verticali_bottom_rail"
+ },
+ {
+  "excelCol": 290,
+  "section": "Verticali",
+  "header": "Verticali  Inner Nylon Guide",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Inner_Nylon_Guide",
+  "legacy": "verticali_inner_nylon_guide"
+ },
+ {
+  "excelCol": 291,
+  "section": "Verticali",
+  "header": "Zip",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Zip",
+  "legacy": "zip"
+ },
+ {
+  "excelCol": 292,
+  "section": "Verticali",
+  "header": "Verticali Foam Spacer",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Foam_Spacer",
+  "legacy": "verticali_foam_spacer"
+ },
+ {
+  "excelCol": 293,
+  "section": "Verticali",
+  "header": "Verticali 30mm Bottom Seal",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_30mm_Bottom_Seal",
+  "legacy": "verticali_30mm_bottom_seal"
+ },
+ {
+  "excelCol": 294,
+  "section": "Verticali",
+  "header": "Verticali Ballast",
+  "supplier": "Bluescope",
+  "sqlColumn": "Verticali_Ballast",
+  "legacy": "verticali_ballast"
+ },
+ {
+  "excelCol": 295,
+  "section": "Verticali",
+  "header": "Verticali Std Hood Ends",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Std_Hood_Ends",
+  "legacy": "verticali_std_hood_ends"
+ },
+ {
+  "excelCol": 296,
+  "section": "Verticali",
+  "header": "Verticali Square Hood Ends",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Square_Hood_Ends",
+  "legacy": "verticali_square_hood_ends"
+ },
+ {
+  "excelCol": 297,
+  "section": "Verticali",
+  "header": "Verticali Wire Guide Hood Ends",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Wire_Guide_Hood_Ends",
+  "legacy": "verticali_wire_guide_hood_ends"
+ },
+ {
+  "excelCol": 298,
+  "section": "Verticali",
+  "header": "Verticali Sqaure Hood Ends for Colourbond Headbox",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Sqaure_Hood_Ends_for_Colourbond_Headbox",
+  "legacy": "verticali_sqaure_hood_ends_for_colourbond_headbox"
+ },
+ {
+  "excelCol": 299,
+  "section": "Verticali",
+  "header": "Verticali 78mm Reducer",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_78mm_Reducer",
+  "legacy": "verticali_78mm_reducer"
+ },
+ {
+  "excelCol": 300,
+  "section": "Verticali",
+  "header": "Verticali 85mm Reducer",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_85mm_Reducer",
+  "legacy": "verticali_85mm_reducer"
+ },
+ {
+  "excelCol": 301,
+  "section": "Verticali",
+  "header": "Verticali 125mm Reducer",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_125mm_Reducer",
+  "legacy": "verticali_125mm_reducer"
+ },
+ {
+  "excelCol": 302,
+  "section": "Verticali",
+  "header": "Verticali 60mm Drive",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_60mm_Drive",
+  "legacy": "verticali_60mm_drive"
+ },
+ {
+  "excelCol": 303,
+  "section": "Verticali",
+  "header": "Verticali 60mm Idle with Hole",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_60mm_Idle_with_Hole",
+  "legacy": "verticali_verticali_60mm_idle_with_hole"
+ },
+ {
+  "excelCol": 304,
+  "section": "Verticali",
+  "header": "Verticali Bottom Rail Wire Guide Adaptor",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Bottom_Rail_Wire_Guide_Adaptor",
+  "legacy": "verticali_bottom_rail_wire_guide_adaptor"
+ },
+ {
+  "excelCol": 305,
+  "section": "Verticali",
+  "header": "Verticali Side Guide End Cap",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Side_Guide_End_Cap",
+  "legacy": "verticali_side_guide_end_cap"
+ },
+ {
+  "excelCol": 306,
+  "section": "Verticali",
+  "header": "Verticali Side Guide Leg",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Side_Guide_Leg",
+  "legacy": "verticali_side_guide_leg"
+ },
+ {
+  "excelCol": 307,
+  "section": "Verticali",
+  "header": "Verticali Bottom Rail End Cap",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Bottom_Rail_End_Cap",
+  "legacy": "verticali_bottom_rail_end_cap"
+ },
+ {
+  "excelCol": 308,
+  "section": "Verticali",
+  "header": "Verticali Bottom Rail Blank End Cap",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Bottom_Rail_Blank_End_Cap",
+  "legacy": "verticali_bottom_rail_blank_end_cap"
+ },
+ {
+  "excelCol": 309,
+  "section": "Verticali",
+  "header": "Verticali Side Guide Funnel",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Side_Guide_Funnel",
+  "legacy": "verticali_side_guide_funnel"
+ },
+ {
+  "excelCol": 310,
+  "section": "Verticali",
+  "header": "Verticali Side Guide Top Stops",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Side_Guide_Top_Stops",
+  "legacy": "verticali_side_guide_top_stops"
+ },
+ {
+  "excelCol": 311,
+  "section": "Verticali",
+  "header": "Verticali Flat Saddle",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Flat_Saddle",
+  "legacy": "verticali_flat_saddle"
+ },
+ {
+  "excelCol": 312,
+  "section": "Verticali",
+  "header": "Verticali Strap Adaptor",
+  "supplier": "ShadeLab Australia",
+  "sqlColumn": "Verticali_Strap_Adaptor",
+  "legacy": "verticali_verticali_strap_adaptor"
+ },
+ {
+  "excelCol": 313,
+  "section": "Zipscreen",
+  "header": "Zipscreen Headbox 120mm Back",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Headbox_120mm_Back",
+  "legacy": "zipscreen_headbox_120mm_back"
+ },
+ {
+  "excelCol": 314,
+  "section": "Zipscreen",
+  "header": "Zipscreen Headbox 120mm Front",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Headbox_120mm_Front",
+  "legacy": "zipscreen_headbox_120mm_front"
+ },
+ {
+  "excelCol": 315,
+  "section": "Zipscreen",
+  "header": "Zipscreen Headbox 120mm Semi Front",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Headbox_120mm_Semi_Front",
+  "legacy": "zipscreen_headbox_120mm_semi_front"
+ },
+ {
+  "excelCol": 316,
+  "section": "Zipscreen",
+  "header": "Zipscreen Headbox 120mm End Caps",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Headbox_120mm_End_Caps",
+  "legacy": "zipscreen_headbox_120mm_end_caps"
+ },
+ {
+  "excelCol": 317,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Compact",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Compact",
+  "legacy": "zipscreen_spring_78mm_compact"
+ },
+ {
+  "excelCol": 318,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Light",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Light",
+  "legacy": "zipscreen_spring_78mm_light"
+ },
+ {
+  "excelCol": 319,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Standard",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Standard",
+  "legacy": "zipscreen_spring_78mm_standard"
+ },
+ {
+  "excelCol": 320,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Heavy Duty",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Heavy_Duty",
+  "legacy": "zipscreen_spring_78mm_heavy_duty"
+ },
+ {
+  "excelCol": 321,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Extra Heavy Duty",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Extra_Heavy_Duty",
+  "legacy": "zipscreen_spring_78mm_extra_heavy_duty"
+ },
+ {
+  "excelCol": 322,
+  "section": "Zipscreen",
+  "header": "Zipscreen Spring 78mm Ultra Heavy Duty",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Spring_78mm_Ultra_Heavy_Duty",
+  "legacy": "zipscreen_spring_78mm_ultra_heavy_duty"
+ },
+ {
+  "excelCol": 323,
+  "section": "Zipscreen",
+  "header": "Zipscreen 78mm to 45mm Reducer",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_78mm_to_45mm_Reducer",
+  "legacy": "zipscreen_78mm_to_45mm_reducer"
+ },
+ {
+  "excelCol": 324,
+  "section": "Zipscreen",
+  "header": "Zipscreen Zipscreen 78mm to 45mm Crown",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Zipscreen_78mm_to_45mm_Crown",
+  "legacy": "zipscreen_zipscreen_78mm_to_45mm_crown"
+ },
+ {
+  "excelCol": 325,
+  "section": "Zipscreen",
+  "header": "Zipscreen 45mm Idle",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_45mm_Idle",
+  "legacy": "zipscreen_45mm_idle"
+ },
+ {
+  "excelCol": 326,
+  "section": "Zipscreen",
+  "header": "Zipscreen Idler/Spring Adaptor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Idler_Spring_Adaptor",
+  "legacy": "zipscreen_idler_spring_adaptor"
+ },
+ {
+  "excelCol": 327,
+  "section": "Zipscreen",
+  "header": "Zipscreen Fabric 7mm Spline with 15mm Tail",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Fabric_7mm_Spline_with_15mm_Tail",
+  "legacy": "zipscreen_fabric_7mm_spline_with_15mm_tail"
+ },
+ {
+  "excelCol": 328,
+  "section": "Zipscreen",
+  "header": "Zipscreen F56 Base Rail",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_F56_Base_Rail",
+  "legacy": "zipscreen_f56_base_rail"
+ },
+ {
+  "excelCol": 329,
+  "section": "Zipscreen",
+  "header": "Zipscreen F56 Base Rail End Caps",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_F56_Base_Rail_End_Caps",
+  "legacy": "zipscreen_f56_base_rail_end_caps"
+ },
+ {
+  "excelCol": 330,
+  "section": "Zipscreen",
+  "header": "Zipscreen Bottom Rail V3 Lock Seal",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Bottom_Rail_V3_Lock_Seal",
+  "legacy": "zipscreen_bottom_rail_v3_lock_seal"
+ },
+ {
+  "excelCol": 331,
+  "section": "Zipscreen",
+  "header": "Flush Mount Deck Plates",
+  "supplier": "Miami Stainless",
+  "sqlColumn": "Flush_Mount_Deck_Plates",
+  "legacy": "flush_mount_deck_plates"
+ },
+ {
+  "excelCol": 332,
+  "section": "Zipscreen",
+  "header": "Zipscreen Flat 20x5mm Ballast",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Flat_20x5mm_Ballast",
+  "legacy": "zipscreen_flat_20x5mm_ballast"
+ },
+ {
+  "excelCol": 333,
+  "section": "Zipscreen",
+  "header": "Zipscreen Handle",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Handle",
+  "legacy": "zipscreen_handle"
+ },
+ {
+  "excelCol": 334,
+  "section": "Zipscreen",
+  "header": "Zipscreen Bottom Rail Lock Set",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Bottom_Rail_Lock_Set",
+  "legacy": "zipscreen_bottom_rail_lock_set"
+ },
+ {
+  "excelCol": 335,
+  "section": "Zipscreen",
+  "header": "Zipscreen Outer Side Guides",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Outer_Side_Guides",
+  "legacy": "zipscreen_outer_side_guides"
+ },
+ {
+  "excelCol": 336,
+  "section": "Zipscreen",
+  "header": "Zipscreen Inner Side Guides",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Inner_Side_Guides",
+  "legacy": "zipscreen_inner_side_guides"
+ },
+ {
+  "excelCol": 337,
+  "section": "Zipscreen",
+  "header": "Zipscreen L Fixing Rail",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_L_Fixing_Rail",
+  "legacy": "zipscreen_l_fixing_rail"
+ },
+ {
+  "excelCol": 338,
+  "section": "Zipscreen",
+  "header": "Zipscreen Side Guide Top Funnel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Side_Guide_Top_Funnel",
+  "legacy": "zipscreen_side_guide_top_funnel"
+ },
+ {
+  "excelCol": 339,
+  "section": "Zipscreen",
+  "header": "Zipscreen Side Guide Bottom Cap",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Zipscreen_Side_Guide_Bottom_Cap",
+  "legacy": "zipscreen_side_guide_bottom_cap"
+ },
+ {
+  "excelCol": 340,
+  "section": "Acmeda Motors",
+  "header": "45mm FT 15nm Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N45mm_FT_15nm_Motor",
+  "legacy": "rollease_acmeda_45mm_ft_15nm_motor"
+ },
+ {
+  "excelCol": 341,
+  "section": "Acmeda Motors",
+  "header": "63mm Drive Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N63mm_Drive_Wheel",
+  "legacy": "rollease_acmeda_63mm_drive_wheel"
+ },
+ {
+  "excelCol": 342,
+  "section": "Acmeda Motors",
+  "header": "63mm Crown Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N63mm_Crown_Wheel",
+  "legacy": "rollease_acmeda_63mm_crown_wheel"
+ },
+ {
+  "excelCol": 343,
+  "section": "Acmeda Motors",
+  "header": "78mm Drive Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N78mm_Drive_Wheel",
+  "legacy": "rollease_acmeda_78mm_drive_wheel"
+ },
+ {
+  "excelCol": 344,
+  "section": "Acmeda Motors",
+  "header": "78mm Crown Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N78mm_Crown_Wheel",
+  "legacy": "rollease_acmeda_78mm_crown_wheel"
+ },
+ {
+  "excelCol": 345,
+  "section": "Acmeda Motors",
+  "header": "45mm FT 15nm 12v Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N45mm_FT_15nm_12v_Motor",
+  "legacy": "rollease_acmeda_45mm_ft_15nm_12v_motor"
+ },
+ {
+  "excelCol": 346,
+  "section": "Acmeda Motors",
+  "header": "12v Motor External Battery Pack",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N12v_Motor_External_Battery_Pack",
+  "legacy": "rollease_acmeda_12v_motor_external_battery_pack"
+ },
+ {
+  "excelCol": 347,
+  "section": "Acmeda Motors",
+  "header": "12v Motor External Battery Chargewr Pack",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N12v_Motor_External_Battery_Chargewr_Pack",
+  "legacy": "rollease_acmeda_12v_motor_external_battery_chargewr_pack"
+ },
+ {
+  "excelCol": 348,
+  "section": "Acmeda Controls",
+  "header": "Pulse Pro Automation Hub",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Pulse_Pro_Automation_Hub",
+  "legacy": "pulse_pro_automation_hub"
+ },
+ {
+  "excelCol": 349,
+  "section": "Acmeda Controls",
+  "header": "USB Repeater",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "USB_Repeater",
+  "legacy": "usb_repeater"
+ },
+ {
+  "excelCol": 350,
+  "section": "Acmeda Controls",
+  "header": "1 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Remote_White",
+  "legacy": "1_channel_remote_white"
+ },
+ {
+  "excelCol": 351,
+  "section": "Acmeda Controls",
+  "header": "1 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Remote_Black",
+  "legacy": "1_channel_remote_black"
+ },
+ {
+  "excelCol": 352,
+  "section": "Acmeda Controls",
+  "header": "5 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Remote_White",
+  "legacy": "5_channel_remote_white"
+ },
+ {
+  "excelCol": 353,
+  "section": "Acmeda Controls",
+  "header": "5 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Remote_Black",
+  "legacy": "5_channel_remote_black"
+ },
+ {
+  "excelCol": 354,
+  "section": "Acmeda Controls",
+  "header": "15 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Remote_White",
+  "legacy": "rollease_acmeda_15_channel_remote_white"
+ },
+ {
+  "excelCol": 355,
+  "section": "Acmeda Controls",
+  "header": "15 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Remote_Black",
+  "legacy": "rollease_acmeda_15_channel_remote_black"
+ },
+ {
+  "excelCol": 356,
+  "section": "Acmeda Controls",
+  "header": "5 Channel Flush Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Flush_Wall_Mount_Remote_White",
+  "legacy": "rollease_acmeda_5_channel_flush_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 357,
+  "section": "Acmeda Controls",
+  "header": "1 Channel Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Wall_Mount_Remote_White",
+  "legacy": "rollease_acmeda_1_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 358,
+  "section": "Acmeda Controls",
+  "header": "2 Channel Wall Mount Remote White????",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N2_Channel_Wall_Mount_Remote_White",
+  "legacy": "rollease_acmeda_2_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 359,
+  "section": "Acmeda Controls",
+  "header": "15 Channel Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Wall_Mount_Remote_White",
+  "legacy": "rollease_acmeda_15_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 360,
+  "section": "Acmeda Controls",
+  "header": "Acmeda Push Pro White Remote",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Acmeda_Push_Pro_White_Remote",
+  "legacy": "acmeda_push_pro_white_remote"
+ },
+ {
+  "excelCol": 361,
+  "section": "Acmeda Controls",
+  "header": "Acmeda Push Pro Black Remote",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Acmeda_Push_Pro_Black_Remote",
+  "legacy": "acmeda_push_pro_black_remote"
+ },
+ {
+  "excelCol": 362,
+  "section": "Acmeda Controls",
+  "header": "Acmeda Push Pro Charging Cable",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Acmeda_Push_Pro_Charging_Cable",
+  "legacy": "acmeda_push_pro_charging_cable"
+ },
+ {
+  "excelCol": 363,
+  "section": "Acmeda Controls",
+  "header": "Acmeda Wall Block",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Acmeda_Wall_Block",
+  "legacy": "acmeda_wall_block"
+ },
+ {
+  "excelCol": 364,
+  "section": "Acmeda Controls",
+  "header": "Wind Sensor 240v",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Wind_Sensor_240v",
+  "legacy": "rollease_acmeda_wind_sensor_240v"
+ },
+ {
+  "excelCol": 365,
+  "section": "Acmeda Controls",
+  "header": "1 Channel Dry Contact Relay Module",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Dry_Contact_Relay_Module",
+  "legacy": "rollease_acmeda_1_channel_dry_contact_relay_module"
+ },
+ {
+  "excelCol": 366,
+  "section": "Becker Motors",
+  "header": "Remote Self-Tensioning Motor",
+  "supplier": "Becker",
+  "sqlColumn": "Remote_Self_Tensioning_Motor",
+  "legacy": "becker_remote_self_tensioning_motor"
+ },
+ {
+  "excelCol": 367,
+  "section": "Becker Motors",
+  "header": "Switch Self-Tensioning Motor",
+  "supplier": "Becker",
+  "sqlColumn": "Switch_Self_Tensioning_Motor",
+  "legacy": "becker_switch_self_tensioning_motor"
+ },
+ {
+  "excelCol": 368,
+  "section": "Becker Motors",
+  "header": "R12/17CPSF 45mm Motor",
+  "supplier": "Becker",
+  "sqlColumn": "R12_17CPSF_45mm_Motor",
+  "legacy": "becker_r12_17cpsf_45mm_motor"
+ },
+ {
+  "excelCol": 369,
+  "section": "Becker Motors",
+  "header": "20nm Motor R20-17-C12a Motor",
+  "supplier": "Becker",
+  "sqlColumn": "N20nm_Motor_R20_17_C12a_Motor",
+  "legacy": "becker_20nm_motor_r20_17_c12a_motor"
+ },
+ {
+  "excelCol": 370,
+  "section": "Becker Motors",
+  "header": "Switch Motor",
+  "supplier": "Becker",
+  "sqlColumn": "Switch_Motor",
+  "legacy": "becker_switch_motor_motor"
+ },
+ {
+  "excelCol": 371,
+  "section": "Becker Motors",
+  "header": "Crown Ring 63mm Keyway Tube",
+  "supplier": "Becker",
+  "sqlColumn": "Crown_Ring_63mm_Keyway_Tube",
+  "legacy": "crown_ring_63mm_keyway_tube"
+ },
+ {
+  "excelCol": 372,
+  "section": "Becker Motors",
+  "header": "Drive Wheel 63mm Keyway tube",
+  "supplier": "Becker",
+  "sqlColumn": "Drive_Wheel_63mm_Keyway_tube",
+  "legacy": "drive_wheel_63mm_keyway_tube"
+ },
+ {
+  "excelCol": 373,
+  "section": "Becker Motors",
+  "header": "Star Awning Bracket",
+  "supplier": "Becker",
+  "sqlColumn": "Star_Awning_Bracket",
+  "legacy": "star_awning_bracket"
+ },
+ {
+  "excelCol": 374,
+  "section": "Becker Motors",
+  "header": "Molex Connection",
+  "supplier": "Becker",
+  "sqlColumn": "Molex_Connection",
+  "legacy": "molex_connection"
+ },
+ {
+  "excelCol": 375,
+  "section": "Becker Motors",
+  "header": "Crown 78mm Tube",
+  "supplier": "Becker",
+  "sqlColumn": "Crown_78mm_Tube",
+  "legacy": "crown_78mm_tube"
+ },
+ {
+  "excelCol": 376,
+  "section": "Becker Motors",
+  "header": "Drive Adaptor 78mm Tube",
+  "supplier": "Becker",
+  "sqlColumn": "Drive_Adaptor_78mm_Tube",
+  "legacy": "drive_adaptor_78mm_tube"
+ },
+ {
+  "excelCol": 377,
+  "section": "Becker Motors",
+  "header": "1 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N1_Channel_Remote_White_2",
+  "legacy": "becker_motors_1_channel_remote_white"
+ },
+ {
+  "excelCol": 378,
+  "section": "Becker Motors",
+  "header": "1 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N1_Channel_Remote_Black_2",
+  "legacy": "becker_motors_1_channel_remote_black"
+ },
+ {
+  "excelCol": 379,
+  "section": "Becker Motors",
+  "header": "5 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N5_Channel_Remote_White_2",
+  "legacy": "becker_motors_5_channel_remote_white"
+ },
+ {
+  "excelCol": 380,
+  "section": "Becker Motors",
+  "header": "5 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N5_Channel_Remote_Black_2",
+  "legacy": "becker_motors_5_channel_remote_black"
+ },
+ {
+  "excelCol": 381,
+  "section": "Becker Motors",
+  "header": "10 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N10_Channel_Remote_White",
+  "legacy": "10_channel_remote_white"
+ },
+ {
+  "excelCol": 382,
+  "section": "Becker Motors",
+  "header": "10 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N10_Channel_Remote_Black",
+  "legacy": "10_channel_remote_black"
+ },
+ {
+  "excelCol": 383,
+  "section": "Becker Motors",
+  "header": "Wind Sensor",
+  "supplier": "Becker",
+  "sqlColumn": "Wind_Sensor",
+  "legacy": "becker_wind_sensor"
+ },
+ {
+  "excelCol": 384,
+  "section": "Somfy Motors",
+  "header": "Altus 50 RTS 10/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_10_17",
+  "legacy": "altus_50_rts_10_17"
+ },
+ {
+  "excelCol": 385,
+  "section": "Somfy Motors",
+  "header": "Altus 50 RTS 15/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_15_17",
+  "legacy": "altus_50_rts_15_17"
+ },
+ {
+  "excelCol": 386,
+  "section": "Somfy Motors",
+  "header": "Zamack Bracket without thread",
+  "supplier": "Somfy",
+  "sqlColumn": "Zamack_Bracket_without_thread",
+  "legacy": "zamack_bracket_without_thread"
+ },
+ {
+  "excelCol": 387,
+  "section": "Somfy Motors",
+  "header": "63mm Crown",
+  "supplier": "Somfy",
+  "sqlColumn": "N63mm_Crown",
+  "legacy": "63mm_crown"
+ },
+ {
+  "excelCol": 388,
+  "section": "Somfy Motors",
+  "header": "63mm Drive",
+  "supplier": "Somfy",
+  "sqlColumn": "N63mm_Drive",
+  "legacy": "63mm_drive"
+ },
+ {
+  "excelCol": 389,
+  "section": "Somfy Motors",
+  "header": "78mm Crown",
+  "supplier": "Somfy",
+  "sqlColumn": "N78mm_Crown",
+  "legacy": "78mm_crown"
+ },
+ {
+  "excelCol": 390,
+  "section": "Somfy Motors",
+  "header": "78mm Drive",
+  "supplier": "Somfy",
+  "sqlColumn": "N78mm_Drive",
+  "legacy": "78mm_drive"
+ },
+ {
+  "excelCol": 391,
+  "section": "Somfy Motors",
+  "header": "Connexoon",
+  "supplier": "Somfy",
+  "sqlColumn": "Connexoon",
+  "legacy": "connexoon"
+ },
+ {
+  "excelCol": 392,
+  "section": "Somfy Motors",
+  "header": "Tahoma Switch",
+  "supplier": "Somfy",
+  "sqlColumn": "Tahoma_Switch",
+  "legacy": "tahoma_switch"
+ },
+ {
+  "excelCol": 393,
+  "section": "Somfy Motors",
+  "header": "Somfy 15 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_15_Channel_Silver_Remote",
+  "legacy": "somfy_15_channel_silver_remote"
+ },
+ {
+  "excelCol": 394,
+  "section": "Somfy Motors",
+  "header": "Somfy 15 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_15_Channel_White_Remote",
+  "legacy": "somfy_15_channel_white_remote"
+ },
+ {
+  "excelCol": 395,
+  "section": "Somfy Motors",
+  "header": "Somfy 2 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_2_Channel_Silver_Remote",
+  "legacy": "somfy_2_channel_silver_remote"
+ },
+ {
+  "excelCol": 396,
+  "section": "Somfy Motors",
+  "header": "Somfy 2 Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_2_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy_2_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 397,
+  "section": "Somfy Motors",
+  "header": "Somfy 2 Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_2_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy_2_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 398,
+  "section": "Somfy Motors",
+  "header": "Somfy 2 Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_2_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_2_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 399,
+  "section": "Somfy Motors",
+  "header": "Somfy 2 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_2_Channel_White_Remote",
+  "legacy": "somfy_2_channel_white_remote"
+ },
+ {
+  "excelCol": 400,
+  "section": "Somfy Motors",
+  "header": "Somfy 5 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_5_Channel_Silver_Remote",
+  "legacy": "somfy_5_channel_silver_remote"
+ },
+ {
+  "excelCol": 401,
+  "section": "Somfy Motors",
+  "header": "Somfy 5 Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_5_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy_5_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 402,
+  "section": "Somfy Motors",
+  "header": "Somfy 5 Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_5_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy_5_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 403,
+  "section": "Somfy Motors",
+  "header": "Somfy 5 Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_5_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_5_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 404,
+  "section": "Somfy Motors",
+  "header": "Somfy 5 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_5_Channel_White_Remote",
+  "legacy": "somfy_5_channel_white_remote"
+ },
+ {
+  "excelCol": 405,
+  "section": "Somfy Motors",
+  "header": "Somfy Single Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_Single_Channel_Silver_Remote",
+  "legacy": "somfy_single_channel_silver_remote"
+ },
+ {
+  "excelCol": 406,
+  "section": "Somfy Motors",
+  "header": "Somfy Single Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_Single_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy_single_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 407,
+  "section": "Somfy Motors",
+  "header": "Somfy Single Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_Single_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy_single_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 408,
+  "section": "Somfy Motors",
+  "header": "Somfy Single Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_Single_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_single_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 409,
+  "section": "Somfy Motors",
+  "header": "Somfy Single Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Somfy_Single_Channel_White_Remote",
+  "legacy": "somfy_single_channel_white_remote"
+ },
+ {
+  "excelCol": 410,
+  "section": "Pivot Arm",
+  "header": "Pivot Arm Spring",
+  "supplier": "Uniline",
+  "sqlColumn": "Pivot_Arm_Spring",
+  "legacy": "pivot_arm_spring"
+ },
+ {
+  "excelCol": 411,
+  "section": "Pivot Arm",
+  "header": "Pivot Arm Extrusion",
+  "supplier": "Uniline",
+  "sqlColumn": "Pivot_Arm_Extrusion",
+  "legacy": "pivot_arm_extrusion"
+ },
+ {
+  "excelCol": 412,
+  "section": "Pivot Arm",
+  "header": "Pivot Arm 5 Sided Clamp",
+  "supplier": "Uniline",
+  "sqlColumn": "Pivot_Arm_5_Sided_Clamp",
+  "legacy": "pivot_arm_5_sided_clamp"
+ },
+ {
+  "excelCol": 413,
+  "section": "Pivot Arm",
+  "header": "Pivot Arm Lock",
+  "supplier": "Uniline",
+  "sqlColumn": "Pivot_Arm_Lock",
+  "legacy": "pivot_arm_lock"
+ },
+ {
+  "excelCol": 414,
+  "section": "Pivot Arm",
+  "header": "Pivot Arm Slide Track Extrusion",
+  "supplier": "Uniline",
+  "sqlColumn": "Pivot_Arm_Slide_Track_Extrusion",
+  "legacy": "pivot_arm_slide_track_extrusion"
+ },
+ {
+  "excelCol": 415,
+  "section": "Wire Guide",
+  "header": "Wire Guide Base Rail - Anodised",
+  "supplier": "Challenger",
+  "sqlColumn": "Wire_Guide_Base_Rail_Anodised",
+  "legacy": "wire_guide_base_rail_anodised"
+ },
+ {
+  "excelCol": 416,
+  "section": "Wire Guide",
+  "header": "Wire Guide Base Rail End Caps",
+  "supplier": "Challenger",
+  "sqlColumn": "Wire_Guide_Base_Rail_End_Caps",
+  "legacy": "wire_guide_base_rail_end_caps"
+ }
+]

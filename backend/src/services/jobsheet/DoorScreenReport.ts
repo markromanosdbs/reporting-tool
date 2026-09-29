@@ -20,6 +20,8 @@ import {
 
 const TABLE = '[dbo].[ComponentsReport_DoorScreen]';
 const REFRESH_MIN_INTERVAL_MS = 10_000; // a page load requests data twice (table + totals)
+// How often the in-memory rows are re-checked against dbsproduction + DASON (COMPONENTS_REFRESH_SECONDS, default 60)
+export const BACKGROUND_REFRESH_MS = (Number(process.env.COMPONENTS_REFRESH_SECONDS) || 60) * 1000;
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
 
@@ -116,18 +118,35 @@ async function calculateLiveRows(pool: sql.ConnectionPool): Promise<DoorScreenRe
   return rows;
 }
 
-async function getLiveRows(pool: sql.ConnectionPool): Promise<DoorScreenResult[]> {
-  if (liveInFlight) return liveInFlight;
-  if (Date.now() - liveAt < REFRESH_MIN_INTERVAL_MS) return liveRows;
-  liveInFlight = calculateLiveRows(pool)
+/** Re-read dbsproduction + DASON and recalculate changed lines (one run at a time; keeps the last rows on failure). */
+function startLiveRefresh(pool: sql.ConnectionPool): Promise<DoorScreenResult[]> {
+  liveInFlight ??= calculateLiveRows(pool)
     .then(rows => { liveRows = rows; liveAt = Date.now(); return rows; })
+    .catch(e => {
+      if (!liveAt) throw e; // nothing calculated yet: let the page show the error
+      console.error('[door-screen] background refresh failed, serving last calculated rows:', e);
+      return liveRows;
+    })
     .finally(() => { liveInFlight = null; });
   return liveInFlight;
 }
 
-/** Calculate all current jobs in the background at start-up (read-only) so the first page load is fast. */
+/**
+ * Page loads get the last calculated rows straight away; the database check runs in the background
+ * (every BACKGROUND_REFRESH_MS, or on a page load if the rows are older than that).
+ * Only the very first load waits for the calculation.
+ */
+async function getLiveRows(pool: sql.ConnectionPool): Promise<DoorScreenResult[]> {
+  if (!liveAt) return startLiveRefresh(pool);
+  if (Date.now() - liveAt > BACKGROUND_REFRESH_MS) void startLiveRefresh(pool);
+  return liveRows;
+}
+
+/** Calculate all current jobs at start-up (read-only), then keep them fresh in the background. */
 export function warmUpDoorScreenPage(pool: sql.ConnectionPool): Promise<unknown> {
-  return doorScreenWritesEnabled() ? refreshDoorScreen(pool) : getLiveRows(pool);
+  if (doorScreenWritesEnabled()) return refreshDoorScreen(pool);
+  setInterval(() => void startLiveRefresh(pool).catch(() => {}), BACKGROUND_REFRESH_MS).unref();
+  return startLiveRefresh(pool);
 }
 
 // ---------------------------------------------------------------------------

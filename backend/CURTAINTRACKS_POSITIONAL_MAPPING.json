@@ -1,0 +1,1082 @@
+[
+ {
+  "excelCol": 9,
+  "section": "",
+  "header": "Track Status",
+  "supplier": "Track from TBS",
+  "sqlColumn": "Track_Status",
+  "legacy": "track_status"
+ },
+ {
+  "excelCol": 10,
+  "section": "",
+  "header": "Wavefold Tape Metres",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Tape_Metres",
+  "legacy": "wavefold_tape_metres"
+ },
+ {
+  "excelCol": 11,
+  "section": "",
+  "header": "Wavefold Hooks White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Hooks_White",
+  "legacy": "wavefold_hooks_white"
+ },
+ {
+  "excelCol": 12,
+  "section": "",
+  "header": "Wavefold Hooks Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Hooks_Black",
+  "legacy": "wavefold_hooks_black"
+ },
+ {
+  "excelCol": 13,
+  "section": "",
+  "header": "Wavefold Track White Metres",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Track_White_Metres",
+  "legacy": "wavefold_track_white_metres"
+ },
+ {
+  "excelCol": 14,
+  "section": "",
+  "header": "Wavefold Track Black Metres",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Track_Black_Metres",
+  "legacy": "wavefold_track_black_metres"
+ },
+ {
+  "excelCol": 15,
+  "section": "",
+  "header": "Wavefold Track Matt Satin Metres",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Track_Matt_Satin_Metres",
+  "legacy": "wavefold_track_matt_satin_metres"
+ },
+ {
+  "excelCol": 16,
+  "section": "",
+  "header": "Wavefold Runners White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Runners_White",
+  "legacy": "wavefold_runners_white"
+ },
+ {
+  "excelCol": 17,
+  "section": "",
+  "header": "Wavefold Runners Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Runners_Black",
+  "legacy": "wavefold_runners_black"
+ },
+ {
+  "excelCol": 18,
+  "section": "",
+  "header": "Streamline Gliders",
+  "supplier": "",
+  "sqlColumn": "Streamline_Gliders",
+  "legacy": "streamline_gliders"
+ },
+ {
+  "excelCol": 19,
+  "section": "",
+  "header": "Streamline Track White Metres",
+  "supplier": "",
+  "sqlColumn": "Streamline_Track_White_Metres",
+  "legacy": "streamline_track_white_metres"
+ },
+ {
+  "excelCol": 20,
+  "section": "",
+  "header": "Streamline Matt Black Ink Metres",
+  "supplier": "",
+  "sqlColumn": "Streamline_Matt_Black_Ink_Metres",
+  "legacy": "streamline_matt_black_ink_metres"
+ },
+ {
+  "excelCol": 21,
+  "section": "",
+  "header": "Streamline Birch White Metres",
+  "supplier": "",
+  "sqlColumn": "Streamline_Birch_White_Metres",
+  "legacy": "streamline_birch_white_metres"
+ },
+ {
+  "excelCol": 22,
+  "section": "",
+  "header": "Streamline Matt Satin Metres",
+  "supplier": "",
+  "sqlColumn": "Streamline_Matt_Satin_Metres",
+  "legacy": "streamline_matt_satin_metres"
+ },
+ {
+  "excelCol": 23,
+  "section": "",
+  "header": "White Aluminium Flick Sticks 100cm",
+  "supplier": "",
+  "sqlColumn": "White_Aluminium_Flick_Sticks_100cm",
+  "legacy": "white_aluminium_flick_sticks_100cm"
+ },
+ {
+  "excelCol": 24,
+  "section": "",
+  "header": "White Aluminium Flick Sticks 125cm",
+  "supplier": "",
+  "sqlColumn": "White_Aluminium_Flick_Sticks_125cm",
+  "legacy": "white_aluminium_flick_sticks_125cm"
+ },
+ {
+  "excelCol": 25,
+  "section": "",
+  "header": "White Aluminium Flick Sticks 150cm",
+  "supplier": "",
+  "sqlColumn": "White_Aluminium_Flick_Sticks_150cm",
+  "legacy": "white_aluminium_flick_sticks_150cm"
+ },
+ {
+  "excelCol": 26,
+  "section": "",
+  "header": "Black Aluminium Flick Sticks 100cm",
+  "supplier": "",
+  "sqlColumn": "Black_Aluminium_Flick_Sticks_100cm",
+  "legacy": "black_aluminium_flick_sticks_100cm"
+ },
+ {
+  "excelCol": 27,
+  "section": "",
+  "header": "Black Aluminium Flick Sticks 125cm",
+  "supplier": "",
+  "sqlColumn": "Black_Aluminium_Flick_Sticks_125cm",
+  "legacy": "black_aluminium_flick_sticks_125cm"
+ },
+ {
+  "excelCol": 28,
+  "section": "",
+  "header": "Black Aluminium Flick Sticks 150cm",
+  "supplier": "",
+  "sqlColumn": "Black_Aluminium_Flick_Sticks_150cm",
+  "legacy": "black_aluminium_flick_sticks_150cm"
+ },
+ {
+  "excelCol": 29,
+  "section": "",
+  "header": "Matt Satin Aluminium Flick Sticks 100cm",
+  "supplier": "",
+  "sqlColumn": "Matt_Satin_Aluminium_Flick_Sticks_100cm",
+  "legacy": "matt_satin_aluminium_flick_sticks_100cm"
+ },
+ {
+  "excelCol": 30,
+  "section": "",
+  "header": "Matt Satin Aluminium Flick Sticks 125cm",
+  "supplier": "",
+  "sqlColumn": "Matt_Satin_Aluminium_Flick_Sticks_125cm",
+  "legacy": "matt_satin_aluminium_flick_sticks_125cm"
+ },
+ {
+  "excelCol": 31,
+  "section": "",
+  "header": "Matt Satin Aluminium Flick Sticks 150cm",
+  "supplier": "",
+  "sqlColumn": "Matt_Satin_Aluminium_Flick_Sticks_150cm",
+  "legacy": "matt_satin_aluminium_flick_sticks_150cm"
+ },
+ {
+  "excelCol": 32,
+  "section": "",
+  "header": "Standard Clear Flick Sticks 75cm",
+  "supplier": "",
+  "sqlColumn": "Standard_Clear_Flick_Sticks_75cm",
+  "legacy": "standard_clear_flick_sticks_75cm"
+ },
+ {
+  "excelCol": 33,
+  "section": "",
+  "header": "Standard Clear Flick Sticks 100cm",
+  "supplier": "",
+  "sqlColumn": "Standard_Clear_Flick_Sticks_100cm",
+  "legacy": "standard_clear_flick_sticks_100cm"
+ },
+ {
+  "excelCol": 34,
+  "section": "",
+  "header": "Standard Clear Flick Sticks 125cm",
+  "supplier": "",
+  "sqlColumn": "Standard_Clear_Flick_Sticks_125cm",
+  "legacy": "standard_clear_flick_sticks_125cm"
+ },
+ {
+  "excelCol": 35,
+  "section": "",
+  "header": "Standard Clear Flick Sticks 150cm",
+  "supplier": "",
+  "sqlColumn": "Standard_Clear_Flick_Sticks_150cm",
+  "legacy": "standard_clear_flick_sticks_150cm"
+ },
+ {
+  "excelCol": 36,
+  "section": "",
+  "header": "White Fibreglass 200cm",
+  "supplier": "",
+  "sqlColumn": "White_Fibreglass_200cm",
+  "legacy": "white_fibreglass_200cm"
+ },
+ {
+  "excelCol": 37,
+  "section": "",
+  "header": "White Fibreglass 250cm",
+  "supplier": "",
+  "sqlColumn": "White_Fibreglass_250cm",
+  "legacy": "white_fibreglass_250cm"
+ },
+ {
+  "excelCol": 38,
+  "section": "",
+  "header": "Wavefold Top Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Top_Fix_Brackets_White",
+  "legacy": "wavefold_top_fix_brackets_white"
+ },
+ {
+  "excelCol": 39,
+  "section": "",
+  "header": "Wavefold Single Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Face_Fix_Brackets_White",
+  "legacy": "wavefold_single_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 40,
+  "section": "",
+  "header": "Wavefold Double Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Face_Fix_Brackets_White",
+  "legacy": "wavefold_double_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 41,
+  "section": "",
+  "header": "Wavefold Triple Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Triple_Face_Fix_Brackets_White",
+  "legacy": "wavefold_triple_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 42,
+  "section": "",
+  "header": "Wavefold Top Fix Brackets Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Top_Fix_Brackets_Black",
+  "legacy": "wavefold_top_fix_brackets_black"
+ },
+ {
+  "excelCol": 43,
+  "section": "",
+  "header": "Wavefold Single Face Fix Brackets Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Face_Fix_Brackets_Black",
+  "legacy": "wavefold_single_face_fix_brackets_black"
+ },
+ {
+  "excelCol": 44,
+  "section": "",
+  "header": "Wavefold Double Face Fix Brackets Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Face_Fix_Brackets_Black",
+  "legacy": "wavefold_double_face_fix_brackets_black"
+ },
+ {
+  "excelCol": 45,
+  "section": "",
+  "header": "Wavefold Triple Face Fix Brackets Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Triple_Face_Fix_Brackets_Black",
+  "legacy": "wavefold_triple_face_fix_brackets_black"
+ },
+ {
+  "excelCol": 46,
+  "section": "",
+  "header": "Wavefold Top Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Top_Fix_Brackets_Matt_Satin",
+  "legacy": "wavefold_top_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 47,
+  "section": "",
+  "header": "Wavefold Single Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "wavefold_single_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 48,
+  "section": "",
+  "header": "Wavefold Double Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "wavefold_double_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 49,
+  "section": "",
+  "header": "Wavefold Triple Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Triple_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "wavefold_triple_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 50,
+  "section": "",
+  "header": "Streamline Nylon Top Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Nylon_Top_Fix_Brackets_White",
+  "legacy": "streamline_nylon_top_fix_brackets_white"
+ },
+ {
+  "excelCol": 51,
+  "section": "",
+  "header": "Streamline Metal Top Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Metal_Top_Fix_Brackets_White",
+  "legacy": "streamline_metal_top_fix_brackets_white"
+ },
+ {
+  "excelCol": 52,
+  "section": "",
+  "header": "Streamline Single Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Single_Face_Fix_Brackets_White",
+  "legacy": "streamline_single_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 53,
+  "section": "",
+  "header": "Streamline Double Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Double_Face_Fix_Brackets_White",
+  "legacy": "streamline_double_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 54,
+  "section": "",
+  "header": "Streamline Triple Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Triple_Face_Fix_Brackets_White",
+  "legacy": "streamline_triple_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 55,
+  "section": "",
+  "header": "Streamline 32mm Face Fix Brackets White",
+  "supplier": "",
+  "sqlColumn": "Streamline_32mm_Face_Fix_Brackets_White",
+  "legacy": "streamline_32mm_face_fix_brackets_white"
+ },
+ {
+  "excelCol": 56,
+  "section": "",
+  "header": "Streamline Nylon Top Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Nylon_Top_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_nylon_top_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 57,
+  "section": "",
+  "header": "Streamline Metal Top Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Metal_Top_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_metal_top_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 58,
+  "section": "",
+  "header": "Streamline Single Face Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Single_Face_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_single_face_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 59,
+  "section": "",
+  "header": "Streamline Double Face Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Double_Face_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_double_face_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 60,
+  "section": "",
+  "header": "Streamline Triple Face Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Triple_Face_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_triple_face_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 61,
+  "section": "",
+  "header": "Streamline 32mm Face Fix Brackets Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_32mm_Face_Fix_Brackets_Matt_Black_Ink",
+  "legacy": "streamline_32mm_face_fix_brackets_matt_black_ink"
+ },
+ {
+  "excelCol": 62,
+  "section": "",
+  "header": "Streamline Nylon Top Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Nylon_Top_Fix_Brackets_Birch_White",
+  "legacy": "streamline_nylon_top_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 63,
+  "section": "",
+  "header": "Streamline Metal Top Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Metal_Top_Fix_Brackets_Birch_White",
+  "legacy": "streamline_metal_top_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 64,
+  "section": "",
+  "header": "Streamline Single Face Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Single_Face_Fix_Brackets_Birch_White",
+  "legacy": "streamline_single_face_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 65,
+  "section": "",
+  "header": "Streamline Double Face Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Double_Face_Fix_Brackets_Birch_White",
+  "legacy": "streamline_double_face_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 66,
+  "section": "",
+  "header": "Streamline Triple Face Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Triple_Face_Fix_Brackets_Birch_White",
+  "legacy": "streamline_triple_face_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 67,
+  "section": "",
+  "header": "Streamline 32mm Face Fix Brackets Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_32mm_Face_Fix_Brackets_Birch_White",
+  "legacy": "streamline_32mm_face_fix_brackets_birch_white"
+ },
+ {
+  "excelCol": 68,
+  "section": "",
+  "header": "Streamline Nylon Top Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Nylon_Top_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_nylon_top_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 69,
+  "section": "",
+  "header": "Streamline Metal Top Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Metal_Top_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_metal_top_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 70,
+  "section": "",
+  "header": "Streamline Single Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Single_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_single_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 71,
+  "section": "",
+  "header": "Streamline Double Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Double_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_double_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 72,
+  "section": "",
+  "header": "Streamline Triple Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Triple_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_triple_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 73,
+  "section": "",
+  "header": "Streamline 32mm Face Fix Brackets Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_32mm_Face_Fix_Brackets_Matt_Satin",
+  "legacy": "streamline_32mm_face_fix_brackets_matt_satin"
+ },
+ {
+  "excelCol": 74,
+  "section": "",
+  "header": "Top Fix Brackets Cover White",
+  "supplier": "",
+  "sqlColumn": "Top_Fix_Brackets_Cover_White",
+  "legacy": "wavefold_top_fix_brackets_cover_white"
+ },
+ {
+  "excelCol": 75,
+  "section": "",
+  "header": "Single Face Fix Brackets Cover White",
+  "supplier": "",
+  "sqlColumn": "Single_Face_Fix_Brackets_Cover_White",
+  "legacy": "wavefold_single_face_fix_brackets_cover_white"
+ },
+ {
+  "excelCol": 76,
+  "section": "",
+  "header": "Double Face Fix Brackets Cover White",
+  "supplier": "",
+  "sqlColumn": "Double_Face_Fix_Brackets_Cover_White",
+  "legacy": "wavefold_double_face_fix_brackets_cover_white"
+ },
+ {
+  "excelCol": 77,
+  "section": "",
+  "header": "Triple Face Fix Brackets Cover White",
+  "supplier": "",
+  "sqlColumn": "Triple_Face_Fix_Brackets_Cover_White",
+  "legacy": "wavefold_triple_face_fix_brackets_cover_white"
+ },
+ {
+  "excelCol": 78,
+  "section": "",
+  "header": "Top Fix Brackets Cover Black",
+  "supplier": "",
+  "sqlColumn": "Top_Fix_Brackets_Cover_Black",
+  "legacy": "wavefold_top_fix_brackets_cover_black"
+ },
+ {
+  "excelCol": 79,
+  "section": "",
+  "header": "Single Face Fix Brackets Cover Black",
+  "supplier": "",
+  "sqlColumn": "Single_Face_Fix_Brackets_Cover_Black",
+  "legacy": "wavefold_single_face_fix_brackets_cover_black"
+ },
+ {
+  "excelCol": 80,
+  "section": "",
+  "header": "Double Face Fix Brackets Cover Black",
+  "supplier": "",
+  "sqlColumn": "Double_Face_Fix_Brackets_Cover_Black",
+  "legacy": "wavefold_double_face_fix_brackets_cover_black"
+ },
+ {
+  "excelCol": 81,
+  "section": "",
+  "header": "Triple Face Fix Brackets Cover Black",
+  "supplier": "",
+  "sqlColumn": "Triple_Face_Fix_Brackets_Cover_Black",
+  "legacy": "wavefold_triple_face_fix_brackets_cover_black"
+ },
+ {
+  "excelCol": 82,
+  "section": "",
+  "header": "Top Fix Brackets Cover Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Top_Fix_Brackets_Cover_Matt_Satin",
+  "legacy": "wavefold_top_fix_brackets_cover_matt_satin"
+ },
+ {
+  "excelCol": 83,
+  "section": "",
+  "header": "Single Face Fix Brackets Cover Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Single_Face_Fix_Brackets_Cover_Matt_Satin",
+  "legacy": "wavefold_single_face_fix_brackets_cover_matt_satin"
+ },
+ {
+  "excelCol": 84,
+  "section": "",
+  "header": "Double Face Fix Brackets Cover Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Double_Face_Fix_Brackets_Cover_Matt_Satin",
+  "legacy": "wavefold_double_face_fix_brackets_cover_matt_satin"
+ },
+ {
+  "excelCol": 85,
+  "section": "",
+  "header": "Triple Face Fix Brackets Cover Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Triple_Face_Fix_Brackets_Cover_Matt_Satin",
+  "legacy": "wavefold_triple_face_fix_brackets_cover_matt_satin"
+ },
+ {
+  "excelCol": 86,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Left White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Left_White",
+  "legacy": "wavefold_single_return_brackets_left_white"
+ },
+ {
+  "excelCol": 87,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Left Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Left_Black",
+  "legacy": "wavefold_single_return_brackets_left_black"
+ },
+ {
+  "excelCol": 88,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Left Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Left_Matt_Satin",
+  "legacy": "wavefold_single_return_brackets_left_matt_satin"
+ },
+ {
+  "excelCol": 89,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Right White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Right_White",
+  "legacy": "wavefold_single_return_brackets_right_white"
+ },
+ {
+  "excelCol": 90,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Right Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Right_Black",
+  "legacy": "wavefold_single_return_brackets_right_black"
+ },
+ {
+  "excelCol": 91,
+  "section": "",
+  "header": "Wavefold Single Return Brackets Right Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Return_Brackets_Right_Matt_Satin",
+  "legacy": "wavefold_single_return_brackets_right_matt_satin"
+ },
+ {
+  "excelCol": 92,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Left White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Left_White",
+  "legacy": "wavefold_double_return_brackets_left_white"
+ },
+ {
+  "excelCol": 93,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Left Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Left_Black",
+  "legacy": "wavefold_double_return_brackets_left_black"
+ },
+ {
+  "excelCol": 94,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Left Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Left_Matt_Satin",
+  "legacy": "wavefold_double_return_brackets_left_matt_satin"
+ },
+ {
+  "excelCol": 95,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Right White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Right_White",
+  "legacy": "wavefold_double_return_brackets_right_white"
+ },
+ {
+  "excelCol": 96,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Right Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Right_Black",
+  "legacy": "wavefold_double_return_brackets_right_black"
+ },
+ {
+  "excelCol": 97,
+  "section": "",
+  "header": "Wavefold Double Return Brackets Right Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Return_Brackets_Right_Matt_Satin",
+  "legacy": "wavefold_double_return_brackets_right_matt_satin"
+ },
+ {
+  "excelCol": 98,
+  "section": "",
+  "header": "Streamline Underlap Arm White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Underlap_Arm_White",
+  "legacy": "streamline_underlap_arm_white"
+ },
+ {
+  "excelCol": 99,
+  "section": "",
+  "header": "Streamline Underlap Arm Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Underlap_Arm_Matt_Black_Ink",
+  "legacy": "streamline_underlap_arm_matt_black_ink"
+ },
+ {
+  "excelCol": 100,
+  "section": "",
+  "header": "Streamline Underlap Arm Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Underlap_Arm_Birch_White",
+  "legacy": "streamline_underlap_arm_birch_white"
+ },
+ {
+  "excelCol": 101,
+  "section": "",
+  "header": "Streamline Underlap Arm Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Underlap_Arm_Matt_Satin",
+  "legacy": "streamline_underlap_arm_matt_satin"
+ },
+ {
+  "excelCol": 102,
+  "section": "",
+  "header": "Streamline Overlap Arm White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Overlap_Arm_White",
+  "legacy": "streamline_overlap_arm_white"
+ },
+ {
+  "excelCol": 103,
+  "section": "",
+  "header": "Streamline Overlap Arm Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Overlap_Arm_Matt_Black_Ink",
+  "legacy": "streamline_overlap_arm_matt_black_ink"
+ },
+ {
+  "excelCol": 104,
+  "section": "",
+  "header": "Streamline Overlap Arm Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Overlap_Arm_Birch_White",
+  "legacy": "streamline_overlap_arm_birch_white"
+ },
+ {
+  "excelCol": 105,
+  "section": "",
+  "header": "Streamline Overlap Arm Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Overlap_Arm_Matt_Satin",
+  "legacy": "streamline_overlap_arm_matt_satin"
+ },
+ {
+  "excelCol": 106,
+  "section": "",
+  "header": "Wavefold Single Cord Pulley White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Cord_Pulley_White",
+  "legacy": "wavefold_single_cord_pulley_white"
+ },
+ {
+  "excelCol": 107,
+  "section": "",
+  "header": "Wavefold Single Cord Pulley Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Cord_Pulley_Black",
+  "legacy": "wavefold_single_cord_pulley_black"
+ },
+ {
+  "excelCol": 108,
+  "section": "",
+  "header": "Wavefold Single Cord Pulley Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Single_Cord_Pulley_Matt_Satin",
+  "legacy": "wavefold_single_cord_pulley_matt_satin"
+ },
+ {
+  "excelCol": 109,
+  "section": "",
+  "header": "Wavefold Double Cord Pulley White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Cord_Pulley_White",
+  "legacy": "wavefold_double_cord_pulley_white"
+ },
+ {
+  "excelCol": 110,
+  "section": "",
+  "header": "Wavefold Double Cord Pulley Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Cord_Pulley_Black",
+  "legacy": "wavefold_double_cord_pulley_black"
+ },
+ {
+  "excelCol": 111,
+  "section": "",
+  "header": "Wavefold Double Cord Pulley Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Double_Cord_Pulley_Matt_Satin",
+  "legacy": "wavefold_double_cord_pulley_matt_satin"
+ },
+ {
+  "excelCol": 112,
+  "section": "",
+  "header": "Streamline Cord Pulley White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Cord_Pulley_White",
+  "legacy": "streamline_cord_pulley_white"
+ },
+ {
+  "excelCol": 113,
+  "section": "",
+  "header": "Streamline Cord Pulley Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_Cord_Pulley_Matt_Black_Ink",
+  "legacy": "streamline_cord_pulley_matt_black_ink"
+ },
+ {
+  "excelCol": 114,
+  "section": "",
+  "header": "Streamline Cord Pulley Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_Cord_Pulley_Birch_White",
+  "legacy": "streamline_cord_pulley_birch_white"
+ },
+ {
+  "excelCol": 115,
+  "section": "",
+  "header": "Streamline Cord Pulley Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_Cord_Pulley_Matt_Satin",
+  "legacy": "streamline_cord_pulley_matt_satin"
+ },
+ {
+  "excelCol": 116,
+  "section": "",
+  "header": "Wavefold Insert Pulley",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Insert_Pulley",
+  "legacy": "wavefold_insert_pulley"
+ },
+ {
+  "excelCol": 117,
+  "section": "",
+  "header": "Streamline Insert Pulley",
+  "supplier": "",
+  "sqlColumn": "Streamline_Insert_Pulley",
+  "legacy": "streamline_insert_pulley"
+ },
+ {
+  "excelCol": 118,
+  "section": "",
+  "header": "Wavefold Track Joiner",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Track_Joiner",
+  "legacy": "wavefold_track_joiner"
+ },
+ {
+  "excelCol": 119,
+  "section": "",
+  "header": "Streamline Track Joiner",
+  "supplier": "",
+  "sqlColumn": "Streamline_Track_Joiner",
+  "legacy": "streamline_track_joiner"
+ },
+ {
+  "excelCol": 120,
+  "section": "",
+  "header": "Wavefold End Cap White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_End_Cap_White",
+  "legacy": "wavefold_end_cap_white"
+ },
+ {
+  "excelCol": 121,
+  "section": "",
+  "header": "Wavefold End Cap Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_End_Cap_Black",
+  "legacy": "wavefold_end_cap_black"
+ },
+ {
+  "excelCol": 122,
+  "section": "",
+  "header": "Wavefold End Cap Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Wavefold_End_Cap_Matt_Satin",
+  "legacy": "wavefold_end_cap_matt_satin"
+ },
+ {
+  "excelCol": 123,
+  "section": "",
+  "header": "Streamline End Cap White",
+  "supplier": "",
+  "sqlColumn": "Streamline_End_Cap_White",
+  "legacy": "streamline_end_cap_white"
+ },
+ {
+  "excelCol": 124,
+  "section": "",
+  "header": "Streamline End Cap Matt Black Ink",
+  "supplier": "",
+  "sqlColumn": "Streamline_End_Cap_Matt_Black_Ink",
+  "legacy": "streamline_end_cap_matt_black_ink"
+ },
+ {
+  "excelCol": 125,
+  "section": "",
+  "header": "Streamline End Cap Birch White",
+  "supplier": "",
+  "sqlColumn": "Streamline_End_Cap_Birch_White",
+  "legacy": "streamline_end_cap_birch_white"
+ },
+ {
+  "excelCol": 126,
+  "section": "",
+  "header": "Streamline End Cap Matt Satin",
+  "supplier": "",
+  "sqlColumn": "Streamline_End_Cap_Matt_Satin",
+  "legacy": "streamline_end_cap_matt_satin"
+ },
+ {
+  "excelCol": 127,
+  "section": "",
+  "header": "Wavefold Cord Drawn Block White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Cord_Drawn_Block_White",
+  "legacy": "wavefold_cord_drawn_block_white"
+ },
+ {
+  "excelCol": 128,
+  "section": "",
+  "header": "Wavefold Cord Drawn Block Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Cord_Drawn_Block_Black",
+  "legacy": "wavefold_cord_drawn_block_black"
+ },
+ {
+  "excelCol": 129,
+  "section": "",
+  "header": "Wavefold Flick Stick Carrier White",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Flick_Stick_Carrier_White",
+  "legacy": "wavefold_flick_stick_carrier_white"
+ },
+ {
+  "excelCol": 130,
+  "section": "",
+  "header": "Wavefold Flick Stick Carrier Black",
+  "supplier": "",
+  "sqlColumn": "Wavefold_Flick_Stick_Carrier_Black",
+  "legacy": "wavefold_flick_stick_carrier_black"
+ },
+ {
+  "excelCol": 131,
+  "section": "",
+  "header": "Streamline Bent Track Corner Blocks",
+  "supplier": "",
+  "sqlColumn": "Streamline_Bent_Track_Corner_Blocks",
+  "legacy": "streamline_bent_track_corner_blocks"
+ },
+ {
+  "excelCol": 132,
+  "section": "",
+  "header": "Cord Tensioning Pulley",
+  "supplier": "",
+  "sqlColumn": "Cord_Tensioning_Pulley",
+  "legacy": "cord_tensioning_pulley"
+ },
+ {
+  "excelCol": 133,
+  "section": "",
+  "header": "System 20 Underlap Arm White",
+  "supplier": "",
+  "sqlColumn": "System_20_Underlap_Arm_White",
+  "legacy": "system_20_underlap_arm_white"
+ },
+ {
+  "excelCol": 134,
+  "section": "",
+  "header": "System 20 Underlap Arm Black",
+  "supplier": "",
+  "sqlColumn": "System_20_Underlap_Arm_Black",
+  "legacy": "system_20_underlap_arm_black"
+ },
+ {
+  "excelCol": 135,
+  "section": "",
+  "header": "System 20 Overlap Arm White",
+  "supplier": "",
+  "sqlColumn": "System_20_Overlap_Arm_White",
+  "legacy": "system_20_overlap_arm_white"
+ },
+ {
+  "excelCol": 136,
+  "section": "",
+  "header": "System 20 Overlap Arm Black",
+  "supplier": "",
+  "sqlColumn": "System_20_Overlap_Arm_Black",
+  "legacy": "system_20_overlap_arm_black"
+ },
+ {
+  "excelCol": 137,
+  "section": "",
+  "header": "System 20 Runners",
+  "supplier": "",
+  "sqlColumn": "System_20_Runners",
+  "legacy": "system_20_runners"
+ },
+ {
+  "excelCol": 138,
+  "section": "",
+  "header": "Conduit",
+  "supplier": "",
+  "sqlColumn": "Conduit",
+  "legacy": "conduit"
+ },
+ {
+  "excelCol": 139,
+  "section": "",
+  "header": "Muslin Brackets",
+  "supplier": "",
+  "sqlColumn": "Muslin_Brackets",
+  "legacy": "muslin_brackets"
+ },
+ {
+  "excelCol": 140,
+  "section": "",
+  "header": "100mm Unstayed Brackets",
+  "supplier": "",
+  "sqlColumn": "N100mm_Unstayed_Brackets",
+  "legacy": "100mm_unstayed_brackets"
+ },
+ {
+  "excelCol": 141,
+  "section": "",
+  "header": "25mm Brackets",
+  "supplier": "",
+  "sqlColumn": "N25mm_Brackets",
+  "legacy": "25mm_brackets"
+ },
+ {
+  "excelCol": 142,
+  "section": "",
+  "header": "Acorns",
+  "supplier": "",
+  "sqlColumn": "Acorns",
+  "legacy": "acorns"
+ },
+ {
+  "excelCol": 143,
+  "section": "",
+  "header": "Elbow Joiner",
+  "supplier": "",
+  "sqlColumn": "Elbow_Joiner",
+  "legacy": "elbow_joiner"
+ }
+]

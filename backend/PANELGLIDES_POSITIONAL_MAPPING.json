@@ -1,0 +1,322 @@
+[
+ {
+  "excelCol": 9,
+  "section": "",
+  "header": "Fabric",
+  "supplier": "",
+  "sqlColumn": "Fabric",
+  "legacy": "fabric"
+ },
+ {
+  "excelCol": 10,
+  "section": "",
+  "header": "Fabric Sqm",
+  "supplier": "",
+  "sqlColumn": "Fabric_Sqm",
+  "legacy": "fabric_sqm"
+ },
+ {
+  "excelCol": 11,
+  "section": "",
+  "header": "Panels",
+  "supplier": "",
+  "sqlColumn": "Panels",
+  "legacy": "panels"
+ },
+ {
+  "excelCol": 12,
+  "section": "",
+  "header": "Fabric Width",
+  "supplier": "",
+  "sqlColumn": "Fabric_Width",
+  "legacy": "fabric_width"
+ },
+ {
+  "excelCol": 13,
+  "section": "",
+  "header": "Fabric Drop",
+  "supplier": "",
+  "sqlColumn": "Fabric_Drop",
+  "legacy": "fabric_drop"
+ },
+ {
+  "excelCol": 14,
+  "section": "",
+  "header": "4 Channel Track Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_Anodised_Silver",
+  "legacy": "4_channel_track_anodised_silver"
+ },
+ {
+  "excelCol": 15,
+  "section": "",
+  "header": "4 Channel Track White",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_White",
+  "legacy": "4_channel_track_white"
+ },
+ {
+  "excelCol": 16,
+  "section": "",
+  "header": "4 Channel Track Black",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_Black",
+  "legacy": "4_channel_track_black"
+ },
+ {
+  "excelCol": 17,
+  "section": "",
+  "header": "5 Channel Track Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_Anodised_Silver",
+  "legacy": "5_channel_track_anodised_silver"
+ },
+ {
+  "excelCol": 18,
+  "section": "",
+  "header": "5 Channel Track White",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_White",
+  "legacy": "5_channel_track_white"
+ },
+ {
+  "excelCol": 19,
+  "section": "",
+  "header": "5 Channel Track Black",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_Black",
+  "legacy": "5_channel_track_black"
+ },
+ {
+  "excelCol": 20,
+  "section": "",
+  "header": "Panel Bar Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_Anodised_Silver",
+  "legacy": "panel_bar_anodised_silver"
+ },
+ {
+  "excelCol": 21,
+  "section": "",
+  "header": "Panel Bar White",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_White",
+  "legacy": "panel_bar_white"
+ },
+ {
+  "excelCol": 22,
+  "section": "",
+  "header": "Panel Bar Black",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_Black",
+  "legacy": "panel_bar_black"
+ },
+ {
+  "excelCol": 23,
+  "section": "",
+  "header": "D30 Bottom Rail Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_Anodised_Silver",
+  "legacy": "d30_bottom_rail_anodised_silver"
+ },
+ {
+  "excelCol": 24,
+  "section": "",
+  "header": "D30 Bottom Rail White",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_White",
+  "legacy": "d30_bottom_rail_white"
+ },
+ {
+  "excelCol": 25,
+  "section": "",
+  "header": "D30 Bottom Rail Black",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_Black",
+  "legacy": "d30_bottom_rail_black"
+ },
+ {
+  "excelCol": 26,
+  "section": "",
+  "header": "D30 Bottom Rail Cream",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_Cream",
+  "legacy": "d30_bottom_rail_cream"
+ },
+ {
+  "excelCol": 27,
+  "section": "",
+  "header": "D30 Bottom Rail Bone",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_Bone",
+  "legacy": "d30_bottom_rail_bone"
+ },
+ {
+  "excelCol": 28,
+  "section": "",
+  "header": "4 Channel Track End Caps Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_End_Caps_Anodised_Silver",
+  "legacy": "4_channel_track_end_caps_anodised_silver"
+ },
+ {
+  "excelCol": 29,
+  "section": "",
+  "header": "4 Channel Track End Caps White",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_End_Caps_White",
+  "legacy": "4_channel_track_end_caps_white"
+ },
+ {
+  "excelCol": 30,
+  "section": "",
+  "header": "4 Channel Track End Caps Black",
+  "supplier": "",
+  "sqlColumn": "N4_Channel_Track_End_Caps_Black",
+  "legacy": "4_channel_track_end_caps_black"
+ },
+ {
+  "excelCol": 31,
+  "section": "",
+  "header": "5 Channel Track End Caps Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_End_Caps_Anodised_Silver",
+  "legacy": "5_channel_track_end_caps_anodised_silver"
+ },
+ {
+  "excelCol": 32,
+  "section": "",
+  "header": "5 Channel Track End Caps White",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_End_Caps_White",
+  "legacy": "5_channel_track_end_caps_white"
+ },
+ {
+  "excelCol": 33,
+  "section": "",
+  "header": "5 Channel Track End Caps Black",
+  "supplier": "",
+  "sqlColumn": "N5_Channel_Track_End_Caps_Black",
+  "legacy": "5_channel_track_end_caps_black"
+ },
+ {
+  "excelCol": 34,
+  "section": "",
+  "header": "Panel Bar End Caps Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_End_Caps_Anodised_Silver",
+  "legacy": "panel_bar_end_caps_anodised_silver"
+ },
+ {
+  "excelCol": 35,
+  "section": "",
+  "header": "Panel Bar End Caps White",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_End_Caps_White",
+  "legacy": "panel_bar_end_caps_white"
+ },
+ {
+  "excelCol": 36,
+  "section": "",
+  "header": "Panel Bar End Caps Black",
+  "supplier": "",
+  "sqlColumn": "Panel_Bar_End_Caps_Black",
+  "legacy": "panel_bar_end_caps_black"
+ },
+ {
+  "excelCol": 37,
+  "section": "",
+  "header": "D30 Bottom Rail End Caps Anodised Silver",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Anodised_Silver",
+  "legacy": "d30_bottom_rail_end_caps_anodised_silver"
+ },
+ {
+  "excelCol": 38,
+  "section": "",
+  "header": "D30 Bottom Rail End Caps White",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_White",
+  "legacy": "d30_bottom_rail_end_caps_white"
+ },
+ {
+  "excelCol": 39,
+  "section": "",
+  "header": "D30 Bottom Rail End Caps Black",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Black",
+  "legacy": "d30_bottom_rail_end_caps_black"
+ },
+ {
+  "excelCol": 40,
+  "section": "",
+  "header": "D30 Bottom Rail End Caps Cream",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Cream",
+  "legacy": "d30_bottom_rail_end_caps_cream"
+ },
+ {
+  "excelCol": 41,
+  "section": "",
+  "header": "D30 Bottom Rail End Caps Bone",
+  "supplier": "",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Bone",
+  "legacy": "d30_bottom_rail_end_caps_bone"
+ },
+ {
+  "excelCol": 42,
+  "section": "",
+  "header": "Roller Car One Sided",
+  "supplier": "",
+  "sqlColumn": "Roller_Car_One_Sided",
+  "legacy": "roller_car_one_sided"
+ },
+ {
+  "excelCol": 43,
+  "section": "",
+  "header": "Roller Car Two Sided",
+  "supplier": "",
+  "sqlColumn": "Roller_Car_Two_Sided",
+  "legacy": "roller_car_two_sided"
+ },
+ {
+  "excelCol": 44,
+  "section": "",
+  "header": "Nut & Bolt",
+  "supplier": "",
+  "sqlColumn": "Nut_Bolt",
+  "legacy": "nut_bolt"
+ },
+ {
+  "excelCol": 45,
+  "section": "",
+  "header": "Flick Stick",
+  "supplier": "",
+  "sqlColumn": "Flick_Stick",
+  "legacy": "flick_stick"
+ },
+ {
+  "excelCol": 46,
+  "section": "",
+  "header": "Brackets",
+  "supplier": "",
+  "sqlColumn": "Brackets",
+  "legacy": "brackets"
+ },
+ {
+  "excelCol": 47,
+  "section": "",
+  "header": "9mm Spline",
+  "supplier": "",
+  "sqlColumn": "N9mm_Spline",
+  "legacy": "9mm_spline"
+ },
+ {
+  "excelCol": 48,
+  "section": "",
+  "header": "15mm Spline",
+  "supplier": "",
+  "sqlColumn": "N15mm_Spline",
+  "legacy": "15mm_spline"
+ }
+]

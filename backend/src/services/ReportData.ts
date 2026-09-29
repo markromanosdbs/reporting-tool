@@ -1,10 +1,14 @@
 import { getConnection, getBraxConnection } from '../db.js';
 import { getDoorScreenPage } from './jobsheet/DoorScreenReport.js';
+import { getProductPage, productFromEngine } from './jobsheet/ProductReport.js';
+import { PRODUCTS_BY_TABLE } from './jobsheet/products.js';
 
 /**
  * Rows for each Components Report table, exactly as the page shows them.
- * Shared by /api/data, /api/summary and the Data Analyst so they always agree.
+ * Shared by /api/data and /api/summary so they always agree.
  *  - door_screen_components: calculated from braxreportsDB (dbsproduction + SalesOrderOptions_DASON)
+ *  - products in jobsheet/products.ts (Roller Blinds, Roller Shutters): same, when the product's
+ *    .env flag is on (e.g. ROLLERBLINDS_FROM_ENGINE=true); otherwise the old table
  *  - other tables: their current ComponentsReport tables, until each product's engine is built
  */
 
@@ -49,10 +53,16 @@ export function sanitizeTableName(table: string): string {
 export async function fetchTableData(table: string, skip: number, take: number, search: string): Promise<{ data: any[]; total: number }> {
   let data: any[];
   let total: number;
+  // every job sheet template that feeds this page (they share the page's .env switch)
+  const products = PRODUCTS_BY_TABLE[table] ?? [];
+  const calculated = products.length > 0 && productFromEngine(products[0]);
 
   if (table === 'door_screen_components') {
     // Calculated from BUZ (SalesOrderOptions_DASON) via the job sheet engine, refreshed on each load
     ({ data, total } = await getDoorScreenPage(await getBraxConnection(), { skip, take, search }));
+  } else if (calculated) {
+    // Calculated from BUZ with the product's job sheet formulas; job tracking already included
+    ({ data, total } = await getProductPage(products, await getBraxConnection(), { skip, take, search }));
   } else {
     const pool = await getConnection();
 
@@ -93,7 +103,7 @@ export async function fetchTableData(table: string, skip: number, take: number, 
   }
 
   // For tables with job tracking, fetch and merge tracking data
-  if (TABLES_WITH_JOB_TRACKING.includes(table) && data.length > 0) {
+  if (TABLES_WITH_JOB_TRACKING.includes(table) && data.length > 0 && !calculated) {
     try {
       // Build list of quote_no + line_no combinations to query
       const lookupKeys = data.map((row: any) => `'${row.quote_no} ${row.line_no}'`).join(',');

@@ -2,20 +2,63 @@
  * Summary rows for the Components Report (Total Required, Install Booked,
  * Install Booked next 7 days, Kanban Minimum Stock Level).
  *
- * Moved from the frontend (DataTable.tsx calculateSums/getDivisor) unchanged:
- * same divisors (from the original SQL stored procedures), same "Confirmed"
- * and 7-day rules. Kanban is 0 as before.
+ * Moved from the frontend (DataTable.tsx calculateSums/getDivisor): same divisors (from the
+ * original SQL stored procedures), same "Confirmed" and 7-day rules.
+ *
+ * Roller Blinds, Roller Shutters, External Blinds, Squalonet, Panel Glides and Curtain Tracks follow their Excel reports exactly:
+ * dividers, Kanban minimums, number formats and highlight colours come from the report summary
+ * files (generated from the reports by scripts/generateReportHeaders.ts). Kanban is 0 for the
+ * other tables.
  */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 export interface ColumnSummary {
   total: number;
   ib_total: number;
   ib7_total: number;
   kanban_min: number;
+  /** Decimal places the Excel report shows (null = General); only for tables with a report config */
+  decimals?: { ib: number | null; total: number | null };
 }
 
-/** Shape the page already uses: sums[col] = total, sums._details[col] = breakdown. */
-export type SummaryResult = { [column: string]: any; _details?: Record<string, ColumnSummary> };
+/** columns: per column [divider, kanban, installBookedDecimals, totalRequiredDecimals] */
+interface ReportSummaryFile {
+  columns: Record<string, [number, number, number | null, number | null]>;
+  /** fills when Install Booked / Total Required beat the Kanban minimum (op), and for a zero total ('' = none) */
+  highlight: { ib: string; total: string; op?: '>' | '>='; zeroFill?: string };
+}
+const REPORT_SUMMARY_FILES: Record<string, string> = {
+  roller_blind_components: 'ROLLERBLINDS_REPORT_SUMMARY.json',
+  roller_shutter_components: 'ROLLERSHUTTERS_REPORT_SUMMARY.json',
+  external_blinds_components: 'EXTERNALBLINDS_REPORT_SUMMARY.json',
+  squalonet_retractable_screens: 'SQUALONET_REPORT_SUMMARY.json',
+  panel_glides: 'PANELGLIDES_REPORT_SUMMARY.json',
+  curtain_tracks: 'CURTAINTRACKS_REPORT_SUMMARY.json',
+};
+const reportFiles = new Map<string, ReportSummaryFile | null>();
+function reportFile(tableName: string): ReportSummaryFile | null {
+  if (!reportFiles.has(tableName)) {
+    const file = REPORT_SUMMARY_FILES[tableName];
+    let cfg: ReportSummaryFile | null = null;
+    if (file) {
+      const here = path.dirname(fileURLToPath(import.meta.url));
+      cfg = JSON.parse(fs.readFileSync(path.resolve(here, '../..', file), 'utf8'));
+    }
+    reportFiles.set(tableName, cfg);
+  }
+  return reportFiles.get(tableName)!;
+}
+function reportConfig(tableName: string): ReportSummaryFile['columns'] | null {
+  return reportFile(tableName)?.columns ?? null;
+}
+
+/**
+ * Shape the page already uses: sums[col] = total, sums._details[col] = breakdown; _highlight = the
+ * report's fills for "Install Booked > Kanban" / "Total Required > Kanban" ('' = none).
+ */
+export type SummaryResult = { [column: string]: any; _details?: Record<string, ColumnSummary>; _highlight?: ReportSummaryFile['highlight'] };
 
 // Table-specific divisor maps (from SQL stored procedures)
 const DIVISOR_MAPS: { [key: string]: { [key: string]: number } } = {
@@ -37,6 +80,9 @@ const DIVISOR_MAPS: { [key: string]: { [key: string]: number } } = {
 };
 
 export function getDivisor(tableName: string, columnName: string): number {
+  const fromReport = reportConfig(tableName)?.[columnName];
+  if (fromReport) return fromReport[0] || 1;
+
   const mapForTable = DIVISOR_MAPS[tableName || 'roller_blind_components'] || DIVISOR_MAPS['roller_blind_components'];
 
   // For roller_shutter_components, use pattern matching from SQL CASE statement
@@ -173,6 +219,7 @@ export function calculateSummary(tableName: string, rows: any[], now: Date = new
     });
 
     const divisor = getDivisor(tableName, key);
+    const fromReport = reportConfig(tableName)?.[key];
 
     // Total Required: sum all values / divisor
     const total = numericValues.reduce((a, b) => a + b, 0) / divisor;
@@ -191,8 +238,14 @@ export function calculateSummary(tableName: string, rows: any[], now: Date = new
     // Main total for backward compatibility, plus the breakdown for the summary rows
     sums[key] = total;
     if (!sums._details) sums._details = {};
-    sums._details[key] = { total, ib_total, ib7_total, kanban_min: 0 };
+    sums._details[key] = {
+      total, ib_total, ib7_total,
+      kanban_min: fromReport?.[1] ?? 0,
+      ...(fromReport ? { decimals: { ib: fromReport[2], total: fromReport[3] } } : {}),
+    };
   });
 
+  const highlight = reportFile(tableName)?.highlight;
+  if (highlight) sums._highlight = highlight;
   return sums;
 }

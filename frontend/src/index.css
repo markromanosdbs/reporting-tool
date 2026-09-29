@@ -54,3 +54,21 @@ table {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* Data table cells: the 💬 add-comment icon is drawn on hover (no button per cell - keeps big tables fast).
+   Clicking the icon area opens the comment box (handled in DataTable's DataRow). */
+.dt-cell { position: relative; cursor: default; }
+.dt-cell:hover::after {
+  content: '💬';
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 11px;
+  line-height: 1;
+  cursor: pointer;
+  background: inherit;
+}
+.dt-cell .dt-comment-dot {
+  position: absolute; top: 0; right: 0; width: 8px; height: 8px; border-radius: 9999px; background: #ef4444;
+}

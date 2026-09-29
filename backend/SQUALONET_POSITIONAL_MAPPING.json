@@ -1,0 +1,402 @@
+[
+ {
+  "excelCol": 9,
+  "section": "",
+  "header": "Mesh Kit 1000 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1000_x_2050",
+  "legacy": "mesh_kit_1000_x_2050"
+ },
+ {
+  "excelCol": 10,
+  "section": "",
+  "header": "Mesh Kit 1000 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1000_x_2350",
+  "legacy": "mesh_kit_1000_x_2350"
+ },
+ {
+  "excelCol": 11,
+  "section": "",
+  "header": "Mesh Kit 1000 x 2750",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1000_x_2750",
+  "legacy": "mesh_kit_1000_x_2750"
+ },
+ {
+  "excelCol": 12,
+  "section": "",
+  "header": "Mesh Kit 1300 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1300_x_2050",
+  "legacy": "mesh_kit_1300_x_2050"
+ },
+ {
+  "excelCol": 13,
+  "section": "",
+  "header": "Mesh Kit 1300 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1300_x_2350",
+  "legacy": "mesh_kit_1300_x_2350"
+ },
+ {
+  "excelCol": 14,
+  "section": "",
+  "header": "Mesh Kit 1300 x 2750",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1300_x_2750",
+  "legacy": "mesh_kit_1300_x_2750"
+ },
+ {
+  "excelCol": 15,
+  "section": "",
+  "header": "Mesh Kit 1800 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1800_x_2050",
+  "legacy": "mesh_kit_1800_x_2050"
+ },
+ {
+  "excelCol": 16,
+  "section": "",
+  "header": "Mesh Kit 1800 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_1800_x_2350",
+  "legacy": "mesh_kit_1800_x_2350"
+ },
+ {
+  "excelCol": 17,
+  "section": "",
+  "header": "Mesh Kit 1800 x 2750",
+  "supplier": "1",
+  "sqlColumn": "Mesh_Kit_1800_x_2750",
+  "legacy": "mesh_kit_1800_x_2750"
+ },
+ {
+  "excelCol": 18,
+  "section": "",
+  "header": "Mesh Kit 2500 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2500_x_2050",
+  "legacy": "mesh_kit_2500_x_2050"
+ },
+ {
+  "excelCol": 19,
+  "section": "",
+  "header": "Mesh Kit 2500 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2500_x_2350",
+  "legacy": "mesh_kit_2500_x_2350"
+ },
+ {
+  "excelCol": 20,
+  "section": "",
+  "header": "Mesh Kit 2500 x 2750",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2500_x_2750",
+  "legacy": "mesh_kit_2500_x_2750"
+ },
+ {
+  "excelCol": 21,
+  "section": "",
+  "header": "Mesh Kit 2800 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2800_x_2050",
+  "legacy": "mesh_kit_2800_x_2050"
+ },
+ {
+  "excelCol": 22,
+  "section": "",
+  "header": "Mesh Kit 2800 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2800_x_2350",
+  "legacy": "mesh_kit_2800_x_2350"
+ },
+ {
+  "excelCol": 23,
+  "section": "",
+  "header": "Mesh Kit 2800 x 2750",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_2800_x_2750",
+  "legacy": "mesh_kit_2800_x_2750"
+ },
+ {
+  "excelCol": 24,
+  "section": "",
+  "header": "Mesh Kit 3500 x 2050",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_3500_x_2050",
+  "legacy": "mesh_kit_3500_x_2050"
+ },
+ {
+  "excelCol": 25,
+  "section": "",
+  "header": "Mesh Kit 3500 x 2350",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_3500_x_2350",
+  "legacy": "mesh_kit_3500_x_2350"
+ },
+ {
+  "excelCol": 26,
+  "section": "",
+  "header": "Mesh Kit 3500 x 2750",
+  "supplier": "",
+  "sqlColumn": "Mesh_Kit_3500_x_2750",
+  "legacy": "mesh_kit_3500_x_2750"
+ },
+ {
+  "excelCol": 27,
+  "section": "",
+  "header": "Handle Bar White",
+  "supplier": "",
+  "sqlColumn": "Handle_Bar_White",
+  "legacy": "handle_bar_white"
+ },
+ {
+  "excelCol": 28,
+  "section": "",
+  "header": "Handle Bar Black",
+  "supplier": "2437",
+  "sqlColumn": "Handle_Bar_Black",
+  "legacy": "handle_bar_black"
+ },
+ {
+  "excelCol": 29,
+  "section": "",
+  "header": "Starting/Receiving Channel White",
+  "supplier": "",
+  "sqlColumn": "Starting_Receiving_Channel_White",
+  "legacy": "starting_receiving_channel_white"
+ },
+ {
+  "excelCol": 30,
+  "section": "",
+  "header": "Starting/Receiving Channel Black",
+  "supplier": "4790",
+  "sqlColumn": "Starting_Receiving_Channel_Black",
+  "legacy": "starting_receiving_channel_black"
+ },
+ {
+  "excelCol": 31,
+  "section": "",
+  "header": "Magnet Holder Anodised Silver",
+  "supplier": "2395",
+  "sqlColumn": "Magnet_Holder_Anodised_Silver",
+  "legacy": "magnet_holder_anodised_silver"
+ },
+ {
+  "excelCol": 32,
+  "section": "",
+  "header": "Top Track White",
+  "supplier": "",
+  "sqlColumn": "Top_Track_White",
+  "legacy": "top_track_white"
+ },
+ {
+  "excelCol": 33,
+  "section": "",
+  "header": "Top Track Black",
+  "supplier": "1260",
+  "sqlColumn": "Top_Track_Black",
+  "legacy": "top_track_black"
+ },
+ {
+  "excelCol": 34,
+  "section": "",
+  "header": "4mm Bottom Track White",
+  "supplier": "",
+  "sqlColumn": "N4mm_Bottom_Track_White",
+  "legacy": "4mm_bottom_track_white"
+ },
+ {
+  "excelCol": 35,
+  "section": "",
+  "header": "4mm Bottom Track Black",
+  "supplier": "1260",
+  "sqlColumn": "N4mm_Bottom_Track_Black",
+  "legacy": "4mm_bottom_track_black"
+ },
+ {
+  "excelCol": 36,
+  "section": "",
+  "header": "8mm Bottom Track White",
+  "supplier": "",
+  "sqlColumn": "N8mm_Bottom_Track_White",
+  "legacy": "8mm_bottom_track_white"
+ },
+ {
+  "excelCol": 37,
+  "section": "",
+  "header": "8mm Bottom Track Black",
+  "supplier": "",
+  "sqlColumn": "N8mm_Bottom_Track_Black",
+  "legacy": "8mm_bottom_track_black"
+ },
+ {
+  "excelCol": 38,
+  "section": "",
+  "header": "25mm x 25mm Angle White",
+  "supplier": "",
+  "sqlColumn": "N25mm_x_25mm_Angle_White",
+  "legacy": "25mm_x_25mm_angle_white"
+ },
+ {
+  "excelCol": 39,
+  "section": "",
+  "header": "25mm x 25mm Angle Black",
+  "supplier": "6220",
+  "sqlColumn": "N25mm_x_25mm_Angle_Black",
+  "legacy": "25mm_x_25mm_angle_black"
+ },
+ {
+  "excelCol": 40,
+  "section": "",
+  "header": "50mm x 25mm Angle White",
+  "supplier": "",
+  "sqlColumn": "N50mm_x_25mm_Angle_White",
+  "legacy": "50mm_x_25mm_angle_white"
+ },
+ {
+  "excelCol": 41,
+  "section": "",
+  "header": "50mm x 25mm Angle Black",
+  "supplier": "",
+  "sqlColumn": "N50mm_x_25mm_Angle_Black",
+  "legacy": "50mm_x_25mm_angle_black"
+ },
+ {
+  "excelCol": 42,
+  "section": "",
+  "header": "75mm x 25mm Angle White",
+  "supplier": "",
+  "sqlColumn": "N75mm_x_25mm_Angle_White",
+  "legacy": "75mm_x_25mm_angle_white"
+ },
+ {
+  "excelCol": 43,
+  "section": "",
+  "header": "75mm x 25mm Angle Black",
+  "supplier": "",
+  "sqlColumn": "N75mm_x_25mm_Angle_Black",
+  "legacy": "75mm_x_25mm_angle_black"
+ },
+ {
+  "excelCol": 44,
+  "section": "",
+  "header": "Magnet",
+  "supplier": "4790",
+  "sqlColumn": "Magnet",
+  "legacy": "magnet"
+ },
+ {
+  "excelCol": 45,
+  "section": "",
+  "header": "Bottom Corner White",
+  "supplier": "",
+  "sqlColumn": "Bottom_Corner_White",
+  "legacy": "bottom_corner_white"
+ },
+ {
+  "excelCol": 46,
+  "section": "",
+  "header": "Bottom Corner Black",
+  "supplier": "2",
+  "sqlColumn": "Bottom_Corner_Black",
+  "legacy": "bottom_corner_black"
+ },
+ {
+  "excelCol": 47,
+  "section": "",
+  "header": "Top Corner White",
+  "supplier": "",
+  "sqlColumn": "Top_Corner_White",
+  "legacy": "top_corner_white"
+ },
+ {
+  "excelCol": 48,
+  "section": "",
+  "header": "Top Corner Black",
+  "supplier": "2",
+  "sqlColumn": "Top_Corner_Black",
+  "legacy": "top_corner_black"
+ },
+ {
+  "excelCol": 49,
+  "section": "",
+  "header": "Top Runner White",
+  "supplier": "",
+  "sqlColumn": "Top_Runner_White",
+  "legacy": "top_runner_white"
+ },
+ {
+  "excelCol": 50,
+  "section": "",
+  "header": "Top Runner Black",
+  "supplier": "2",
+  "sqlColumn": "Top_Runner_Black",
+  "legacy": "top_runner_black"
+ },
+ {
+  "excelCol": 51,
+  "section": "",
+  "header": "Double Sided Tape for Top Track",
+  "supplier": "1260",
+  "sqlColumn": "Double_Sided_Tape_for_Top_Track",
+  "legacy": "double_sided_tape_for_top_track"
+ },
+ {
+  "excelCol": 52,
+  "section": "",
+  "header": "Double Sided Tape for Bottom Track",
+  "supplier": "1260",
+  "sqlColumn": "Double_Sided_Tape_for_Bottom_Track",
+  "legacy": "double_sided_tape_for_bottom_track"
+ },
+ {
+  "excelCol": 53,
+  "section": "",
+  "header": "4mm Centre Opening Accessories",
+  "supplier": "",
+  "sqlColumn": "N4mm_Centre_Opening_Accessories",
+  "legacy": "4mm_centre_opening_accessories"
+ },
+ {
+  "excelCol": 54,
+  "section": "",
+  "header": "8mm Centre Opening Accessories",
+  "supplier": "",
+  "sqlColumn": "N8mm_Centre_Opening_Accessories",
+  "legacy": "8mm_centre_opening_accessories"
+ },
+ {
+  "excelCol": 55,
+  "section": "",
+  "header": "Safety Block & Pin",
+  "supplier": "2",
+  "sqlColumn": "Safety_Block_Pin",
+  "legacy": "safety_block_pin"
+ },
+ {
+  "excelCol": 56,
+  "section": "",
+  "header": "Wind Break Clips",
+  "supplier": "2",
+  "sqlColumn": "Wind_Break_Clips",
+  "legacy": "wind_break_clips"
+ },
+ {
+  "excelCol": 57,
+  "section": "",
+  "header": "Screen Handle",
+  "supplier": "2",
+  "sqlColumn": "Screen_Handle",
+  "legacy": "screen_handle"
+ },
+ {
+  "excelCol": 58,
+  "section": "",
+  "header": "Track Joiner",
+  "supplier": "",
+  "sqlColumn": "Track_Joiner",
+  "legacy": "track_joiner"
+ }
+]

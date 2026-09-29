@@ -1,7 +1,9 @@
 import { Router, Request, Response } from 'express';
-import { getConnection } from '../db.js';
+import { getConnection, getBraxConnection } from '../db.js';
 import { VALID_TABLES, sanitizeTableName, fetchTableData } from '../services/ReportData.js';
 import { calculateSummary } from '../services/SummaryCalculator.js';
+import { getProductIssues, productFromEngine } from '../services/jobsheet/ProductReport.js';
+import { PRODUCTS_BY_TABLE } from '../services/jobsheet/products.js';
 
 const router = Router();
 
@@ -25,6 +27,25 @@ router.get('/data', async (req: Request, res: Response) => {
   } catch (error) {
     console.error('Error fetching data:', error);
     res.status(500).json({ error: 'Failed to fetch data', details: (error as any).message });
+  }
+});
+
+/**
+ * GET /api/issues?table=...
+ * Lines whose calculated components hit a job sheet formula error (#N/A etc.), for the page's warning flag.
+ * Only tables calculated from BUZ data have these; others return an empty list.
+ */
+router.get('/issues', async (req: Request, res: Response) => {
+  try {
+    const table = sanitizeTableName((req.query.table as string) || 'door_screen_components');
+    const products = PRODUCTS_BY_TABLE[table] ?? [];
+    const issues = products.length && productFromEngine(products[0])
+      ? await getProductIssues(products, await getBraxConnection())
+      : [];
+    res.json({ table, issues });
+  } catch (error) {
+    console.error('Error fetching calculation issues:', error);
+    res.status(500).json({ error: 'Failed to fetch calculation issues', details: (error as any).message });
   }
 });
 

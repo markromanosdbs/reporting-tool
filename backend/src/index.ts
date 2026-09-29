@@ -6,10 +6,11 @@ import fs from 'fs';
 import { connectDB, closeDB, getBraxConnection } from './db.js';
 import componentsRouter from './routes/components.js';
 import commentsRouter from './routes/comments.js';
-import analystRouter from './routes/analyst.js';
 import calculatorRouter from './routes/calculator.js';
 import { warmUpDoorScreenEngines } from './services/jobsheet/DoorScreenJobSheet.js';
 import { warmUpDoorScreenPage } from './services/jobsheet/DoorScreenReport.js';
+import { warmUpProductPage, productFromEngine } from './services/jobsheet/ProductReport.js';
+import { PRODUCTS } from './services/jobsheet/products.js';
 
 const app = express();
 const PORT = process.env.PORT || 8443;
@@ -29,8 +30,19 @@ app.get('/api/health', (req, res) => {
 // API Routes
 app.use('/api', componentsRouter);
 app.use('/api', commentsRouter);
-app.use('/api', analystRouter);
 app.use('/api', calculatorRouter);
+
+// Optional memory log (MEMORY_LOG_SECONDS=30): the VM allows the backend 600 MB
+const memoryLogSeconds = Number(process.env.MEMORY_LOG_SECONDS) || 0;
+if (memoryLogSeconds > 0) {
+  let peak = 0;
+  const mb = (n: number) => Math.round(n / 1048576);
+  setInterval(() => { peak = Math.max(peak, process.memoryUsage().rss); }, 1000).unref();
+  setInterval(() => {
+    const m = process.memoryUsage();
+    console.log(`[memory] rss ${mb(m.rss)} MB (peak ${mb(peak)} MB), heap ${mb(m.heapUsed)}/${mb(m.heapTotal)} MB`);
+  }, memoryLogSeconds * 1000).unref();
+}
 
 // Initialize database and start server
 async function start() {
@@ -65,7 +77,19 @@ async function start() {
       .then(() => console.log('✓ Door Screen job sheet templates loaded'))
       .then(async () => warmUpDoorScreenPage(await getBraxConnection()))
       .then(() => console.log('✓ Door Screen jobs calculated'))
-      .catch(e => console.error('Door Screen template load failed:', e));
+      .catch(e => console.error('Door Screen template load failed:', e))
+      // then each product calculated from BUZ data whose .env flag is on, one after another
+      .then(async () => {
+        for (const p of PRODUCTS) {
+          if (!productFromEngine(p)) continue;
+          try {
+            await warmUpProductPage(p, await getBraxConnection());
+            console.log(`✓ ${p.label} jobs calculated`);
+          } catch (e) {
+            console.error(`${p.label} warm-up failed:`, e);
+          }
+        }
+      });
 
     // Graceful shutdown
     process.on('SIGTERM', async () => {

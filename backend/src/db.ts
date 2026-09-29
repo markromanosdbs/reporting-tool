@@ -40,27 +40,37 @@ const braxConfig: sql.config = {
 
 let pool: sql.ConnectionPool | null = null;
 let braxPool: sql.ConnectionPool | null = null;
+// While a pool is connecting, other callers wait for that same pool. (Before, a second caller made a
+// new pool and the first caller was handed that unconnected one → "Connection is closed" at start-up.)
+let connecting: Promise<sql.ConnectionPool> | null = null;
+let braxConnecting: Promise<sql.ConnectionPool> | null = null;
 
 export async function connectDB(): Promise<sql.ConnectionPool> {
   if (pool && pool.connected) {
     return pool;
   }
-
-  pool = new sql.ConnectionPool(config);
-  await pool.connect();
-  console.log('✓ Connected to ComponentsReport database');
-  return pool;
+  connecting ??= (async () => {
+    const p = new sql.ConnectionPool(config);
+    await p.connect();
+    pool = p;
+    console.log('✓ Connected to ComponentsReport database');
+    return p;
+  })().finally(() => { connecting = null; });
+  return connecting;
 }
 
 export async function getBraxConnection(): Promise<sql.ConnectionPool> {
   if (braxPool && braxPool.connected) {
     return braxPool;
   }
-
-  braxPool = new sql.ConnectionPool(braxConfig);
-  await braxPool.connect();
-  console.log('✓ Connected to braxreportsDB database');
-  return braxPool;
+  braxConnecting ??= (async () => {
+    const p = new sql.ConnectionPool(braxConfig);
+    await p.connect();
+    braxPool = p;
+    console.log('✓ Connected to braxreportsDB database');
+    return p;
+  })().finally(() => { braxConnecting = null; });
+  return braxConnecting;
 }
 
 export async function getConnection(): Promise<sql.ConnectionPool> {

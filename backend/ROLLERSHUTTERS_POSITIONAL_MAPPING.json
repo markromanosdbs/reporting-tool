@@ -1,0 +1,3090 @@
+[
+ {
+  "excelCol": 10,
+  "section": "Perforated Slat",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black",
+  "legacy": "black"
+ },
+ {
+  "excelCol": 11,
+  "section": "Perforated Slat",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige",
+  "legacy": "perforated_slat__clear_beige"
+ },
+ {
+  "excelCol": 12,
+  "section": "Perforated Slat",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune",
+  "legacy": "perforated_slat__dune"
+ },
+ {
+  "excelCol": 13,
+  "section": "Perforated Slat",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream",
+  "legacy": "perforated_slat__magnolia_cream"
+ },
+ {
+  "excelCol": 14,
+  "section": "Perforated Slat",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument",
+  "legacy": "perforated_slat__monument"
+ },
+ {
+  "excelCol": 15,
+  "section": "Perforated Slat",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey",
+  "legacy": "perforated_slat__shale_grey"
+ },
+ {
+  "excelCol": 16,
+  "section": "Perforated Slat",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White",
+  "legacy": "perforated_slat__white"
+ },
+ {
+  "excelCol": 17,
+  "section": "Perforated Slat",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey",
+  "legacy": "perforated_slat__woodland_grey"
+ },
+ {
+  "excelCol": 18,
+  "section": "Perforated Slat",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream",
+  "legacy": "perforated_slat__cream"
+ },
+ {
+  "excelCol": 19,
+  "section": "Perforated Slat",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown",
+  "legacy": "perforated_slat__brown"
+ },
+ {
+  "excelCol": 20,
+  "section": "Perforated Slat",
+  "header": "Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Beige",
+  "legacy": "perforated_slat__beige"
+ },
+ {
+  "excelCol": 21,
+  "section": "Perforated Slat",
+  "header": "Green",
+  "supplier": "CW Products",
+  "sqlColumn": "Green",
+  "legacy": "perforated_slat__green"
+ },
+ {
+  "excelCol": 22,
+  "section": "Perforated Slat",
+  "header": "Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Red",
+  "legacy": "perforated_slat__red"
+ },
+ {
+  "excelCol": 23,
+  "section": "Perforated Slat",
+  "header": "Bronze",
+  "supplier": "CW Products",
+  "sqlColumn": "Bronze",
+  "legacy": "perforated_slat__bronze"
+ },
+ {
+  "excelCol": 24,
+  "section": "Perforated Slat",
+  "header": "Silver",
+  "supplier": "CW Products",
+  "sqlColumn": "Silver",
+  "legacy": "perforated_slat__silver"
+ },
+ {
+  "excelCol": 25,
+  "section": "Perforated Slat",
+  "header": "Deep Ocean",
+  "supplier": "CW Products",
+  "sqlColumn": "Deep_Ocean",
+  "legacy": "perforated_slat__deep_ocean"
+ },
+ {
+  "excelCol": 26,
+  "section": "Perforated Slat",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper",
+  "legacy": "perforated_slat__jasper"
+ },
+ {
+  "excelCol": 27,
+  "section": "Perforated Slat",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist",
+  "legacy": "perforated_slat__surfmist"
+ },
+ {
+  "excelCol": 28,
+  "section": "Unperforated Slat",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_2",
+  "legacy": "unperforated_slat__black"
+ },
+ {
+  "excelCol": 29,
+  "section": "Unperforated Slat",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_2",
+  "legacy": "unperforated_slat__clear_beige"
+ },
+ {
+  "excelCol": 30,
+  "section": "Unperforated Slat",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_2",
+  "legacy": "unperforated_slat__dune"
+ },
+ {
+  "excelCol": 31,
+  "section": "Unperforated Slat",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_2",
+  "legacy": "unperforated_slat__magnolia_cream"
+ },
+ {
+  "excelCol": 32,
+  "section": "Unperforated Slat",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_2",
+  "legacy": "unperforated_slat__monument"
+ },
+ {
+  "excelCol": 33,
+  "section": "Unperforated Slat",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_2",
+  "legacy": "unperforated_slat__shale_grey"
+ },
+ {
+  "excelCol": 34,
+  "section": "Unperforated Slat",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_2",
+  "legacy": "unperforated_slat__white"
+ },
+ {
+  "excelCol": 35,
+  "section": "Unperforated Slat",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_2",
+  "legacy": "unperforated_slat__woodland_grey"
+ },
+ {
+  "excelCol": 36,
+  "section": "Unperforated Slat",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_2",
+  "legacy": "unperforated_slat__cream"
+ },
+ {
+  "excelCol": 37,
+  "section": "Unperforated Slat",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_2",
+  "legacy": "unperforated_slat__brown"
+ },
+ {
+  "excelCol": 38,
+  "section": "Unperforated Slat",
+  "header": "Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Beige_2",
+  "legacy": "unperforated_slat__beige"
+ },
+ {
+  "excelCol": 39,
+  "section": "Unperforated Slat",
+  "header": "Green",
+  "supplier": "CW Products",
+  "sqlColumn": "Green_2",
+  "legacy": "unperforated_slat__green"
+ },
+ {
+  "excelCol": 40,
+  "section": "Unperforated Slat",
+  "header": "Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Red_2",
+  "legacy": "unperforated_slat__red"
+ },
+ {
+  "excelCol": 41,
+  "section": "Unperforated Slat",
+  "header": "Bronze",
+  "supplier": "CW Products",
+  "sqlColumn": "Bronze_2",
+  "legacy": "unperforated_slat__bronze"
+ },
+ {
+  "excelCol": 42,
+  "section": "Unperforated Slat",
+  "header": "Silver",
+  "supplier": "CW Products",
+  "sqlColumn": "Silver_2",
+  "legacy": "unperforated_slat__silver"
+ },
+ {
+  "excelCol": 43,
+  "section": "Unperforated Slat",
+  "header": "Deep Ocean",
+  "supplier": "CW Products",
+  "sqlColumn": "Deep_Ocean_2",
+  "legacy": "unperforated_slat__deep_ocean"
+ },
+ {
+  "excelCol": 44,
+  "section": "Unperforated Slat",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_2",
+  "legacy": "unperforated_slat__jasper"
+ },
+ {
+  "excelCol": 45,
+  "section": "Unperforated Slat",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_2",
+  "legacy": "unperforated_slat__surfmist"
+ },
+ {
+  "excelCol": 46,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Black",
+  "legacy": "180mm_pelmet_back_cover__back_black"
+ },
+ {
+  "excelCol": 47,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Black",
+  "legacy": "180mm_pelmet_back_cover__cover_black"
+ },
+ {
+  "excelCol": 48,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Clear_Beige",
+  "legacy": "180mm_pelmet_back_cover__back_clear_beige"
+ },
+ {
+  "excelCol": 49,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Clear_Beige",
+  "legacy": "180mm_pelmet_back_cover__cover_clear_beige"
+ },
+ {
+  "excelCol": 50,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Dune",
+  "legacy": "180mm_pelmet_back_cover__back_dune"
+ },
+ {
+  "excelCol": 51,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Dune",
+  "legacy": "180mm_pelmet_back_cover__cover_dune"
+ },
+ {
+  "excelCol": 52,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Magnolia_Cream",
+  "legacy": "180mm_pelmet_back_cover__back_magnolia_cream"
+ },
+ {
+  "excelCol": 53,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Magnolia_Cream",
+  "legacy": "180mm_pelmet_back_cover__cover_magnolia_cream"
+ },
+ {
+  "excelCol": 54,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Monument",
+  "legacy": "180mm_pelmet_back_cover__back_monument"
+ },
+ {
+  "excelCol": 55,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Monument",
+  "legacy": "180mm_pelmet_back_cover__cover_monument"
+ },
+ {
+  "excelCol": 56,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Shale_Grey",
+  "legacy": "180mm_pelmet_back_cover__back_shale_grey"
+ },
+ {
+  "excelCol": 57,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Shale_Grey",
+  "legacy": "180mm_pelmet_back_cover__cover_shale_grey"
+ },
+ {
+  "excelCol": 58,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_White",
+  "legacy": "180mm_pelmet_back_cover__back_white"
+ },
+ {
+  "excelCol": 59,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_White",
+  "legacy": "180mm_pelmet_back_cover__cover_white"
+ },
+ {
+  "excelCol": 60,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Woodland_Grey",
+  "legacy": "180mm_pelmet_back_cover__back_woodland_grey"
+ },
+ {
+  "excelCol": 61,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Woodland_Grey",
+  "legacy": "180mm_pelmet_back_cover__cover_woodland_grey"
+ },
+ {
+  "excelCol": 62,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Cream",
+  "legacy": "180mm_pelmet_back_cover__back_cream"
+ },
+ {
+  "excelCol": 63,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Cream",
+  "legacy": "180mm_pelmet_back_cover__cover_cream"
+ },
+ {
+  "excelCol": 64,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Brown",
+  "legacy": "180mm_pelmet_back_cover__back_brown"
+ },
+ {
+  "excelCol": 65,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Brown",
+  "legacy": "180mm_pelmet_back_cover__cover_brown"
+ },
+ {
+  "excelCol": 66,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Surfmist",
+  "legacy": "180mm_pelmet_back_cover__back_surfmist"
+ },
+ {
+  "excelCol": 67,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Surfmist",
+  "legacy": "180mm_pelmet_back_cover__cover_surfmist"
+ },
+ {
+  "excelCol": 68,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Jasper",
+  "legacy": "180mm_pelmet_back_cover__back_jasper"
+ },
+ {
+  "excelCol": 69,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Jasper",
+  "legacy": "180mm_pelmet_back_cover__cover_jasper"
+ },
+ {
+  "excelCol": 70,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Back - Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Red",
+  "legacy": "180mm_pelmet_back_cover__back_red"
+ },
+ {
+  "excelCol": 71,
+  "section": "180mm Pelmet Back & Cover",
+  "header": "Cover - Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Red",
+  "legacy": "180mm_pelmet_back_cover__cover_red"
+ },
+ {
+  "excelCol": 72,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Black_2",
+  "legacy": "205mm_pelmet_back_cover__back_black"
+ },
+ {
+  "excelCol": 73,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Black_2",
+  "legacy": "205mm_pelmet_back_cover__cover_black"
+ },
+ {
+  "excelCol": 74,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Clear_Beige_2",
+  "legacy": "205mm_pelmet_back_cover__back_clear_beige"
+ },
+ {
+  "excelCol": 75,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Clear_Beige_2",
+  "legacy": "205mm_pelmet_back_cover__cover_clear_beige"
+ },
+ {
+  "excelCol": 76,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Dune_2",
+  "legacy": "205mm_pelmet_back_cover__back_dune"
+ },
+ {
+  "excelCol": 77,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Dune_2",
+  "legacy": "205mm_pelmet_back_cover__cover_dune"
+ },
+ {
+  "excelCol": 78,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Magnolia_Cream_2",
+  "legacy": "205mm_pelmet_back_cover__back_magnolia_cream"
+ },
+ {
+  "excelCol": 79,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Magnolia_Cream_2",
+  "legacy": "205mm_pelmet_back_cover__cover_magnolia_cream"
+ },
+ {
+  "excelCol": 80,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Monument_2",
+  "legacy": "205mm_pelmet_back_cover__back_monument"
+ },
+ {
+  "excelCol": 81,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Monument_2",
+  "legacy": "205mm_pelmet_back_cover__cover_monument"
+ },
+ {
+  "excelCol": 82,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Shale_Grey_2",
+  "legacy": "205mm_pelmet_back_cover__back_shale_grey"
+ },
+ {
+  "excelCol": 83,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Shale_Grey_2",
+  "legacy": "205mm_pelmet_back_cover__cover_shale_grey"
+ },
+ {
+  "excelCol": 84,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_White_2",
+  "legacy": "205mm_pelmet_back_cover__back_white"
+ },
+ {
+  "excelCol": 85,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_White_2",
+  "legacy": "205mm_pelmet_back_cover__cover_white"
+ },
+ {
+  "excelCol": 86,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Woodland_Grey_2",
+  "legacy": "205mm_pelmet_back_cover__back_woodland_grey"
+ },
+ {
+  "excelCol": 87,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Woodland_Grey_2",
+  "legacy": "205mm_pelmet_back_cover__cover_woodland_grey"
+ },
+ {
+  "excelCol": 88,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Cream_2",
+  "legacy": "205mm_pelmet_back_cover__back_cream"
+ },
+ {
+  "excelCol": 89,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Cream_2",
+  "legacy": "205mm_pelmet_back_cover__cover_cream"
+ },
+ {
+  "excelCol": 90,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Brown_2",
+  "legacy": "205mm_pelmet_back_cover__back_brown"
+ },
+ {
+  "excelCol": 91,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Brown_2",
+  "legacy": "205mm_pelmet_back_cover__cover_brown"
+ },
+ {
+  "excelCol": 92,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Surfmist_2",
+  "legacy": "205mm_pelmet_back_cover__back_surfmist"
+ },
+ {
+  "excelCol": 93,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Surfmist_2",
+  "legacy": "205mm_pelmet_back_cover__cover_surfmist"
+ },
+ {
+  "excelCol": 94,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Back - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Jasper_2",
+  "legacy": "205mm_pelmet_back_cover__back_jasper"
+ },
+ {
+  "excelCol": 95,
+  "section": "205mm Pelmet Back & Cover",
+  "header": "Cover - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Jasper_2",
+  "legacy": "205mm_pelmet_back_cover__cover_jasper"
+ },
+ {
+  "excelCol": 96,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Cream_3",
+  "legacy": "230mm_pelmet_back_cover__back_cream"
+ },
+ {
+  "excelCol": 97,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Cream_3",
+  "legacy": "230mm_pelmet_back_cover__cover_cream"
+ },
+ {
+  "excelCol": 98,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Magnolia_Cream_3",
+  "legacy": "230mm_pelmet_back_cover__back_magnolia_cream"
+ },
+ {
+  "excelCol": 99,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Magnolia_Cream_3",
+  "legacy": "230mm_pelmet_back_cover__cover_magnolia_cream"
+ },
+ {
+  "excelCol": 100,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Clear_Beige_3",
+  "legacy": "230mm_pelmet_back_cover__back_clear_beige"
+ },
+ {
+  "excelCol": 101,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Clear_Beige_3",
+  "legacy": "230mm_pelmet_back_cover__cover_clear_beige"
+ },
+ {
+  "excelCol": 102,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_White_3",
+  "legacy": "230mm_pelmet_back_cover__back_white"
+ },
+ {
+  "excelCol": 103,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - White",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_White_3",
+  "legacy": "230mm_pelmet_back_cover__cover_white"
+ },
+ {
+  "excelCol": 104,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Shale_Grey_3",
+  "legacy": "230mm_pelmet_back_cover__back_shale_grey"
+ },
+ {
+  "excelCol": 105,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Shale_Grey_3",
+  "legacy": "230mm_pelmet_back_cover__cover_shale_grey"
+ },
+ {
+  "excelCol": 106,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Black_3",
+  "legacy": "230mm_pelmet_back_cover__back_black"
+ },
+ {
+  "excelCol": 107,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Black_3",
+  "legacy": "230mm_pelmet_back_cover__cover_black"
+ },
+ {
+  "excelCol": 108,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Monument_3",
+  "legacy": "230mm_pelmet_back_cover__back_monument"
+ },
+ {
+  "excelCol": 109,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Monument_3",
+  "legacy": "230mm_pelmet_back_cover__cover_monument"
+ },
+ {
+  "excelCol": 110,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Woodland_Grey_3",
+  "legacy": "230mm_pelmet_back_cover__back_woodland_grey"
+ },
+ {
+  "excelCol": 111,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Woodland_Grey_3",
+  "legacy": "230mm_pelmet_back_cover__cover_woodland_grey"
+ },
+ {
+  "excelCol": 112,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Surfmist_3",
+  "legacy": "230mm_pelmet_back_cover__back_surfmist"
+ },
+ {
+  "excelCol": 113,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Surfmist_3",
+  "legacy": "230mm_pelmet_back_cover__cover_surfmist"
+ },
+ {
+  "excelCol": 114,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Jasper_3",
+  "legacy": "230mm_pelmet_back_cover__back_jasper"
+ },
+ {
+  "excelCol": 115,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Jasper_3",
+  "legacy": "230mm_pelmet_back_cover__cover_jasper"
+ },
+ {
+  "excelCol": 116,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Back - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Back_Dune_3",
+  "legacy": "230mm_pelmet_back_cover__back_dune"
+ },
+ {
+  "excelCol": 117,
+  "section": "230mm Pelmet Back & Cover",
+  "header": "Cover - Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Cover_Dune_3",
+  "legacy": "230mm_pelmet_back_cover__cover_dune"
+ },
+ {
+  "excelCol": 118,
+  "section": "Bay Window Flashing",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_3",
+  "legacy": "bay_window_flashing__cream"
+ },
+ {
+  "excelCol": 119,
+  "section": "Bay Window Flashing",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_3",
+  "legacy": "bay_window_flashing__magnolia_cream"
+ },
+ {
+  "excelCol": 120,
+  "section": "Bay Window Flashing",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_3",
+  "legacy": "bay_window_flashing__clear_beige"
+ },
+ {
+  "excelCol": 121,
+  "section": "Bay Window Flashing",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_3",
+  "legacy": "bay_window_flashing__white"
+ },
+ {
+  "excelCol": 122,
+  "section": "Bay Window Flashing",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_3",
+  "legacy": "bay_window_flashing__shale_grey"
+ },
+ {
+  "excelCol": 123,
+  "section": "Bay Window Flashing",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_3",
+  "legacy": "bay_window_flashing__brown"
+ },
+ {
+  "excelCol": 124,
+  "section": "Bay Window Flashing",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_3",
+  "legacy": "bay_window_flashing__black"
+ },
+ {
+  "excelCol": 125,
+  "section": "Bay Window Flashing",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_3",
+  "legacy": "bay_window_flashing__monument"
+ },
+ {
+  "excelCol": 126,
+  "section": "Bay Window Flashing",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_3",
+  "legacy": "bay_window_flashing__woodland_grey"
+ },
+ {
+  "excelCol": 127,
+  "section": "Bay Window Flashing",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_3",
+  "legacy": "bay_window_flashing__surfmist"
+ },
+ {
+  "excelCol": 128,
+  "section": "Bay Window Flashing",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_3",
+  "legacy": "bay_window_flashing__jasper"
+ },
+ {
+  "excelCol": 129,
+  "section": "Bay Window Flashing",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_3",
+  "legacy": "bay_window_flashing__dune"
+ },
+ {
+  "excelCol": 130,
+  "section": "25mm x 25mm Angle",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_4",
+  "legacy": "25mm_x_25mm_angle__cream"
+ },
+ {
+  "excelCol": 131,
+  "section": "25mm x 25mm Angle",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_4",
+  "legacy": "25mm_x_25mm_angle__magnolia_cream"
+ },
+ {
+  "excelCol": 132,
+  "section": "25mm x 25mm Angle",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_4",
+  "legacy": "25mm_x_25mm_angle__clear_beige"
+ },
+ {
+  "excelCol": 133,
+  "section": "25mm x 25mm Angle",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_4",
+  "legacy": "25mm_x_25mm_angle__white"
+ },
+ {
+  "excelCol": 134,
+  "section": "25mm x 25mm Angle",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_4",
+  "legacy": "25mm_x_25mm_angle__shale_grey"
+ },
+ {
+  "excelCol": 135,
+  "section": "25mm x 25mm Angle",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_4",
+  "legacy": "25mm_x_25mm_angle__brown"
+ },
+ {
+  "excelCol": 136,
+  "section": "25mm x 25mm Angle",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_4",
+  "legacy": "25mm_x_25mm_angle__black"
+ },
+ {
+  "excelCol": 137,
+  "section": "25mm x 25mm Angle",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_4",
+  "legacy": "25mm_x_25mm_angle__monument"
+ },
+ {
+  "excelCol": 138,
+  "section": "25mm x 25mm Angle",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_4",
+  "legacy": "25mm_x_25mm_angle__woodland_grey"
+ },
+ {
+  "excelCol": 139,
+  "section": "25mm x 25mm Angle",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_4",
+  "legacy": "25mm_x_25mm_angle__surfmist"
+ },
+ {
+  "excelCol": 140,
+  "section": "25mm x 25mm Angle",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_4",
+  "legacy": "25mm_x_25mm_angle__jasper"
+ },
+ {
+  "excelCol": 141,
+  "section": "25mm x 25mm Angle",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_4",
+  "legacy": "25mm_x_25mm_angle__dune"
+ },
+ {
+  "excelCol": 142,
+  "section": "25mm x 50mm Angle",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_5",
+  "legacy": "25mm_x_50mm_angle__cream"
+ },
+ {
+  "excelCol": 143,
+  "section": "25mm x 50mm Angle",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_5",
+  "legacy": "25mm_x_50mm_angle__magnolia_cream"
+ },
+ {
+  "excelCol": 144,
+  "section": "25mm x 50mm Angle",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_5",
+  "legacy": "25mm_x_50mm_angle__clear_beige"
+ },
+ {
+  "excelCol": 145,
+  "section": "25mm x 50mm Angle",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_5",
+  "legacy": "25mm_x_50mm_angle__white"
+ },
+ {
+  "excelCol": 146,
+  "section": "25mm x 50mm Angle",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_5",
+  "legacy": "25mm_x_50mm_angle__shale_grey"
+ },
+ {
+  "excelCol": 147,
+  "section": "25mm x 50mm Angle",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_5",
+  "legacy": "25mm_x_50mm_angle__brown"
+ },
+ {
+  "excelCol": 148,
+  "section": "25mm x 50mm Angle",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_5",
+  "legacy": "25mm_x_50mm_angle__black"
+ },
+ {
+  "excelCol": 149,
+  "section": "25mm x 50mm Angle",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_5",
+  "legacy": "25mm_x_50mm_angle__monument"
+ },
+ {
+  "excelCol": 150,
+  "section": "25mm x 50mm Angle",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_5",
+  "legacy": "25mm_x_50mm_angle__woodland_grey"
+ },
+ {
+  "excelCol": 151,
+  "section": "25mm x 50mm Angle",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_5",
+  "legacy": "25mm_x_50mm_angle__surfmist"
+ },
+ {
+  "excelCol": 152,
+  "section": "25mm x 50mm Angle",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_5",
+  "legacy": "25mm_x_50mm_angle__jasper"
+ },
+ {
+  "excelCol": 153,
+  "section": "25mm x 50mm Angle",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_5",
+  "legacy": "25mm_x_50mm_angle__dune"
+ },
+ {
+  "excelCol": 154,
+  "section": "25mm x 70mm Angle",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_6",
+  "legacy": "25mm_x_70mm_angle__cream"
+ },
+ {
+  "excelCol": 155,
+  "section": "25mm x 70mm Angle",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_6",
+  "legacy": "25mm_x_70mm_angle__magnolia_cream"
+ },
+ {
+  "excelCol": 156,
+  "section": "25mm x 70mm Angle",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_6",
+  "legacy": "25mm_x_70mm_angle__clear_beige"
+ },
+ {
+  "excelCol": 157,
+  "section": "25mm x 70mm Angle",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_6",
+  "legacy": "25mm_x_70mm_angle__white"
+ },
+ {
+  "excelCol": 158,
+  "section": "25mm x 70mm Angle",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_6",
+  "legacy": "25mm_x_70mm_angle__shale_grey"
+ },
+ {
+  "excelCol": 159,
+  "section": "25mm x 70mm Angle",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_6",
+  "legacy": "25mm_x_70mm_angle__brown"
+ },
+ {
+  "excelCol": 160,
+  "section": "25mm x 70mm Angle",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_6",
+  "legacy": "25mm_x_70mm_angle__black"
+ },
+ {
+  "excelCol": 161,
+  "section": "25mm x 70mm Angle",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_6",
+  "legacy": "25mm_x_70mm_angle__monument"
+ },
+ {
+  "excelCol": 162,
+  "section": "25mm x 70mm Angle",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_6",
+  "legacy": "25mm_x_70mm_angle__woodland_grey"
+ },
+ {
+  "excelCol": 163,
+  "section": "25mm x 70mm Angle",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_6",
+  "legacy": "25mm_x_70mm_angle__surfmist"
+ },
+ {
+  "excelCol": 164,
+  "section": "25mm x 70mm Angle",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_6",
+  "legacy": "25mm_x_70mm_angle__jasper"
+ },
+ {
+  "excelCol": 165,
+  "section": "25mm x 70mm Angle",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_6",
+  "legacy": "25mm_x_70mm_angle__dune"
+ },
+ {
+  "excelCol": 166,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_7",
+  "legacy": "50mm_x_50mm_square_tube__cream"
+ },
+ {
+  "excelCol": 167,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_7",
+  "legacy": "50mm_x_50mm_square_tube__magnolia_cream"
+ },
+ {
+  "excelCol": 168,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_7",
+  "legacy": "50mm_x_50mm_square_tube__clear_beige"
+ },
+ {
+  "excelCol": 169,
+  "section": "50mm x 50mm Square Tube",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_7",
+  "legacy": "50mm_x_50mm_square_tube__white"
+ },
+ {
+  "excelCol": 170,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_7",
+  "legacy": "50mm_x_50mm_square_tube__shale_grey"
+ },
+ {
+  "excelCol": 171,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_7",
+  "legacy": "50mm_x_50mm_square_tube__brown"
+ },
+ {
+  "excelCol": 172,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Green",
+  "supplier": "CW Products",
+  "sqlColumn": "Green_3",
+  "legacy": "50mm_x_50mm_square_tube__green"
+ },
+ {
+  "excelCol": 173,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Red_3",
+  "legacy": "50mm_x_50mm_square_tube__red"
+ },
+ {
+  "excelCol": 174,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_7",
+  "legacy": "50mm_x_50mm_square_tube__black"
+ },
+ {
+  "excelCol": 175,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_7",
+  "legacy": "50mm_x_50mm_square_tube__monument"
+ },
+ {
+  "excelCol": 176,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Mill Finish",
+  "supplier": "CW Products",
+  "sqlColumn": "Mill_Finish",
+  "legacy": "50mm_x_50mm_square_tube__mill_finish"
+ },
+ {
+  "excelCol": 177,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_7",
+  "legacy": "50mm_x_50mm_square_tube__woodland_grey"
+ },
+ {
+  "excelCol": 178,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_7",
+  "legacy": "50mm_x_50mm_square_tube__jasper"
+ },
+ {
+  "excelCol": 179,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_7",
+  "legacy": "50mm_x_50mm_square_tube__surfmist"
+ },
+ {
+  "excelCol": 180,
+  "section": "50mm x 50mm Square Tube",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_7",
+  "legacy": "50mm_x_50mm_square_tube__dune"
+ },
+ {
+  "excelCol": 181,
+  "section": "Axle",
+  "header": "60mm Octangle Axle",
+  "supplier": "CW Products",
+  "sqlColumn": "N60mm_Octangle_Axle",
+  "legacy": "axle__60mm_octangle_axle"
+ },
+ {
+  "excelCol": 182,
+  "section": "Bottom Bar",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_8",
+  "legacy": "bottom_bar__black"
+ },
+ {
+  "excelCol": 183,
+  "section": "Bottom Bar",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_8",
+  "legacy": "bottom_bar__clear_beige"
+ },
+ {
+  "excelCol": 184,
+  "section": "Bottom Bar",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_8",
+  "legacy": "bottom_bar__dune"
+ },
+ {
+  "excelCol": 185,
+  "section": "Bottom Bar",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_8",
+  "legacy": "bottom_bar__magnolia_cream"
+ },
+ {
+  "excelCol": 186,
+  "section": "Bottom Bar",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_8",
+  "legacy": "bottom_bar__monument"
+ },
+ {
+  "excelCol": 187,
+  "section": "Bottom Bar",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_8",
+  "legacy": "bottom_bar__shale_grey"
+ },
+ {
+  "excelCol": 188,
+  "section": "Bottom Bar",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_8",
+  "legacy": "bottom_bar__white"
+ },
+ {
+  "excelCol": 189,
+  "section": "Bottom Bar",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_8",
+  "legacy": "bottom_bar__woodland_grey"
+ },
+ {
+  "excelCol": 190,
+  "section": "Bottom Bar",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_8",
+  "legacy": "bottom_bar__cream"
+ },
+ {
+  "excelCol": 191,
+  "section": "Bottom Bar",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_8",
+  "legacy": "bottom_bar__brown"
+ },
+ {
+  "excelCol": 192,
+  "section": "Bottom Bar",
+  "header": "Mill Finish",
+  "supplier": "CW Products",
+  "sqlColumn": "Mill_Finish_2",
+  "legacy": "bottom_bar__mill_finish"
+ },
+ {
+  "excelCol": 193,
+  "section": "Bottom Bar",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_8",
+  "legacy": "bottom_bar__surfmist"
+ },
+ {
+  "excelCol": 194,
+  "section": "Bottom Bar",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_8",
+  "legacy": "bottom_bar__jasper"
+ },
+ {
+  "excelCol": 195,
+  "section": "Standard Side Guides",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_9",
+  "legacy": "standard_side_guides__black"
+ },
+ {
+  "excelCol": 196,
+  "section": "Standard Side Guides",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_9",
+  "legacy": "standard_side_guides__clear_beige"
+ },
+ {
+  "excelCol": 197,
+  "section": "Standard Side Guides",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_9",
+  "legacy": "standard_side_guides__dune"
+ },
+ {
+  "excelCol": 198,
+  "section": "Standard Side Guides",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_9",
+  "legacy": "standard_side_guides__magnolia_cream"
+ },
+ {
+  "excelCol": 199,
+  "section": "Standard Side Guides",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_9",
+  "legacy": "standard_side_guides__monument"
+ },
+ {
+  "excelCol": 200,
+  "section": "Standard Side Guides",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_9",
+  "legacy": "standard_side_guides__shale_grey"
+ },
+ {
+  "excelCol": 201,
+  "section": "Standard Side Guides",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_9",
+  "legacy": "standard_side_guides__white"
+ },
+ {
+  "excelCol": 202,
+  "section": "Standard Side Guides",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_9",
+  "legacy": "standard_side_guides__woodland_grey"
+ },
+ {
+  "excelCol": 203,
+  "section": "Standard Side Guides",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_9",
+  "legacy": "standard_side_guides__cream"
+ },
+ {
+  "excelCol": 204,
+  "section": "Standard Side Guides",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_9",
+  "legacy": "standard_side_guides__brown"
+ },
+ {
+  "excelCol": 205,
+  "section": "Standard Side Guides",
+  "header": "Mill Finish",
+  "supplier": "CW Products",
+  "sqlColumn": "Mill_Finish_3",
+  "legacy": "standard_side_guides__mill_finish"
+ },
+ {
+  "excelCol": 206,
+  "section": "Standard Side Guides",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_9",
+  "legacy": "standard_side_guides__surfmist"
+ },
+ {
+  "excelCol": 207,
+  "section": "Standard Side Guides",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_9",
+  "legacy": "standard_side_guides__jasper"
+ },
+ {
+  "excelCol": 208,
+  "section": "68mm Side Guides",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_10",
+  "legacy": "68mm_side_guides__cream"
+ },
+ {
+  "excelCol": 209,
+  "section": "68mm Side Guides",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_10",
+  "legacy": "68mm_side_guides__magnolia_cream"
+ },
+ {
+  "excelCol": 210,
+  "section": "68mm Side Guides",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_10",
+  "legacy": "68mm_side_guides__clear_beige"
+ },
+ {
+  "excelCol": 211,
+  "section": "68mm Side Guides",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_10",
+  "legacy": "68mm_side_guides__white"
+ },
+ {
+  "excelCol": 212,
+  "section": "68mm Side Guides",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_10",
+  "legacy": "68mm_side_guides__shale_grey"
+ },
+ {
+  "excelCol": 213,
+  "section": "68mm Side Guides",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_10",
+  "legacy": "68mm_side_guides__brown"
+ },
+ {
+  "excelCol": 214,
+  "section": "68mm Side Guides",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_10",
+  "legacy": "68mm_side_guides__black"
+ },
+ {
+  "excelCol": 215,
+  "section": "68mm Side Guides",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_10",
+  "legacy": "68mm_side_guides__monument"
+ },
+ {
+  "excelCol": 216,
+  "section": "68mm Side Guides",
+  "header": "Mill Finish",
+  "supplier": "CW Products",
+  "sqlColumn": "Mill_Finish_4",
+  "legacy": "68mm_side_guides__mill_finish"
+ },
+ {
+  "excelCol": 217,
+  "section": "68mm Side Guides",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_10",
+  "legacy": "68mm_side_guides__woodland_grey"
+ },
+ {
+  "excelCol": 218,
+  "section": "68mm Side Guides",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_10",
+  "legacy": "68mm_side_guides__surfmist"
+ },
+ {
+  "excelCol": 219,
+  "section": "68mm Side Guides",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_10",
+  "legacy": "68mm_side_guides__jasper"
+ },
+ {
+  "excelCol": 220,
+  "section": "68mm Side Guides",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_10",
+  "legacy": "68mm_side_guides__dune"
+ },
+ {
+  "excelCol": 221,
+  "section": "180mm Side Frames",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_11",
+  "legacy": "180mm_side_frames__black"
+ },
+ {
+  "excelCol": 222,
+  "section": "180mm Side Frames",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_11",
+  "legacy": "180mm_side_frames__clear_beige"
+ },
+ {
+  "excelCol": 223,
+  "section": "180mm Side Frames",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_11",
+  "legacy": "180mm_side_frames__dune"
+ },
+ {
+  "excelCol": 224,
+  "section": "180mm Side Frames",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_11",
+  "legacy": "180mm_side_frames__magnolia_cream"
+ },
+ {
+  "excelCol": 225,
+  "section": "180mm Side Frames",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_11",
+  "legacy": "180mm_side_frames__monument"
+ },
+ {
+  "excelCol": 226,
+  "section": "180mm Side Frames",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_11",
+  "legacy": "180mm_side_frames__shale_grey"
+ },
+ {
+  "excelCol": 227,
+  "section": "180mm Side Frames",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_11",
+  "legacy": "180mm_side_frames__white"
+ },
+ {
+  "excelCol": 228,
+  "section": "180mm Side Frames",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_11",
+  "legacy": "180mm_side_frames__woodland_grey"
+ },
+ {
+  "excelCol": 229,
+  "section": "180mm Side Frames",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_11",
+  "legacy": "180mm_side_frames__cream"
+ },
+ {
+  "excelCol": 230,
+  "section": "180mm Side Frames",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_11",
+  "legacy": "180mm_side_frames__brown"
+ },
+ {
+  "excelCol": 231,
+  "section": "180mm Side Frames",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_11",
+  "legacy": "180mm_side_frames__surfmist"
+ },
+ {
+  "excelCol": 232,
+  "section": "180mm Side Frames",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_11",
+  "legacy": "180mm_side_frames__jasper"
+ },
+ {
+  "excelCol": 233,
+  "section": "180mm Side Frames",
+  "header": "Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Red_4",
+  "legacy": "180mm_side_frames__red"
+ },
+ {
+  "excelCol": 234,
+  "section": "205mm Side Frames",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_12",
+  "legacy": "205mm_side_frames__black"
+ },
+ {
+  "excelCol": 235,
+  "section": "205mm Side Frames",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_12",
+  "legacy": "205mm_side_frames__clear_beige"
+ },
+ {
+  "excelCol": 236,
+  "section": "205mm Side Frames",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_12",
+  "legacy": "205mm_side_frames__dune"
+ },
+ {
+  "excelCol": 237,
+  "section": "205mm Side Frames",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_12",
+  "legacy": "205mm_side_frames__magnolia_cream"
+ },
+ {
+  "excelCol": 238,
+  "section": "205mm Side Frames",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_12",
+  "legacy": "205mm_side_frames__monument"
+ },
+ {
+  "excelCol": 239,
+  "section": "205mm Side Frames",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_12",
+  "legacy": "205mm_side_frames__shale_grey"
+ },
+ {
+  "excelCol": 240,
+  "section": "205mm Side Frames",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_12",
+  "legacy": "205mm_side_frames__white"
+ },
+ {
+  "excelCol": 241,
+  "section": "205mm Side Frames",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_12",
+  "legacy": "205mm_side_frames__woodland_grey"
+ },
+ {
+  "excelCol": 242,
+  "section": "205mm Side Frames",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_12",
+  "legacy": "205mm_side_frames__cream"
+ },
+ {
+  "excelCol": 243,
+  "section": "205mm Side Frames",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_12",
+  "legacy": "205mm_side_frames__brown"
+ },
+ {
+  "excelCol": 244,
+  "section": "205mm Side Frames",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_12",
+  "legacy": "205mm_side_frames__surfmist"
+ },
+ {
+  "excelCol": 245,
+  "section": "205mm Side Frames",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_12",
+  "legacy": "205mm_side_frames__jasper"
+ },
+ {
+  "excelCol": 246,
+  "section": "230mm Side Frames",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_13",
+  "legacy": "230mm_side_frames__cream"
+ },
+ {
+  "excelCol": 247,
+  "section": "230mm Side Frames",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_13",
+  "legacy": "230mm_side_frames__magnolia_cream"
+ },
+ {
+  "excelCol": 248,
+  "section": "230mm Side Frames",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_13",
+  "legacy": "230mm_side_frames__clear_beige"
+ },
+ {
+  "excelCol": 249,
+  "section": "230mm Side Frames",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_13",
+  "legacy": "230mm_side_frames__white"
+ },
+ {
+  "excelCol": 250,
+  "section": "230mm Side Frames",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_13",
+  "legacy": "230mm_side_frames__shale_grey"
+ },
+ {
+  "excelCol": 251,
+  "section": "230mm Side Frames",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_13",
+  "legacy": "230mm_side_frames__black"
+ },
+ {
+  "excelCol": 252,
+  "section": "230mm Side Frames",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_13",
+  "legacy": "230mm_side_frames__monument"
+ },
+ {
+  "excelCol": 253,
+  "section": "230mm Side Frames",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_13",
+  "legacy": "230mm_side_frames__woodland_grey"
+ },
+ {
+  "excelCol": 254,
+  "section": "230mm Side Frames",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_13",
+  "legacy": "230mm_side_frames__surfmist"
+ },
+ {
+  "excelCol": 255,
+  "section": "230mm Side Frames",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_13",
+  "legacy": "230mm_side_frames__jasper"
+ },
+ {
+  "excelCol": 256,
+  "section": "230mm Side Frames",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_13",
+  "legacy": "230mm_side_frames__dune"
+ },
+ {
+  "excelCol": 257,
+  "section": "Misc.",
+  "header": "Guide Entry Flares",
+  "supplier": "Oz Roll",
+  "sqlColumn": "Guide_Entry_Flares",
+  "legacy": "misc__guide_entry_flares"
+ },
+ {
+  "excelCol": 258,
+  "section": "Misc.",
+  "header": "Guide Stop End Cap",
+  "supplier": "CW Products",
+  "sqlColumn": "Guide_Stop_End_Cap",
+  "legacy": "misc__guide_stop_end_cap"
+ },
+ {
+  "excelCol": 259,
+  "section": "Hole Caps",
+  "header": "Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Cream_14",
+  "legacy": "hole_caps__cream"
+ },
+ {
+  "excelCol": 260,
+  "section": "Hole Caps",
+  "header": "Clear Beige",
+  "supplier": "CW Products",
+  "sqlColumn": "Clear_Beige_14",
+  "legacy": "hole_caps__clear_beige"
+ },
+ {
+  "excelCol": 261,
+  "section": "Hole Caps",
+  "header": "White",
+  "supplier": "CW Products",
+  "sqlColumn": "White_14",
+  "legacy": "hole_caps__white"
+ },
+ {
+  "excelCol": 262,
+  "section": "Hole Caps",
+  "header": "Shale Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Shale_Grey_14",
+  "legacy": "hole_caps__shale_grey"
+ },
+ {
+  "excelCol": 263,
+  "section": "Hole Caps",
+  "header": "Brown",
+  "supplier": "CW Products",
+  "sqlColumn": "Brown_13",
+  "legacy": "hole_caps__brown"
+ },
+ {
+  "excelCol": 264,
+  "section": "Hole Caps",
+  "header": "Green",
+  "supplier": "CW Products",
+  "sqlColumn": "Green_4",
+  "legacy": "hole_caps__green"
+ },
+ {
+  "excelCol": 265,
+  "section": "Hole Caps",
+  "header": "Red",
+  "supplier": "CW Products",
+  "sqlColumn": "Red_5",
+  "legacy": "hole_caps__red"
+ },
+ {
+  "excelCol": 266,
+  "section": "Hole Caps",
+  "header": "Magnolia Cream",
+  "supplier": "CW Products",
+  "sqlColumn": "Magnolia_Cream_14",
+  "legacy": "hole_caps__magnolia_cream"
+ },
+ {
+  "excelCol": 267,
+  "section": "Hole Caps",
+  "header": "Black",
+  "supplier": "CW Products",
+  "sqlColumn": "Black_14",
+  "legacy": "hole_caps__black"
+ },
+ {
+  "excelCol": 268,
+  "section": "Hole Caps",
+  "header": "Monument",
+  "supplier": "CW Products",
+  "sqlColumn": "Monument_14",
+  "legacy": "hole_caps__monument"
+ },
+ {
+  "excelCol": 269,
+  "section": "Hole Caps",
+  "header": "Deep Ocean",
+  "supplier": "CW Products",
+  "sqlColumn": "Deep_Ocean_3",
+  "legacy": "hole_caps__deep_ocean"
+ },
+ {
+  "excelCol": 270,
+  "section": "Hole Caps",
+  "header": "Woodland Grey",
+  "supplier": "CW Products",
+  "sqlColumn": "Woodland_Grey_14",
+  "legacy": "hole_caps__woodland_grey"
+ },
+ {
+  "excelCol": 271,
+  "section": "Hole Caps",
+  "header": "Jasper",
+  "supplier": "CW Products",
+  "sqlColumn": "Jasper_14",
+  "legacy": "hole_caps__jasper"
+ },
+ {
+  "excelCol": 272,
+  "section": "Hole Caps",
+  "header": "Surfmist",
+  "supplier": "CW Products",
+  "sqlColumn": "Surfmist_14",
+  "legacy": "hole_caps__surfmist"
+ },
+ {
+  "excelCol": 273,
+  "section": "Hole Caps",
+  "header": "Dune",
+  "supplier": "CW Products",
+  "sqlColumn": "Dune_14",
+  "legacy": "hole_caps__dune"
+ },
+ {
+  "excelCol": 274,
+  "section": "Misc.",
+  "header": "Axle Idle",
+  "supplier": "CW Products",
+  "sqlColumn": "Axle_Idle",
+  "legacy": "misc__axle_idle"
+ },
+ {
+  "excelCol": 275,
+  "section": "Manual Override Parts",
+  "header": "Crank Handle With Hook (L = 160cm)",
+  "supplier": "CW Products",
+  "sqlColumn": "Crank_Handle_With_Hook_L_160cm",
+  "legacy": "manual_override_parts__crank_handle_with_hook_l_160cm"
+ },
+ {
+  "excelCol": 276,
+  "section": "Manual Override Parts",
+  "header": "Eyelet LG-165",
+  "supplier": "CW Products",
+  "sqlColumn": "Eyelet_LG_165",
+  "legacy": "manual_override_parts__eyelet_lg_165"
+ },
+ {
+  "excelCol": 277,
+  "section": "Manual Override Parts",
+  "header": "Nickel Plated Crank Handle For Use With Universal Joint",
+  "supplier": "CW Products",
+  "sqlColumn": "Nickel_Plated_Crank_Handle_For_Use_With_Universal_Joint",
+  "legacy": "manual_override_parts__nickel_plated_crank_handle_for_use_with_universal_joint"
+ },
+ {
+  "excelCol": 278,
+  "section": "Manual Override Parts",
+  "header": "Handle Lock (Nylon)",
+  "supplier": "CW Products",
+  "sqlColumn": "Handle_Lock_Nylon",
+  "legacy": "manual_override_parts__handle_lock_nylon"
+ },
+ {
+  "excelCol": 279,
+  "section": "Manual Override Parts",
+  "header": "Joint 90 Nick 2 Screw Universal Hexagonal Shaft",
+  "supplier": "CW Products",
+  "sqlColumn": "Joint_90_Nick_2_Screw_Universal_Hexagonal_Shaft",
+  "legacy": "manual_override_parts__joint_90_nick_2_screw_universal_hexagonal_shaft"
+ },
+ {
+  "excelCol": 280,
+  "section": "Manual Override Parts",
+  "header": "Bell Coupling For Universal Joint",
+  "supplier": "CW Products",
+  "sqlColumn": "Bell_Coupling_For_Universal_Joint",
+  "legacy": "manual_override_parts__bell_coupling_for_universal_joint"
+ },
+ {
+  "excelCol": 281,
+  "section": "Manual Override Parts",
+  "header": "Pivot For Universal Joint",
+  "supplier": "CW Products",
+  "sqlColumn": "Pivot_For_Universal_Joint",
+  "legacy": "manual_override_parts__pivot_for_universal_joint"
+ },
+ {
+  "excelCol": 282,
+  "section": "Manual Override Parts",
+  "header": "Crank Handle For Use With Secret Manual Override System",
+  "supplier": "CW Products",
+  "sqlColumn": "Crank_Handle_For_Use_With_Secret_Manual_Override_System",
+  "legacy": "manual_override_parts__crank_handle_for_use_with_secret_manual_override_system"
+ },
+ {
+  "excelCol": 283,
+  "section": "Manual Override Parts",
+  "header": "Hexagonal Shaft For Use With Secret Manual Override System",
+  "supplier": "CW Products",
+  "sqlColumn": "Hexagonal_Shaft_For_Use_With_Secret_Manual_Override_System",
+  "legacy": "manual_override_parts__hexagonal_shaft_for_use_with_secret_manual_override_system"
+ },
+ {
+  "excelCol": 284,
+  "section": "Manual Override Parts",
+  "header": "7mm Hexagonal Adaptor For Use With Secret Manual Override System",
+  "supplier": "CW Products",
+  "sqlColumn": "N7mm_Hexagonal_Adaptor_For_Use_With_Secret_Manual_Override_System",
+  "legacy": "manual_override_parts__7mm_hexagonal_adaptor_for_use_with_secret_manual_override_system"
+ },
+ {
+  "excelCol": 285,
+  "section": "Misc.",
+  "header": "Slat End Caps",
+  "supplier": "CW Products",
+  "sqlColumn": "Slat_End_Caps",
+  "legacy": "misc__slat_end_caps"
+ },
+ {
+  "excelCol": 286,
+  "section": "Misc.",
+  "header": "Security Springs",
+  "supplier": "CW Products",
+  "sqlColumn": "Security_Springs",
+  "legacy": "misc__security_springs"
+ },
+ {
+  "excelCol": 287,
+  "section": "Misc.",
+  "header": "Bottom Bar End Cap",
+  "supplier": "CW Products",
+  "sqlColumn": "Bottom_Bar_End_Cap",
+  "legacy": "misc__bottom_bar_end_cap"
+ },
+ {
+  "excelCol": 288,
+  "section": "Misc.",
+  "header": "Steel Weight Bar",
+  "supplier": "CW Products",
+  "sqlColumn": "Steel_Weight_Bar",
+  "legacy": "misc__steel_weight_bar"
+ },
+ {
+  "excelCol": 289,
+  "section": "Misc.",
+  "header": "Corner Telescopic Bracket",
+  "supplier": "Challenger",
+  "sqlColumn": "Corner_Telescopic_Bracket",
+  "legacy": "misc__corner_telescopic_bracket"
+ },
+ {
+  "excelCol": 290,
+  "section": "Misc.",
+  "header": "Bay Telescopic Bracket",
+  "supplier": "Challenger",
+  "sqlColumn": "Bay_Telescopic_Bracket",
+  "legacy": "misc__bay_telescopic_bracket"
+ },
+ {
+  "excelCol": 291,
+  "section": "Misc.",
+  "header": "Wall Switch",
+  "supplier": "CW Products",
+  "sqlColumn": "Wall_Switch",
+  "legacy": "misc__wall_switch"
+ },
+ {
+  "excelCol": 292,
+  "section": "Misc.",
+  "header": "UPS",
+  "supplier": "CW Products",
+  "sqlColumn": "UPS",
+  "legacy": "misc__ups"
+ },
+ {
+  "excelCol": 293,
+  "section": "Misc.",
+  "header": "Motors Too Small",
+  "supplier": "",
+  "sqlColumn": "Motors_Too_Small",
+  "legacy": "misc__motors_too_small"
+ },
+ {
+  "excelCol": 294,
+  "section": "Maxim",
+  "header": "10nm Remote Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N10nm_Remote_Motor",
+  "legacy": "maxim__10nm_remote_motor"
+ },
+ {
+  "excelCol": 295,
+  "section": "Maxim",
+  "header": "20nm Remote Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N20nm_Remote_Motor",
+  "legacy": "maxim__20nm_remote_motor"
+ },
+ {
+  "excelCol": 296,
+  "section": "Maxim",
+  "header": "10nm Switch Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N10nm_Switch_Motor",
+  "legacy": "maxim__10nm_switch_motor"
+ },
+ {
+  "excelCol": 297,
+  "section": "Maxim",
+  "header": "20nm Switch Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N20nm_Switch_Motor",
+  "legacy": "maxim__20nm_switch_motor"
+ },
+ {
+  "excelCol": 298,
+  "section": "Maxim",
+  "header": "1 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N1_Channel_Remote",
+  "legacy": "maxim__1_channel_remote"
+ },
+ {
+  "excelCol": 299,
+  "section": "Maxim",
+  "header": "6 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N6_Channel_Remote",
+  "legacy": "maxim__6_channel_remote"
+ },
+ {
+  "excelCol": 300,
+  "section": "Maxim",
+  "header": "16 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N16_Channel_Remote",
+  "legacy": "maxim__16_channel_remote"
+ },
+ {
+  "excelCol": 301,
+  "section": "Maxim",
+  "header": "1 Channel Wall Mounted Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N1_Channel_Wall_Mounted_Remote",
+  "legacy": "maxim__1_channel_wall_mounted_remote"
+ },
+ {
+  "excelCol": 302,
+  "section": "Maxim",
+  "header": "6 Channel Wall Mounted Remote w/ Timer",
+  "supplier": "CW Products",
+  "sqlColumn": "N6_Channel_Wall_Mounted_Remote_w_Timer",
+  "legacy": "maxim__6_channel_wall_mounted_remote_w_timer"
+ },
+ {
+  "excelCol": 303,
+  "section": "Maxim",
+  "header": "8 Channel Remote with Timer",
+  "supplier": "CW Products",
+  "sqlColumn": "N8_Channel_Remote_with_Timer",
+  "legacy": "maxim__8_channel_remote_with_timer"
+ },
+ {
+  "excelCol": 304,
+  "section": "Maxim",
+  "header": "Key Ring Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "Key_Ring_Remote",
+  "legacy": "maxim__key_ring_remote"
+ },
+ {
+  "excelCol": 305,
+  "section": "Maxim",
+  "header": "Key Switch",
+  "supplier": "CW Products",
+  "sqlColumn": "Key_Switch",
+  "legacy": "maxim__key_switch"
+ },
+ {
+  "excelCol": 306,
+  "section": "Maxim",
+  "header": "Key Switch Relay",
+  "supplier": "CW Products",
+  "sqlColumn": "Key_Switch_Relay",
+  "legacy": "maxim__key_switch_relay"
+ },
+ {
+  "excelCol": 307,
+  "section": "Maxim",
+  "header": "Inline Receiver",
+  "supplier": "CW Products",
+  "sqlColumn": "Inline_Receiver",
+  "legacy": "maxim__inline_receiver"
+ },
+ {
+  "excelCol": 308,
+  "section": "CWP",
+  "header": "10nm Remote Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N10nm_Remote_Motor_2",
+  "legacy": "cwp__10nm_remote_motor"
+ },
+ {
+  "excelCol": 309,
+  "section": "CWP",
+  "header": "20nm Remote Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N20nm_Remote_Motor_2",
+  "legacy": "cwp__20nm_remote_motor"
+ },
+ {
+  "excelCol": 310,
+  "section": "CWP",
+  "header": "50nm Remote Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N50nm_Remote_Motor",
+  "legacy": "cwp__50nm_remote_motor"
+ },
+ {
+  "excelCol": 311,
+  "section": "CWP",
+  "header": "10nm Short Switch Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N10nm_Short_Switch_Motor",
+  "legacy": "cwp__10nm_short_switch_motor"
+ },
+ {
+  "excelCol": 312,
+  "section": "CWP",
+  "header": "10nm Switch Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N10nm_Switch_Motor_2",
+  "legacy": "cwp__10nm_switch_motor"
+ },
+ {
+  "excelCol": 313,
+  "section": "CWP",
+  "header": "20nm Switch Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N20nm_Switch_Motor_2",
+  "legacy": "cwp__20nm_switch_motor"
+ },
+ {
+  "excelCol": 314,
+  "section": "CWP",
+  "header": "30nm Manual Override Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N30nm_Manual_Override_Motor",
+  "legacy": "cwp__30nm_manual_override_motor"
+ },
+ {
+  "excelCol": 315,
+  "section": "CWP",
+  "header": "50nm Manual Override Motor",
+  "supplier": "CW Products",
+  "sqlColumn": "N50nm_Manual_Override_Motor",
+  "legacy": "cwp__50nm_manual_override_motor"
+ },
+ {
+  "excelCol": 316,
+  "section": "CWP",
+  "header": "1 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N1_Channel_Remote_2",
+  "legacy": "cwp__1_channel_remote"
+ },
+ {
+  "excelCol": 317,
+  "section": "CWP",
+  "header": "5 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N5_Channel_Remote",
+  "legacy": "cwp__5_channel_remote"
+ },
+ {
+  "excelCol": 318,
+  "section": "CWP",
+  "header": "15 Channel Remote",
+  "supplier": "CW Products",
+  "sqlColumn": "N15_Channel_Remote",
+  "legacy": "cwp__15_channel_remote"
+ },
+ {
+  "excelCol": 319,
+  "section": "12v",
+  "header": "L10 Motor",
+  "supplier": "Oz Roll",
+  "sqlColumn": "L10_Motor",
+  "legacy": "12v__l10_motor"
+ },
+ {
+  "excelCol": 320,
+  "section": "12v",
+  "header": "L10 Axle Adaptor",
+  "supplier": "Oz Roll",
+  "sqlColumn": "L10_Axle_Adaptor",
+  "legacy": "12v__l10_axle_adaptor"
+ },
+ {
+  "excelCol": 321,
+  "section": "12v",
+  "header": "T20 Motor",
+  "supplier": "Oz Roll",
+  "sqlColumn": "T20_Motor",
+  "legacy": "12v__t20_motor"
+ },
+ {
+  "excelCol": 322,
+  "section": "12v",
+  "header": "T20 Motor Drive Kit",
+  "supplier": "Oz Roll",
+  "sqlColumn": "T20_Motor_Drive_Kit",
+  "legacy": "12v__t20_motor_drive_kit"
+ },
+ {
+  "excelCol": 323,
+  "section": "12v",
+  "header": "T20 Motor Screws",
+  "supplier": "Oz Roll",
+  "sqlColumn": "T20_Motor_Screws",
+  "legacy": "12v__t20_motor_screws"
+ },
+ {
+  "excelCol": 324,
+  "section": "12v",
+  "header": "T35 Motor",
+  "supplier": "Oz Roll",
+  "sqlColumn": "T35_Motor",
+  "legacy": "12v__t35_motor"
+ },
+ {
+  "excelCol": 325,
+  "section": "12v",
+  "header": "ODS Controller",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_Controller",
+  "legacy": "12v__ods_controller"
+ },
+ {
+  "excelCol": 326,
+  "section": "12v",
+  "header": "ODS Wall Plate",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_Wall_Plate",
+  "legacy": "12v__ods_wall_plate"
+ },
+ {
+  "excelCol": 327,
+  "section": "12v",
+  "header": "ODS Charger",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_Charger",
+  "legacy": "12v__ods_charger"
+ },
+ {
+  "excelCol": 328,
+  "section": "12v",
+  "header": "ODS Controller RF",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_Controller_RF",
+  "legacy": "12v__ods_controller_rf"
+ },
+ {
+  "excelCol": 329,
+  "section": "12v",
+  "header": "ODS 3 Way Switch",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_3_Way_Switch",
+  "legacy": "12v__ods_3_way_switch"
+ },
+ {
+  "excelCol": 330,
+  "section": "12v",
+  "header": "ODS RF 1 Channel Remote",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_RF_1_Channel_Remote",
+  "legacy": "12v__ods_rf_1_channel_remote"
+ },
+ {
+  "excelCol": 331,
+  "section": "12v",
+  "header": "ODS RF 9 Channel Remote",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_RF_9_Channel_Remote",
+  "legacy": "12v__ods_rf_9_channel_remote"
+ },
+ {
+  "excelCol": 332,
+  "section": "12v",
+  "header": "ODS 2.5m Loom Extension",
+  "supplier": "Oz Roll",
+  "sqlColumn": "ODS_2_5m_Loom_Extension",
+  "legacy": "12v__ods_2_5m_loom_extension"
+ },
+ {
+  "excelCol": 333,
+  "section": "Acmeda",
+  "header": "45mm FT 15nm Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N45mm_FT_15nm_Motor",
+  "legacy": "acmeda__45mm_ft_15nm_motor"
+ },
+ {
+  "excelCol": 334,
+  "section": "Acmeda",
+  "header": "AX 30nm Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "AX_30nm_Motor",
+  "legacy": "acmeda__ax_30nm_motor"
+ },
+ {
+  "excelCol": 335,
+  "section": "Acmeda",
+  "header": "45mm 50nm Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N45mm_50nm_Motor",
+  "legacy": "acmeda__45mm_50nm_motor"
+ },
+ {
+  "excelCol": 336,
+  "section": "Acmeda",
+  "header": "60mm Oct. Drive Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N60mm_Oct_Drive_Wheel",
+  "legacy": "acmeda__60mm_oct_drive_wheel"
+ },
+ {
+  "excelCol": 337,
+  "section": "Acmeda",
+  "header": "60mm Oct. Crown Wheel",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N60mm_Oct_Crown_Wheel",
+  "legacy": "acmeda__60mm_oct_crown_wheel"
+ },
+ {
+  "excelCol": 338,
+  "section": "Acmeda",
+  "header": "45mm FT 15nm 12v Motor",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N45mm_FT_15nm_12v_Motor",
+  "legacy": "acmeda__45mm_ft_15nm_12v_motor"
+ },
+ {
+  "excelCol": 339,
+  "section": "Acmeda",
+  "header": "12v Motor External Battery Pack",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N12v_Motor_External_Battery_Pack",
+  "legacy": "acmeda__12v_motor_external_battery_pack"
+ },
+ {
+  "excelCol": 340,
+  "section": "Acmeda",
+  "header": "12v Motor External Battery Charger Pack",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N12v_Motor_External_Battery_Charger_Pack",
+  "legacy": "acmeda__12v_motor_external_battery_charger_pack"
+ },
+ {
+  "excelCol": 341,
+  "section": "Acmeda",
+  "header": "Pulse Pro Automation Hub",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Pulse_Pro_Automation_Hub",
+  "legacy": "acmeda__pulse_pro_automation_hub"
+ },
+ {
+  "excelCol": 342,
+  "section": "Acmeda",
+  "header": "1 Channel Dry Contact Relay Module",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Dry_Contact_Relay_Module",
+  "legacy": "acmeda__1_channel_dry_contact_relay_module"
+ },
+ {
+  "excelCol": 343,
+  "section": "Acmeda",
+  "header": "USB Repeater",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "USB_Repeater",
+  "legacy": "acmeda__usb_repeater"
+ },
+ {
+  "excelCol": 344,
+  "section": "Acmeda",
+  "header": "1 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Remote_White",
+  "legacy": "acmeda__1_channel_remote_white"
+ },
+ {
+  "excelCol": 345,
+  "section": "Acmeda",
+  "header": "1 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Remote_Black",
+  "legacy": "acmeda__1_channel_remote_black"
+ },
+ {
+  "excelCol": 346,
+  "section": "Acmeda",
+  "header": "5 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Remote_White",
+  "legacy": "acmeda__5_channel_remote_white"
+ },
+ {
+  "excelCol": 347,
+  "section": "Acmeda",
+  "header": "5 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Remote_Black",
+  "legacy": "acmeda__5_channel_remote_black"
+ },
+ {
+  "excelCol": 348,
+  "section": "Acmeda",
+  "header": "15 Channel Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Remote_White",
+  "legacy": "acmeda__15_channel_remote_white"
+ },
+ {
+  "excelCol": 349,
+  "section": "Acmeda",
+  "header": "15 Channel Remote Black",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Remote_Black",
+  "legacy": "acmeda__15_channel_remote_black"
+ },
+ {
+  "excelCol": 350,
+  "section": "Acmeda",
+  "header": "1 Channel Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N1_Channel_Wall_Mount_Remote_White",
+  "legacy": "acmeda__1_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 351,
+  "section": "Acmeda",
+  "header": "5 Channel Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N5_Channel_Wall_Mount_Remote_White",
+  "legacy": "acmeda__5_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 352,
+  "section": "Acmeda",
+  "header": "15 Channel Wall Mount Remote White",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "N15_Channel_Wall_Mount_Remote_White",
+  "legacy": "acmeda__15_channel_wall_mount_remote_white"
+ },
+ {
+  "excelCol": 353,
+  "section": "Acmeda",
+  "header": "Push Pro White Remote",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Push_Pro_White_Remote",
+  "legacy": "acmeda__push_pro_white_remote"
+ },
+ {
+  "excelCol": 354,
+  "section": "Acmeda",
+  "header": "Push Pro Black Remote",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Push_Pro_Black_Remote",
+  "legacy": "acmeda__push_pro_black_remote"
+ },
+ {
+  "excelCol": 355,
+  "section": "Acmeda",
+  "header": "Push Pro Charging Cable",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Push_Pro_Charging_Cable",
+  "legacy": "acmeda__push_pro_charging_cable"
+ },
+ {
+  "excelCol": 356,
+  "section": "Acmeda",
+  "header": "Wall Block",
+  "supplier": "Rollease Acmeda",
+  "sqlColumn": "Wall_Block",
+  "legacy": "acmeda__wall_block"
+ },
+ {
+  "excelCol": 357,
+  "section": "Becker",
+  "header": "R12/17CPSF 45mm Motor",
+  "supplier": "Becker",
+  "sqlColumn": "R12_17CPSF_45mm_Motor",
+  "legacy": "becker__r12_17cpsf_45mm_motor"
+ },
+ {
+  "excelCol": 358,
+  "section": "Becker",
+  "header": "20nm Motor R20-17-C12a Motor",
+  "supplier": "Becker",
+  "sqlColumn": "N20nm_Motor_R20_17_C12a_Motor",
+  "legacy": "becker__20nm_motor_r20_17_c12a_motor"
+ },
+ {
+  "excelCol": 359,
+  "section": "Becker",
+  "header": "Crown 60mm Oct.Tube",
+  "supplier": "Becker",
+  "sqlColumn": "Crown_60mm_Oct_Tube",
+  "legacy": "becker__crown_60mm_oct_tube"
+ },
+ {
+  "excelCol": 360,
+  "section": "Becker",
+  "header": "Drive 60mm Oct.Tube",
+  "supplier": "Becker",
+  "sqlColumn": "Drive_60mm_Oct_Tube",
+  "legacy": "becker__drive_60mm_oct_tube"
+ },
+ {
+  "excelCol": 361,
+  "section": "Becker",
+  "header": "Star Awning Bracket",
+  "supplier": "Becker",
+  "sqlColumn": "Star_Awning_Bracket",
+  "legacy": "becker__star_awning_bracket"
+ },
+ {
+  "excelCol": 362,
+  "section": "Becker",
+  "header": "Molex Connection",
+  "supplier": "Becker",
+  "sqlColumn": "Molex_Connection",
+  "legacy": "becker__molex_connection"
+ },
+ {
+  "excelCol": 363,
+  "section": "Becker",
+  "header": "1 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N1_Channel_Remote_White_2",
+  "legacy": "becker__1_channel_remote_white"
+ },
+ {
+  "excelCol": 364,
+  "section": "Becker",
+  "header": "1 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N1_Channel_Remote_Black_2",
+  "legacy": "becker__1_channel_remote_black"
+ },
+ {
+  "excelCol": 365,
+  "section": "Becker",
+  "header": "5 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N5_Channel_Remote_White_2",
+  "legacy": "becker__5_channel_remote_white"
+ },
+ {
+  "excelCol": 366,
+  "section": "Becker",
+  "header": "5 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N5_Channel_Remote_Black_2",
+  "legacy": "becker__5_channel_remote_black"
+ },
+ {
+  "excelCol": 367,
+  "section": "Becker",
+  "header": "10 Channel Remote - White",
+  "supplier": "Becker",
+  "sqlColumn": "N10_Channel_Remote_White",
+  "legacy": "becker__10_channel_remote_white"
+ },
+ {
+  "excelCol": 368,
+  "section": "Becker",
+  "header": "10 Channel Remote - Black",
+  "supplier": "Becker",
+  "sqlColumn": "N10_Channel_Remote_Black",
+  "legacy": "becker__10_channel_remote_black"
+ },
+ {
+  "excelCol": 369,
+  "section": "Somfy",
+  "header": "Altus 50 RTS 6/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_6_17",
+  "legacy": "somfy__altus_50_rts_6_17"
+ },
+ {
+  "excelCol": 370,
+  "section": "Somfy",
+  "header": "Altus 50 RTS 10/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_10_17",
+  "legacy": "somfy__altus_50_rts_10_17"
+ },
+ {
+  "excelCol": 371,
+  "section": "Somfy",
+  "header": "Altus 50 RTS 15/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_15_17",
+  "legacy": "somfy__altus_50_rts_15_17"
+ },
+ {
+  "excelCol": 372,
+  "section": "Somfy",
+  "header": "Altus 50 RTS 25/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Altus_50_RTS_25_17",
+  "legacy": "somfy__altus_50_rts_25_17"
+ },
+ {
+  "excelCol": 373,
+  "section": "Somfy",
+  "header": "Orea 50 WT 40/17",
+  "supplier": "Somfy",
+  "sqlColumn": "Orea_50_WT_40_17",
+  "legacy": "somfy__orea_50_wt_40_17"
+ },
+ {
+  "excelCol": 374,
+  "section": "Somfy",
+  "header": "Zamack Bracket without thread",
+  "supplier": "Somfy",
+  "sqlColumn": "Zamack_Bracket_without_thread",
+  "legacy": "somfy__zamack_bracket_without_thread"
+ },
+ {
+  "excelCol": 375,
+  "section": "Somfy",
+  "header": "Crown 60mm Oct.Tube",
+  "supplier": "Somfy",
+  "sqlColumn": "Crown_60mm_Oct_Tube_2",
+  "legacy": "somfy__crown_60mm_oct_tube"
+ },
+ {
+  "excelCol": 376,
+  "section": "Somfy",
+  "header": "Drive 60mm Oct.Tube",
+  "supplier": "Somfy",
+  "sqlColumn": "Drive_60mm_Oct_Tube_2",
+  "legacy": "somfy__drive_60mm_oct_tube"
+ },
+ {
+  "excelCol": 377,
+  "section": "Somfy",
+  "header": "Connexoon",
+  "supplier": "Somfy",
+  "sqlColumn": "Connexoon",
+  "legacy": "somfy__connexoon"
+ },
+ {
+  "excelCol": 378,
+  "section": "Somfy",
+  "header": "Tahoma Switch",
+  "supplier": "Somfy",
+  "sqlColumn": "Tahoma_Switch",
+  "legacy": "somfy__tahoma_switch"
+ },
+ {
+  "excelCol": 379,
+  "section": "Somfy",
+  "header": "Single Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Single_Channel_Silver_Remote",
+  "legacy": "somfy__single_channel_silver_remote"
+ },
+ {
+  "excelCol": 380,
+  "section": "Somfy",
+  "header": "Single Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "Single_Channel_White_Remote",
+  "legacy": "somfy__single_channel_white_remote"
+ },
+ {
+  "excelCol": 381,
+  "section": "Somfy",
+  "header": "2 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N2_Channel_Silver_Remote",
+  "legacy": "somfy__2_channel_silver_remote"
+ },
+ {
+  "excelCol": 382,
+  "section": "Somfy",
+  "header": "2 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N2_Channel_White_Remote",
+  "legacy": "somfy__2_channel_white_remote"
+ },
+ {
+  "excelCol": 383,
+  "section": "Somfy",
+  "header": "5 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N5_Channel_Silver_Remote",
+  "legacy": "somfy__5_channel_silver_remote"
+ },
+ {
+  "excelCol": 384,
+  "section": "Somfy",
+  "header": "5 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N5_Channel_White_Remote",
+  "legacy": "somfy__5_channel_white_remote"
+ },
+ {
+  "excelCol": 385,
+  "section": "Somfy",
+  "header": "15 Channel Silver Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N15_Channel_Silver_Remote",
+  "legacy": "somfy__15_channel_silver_remote"
+ },
+ {
+  "excelCol": 386,
+  "section": "Somfy",
+  "header": "15 Channel White Remote",
+  "supplier": "Somfy",
+  "sqlColumn": "N15_Channel_White_Remote",
+  "legacy": "somfy__15_channel_white_remote"
+ },
+ {
+  "excelCol": 387,
+  "section": "Somfy",
+  "header": "Single Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Single_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy__single_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 388,
+  "section": "Somfy",
+  "header": "Single Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "Single_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy__single_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 389,
+  "section": "Somfy",
+  "header": "Single Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "Single_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy__single_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 390,
+  "section": "Somfy",
+  "header": "2 Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "N2_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy__2_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 391,
+  "section": "Somfy",
+  "header": "2 Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "N2_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy__2_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 392,
+  "section": "Somfy",
+  "header": "2 Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "N2_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy__2_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 393,
+  "section": "Somfy",
+  "header": "5 Channel Wall Mounted Smoove Remote White with Black Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "N5_Channel_Wall_Mounted_Smoove_Remote_White_with_Black_Cover_Plate",
+  "legacy": "somfy__5_channel_wall_mounted_smoove_remote_white_with_black_cover_plate"
+ },
+ {
+  "excelCol": 394,
+  "section": "Somfy",
+  "header": "5 Channel Wall Mounted Smoove Remote White with Silver Cover Plate",
+  "supplier": "Somfy",
+  "sqlColumn": "N5_Channel_Wall_Mounted_Smoove_Remote_White_with_Silver_Cover_Plate",
+  "legacy": "somfy__5_channel_wall_mounted_smoove_remote_white_with_silver_cover_plate"
+ },
+ {
+  "excelCol": 395,
+  "section": "Somfy",
+  "header": "5 Channel Wall Mounted Smoove Remote White",
+  "supplier": "Somfy",
+  "sqlColumn": "N5_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy__5_channel_wall_mounted_smoove_remote_white"
+ }
+]

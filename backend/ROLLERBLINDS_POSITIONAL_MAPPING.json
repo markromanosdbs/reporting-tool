@@ -1,0 +1,2588 @@
+[
+ {
+  "excelCol": 9,
+  "header": "Fabric",
+  "sqlColumn": "Fabric",
+  "legacy": "fabric"
+ },
+ {
+  "excelCol": 10,
+  "header": "Fabric Sqm",
+  "sqlColumn": "Fabric_Sqm",
+  "legacy": "fabric_sqm"
+ },
+ {
+  "excelCol": 11,
+  "header": "Fabric Width",
+  "sqlColumn": "Fabric_Width",
+  "legacy": "fabric_width"
+ },
+ {
+  "excelCol": 12,
+  "header": "Fabric Drop",
+  "sqlColumn": "Fabric_Drop",
+  "legacy": "fabric_drop"
+ },
+ {
+  "excelCol": 13,
+  "header": "38mm Tube",
+  "sqlColumn": "N38mm_Tube",
+  "legacy": "38mm_tube"
+ },
+ {
+  "excelCol": 14,
+  "header": "43mm Tube",
+  "sqlColumn": "N43mm_Tube",
+  "legacy": "43mm_tube"
+ },
+ {
+  "excelCol": 15,
+  "header": "43mm Heavy Duty Tube",
+  "sqlColumn": "N43mm_Heavy_Duty_Tube",
+  "legacy": "43mm_heavy_duty_tube"
+ },
+ {
+  "excelCol": 16,
+  "header": "60mm Tube",
+  "sqlColumn": "N60mm_Tube",
+  "legacy": "60mm_tube"
+ },
+ {
+  "excelCol": 17,
+  "header": "80mm Tube",
+  "sqlColumn": "N80mm_Tube",
+  "legacy": "80mm_tube"
+ },
+ {
+  "excelCol": 18,
+  "header": "D30 Bottom Rail Anodised Silver",
+  "sqlColumn": "D30_Bottom_Rail_Anodised_Silver",
+  "legacy": "d30_bottom_rail_anodised_silver"
+ },
+ {
+  "excelCol": 19,
+  "header": "D30 Bottom Rail White",
+  "sqlColumn": "D30_Bottom_Rail_White",
+  "legacy": "d30_bottom_rail_white"
+ },
+ {
+  "excelCol": 20,
+  "header": "D30 Bottom Rail Black",
+  "sqlColumn": "D30_Bottom_Rail_Black",
+  "legacy": "d30_bottom_rail_black"
+ },
+ {
+  "excelCol": 21,
+  "header": "D30 Bottom Rail Sandstone",
+  "sqlColumn": "D30_Bottom_Rail_Sandstone",
+  "legacy": "d30_bottom_rail_sandstone"
+ },
+ {
+  "excelCol": 22,
+  "header": "D30 Bottom Rail Bone",
+  "sqlColumn": "D30_Bottom_Rail_Bone",
+  "legacy": "d30_bottom_rail_bone"
+ },
+ {
+  "excelCol": 23,
+  "header": "D30 Bottom Rail End Caps Anodised Silver",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Anodised_Silver",
+  "legacy": "d30_bottom_rail_end_caps_anodised_silver"
+ },
+ {
+  "excelCol": 24,
+  "header": "D30 Bottom Rail End Caps White",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_White",
+  "legacy": "d30_bottom_rail_end_caps_white"
+ },
+ {
+  "excelCol": 25,
+  "header": "D30 Bottom Rail End Caps Black",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Black",
+  "legacy": "d30_bottom_rail_end_caps_black"
+ },
+ {
+  "excelCol": 26,
+  "header": "D30 Bottom Rail End Caps Sandstone",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Sandstone",
+  "legacy": "d30_bottom_rail_end_caps_sandstone"
+ },
+ {
+  "excelCol": 27,
+  "header": "D30 Bottom Rail End Caps Bone",
+  "sqlColumn": "D30_Bottom_Rail_End_Caps_Bone",
+  "legacy": "d30_bottom_rail_end_caps_bone"
+ },
+ {
+  "excelCol": 28,
+  "header": "Lath",
+  "sqlColumn": "Lath",
+  "legacy": "lath"
+ },
+ {
+  "excelCol": 29,
+  "header": "Weight Bar",
+  "sqlColumn": "Weight_Bar",
+  "legacy": "weight_bar"
+ },
+ {
+  "excelCol": 30,
+  "header": "Pelmet 95 Anodised",
+  "sqlColumn": "Pelmet_95_Anodised",
+  "legacy": "pelmet_95_anodised"
+ },
+ {
+  "excelCol": 31,
+  "header": "Pelmet 95 White",
+  "sqlColumn": "Pelmet_95_White",
+  "legacy": "pelmet_95_white"
+ },
+ {
+  "excelCol": 32,
+  "header": "Pelmet 95 Black",
+  "sqlColumn": "Pelmet_95_Black",
+  "legacy": "pelmet_95_black"
+ },
+ {
+  "excelCol": 33,
+  "header": "Pelmet 95 Cream",
+  "sqlColumn": "Pelmet_95_Cream",
+  "legacy": "pelmet_95_cream"
+ },
+ {
+  "excelCol": 34,
+  "header": "CF90 Cassette Back Black",
+  "sqlColumn": "CF90_Cassette_Back_Black",
+  "legacy": "cf90_cassette_back_black"
+ },
+ {
+  "excelCol": 35,
+  "header": "CF90 Cassette Back White",
+  "sqlColumn": "CF90_Cassette_Back_White",
+  "legacy": "cf90_cassette_back_white"
+ },
+ {
+  "excelCol": 36,
+  "header": "CF90 Cassette Back Cream",
+  "sqlColumn": "CF90_Cassette_Back_Cream",
+  "legacy": "cf90_cassette_back_cream"
+ },
+ {
+  "excelCol": 37,
+  "header": "CF90 Cassette Back Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Back_Anodised_Silver",
+  "legacy": "cf90_cassette_back_anodised_silver"
+ },
+ {
+  "excelCol": 38,
+  "header": "CF90 Cassette Square Front White",
+  "sqlColumn": "CF90_Cassette_Square_Front_White",
+  "legacy": "cf90_cassette_square_front_white"
+ },
+ {
+  "excelCol": 39,
+  "header": "CF90 Cassette Square Front Black",
+  "sqlColumn": "CF90_Cassette_Square_Front_Black",
+  "legacy": "cf90_cassette_square_front_black"
+ },
+ {
+  "excelCol": 40,
+  "header": "CF90 Cassette Square Front Cream",
+  "sqlColumn": "CF90_Cassette_Square_Front_Cream",
+  "legacy": "cf90_cassette_square_front_cream"
+ },
+ {
+  "excelCol": 41,
+  "header": "CF90 Cassette Square Front Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Square_Front_Anodised_Silver",
+  "legacy": "cf90_cassette_square_front_anodised_silver"
+ },
+ {
+  "excelCol": 42,
+  "header": "CF90 Cassette Round Front White",
+  "sqlColumn": "CF90_Cassette_Round_Front_White",
+  "legacy": "cf90_cassette_round_front_white"
+ },
+ {
+  "excelCol": 43,
+  "header": "CF90 Cassette Round Front Black",
+  "sqlColumn": "CF90_Cassette_Round_Front_Black",
+  "legacy": "cf90_cassette_round_front_black"
+ },
+ {
+  "excelCol": 44,
+  "header": "CF90 Cassette Round Front Cream",
+  "sqlColumn": "CF90_Cassette_Round_Front_Cream",
+  "legacy": "cf90_cassette_round_front_cream"
+ },
+ {
+  "excelCol": 45,
+  "header": "CF90 Cassette Round Front Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Round_Front_Anodised_Silver",
+  "legacy": "cf90_cassette_round_front_anodised_silver"
+ },
+ {
+  "excelCol": 46,
+  "header": "CF90 Cassette Side Guide White",
+  "sqlColumn": "CF90_Cassette_Side_Guide_White",
+  "legacy": "cf90_cassette_side_guide_white"
+ },
+ {
+  "excelCol": 47,
+  "header": "CF90 Cassette Side Guide Black",
+  "sqlColumn": "CF90_Cassette_Side_Guide_Black",
+  "legacy": "cf90_cassette_side_guide_black"
+ },
+ {
+  "excelCol": 48,
+  "header": "CF90 Cassette Side Guide Cream",
+  "sqlColumn": "CF90_Cassette_Side_Guide_Cream",
+  "legacy": "cf90_cassette_side_guide_cream"
+ },
+ {
+  "excelCol": 49,
+  "header": "CF90 Cassette Side Guide Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Side_Guide_Anodised_Silver",
+  "legacy": "cf90_cassette_side_guide_anodised_silver"
+ },
+ {
+  "excelCol": 50,
+  "header": "Aluminium Valance - Fabric Covered (Any Colour)",
+  "sqlColumn": "Aluminium_Valance_Fabric_Covered_Any_Colour",
+  "legacy": "aluminium_valance_fabric_covered_any_colour"
+ },
+ {
+  "excelCol": 51,
+  "header": "Aluminium Valance - White",
+  "sqlColumn": "Aluminium_Valance_White",
+  "legacy": "aluminium_valance_white"
+ },
+ {
+  "excelCol": 52,
+  "header": "Aluminium Valance - Black",
+  "sqlColumn": "Aluminium_Valance_Black",
+  "legacy": "aluminium_valance_black"
+ },
+ {
+  "excelCol": 53,
+  "header": "Aluminium Valance - Anodised Silver",
+  "sqlColumn": "Aluminium_Valance_Anodised_Silver",
+  "legacy": "aluminium_valance_anodised_silver"
+ },
+ {
+  "excelCol": 54,
+  "header": "Mounting Rail",
+  "sqlColumn": "Mounting_Rail",
+  "legacy": "mounting_rail"
+ },
+ {
+  "excelCol": 55,
+  "header": "Box 120 Back",
+  "sqlColumn": "Box_120_Back",
+  "legacy": "box_120_back"
+ },
+ {
+  "excelCol": 56,
+  "header": "Box 120 Cover",
+  "sqlColumn": "Box_120_Cover",
+  "legacy": "box_120_cover"
+ },
+ {
+  "excelCol": 57,
+  "header": "38mm Chain Winder White",
+  "sqlColumn": "N38mm_Chain_Winder_White",
+  "legacy": "38mm_chain_winder_white"
+ },
+ {
+  "excelCol": 58,
+  "header": "38mm Chain Winder Black",
+  "sqlColumn": "N38mm_Chain_Winder_Black",
+  "legacy": "38mm_chain_winder_black"
+ },
+ {
+  "excelCol": 59,
+  "header": "38mm Chain Winder Birch White",
+  "sqlColumn": "N38mm_Chain_Winder_Birch_White",
+  "legacy": "38mm_chain_winder_birch_white"
+ },
+ {
+  "excelCol": 60,
+  "header": "38mm Chain Winder Grey",
+  "sqlColumn": "N38mm_Chain_Winder_Grey",
+  "legacy": "38mm_chain_winder_grey"
+ },
+ {
+  "excelCol": 61,
+  "header": "38mm Chain Winder Barley",
+  "sqlColumn": "N38mm_Chain_Winder_Barley",
+  "legacy": "38mm_chain_winder_barley"
+ },
+ {
+  "excelCol": 62,
+  "header": "38mm Fixed Guide Chain Winder White",
+  "sqlColumn": "N38mm_Fixed_Guide_Chain_Winder_White",
+  "legacy": "38mm_fixed_guide_chain_winder_white"
+ },
+ {
+  "excelCol": 63,
+  "header": "38mm Fixed Guide Chain Winder Black",
+  "sqlColumn": "N38mm_Fixed_Guide_Chain_Winder_Black",
+  "legacy": "38mm_fixed_guide_chain_winder_black"
+ },
+ {
+  "excelCol": 64,
+  "header": "38mm Fixed Guide Chain Winder Birch White",
+  "sqlColumn": "N38mm_Fixed_Guide_Chain_Winder_Birch_White",
+  "legacy": "38mm_fixed_guide_chain_winder_birch_white"
+ },
+ {
+  "excelCol": 65,
+  "header": "38mm Fixed Guide Chain Winder Grey",
+  "sqlColumn": "N38mm_Fixed_Guide_Chain_Winder_Grey",
+  "legacy": "38mm_fixed_guide_chain_winder_grey"
+ },
+ {
+  "excelCol": 66,
+  "header": "38mm Fixed Guide Chain Winder Beige",
+  "sqlColumn": "N38mm_Fixed_Guide_Chain_Winder_Beige",
+  "legacy": "38mm_fixed_guide_chain_winder_beige"
+ },
+ {
+  "excelCol": 67,
+  "header": "43mm Chain Winder White",
+  "sqlColumn": "N43mm_Chain_Winder_White",
+  "legacy": "43mm_chain_winder_white"
+ },
+ {
+  "excelCol": 68,
+  "header": "43mm Chain Winder Black",
+  "sqlColumn": "N43mm_Chain_Winder_Black",
+  "legacy": "43mm_chain_winder_black"
+ },
+ {
+  "excelCol": 69,
+  "header": "43mm Chain Winder Birch White",
+  "sqlColumn": "N43mm_Chain_Winder_Birch_White",
+  "legacy": "43mm_chain_winder_birch_white"
+ },
+ {
+  "excelCol": 70,
+  "header": "43mm Chain Winder Grey",
+  "sqlColumn": "N43mm_Chain_Winder_Grey",
+  "legacy": "43mm_chain_winder_grey"
+ },
+ {
+  "excelCol": 71,
+  "header": "43mm Chain Winder Beige",
+  "sqlColumn": "N43mm_Chain_Winder_Beige",
+  "legacy": "43mm_chain_winder_beige"
+ },
+ {
+  "excelCol": 72,
+  "header": "43mm Fixed Guide Chain Winder White",
+  "sqlColumn": "N43mm_Fixed_Guide_Chain_Winder_White",
+  "legacy": "43mm_fixed_guide_chain_winder_white"
+ },
+ {
+  "excelCol": 73,
+  "header": "43mm Fixed Guide Chain Winder Black",
+  "sqlColumn": "N43mm_Fixed_Guide_Chain_Winder_Black",
+  "legacy": "43mm_fixed_guide_chain_winder_black"
+ },
+ {
+  "excelCol": 74,
+  "header": "43mm Fixed Guide Chain Winder Birch White",
+  "sqlColumn": "N43mm_Fixed_Guide_Chain_Winder_Birch_White",
+  "legacy": "43mm_fixed_guide_chain_winder_birch_white"
+ },
+ {
+  "excelCol": 75,
+  "header": "43mm Fixed Guide Chain Winder Grey",
+  "sqlColumn": "N43mm_Fixed_Guide_Chain_Winder_Grey",
+  "legacy": "43mm_fixed_guide_chain_winder_grey"
+ },
+ {
+  "excelCol": 76,
+  "header": "43mm Fixed Guide Chain Winder Beige",
+  "sqlColumn": "N43mm_Fixed_Guide_Chain_Winder_Beige",
+  "legacy": "43mm_fixed_guide_chain_winder_beige"
+ },
+ {
+  "excelCol": 77,
+  "header": "43mm Idles White",
+  "sqlColumn": "N43mm_Idles_White",
+  "legacy": "43mm_idles_white"
+ },
+ {
+  "excelCol": 78,
+  "header": "43mm Idles Black",
+  "sqlColumn": "N43mm_Idles_Black",
+  "legacy": "43mm_idles_black"
+ },
+ {
+  "excelCol": 79,
+  "header": "43mm Idles Birch White",
+  "sqlColumn": "N43mm_Idles_Birch_White",
+  "legacy": "43mm_idles_birch_white"
+ },
+ {
+  "excelCol": 80,
+  "header": "43mm Idles Grey",
+  "sqlColumn": "N43mm_Idles_Grey",
+  "legacy": "43mm_idles_grey"
+ },
+ {
+  "excelCol": 81,
+  "header": "43mm Idles Barley",
+  "sqlColumn": "N43mm_Idles_Barley",
+  "legacy": "43mm_idles_barley"
+ },
+ {
+  "excelCol": 82,
+  "header": "40mm Bracket White",
+  "sqlColumn": "N40mm_Bracket_White",
+  "legacy": "40mm_bracket_white"
+ },
+ {
+  "excelCol": 83,
+  "header": "40mm Bracket Black",
+  "sqlColumn": "N40mm_Bracket_Black",
+  "legacy": "40mm_bracket_black"
+ },
+ {
+  "excelCol": 84,
+  "header": "40mm Bracket Birch White",
+  "sqlColumn": "N40mm_Bracket_Birch_White",
+  "legacy": "40mm_bracket_birch_white"
+ },
+ {
+  "excelCol": 85,
+  "header": "40mm Bracket Grey",
+  "sqlColumn": "N40mm_Bracket_Grey",
+  "legacy": "40mm_bracket_grey"
+ },
+ {
+  "excelCol": 86,
+  "header": "40mm Bracket Barley",
+  "sqlColumn": "N40mm_Bracket_Barley",
+  "legacy": "40mm_bracket_barley"
+ },
+ {
+  "excelCol": 87,
+  "header": "55mm Bracket White",
+  "sqlColumn": "N55mm_Bracket_White",
+  "legacy": "55mm_bracket_white"
+ },
+ {
+  "excelCol": 88,
+  "header": "55mm Bracket Black",
+  "sqlColumn": "N55mm_Bracket_Black",
+  "legacy": "55mm_bracket_black"
+ },
+ {
+  "excelCol": 89,
+  "header": "55mm Bracket Birch White",
+  "sqlColumn": "N55mm_Bracket_Birch_White",
+  "legacy": "55mm_bracket_birch_white"
+ },
+ {
+  "excelCol": 90,
+  "header": "55mm Bracket Grey",
+  "sqlColumn": "N55mm_Bracket_Grey",
+  "legacy": "55mm_bracket_grey"
+ },
+ {
+  "excelCol": 91,
+  "header": "55mm Bracket Beige",
+  "sqlColumn": "N55mm_Bracket_Beige",
+  "legacy": "55mm_bracket_beige"
+ },
+ {
+  "excelCol": 92,
+  "header": "40mm Motor Bracket White",
+  "sqlColumn": "N40mm_Motor_Bracket_White",
+  "legacy": "40mm_motor_bracket_white"
+ },
+ {
+  "excelCol": 93,
+  "header": "40mm Motor Bracket Black",
+  "sqlColumn": "N40mm_Motor_Bracket_Black",
+  "legacy": "40mm_motor_bracket_black"
+ },
+ {
+  "excelCol": 94,
+  "header": "55mm Motor Bracket White",
+  "sqlColumn": "N55mm_Motor_Bracket_White",
+  "legacy": "55mm_motor_bracket_white"
+ },
+ {
+  "excelCol": 95,
+  "header": "55mm Motor Bracket Black",
+  "sqlColumn": "N55mm_Motor_Bracket_Black",
+  "legacy": "55mm_motor_bracket_black"
+ },
+ {
+  "excelCol": 96,
+  "header": "40mm Bracket Cover White",
+  "sqlColumn": "N40mm_Bracket_Cover_White",
+  "legacy": "40mm_bracket_cover_white"
+ },
+ {
+  "excelCol": 97,
+  "header": "40mm Bracket Cover Black",
+  "sqlColumn": "N40mm_Bracket_Cover_Black",
+  "legacy": "40mm_bracket_cover_black"
+ },
+ {
+  "excelCol": 98,
+  "header": "40mm Bracket Cover Birch White",
+  "sqlColumn": "N40mm_Bracket_Cover_Birch_White",
+  "legacy": "40mm_bracket_cover_birch_white"
+ },
+ {
+  "excelCol": 99,
+  "header": "40mm Bracket Cover Grey",
+  "sqlColumn": "N40mm_Bracket_Cover_Grey",
+  "legacy": "40mm_bracket_cover_grey"
+ },
+ {
+  "excelCol": 100,
+  "header": "40mm Bracket Cover Beige",
+  "sqlColumn": "N40mm_Bracket_Cover_Beige",
+  "legacy": "40mm_bracket_cover_beige"
+ },
+ {
+  "excelCol": 101,
+  "header": "55mm Bracket Cover White",
+  "sqlColumn": "N55mm_Bracket_Cover_White",
+  "legacy": "55mm_bracket_cover_white"
+ },
+ {
+  "excelCol": 102,
+  "header": "55mm Bracket Cover Black",
+  "sqlColumn": "N55mm_Bracket_Cover_Black",
+  "legacy": "55mm_bracket_cover_black"
+ },
+ {
+  "excelCol": 103,
+  "header": "55mm Bracket Cover Birch White",
+  "sqlColumn": "N55mm_Bracket_Cover_Birch_White",
+  "legacy": "55mm_bracket_cover_birch_white"
+ },
+ {
+  "excelCol": 104,
+  "header": "55mm Bracket Cover Grey",
+  "sqlColumn": "N55mm_Bracket_Cover_Grey",
+  "legacy": "55mm_bracket_cover_grey"
+ },
+ {
+  "excelCol": 105,
+  "header": "55mm Bracket Cover Beige",
+  "sqlColumn": "N55mm_Bracket_Cover_Beige",
+  "legacy": "55mm_bracket_cover_beige"
+ },
+ {
+  "excelCol": 106,
+  "header": "Dual Slimline Opposite Side Bracket White",
+  "sqlColumn": "Dual_Slimline_Opposite_Side_Bracket_White",
+  "legacy": "dual_slimline_opposite_side_bracket_white"
+ },
+ {
+  "excelCol": 107,
+  "header": "Dual Slimline Opposite Side Bracket Black",
+  "sqlColumn": "Dual_Slimline_Opposite_Side_Bracket_Black",
+  "legacy": "dual_slimline_opposite_side_bracket_black"
+ },
+ {
+  "excelCol": 108,
+  "header": "Dual Slimline Opposite Side Bracket Birch White",
+  "sqlColumn": "Dual_Slimline_Opposite_Side_Bracket_Birch_White",
+  "legacy": "dual_slimline_opposite_side_bracket_birch_white"
+ },
+ {
+  "excelCol": 109,
+  "header": "Dual Slimline Opposite Side Bracket Grey",
+  "sqlColumn": "Dual_Slimline_Opposite_Side_Bracket_Grey",
+  "legacy": "dual_slimline_opposite_side_bracket_grey"
+ },
+ {
+  "excelCol": 110,
+  "header": "Dual Slimline Opposite Side Bracket Beige",
+  "sqlColumn": "Dual_Slimline_Opposite_Side_Bracket_Beige",
+  "legacy": "dual_slimline_opposite_side_bracket_beige"
+ },
+ {
+  "excelCol": 111,
+  "header": "Dual Same Side Bracket White",
+  "sqlColumn": "Dual_Same_Side_Bracket_White",
+  "legacy": "dual_same_side_bracket_white"
+ },
+ {
+  "excelCol": 112,
+  "header": "Dual Same Side Bracket Black",
+  "sqlColumn": "Dual_Same_Side_Bracket_Black",
+  "legacy": "dual_same_side_bracket_black"
+ },
+ {
+  "excelCol": 113,
+  "header": "Dual Same Side Bracket Birch White",
+  "sqlColumn": "Dual_Same_Side_Bracket_Birch_White",
+  "legacy": "dual_same_side_bracket_birch_white"
+ },
+ {
+  "excelCol": 114,
+  "header": "Dual Same Side Bracket Grey",
+  "sqlColumn": "Dual_Same_Side_Bracket_Grey",
+  "legacy": "dual_same_side_bracket_grey"
+ },
+ {
+  "excelCol": 115,
+  "header": "Dual Same Side Bracket Beige",
+  "sqlColumn": "Dual_Same_Side_Bracket_Beige",
+  "legacy": "dual_same_side_bracket_beige"
+ },
+ {
+  "excelCol": 116,
+  "header": "Dual Slimline Top Front LHS Bracket White",
+  "sqlColumn": "Dual_Slimline_Top_Front_LHS_Bracket_White",
+  "legacy": "dual_slimline_top_front_lhs_bracket_white"
+ },
+ {
+  "excelCol": 117,
+  "header": "Dual Slimline Top Front RHS Bracket White",
+  "sqlColumn": "Dual_Slimline_Top_Front_RHS_Bracket_White",
+  "legacy": "dual_slimline_top_front_rhs_bracket_white"
+ },
+ {
+  "excelCol": 118,
+  "header": "Dual Slimline Top Front LHS Bracket Black",
+  "sqlColumn": "Dual_Slimline_Top_Front_LHS_Bracket_Black",
+  "legacy": "dual_slimline_top_front_lhs_bracket_black"
+ },
+ {
+  "excelCol": 119,
+  "header": "Dual Slimline Top Front RHS Bracket Black",
+  "sqlColumn": "Dual_Slimline_Top_Front_RHS_Bracket_Black",
+  "legacy": "dual_slimline_top_front_rhs_bracket_black"
+ },
+ {
+  "excelCol": 120,
+  "header": "Dual Slimline Top Front LHS Bracket Birch White",
+  "sqlColumn": "Dual_Slimline_Top_Front_LHS_Bracket_Birch_White",
+  "legacy": "dual_slimline_top_front_lhs_bracket_birch_white"
+ },
+ {
+  "excelCol": 121,
+  "header": "Dual Slimline Top Front RHS Bracket Birch White",
+  "sqlColumn": "Dual_Slimline_Top_Front_RHS_Bracket_Birch_White",
+  "legacy": "dual_slimline_top_front_rhs_bracket_birch_white"
+ },
+ {
+  "excelCol": 122,
+  "header": "Dual Slimline Top Front LHS Bracket Grey",
+  "sqlColumn": "Dual_Slimline_Top_Front_LHS_Bracket_Grey",
+  "legacy": "dual_slimline_top_front_lhs_bracket_grey"
+ },
+ {
+  "excelCol": 123,
+  "header": "Dual Slimline Top Front RHS Bracket Grey",
+  "sqlColumn": "Dual_Slimline_Top_Front_RHS_Bracket_Grey",
+  "legacy": "dual_slimline_top_front_rhs_bracket_grey"
+ },
+ {
+  "excelCol": 124,
+  "header": "Dual Slimline Top Front LHS Bracket Beige",
+  "sqlColumn": "Dual_Slimline_Top_Front_LHS_Bracket_Beige",
+  "legacy": "dual_slimline_top_front_lhs_bracket_beige"
+ },
+ {
+  "excelCol": 125,
+  "header": "Dual Slimline Top Front RHS Bracket Beige",
+  "sqlColumn": "Dual_Slimline_Top_Front_RHS_Bracket_Beige",
+  "legacy": "dual_slimline_top_front_rhs_bracket_beige"
+ },
+ {
+  "excelCol": 126,
+  "header": "Dual Slimline Top Back LHS Bracket White",
+  "sqlColumn": "Dual_Slimline_Top_Back_LHS_Bracket_White",
+  "legacy": "dual_slimline_top_back_lhs_bracket_white"
+ },
+ {
+  "excelCol": 127,
+  "header": "Dual Slimline Top Back RHS Bracket White",
+  "sqlColumn": "Dual_Slimline_Top_Back_RHS_Bracket_White",
+  "legacy": "dual_slimline_top_back_rhs_bracket_white"
+ },
+ {
+  "excelCol": 128,
+  "header": "Dual Slimline Top Back LHS Bracket Black",
+  "sqlColumn": "Dual_Slimline_Top_Back_LHS_Bracket_Black",
+  "legacy": "dual_slimline_top_back_lhs_bracket_black"
+ },
+ {
+  "excelCol": 129,
+  "header": "Dual Slimline Top Back RHS Bracket Black",
+  "sqlColumn": "Dual_Slimline_Top_Back_RHS_Bracket_Black",
+  "legacy": "dual_slimline_top_back_rhs_bracket_black"
+ },
+ {
+  "excelCol": 130,
+  "header": "Dual Slimline Top Back LHS Bracket Birch White",
+  "sqlColumn": "Dual_Slimline_Top_Back_LHS_Bracket_Birch_White",
+  "legacy": "dual_slimline_top_back_lhs_bracket_birch_white"
+ },
+ {
+  "excelCol": 131,
+  "header": "Dual Slimline Top Back RHS Bracket Birch White",
+  "sqlColumn": "Dual_Slimline_Top_Back_RHS_Bracket_Birch_White",
+  "legacy": "dual_slimline_top_back_rhs_bracket_birch_white"
+ },
+ {
+  "excelCol": 132,
+  "header": "Dual Slimline Top Back LHS Bracket Grey",
+  "sqlColumn": "Dual_Slimline_Top_Back_LHS_Bracket_Grey",
+  "legacy": "dual_slimline_top_back_lhs_bracket_grey"
+ },
+ {
+  "excelCol": 133,
+  "header": "Dual Slimline Top Back RHS Bracket Grey",
+  "sqlColumn": "Dual_Slimline_Top_Back_RHS_Bracket_Grey",
+  "legacy": "dual_slimline_top_back_rhs_bracket_grey"
+ },
+ {
+  "excelCol": 134,
+  "header": "Dual Slimline Top Back LHS Bracket Beige",
+  "sqlColumn": "Dual_Slimline_Top_Back_LHS_Bracket_Beige",
+  "legacy": "dual_slimline_top_back_lhs_bracket_beige"
+ },
+ {
+  "excelCol": 135,
+  "header": "Dual Slimline Top Back RHS Bracket Beige",
+  "sqlColumn": "Dual_Slimline_Top_Back_RHS_Bracket_Beige",
+  "legacy": "dual_slimline_top_back_rhs_bracket_beige"
+ },
+ {
+  "excelCol": 136,
+  "header": "40mm Link Bracket White",
+  "sqlColumn": "N40mm_Link_Bracket_White",
+  "legacy": "40mm_link_bracket_white"
+ },
+ {
+  "excelCol": 137,
+  "header": "40mm Link Bracket Black",
+  "sqlColumn": "N40mm_Link_Bracket_Black",
+  "legacy": "40mm_link_bracket_black"
+ },
+ {
+  "excelCol": 138,
+  "header": "40mm Link Bracket Birch White",
+  "sqlColumn": "N40mm_Link_Bracket_Birch_White",
+  "legacy": "40mm_link_bracket_birch_white"
+ },
+ {
+  "excelCol": 139,
+  "header": "40mm Link Bracket Grey",
+  "sqlColumn": "N40mm_Link_Bracket_Grey",
+  "legacy": "40mm_link_bracket_grey"
+ },
+ {
+  "excelCol": 140,
+  "header": "40mm Link Bracket Beige",
+  "sqlColumn": "N40mm_Link_Bracket_Beige",
+  "legacy": "40mm_link_bracket_beige"
+ },
+ {
+  "excelCol": 141,
+  "header": "55mm Link Bracket White",
+  "sqlColumn": "N55mm_Link_Bracket_White",
+  "legacy": "55mm_link_bracket_white"
+ },
+ {
+  "excelCol": 142,
+  "header": "55mm Link Bracket Black",
+  "sqlColumn": "N55mm_Link_Bracket_Black",
+  "legacy": "55mm_link_bracket_black"
+ },
+ {
+  "excelCol": 143,
+  "header": "55mm Link Bracket Birch White",
+  "sqlColumn": "N55mm_Link_Bracket_Birch_White",
+  "legacy": "55mm_link_bracket_birch_white"
+ },
+ {
+  "excelCol": 144,
+  "header": "55mm Link Bracket Grey",
+  "sqlColumn": "N55mm_Link_Bracket_Grey",
+  "legacy": "55mm_link_bracket_grey"
+ },
+ {
+  "excelCol": 145,
+  "header": "55mm Link Bracket Beige",
+  "sqlColumn": "N55mm_Link_Bracket_Beige",
+  "legacy": "55mm_link_bracket_beige"
+ },
+ {
+  "excelCol": 146,
+  "header": "Dual Same Side Link Bracket White",
+  "sqlColumn": "Dual_Same_Side_Link_Bracket_White",
+  "legacy": "dual_same_side_link_bracket_white"
+ },
+ {
+  "excelCol": 147,
+  "header": "Dual Same Side Link Bracket Black",
+  "sqlColumn": "Dual_Same_Side_Link_Bracket_Black",
+  "legacy": "dual_same_side_link_bracket_black"
+ },
+ {
+  "excelCol": 148,
+  "header": "Dual Same Side Link Bracket Birch White",
+  "sqlColumn": "Dual_Same_Side_Link_Bracket_Birch_White",
+  "legacy": "dual_same_side_link_bracket_birch_white"
+ },
+ {
+  "excelCol": 149,
+  "header": "Dual Same Side Link Bracket Grey",
+  "sqlColumn": "Dual_Same_Side_Link_Bracket_Grey",
+  "legacy": "dual_same_side_link_bracket_grey"
+ },
+ {
+  "excelCol": 150,
+  "header": "Dual Same Side Link Bracket Beige",
+  "sqlColumn": "Dual_Same_Side_Link_Bracket_Beige",
+  "legacy": "dual_same_side_link_bracket_beige"
+ },
+ {
+  "excelCol": 151,
+  "header": "Dual Slimline Linked Top Blind Front Roll White",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Front_Roll_White",
+  "legacy": "dual_slimline_linked_top_blind_front_roll_white"
+ },
+ {
+  "excelCol": 152,
+  "header": "Dual Slimline Linked Top Blind Front Roll Black",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Front_Roll_Black",
+  "legacy": "dual_slimline_linked_top_blind_front_roll_black"
+ },
+ {
+  "excelCol": 153,
+  "header": "Dual Slimline Linked Top Blind Front Roll Birch White",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Front_Roll_Birch_White",
+  "legacy": "dual_slimline_linked_top_blind_front_roll_birch_white"
+ },
+ {
+  "excelCol": 154,
+  "header": "Dual Slimline Linked Top Blind Front Roll Grey",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Front_Roll_Grey",
+  "legacy": "dual_slimline_linked_top_blind_front_roll_grey"
+ },
+ {
+  "excelCol": 155,
+  "header": "Dual Slimline Linked Top Blind Front Roll Beige",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Front_Roll_Beige",
+  "legacy": "dual_slimline_linked_top_blind_front_roll_beige"
+ },
+ {
+  "excelCol": 156,
+  "header": "Dual Slimline Linked Top Blind Back Roll White",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Back_Roll_White",
+  "legacy": "dual_slimline_linked_top_blind_back_roll_white"
+ },
+ {
+  "excelCol": 157,
+  "header": "Dual Slimline Linked Top Blind Back Roll Black",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Back_Roll_Black",
+  "legacy": "dual_slimline_linked_top_blind_back_roll_black"
+ },
+ {
+  "excelCol": 158,
+  "header": "Dual Slimline Linked Top Blind Back Roll Birch White",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Back_Roll_Birch_White",
+  "legacy": "dual_slimline_linked_top_blind_back_roll_birch_white"
+ },
+ {
+  "excelCol": 159,
+  "header": "Dual Slimline Linked Top Blind Back Roll Grey",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Back_Roll_Grey",
+  "legacy": "dual_slimline_linked_top_blind_back_roll_grey"
+ },
+ {
+  "excelCol": 160,
+  "header": "Dual Slimline Linked Top Blind Back Roll Beige",
+  "sqlColumn": "Dual_Slimline_Linked_Top_Blind_Back_Roll_Beige",
+  "legacy": "dual_slimline_linked_top_blind_back_roll_beige"
+ },
+ {
+  "excelCol": 161,
+  "header": "50cm Metal Chain",
+  "sqlColumn": "N50cm_Metal_Chain",
+  "legacy": "50cm_metal_chain"
+ },
+ {
+  "excelCol": 162,
+  "header": "75cm Metal Chain",
+  "sqlColumn": "N75cm_Metal_Chain",
+  "legacy": "75cm_metal_chain"
+ },
+ {
+  "excelCol": 163,
+  "header": "100cm Metal Chain",
+  "sqlColumn": "N100cm_Metal_Chain",
+  "legacy": "100cm_metal_chain"
+ },
+ {
+  "excelCol": 164,
+  "header": "125cm Metal Chain",
+  "sqlColumn": "N125cm_Metal_Chain",
+  "legacy": "125cm_metal_chain"
+ },
+ {
+  "excelCol": 165,
+  "header": "150cm Metal Chain",
+  "sqlColumn": "N150cm_Metal_Chain",
+  "legacy": "150cm_metal_chain"
+ },
+ {
+  "excelCol": 166,
+  "header": "175cm Metal Chain",
+  "sqlColumn": "N175cm_Metal_Chain",
+  "legacy": "175cm_metal_chain"
+ },
+ {
+  "excelCol": 167,
+  "header": "200cm Metal Chain",
+  "sqlColumn": "N200cm_Metal_Chain",
+  "legacy": "200cm_metal_chain"
+ },
+ {
+  "excelCol": 168,
+  "header": "225cm Metal Chain",
+  "sqlColumn": "N225cm_Metal_Chain",
+  "legacy": "225cm_metal_chain"
+ },
+ {
+  "excelCol": 169,
+  "header": "250cm Metal Chain",
+  "sqlColumn": "N250cm_Metal_Chain",
+  "legacy": "250cm_metal_chain"
+ },
+ {
+  "excelCol": 170,
+  "header": "275cm Metal Chain",
+  "sqlColumn": "N275cm_Metal_Chain",
+  "legacy": "275cm_metal_chain"
+ },
+ {
+  "excelCol": 171,
+  "header": "300cm Metal Chain",
+  "sqlColumn": "N300cm_Metal_Chain",
+  "legacy": "300cm_metal_chain"
+ },
+ {
+  "excelCol": 172,
+  "header": "325cm Metal Chain",
+  "sqlColumn": "N325cm_Metal_Chain",
+  "legacy": "325cm_metal_chain"
+ },
+ {
+  "excelCol": 173,
+  "header": "350cm Metal Chain",
+  "sqlColumn": "N350cm_Metal_Chain",
+  "legacy": "350cm_metal_chain"
+ },
+ {
+  "excelCol": 174,
+  "header": "375cm Metal Chain",
+  "sqlColumn": "N375cm_Metal_Chain",
+  "legacy": "375cm_metal_chain"
+ },
+ {
+  "excelCol": 175,
+  "header": "400cm Metal Chain",
+  "sqlColumn": "N400cm_Metal_Chain",
+  "legacy": "400cm_metal_chain"
+ },
+ {
+  "excelCol": 176,
+  "header": "50cm White Chain",
+  "sqlColumn": "N50cm_White_Chain",
+  "legacy": "50cm_white_chain"
+ },
+ {
+  "excelCol": 177,
+  "header": "75cm White Chain",
+  "sqlColumn": "N75cm_White_Chain",
+  "legacy": "75cm_white_chain"
+ },
+ {
+  "excelCol": 178,
+  "header": "100cm White Chain",
+  "sqlColumn": "N100cm_White_Chain",
+  "legacy": "100cm_white_chain"
+ },
+ {
+  "excelCol": 179,
+  "header": "125cm White Chain",
+  "sqlColumn": "N125cm_White_Chain",
+  "legacy": "125cm_white_chain"
+ },
+ {
+  "excelCol": 180,
+  "header": "150cm White Chain",
+  "sqlColumn": "N150cm_White_Chain",
+  "legacy": "150cm_white_chain"
+ },
+ {
+  "excelCol": 181,
+  "header": "175cm White Chain",
+  "sqlColumn": "N175cm_White_Chain",
+  "legacy": "175cm_white_chain"
+ },
+ {
+  "excelCol": 182,
+  "header": "200cm White Chain",
+  "sqlColumn": "N200cm_White_Chain",
+  "legacy": "200cm_white_chain"
+ },
+ {
+  "excelCol": 183,
+  "header": "225cm White Chain",
+  "sqlColumn": "N225cm_White_Chain",
+  "legacy": "225cm_white_chain"
+ },
+ {
+  "excelCol": 184,
+  "header": "250cm White Chain",
+  "sqlColumn": "N250cm_White_Chain",
+  "legacy": "250cm_white_chain"
+ },
+ {
+  "excelCol": 185,
+  "header": "275cm White Chain",
+  "sqlColumn": "N275cm_White_Chain",
+  "legacy": "275cm_white_chain"
+ },
+ {
+  "excelCol": 186,
+  "header": "300cm White Chain",
+  "sqlColumn": "N300cm_White_Chain",
+  "legacy": "300cm_white_chain"
+ },
+ {
+  "excelCol": 187,
+  "header": "325cm White Chain",
+  "sqlColumn": "N325cm_White_Chain",
+  "legacy": "325cm_white_chain"
+ },
+ {
+  "excelCol": 188,
+  "header": "350cm White Chain",
+  "sqlColumn": "N350cm_White_Chain",
+  "legacy": "350cm_white_chain"
+ },
+ {
+  "excelCol": 189,
+  "header": "375cm White Chain",
+  "sqlColumn": "N375cm_White_Chain",
+  "legacy": "375cm_white_chain"
+ },
+ {
+  "excelCol": 190,
+  "header": "400cm White Chain",
+  "sqlColumn": "N400cm_White_Chain",
+  "legacy": "400cm_white_chain"
+ },
+ {
+  "excelCol": 191,
+  "header": "50cm Black Chain",
+  "sqlColumn": "N50cm_Black_Chain",
+  "legacy": "50cm_black_chain"
+ },
+ {
+  "excelCol": 192,
+  "header": "75cm Black Chain",
+  "sqlColumn": "N75cm_Black_Chain",
+  "legacy": "75cm_black_chain"
+ },
+ {
+  "excelCol": 193,
+  "header": "100cm Black Chain",
+  "sqlColumn": "N100cm_Black_Chain",
+  "legacy": "100cm_black_chain"
+ },
+ {
+  "excelCol": 194,
+  "header": "125cm Black Chain",
+  "sqlColumn": "N125cm_Black_Chain",
+  "legacy": "125cm_black_chain"
+ },
+ {
+  "excelCol": 195,
+  "header": "150cm Black Chain",
+  "sqlColumn": "N150cm_Black_Chain",
+  "legacy": "150cm_black_chain"
+ },
+ {
+  "excelCol": 196,
+  "header": "175cm Black Chain",
+  "sqlColumn": "N175cm_Black_Chain",
+  "legacy": "175cm_black_chain"
+ },
+ {
+  "excelCol": 197,
+  "header": "200cm Black Chain",
+  "sqlColumn": "N200cm_Black_Chain",
+  "legacy": "200cm_black_chain"
+ },
+ {
+  "excelCol": 198,
+  "header": "225cm Black Chain",
+  "sqlColumn": "N225cm_Black_Chain",
+  "legacy": "225cm_black_chain"
+ },
+ {
+  "excelCol": 199,
+  "header": "250cm Black Chain",
+  "sqlColumn": "N250cm_Black_Chain",
+  "legacy": "250cm_black_chain"
+ },
+ {
+  "excelCol": 200,
+  "header": "275cm Black Chain",
+  "sqlColumn": "N275cm_Black_Chain",
+  "legacy": "275cm_black_chain"
+ },
+ {
+  "excelCol": 201,
+  "header": "300cm Black Chain",
+  "sqlColumn": "N300cm_Black_Chain",
+  "legacy": "300cm_black_chain"
+ },
+ {
+  "excelCol": 202,
+  "header": "325cm Black Chain",
+  "sqlColumn": "N325cm_Black_Chain",
+  "legacy": "325cm_black_chain"
+ },
+ {
+  "excelCol": 203,
+  "header": "350cm Black Chain",
+  "sqlColumn": "N350cm_Black_Chain",
+  "legacy": "350cm_black_chain"
+ },
+ {
+  "excelCol": 204,
+  "header": "375cm Black Chain",
+  "sqlColumn": "N375cm_Black_Chain",
+  "legacy": "375cm_black_chain"
+ },
+ {
+  "excelCol": 205,
+  "header": "400cm Black Chain",
+  "sqlColumn": "N400cm_Black_Chain",
+  "legacy": "400cm_black_chain"
+ },
+ {
+  "excelCol": 206,
+  "header": "50cm Cream Chain",
+  "sqlColumn": "N50cm_Cream_Chain",
+  "legacy": "50cm_cream_chain"
+ },
+ {
+  "excelCol": 207,
+  "header": "75cm Cream Chain",
+  "sqlColumn": "N75cm_Cream_Chain",
+  "legacy": "75cm_cream_chain"
+ },
+ {
+  "excelCol": 208,
+  "header": "100cm Cream Chain",
+  "sqlColumn": "N100cm_Cream_Chain",
+  "legacy": "100cm_cream_chain"
+ },
+ {
+  "excelCol": 209,
+  "header": "125cm Cream Chain",
+  "sqlColumn": "N125cm_Cream_Chain",
+  "legacy": "125cm_cream_chain"
+ },
+ {
+  "excelCol": 210,
+  "header": "150cm Cream Chain",
+  "sqlColumn": "N150cm_Cream_Chain",
+  "legacy": "150cm_cream_chain"
+ },
+ {
+  "excelCol": 211,
+  "header": "175cm Cream Chain",
+  "sqlColumn": "N175cm_Cream_Chain",
+  "legacy": "175cm_cream_chain"
+ },
+ {
+  "excelCol": 212,
+  "header": "200cm Cream Chain",
+  "sqlColumn": "N200cm_Cream_Chain",
+  "legacy": "200cm_cream_chain"
+ },
+ {
+  "excelCol": 213,
+  "header": "225cm Cream Chain",
+  "sqlColumn": "N225cm_Cream_Chain",
+  "legacy": "225cm_cream_chain"
+ },
+ {
+  "excelCol": 214,
+  "header": "250cm Cream Chain",
+  "sqlColumn": "N250cm_Cream_Chain",
+  "legacy": "250cm_cream_chain"
+ },
+ {
+  "excelCol": 215,
+  "header": "275cm Cream Chain",
+  "sqlColumn": "N275cm_Cream_Chain",
+  "legacy": "275cm_cream_chain"
+ },
+ {
+  "excelCol": 216,
+  "header": "300cm Cream Chain",
+  "sqlColumn": "N300cm_Cream_Chain",
+  "legacy": "300cm_cream_chain"
+ },
+ {
+  "excelCol": 217,
+  "header": "325cm Cream Chain",
+  "sqlColumn": "N325cm_Cream_Chain",
+  "legacy": "325cm_cream_chain"
+ },
+ {
+  "excelCol": 218,
+  "header": "350cm Cream Chain",
+  "sqlColumn": "N350cm_Cream_Chain",
+  "legacy": "350cm_cream_chain"
+ },
+ {
+  "excelCol": 219,
+  "header": "375cm Cream Chain",
+  "sqlColumn": "N375cm_Cream_Chain",
+  "legacy": "375cm_cream_chain"
+ },
+ {
+  "excelCol": 220,
+  "header": "400cm Cream Chain",
+  "sqlColumn": "N400cm_Cream_Chain",
+  "legacy": "400cm_cream_chain"
+ },
+ {
+  "excelCol": 221,
+  "header": "50cm Grey Chain",
+  "sqlColumn": "N50cm_Grey_Chain",
+  "legacy": "50cm_grey_chain"
+ },
+ {
+  "excelCol": 222,
+  "header": "75cm Grey Chain",
+  "sqlColumn": "N75cm_Grey_Chain",
+  "legacy": "75cm_grey_chain"
+ },
+ {
+  "excelCol": 223,
+  "header": "100cm Grey Chain",
+  "sqlColumn": "N100cm_Grey_Chain",
+  "legacy": "100cm_grey_chain"
+ },
+ {
+  "excelCol": 224,
+  "header": "125cm Grey Chain",
+  "sqlColumn": "N125cm_Grey_Chain",
+  "legacy": "125cm_grey_chain"
+ },
+ {
+  "excelCol": 225,
+  "header": "150cm Grey Chain",
+  "sqlColumn": "N150cm_Grey_Chain",
+  "legacy": "150cm_grey_chain"
+ },
+ {
+  "excelCol": 226,
+  "header": "175cm Grey Chain",
+  "sqlColumn": "N175cm_Grey_Chain",
+  "legacy": "175cm_grey_chain"
+ },
+ {
+  "excelCol": 227,
+  "header": "200cm Grey Chain",
+  "sqlColumn": "N200cm_Grey_Chain",
+  "legacy": "200cm_grey_chain"
+ },
+ {
+  "excelCol": 228,
+  "header": "225cm Grey Chain",
+  "sqlColumn": "N225cm_Grey_Chain",
+  "legacy": "225cm_grey_chain"
+ },
+ {
+  "excelCol": 229,
+  "header": "250cm Grey Chain",
+  "sqlColumn": "N250cm_Grey_Chain",
+  "legacy": "250cm_grey_chain"
+ },
+ {
+  "excelCol": 230,
+  "header": "275cm Grey Chain",
+  "sqlColumn": "N275cm_Grey_Chain",
+  "legacy": "275cm_grey_chain"
+ },
+ {
+  "excelCol": 231,
+  "header": "300cm Grey Chain",
+  "sqlColumn": "N300cm_Grey_Chain",
+  "legacy": "300cm_grey_chain"
+ },
+ {
+  "excelCol": 232,
+  "header": "325cm Grey Chain",
+  "sqlColumn": "N325cm_Grey_Chain",
+  "legacy": "325cm_grey_chain"
+ },
+ {
+  "excelCol": 233,
+  "header": "350cm Grey Chain",
+  "sqlColumn": "N350cm_Grey_Chain",
+  "legacy": "350cm_grey_chain"
+ },
+ {
+  "excelCol": 234,
+  "header": "375cm Grey Chain",
+  "sqlColumn": "N375cm_Grey_Chain",
+  "legacy": "375cm_grey_chain"
+ },
+ {
+  "excelCol": 235,
+  "header": "400cm Grey Chain",
+  "sqlColumn": "N400cm_Grey_Chain",
+  "legacy": "400cm_grey_chain"
+ },
+ {
+  "excelCol": 236,
+  "header": "50cm Beige Chain",
+  "sqlColumn": "N50cm_Beige_Chain",
+  "legacy": "50cm_beige_chain"
+ },
+ {
+  "excelCol": 237,
+  "header": "75cm Beige Chain",
+  "sqlColumn": "N75cm_Beige_Chain",
+  "legacy": "75cm_beige_chain"
+ },
+ {
+  "excelCol": 238,
+  "header": "100cm Beige Chain",
+  "sqlColumn": "N100cm_Beige_Chain",
+  "legacy": "100cm_beige_chain"
+ },
+ {
+  "excelCol": 239,
+  "header": "125cm Beige Chain",
+  "sqlColumn": "N125cm_Beige_Chain",
+  "legacy": "125cm_beige_chain"
+ },
+ {
+  "excelCol": 240,
+  "header": "150cm Beige Chain",
+  "sqlColumn": "N150cm_Beige_Chain",
+  "legacy": "150cm_beige_chain"
+ },
+ {
+  "excelCol": 241,
+  "header": "175cm Beige Chain",
+  "sqlColumn": "N175cm_Beige_Chain",
+  "legacy": "175cm_beige_chain"
+ },
+ {
+  "excelCol": 242,
+  "header": "200cm Beige Chain",
+  "sqlColumn": "N200cm_Beige_Chain",
+  "legacy": "200cm_beige_chain"
+ },
+ {
+  "excelCol": 243,
+  "header": "225cm Beige Chain",
+  "sqlColumn": "N225cm_Beige_Chain",
+  "legacy": "225cm_beige_chain"
+ },
+ {
+  "excelCol": 244,
+  "header": "250cm Beige Chain",
+  "sqlColumn": "N250cm_Beige_Chain",
+  "legacy": "250cm_beige_chain"
+ },
+ {
+  "excelCol": 245,
+  "header": "275cm Beige Chain",
+  "sqlColumn": "N275cm_Beige_Chain",
+  "legacy": "275cm_beige_chain"
+ },
+ {
+  "excelCol": 246,
+  "header": "300cm Beige Chain",
+  "sqlColumn": "N300cm_Beige_Chain",
+  "legacy": "300cm_beige_chain"
+ },
+ {
+  "excelCol": 247,
+  "header": "325cm Beige Chain",
+  "sqlColumn": "N325cm_Beige_Chain",
+  "legacy": "325cm_beige_chain"
+ },
+ {
+  "excelCol": 248,
+  "header": "350cm Beige Chain",
+  "sqlColumn": "N350cm_Beige_Chain",
+  "legacy": "350cm_beige_chain"
+ },
+ {
+  "excelCol": 249,
+  "header": "375cm Beige Chain",
+  "sqlColumn": "N375cm_Beige_Chain",
+  "legacy": "375cm_beige_chain"
+ },
+ {
+  "excelCol": 250,
+  "header": "400cm Beige Chain",
+  "sqlColumn": "N400cm_Beige_Chain",
+  "legacy": "400cm_beige_chain"
+ },
+ {
+  "excelCol": 251,
+  "header": "50cm Stainless Steel Chain",
+  "sqlColumn": "N50cm_Stainless_Steel_Chain",
+  "legacy": "50cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 252,
+  "header": "75cm Stainless Steel Chain",
+  "sqlColumn": "N75cm_Stainless_Steel_Chain",
+  "legacy": "75cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 253,
+  "header": "100cm Stainless Steel Chain",
+  "sqlColumn": "N100cm_Stainless_Steel_Chain",
+  "legacy": "100cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 254,
+  "header": "125cm Stainless Steel Chain",
+  "sqlColumn": "N125cm_Stainless_Steel_Chain",
+  "legacy": "125cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 255,
+  "header": "150cm Stainless Steel Chain",
+  "sqlColumn": "N150cm_Stainless_Steel_Chain",
+  "legacy": "150cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 256,
+  "header": "175cm Stainless Steel Chain",
+  "sqlColumn": "N175cm_Stainless_Steel_Chain",
+  "legacy": "175cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 257,
+  "header": "200cm Stainless Steel Chain",
+  "sqlColumn": "N200cm_Stainless_Steel_Chain",
+  "legacy": "200cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 258,
+  "header": "225cm Stainless Steel Chain",
+  "sqlColumn": "N225cm_Stainless_Steel_Chain",
+  "legacy": "225cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 259,
+  "header": "250cm Stainless Steel Chain",
+  "sqlColumn": "N250cm_Stainless_Steel_Chain",
+  "legacy": "250cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 260,
+  "header": "275cm Stainless Steel Chain",
+  "sqlColumn": "N275cm_Stainless_Steel_Chain",
+  "legacy": "275cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 261,
+  "header": "300cm Stainless Steel Chain",
+  "sqlColumn": "N300cm_Stainless_Steel_Chain",
+  "legacy": "300cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 262,
+  "header": "325cm Stainless Steel Chain",
+  "sqlColumn": "N325cm_Stainless_Steel_Chain",
+  "legacy": "325cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 263,
+  "header": "350cm Stainless Steel Chain",
+  "sqlColumn": "N350cm_Stainless_Steel_Chain",
+  "legacy": "350cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 264,
+  "header": "375cm Stainless Steel Chain",
+  "sqlColumn": "N375cm_Stainless_Steel_Chain",
+  "legacy": "375cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 265,
+  "header": "400cm Stainless Steel Chain",
+  "sqlColumn": "N400cm_Stainless_Steel_Chain",
+  "legacy": "400cm_stainless_steel_chain"
+ },
+ {
+  "excelCol": 266,
+  "header": "43mm Heavy Duty Helper Springs LHS",
+  "sqlColumn": "N43mm_Heavy_Duty_Helper_Springs_LHS",
+  "legacy": "43mm_heavy_duty_helper_springs_lhs"
+ },
+ {
+  "excelCol": 267,
+  "header": "43mm Heavy Duty Helper Springs RHS",
+  "sqlColumn": "N43mm_Heavy_Duty_Helper_Springs_RHS",
+  "legacy": "43mm_heavy_duty_helper_springs_rhs"
+ },
+ {
+  "excelCol": 268,
+  "header": "60mm Heavy Duty Helper Springs LHS",
+  "sqlColumn": "N60mm_Heavy_Duty_Helper_Springs_LHS",
+  "legacy": "60mm_heavy_duty_helper_springs_lhs"
+ },
+ {
+  "excelCol": 269,
+  "header": "60mm Heavy Duty Helper Springs RHS",
+  "sqlColumn": "N60mm_Heavy_Duty_Helper_Springs_RHS",
+  "legacy": "60mm_heavy_duty_helper_springs_rhs"
+ },
+ {
+  "excelCol": 270,
+  "header": "43mm Female Link White",
+  "sqlColumn": "N43mm_Female_Link_White",
+  "legacy": "43mm_female_link_white"
+ },
+ {
+  "excelCol": 271,
+  "header": "43mm Female Link Black",
+  "sqlColumn": "N43mm_Female_Link_Black",
+  "legacy": "43mm_female_link_black"
+ },
+ {
+  "excelCol": 272,
+  "header": "43mm Male Link White",
+  "sqlColumn": "N43mm_Male_Link_White",
+  "legacy": "43mm_male_link_white"
+ },
+ {
+  "excelCol": 273,
+  "header": "43mm Male Link Black",
+  "sqlColumn": "N43mm_Male_Link_Black",
+  "legacy": "43mm_male_link_black"
+ },
+ {
+  "excelCol": 274,
+  "header": "60mm Female Link White",
+  "sqlColumn": "N60mm_Female_Link_White",
+  "legacy": "60mm_female_link_white"
+ },
+ {
+  "excelCol": 275,
+  "header": "60mm Female Link Black",
+  "sqlColumn": "N60mm_Female_Link_Black",
+  "legacy": "60mm_female_link_black"
+ },
+ {
+  "excelCol": 276,
+  "header": "60mm Male Link White",
+  "sqlColumn": "N60mm_Male_Link_White",
+  "legacy": "60mm_male_link_white"
+ },
+ {
+  "excelCol": 277,
+  "header": "60mm Male Link Black",
+  "sqlColumn": "N60mm_Male_Link_Black",
+  "legacy": "60mm_male_link_black"
+ },
+ {
+  "excelCol": 278,
+  "header": "38mm Senior Spring",
+  "sqlColumn": "N38mm_Senior_Spring",
+  "legacy": "38mm_senior_spring"
+ },
+ {
+  "excelCol": 279,
+  "header": "38mm Junior Spring",
+  "sqlColumn": "N38mm_Junior_Spring",
+  "legacy": "38mm_junior_spring"
+ },
+ {
+  "excelCol": 280,
+  "header": "15mm Spline",
+  "sqlColumn": "N15mm_Spline",
+  "legacy": "15mm_spline"
+ },
+ {
+  "excelCol": 281,
+  "header": "Metal Pull Ring Silver",
+  "sqlColumn": "Metal_Pull_Ring_Silver",
+  "legacy": "metal_pull_ring_silver"
+ },
+ {
+  "excelCol": 282,
+  "header": "Metal Pull Ring Gold",
+  "sqlColumn": "Metal_Pull_Ring_Gold",
+  "legacy": "metal_pull_ring_gold"
+ },
+ {
+  "excelCol": 283,
+  "header": "60mm Chain Winder White",
+  "sqlColumn": "N60mm_Chain_Winder_White",
+  "legacy": "60mm_chain_winder_white"
+ },
+ {
+  "excelCol": 284,
+  "header": "60mm Chain Winder Black",
+  "sqlColumn": "N60mm_Chain_Winder_Black",
+  "legacy": "60mm_chain_winder_black"
+ },
+ {
+  "excelCol": 285,
+  "header": "60mm Idle White",
+  "sqlColumn": "N60mm_Idle_White",
+  "legacy": "60mm_idle_white"
+ },
+ {
+  "excelCol": 286,
+  "header": "60mm Idle Black",
+  "sqlColumn": "N60mm_Idle_Black",
+  "legacy": "60mm_idle_black"
+ },
+ {
+  "excelCol": 287,
+  "header": "60mm Tube Adaptor White",
+  "sqlColumn": "N60mm_Tube_Adaptor_White",
+  "legacy": "60mm_tube_adaptor_white"
+ },
+ {
+  "excelCol": 288,
+  "header": "60mm Tube Adaptor Black",
+  "sqlColumn": "N60mm_Tube_Adaptor_Black",
+  "legacy": "60mm_tube_adaptor_black"
+ },
+ {
+  "excelCol": 289,
+  "header": "60mm Chain Winder Bracket White",
+  "sqlColumn": "N60mm_Chain_Winder_Bracket_White",
+  "legacy": "60mm_chain_winder_bracket_white"
+ },
+ {
+  "excelCol": 290,
+  "header": "60mm Chain Winder Bracket Black",
+  "sqlColumn": "N60mm_Chain_Winder_Bracket_Black",
+  "legacy": "60mm_chain_winder_bracket_black"
+ },
+ {
+  "excelCol": 291,
+  "header": "60mm Idle Bracket White",
+  "sqlColumn": "N60mm_Idle_Bracket_White",
+  "legacy": "60mm_idle_bracket_white"
+ },
+ {
+  "excelCol": 292,
+  "header": "60mm Idle Bracket Black",
+  "sqlColumn": "N60mm_Idle_Bracket_Black",
+  "legacy": "60mm_idle_bracket_black"
+ },
+ {
+  "excelCol": 293,
+  "header": "Chain Safe",
+  "sqlColumn": "Chain_Safe",
+  "legacy": "chain_safe"
+ },
+ {
+  "excelCol": 294,
+  "header": "Stopper Balls",
+  "sqlColumn": "Stopper_Balls",
+  "legacy": "stopper_balls"
+ },
+ {
+  "excelCol": 295,
+  "header": "Acmeda E6 Motor",
+  "sqlColumn": "Acmeda_E6_Motor",
+  "legacy": "acmeda_e6_motor"
+ },
+ {
+  "excelCol": 296,
+  "header": "Acmeda M6 Motor",
+  "sqlColumn": "Acmeda_M6_Motor",
+  "legacy": "acmeda_m6_motor"
+ },
+ {
+  "excelCol": 297,
+  "header": "Acmeda 0.7nm 12v Motor",
+  "sqlColumn": "Acmeda_0_7nm_12v_Motor",
+  "legacy": "acmeda_0_7nm_12v_motor"
+ },
+ {
+  "excelCol": 298,
+  "header": "Acmeda 1.1nm 12v Motor",
+  "sqlColumn": "Acmeda_1_1nm_12v_Motor",
+  "legacy": "acmeda_1_1nm_12v_motor"
+ },
+ {
+  "excelCol": 299,
+  "header": "Acmeda 2nm 12v Motor",
+  "sqlColumn": "Acmeda_2nm_12v_Motor",
+  "legacy": "acmeda_2nm_12v_motor"
+ },
+ {
+  "excelCol": 300,
+  "header": "Acmeda 6nm 12v Motor",
+  "sqlColumn": "Acmeda_6nm_12v_Motor",
+  "legacy": "acmeda_6nm_12v_motor"
+ },
+ {
+  "excelCol": 301,
+  "header": "Acmeda 10nm 12v Motor",
+  "sqlColumn": "Acmeda_10nm_12v_Motor",
+  "legacy": "acmeda_10nm_12v_motor"
+ },
+ {
+  "excelCol": 302,
+  "header": "Acmeda FT 15Nm Motor",
+  "sqlColumn": "Acmeda_FT_15Nm_Motor",
+  "legacy": "acmeda_ft_15nm_motor"
+ },
+ {
+  "excelCol": 303,
+  "header": "Acmeda 1.1nm 12v DCRF Motor",
+  "sqlColumn": "Acmeda_1_1nm_12v_DCRF_Motor",
+  "legacy": "acmeda_1_1nm_12v_dcrf_motor"
+ },
+ {
+  "excelCol": 304,
+  "header": "Acmeda 2nm 12v DCRF Motor",
+  "sqlColumn": "Acmeda_2nm_12v_DCRF_Motor",
+  "legacy": "acmeda_2nm_12v_dcrf_motor"
+ },
+ {
+  "excelCol": 305,
+  "header": "Sonesse 40 RTS 3/30 with Inline Connector Motor",
+  "sqlColumn": "Sonesse_40_RTS_3_30_with_Inline_Connector_Motor",
+  "legacy": "sonesse_40_rts_3_30_with_inline_connector_motor"
+ },
+ {
+  "excelCol": 306,
+  "header": "Sonesse 40 WT 3/30 with Inline Connector Motor",
+  "sqlColumn": "Sonesse_40_WT_3_30_with_Inline_Connector_Motor",
+  "legacy": "sonesse_40_wt_3_30_with_inline_connector_motor"
+ },
+ {
+  "excelCol": 307,
+  "header": "Somfy 12v Remote Sonesse Motor",
+  "sqlColumn": "Somfy_12v_Remote_Sonesse_Motor",
+  "legacy": "somfy_12v_remote_sonesse_motor"
+ },
+ {
+  "excelCol": 308,
+  "header": "Sonesse 50 RTS 6/17 RH Motor",
+  "sqlColumn": "Sonesse_50_RTS_6_17_RH_Motor",
+  "legacy": "sonesse_50_rts_6_17_rh_motor"
+ },
+ {
+  "excelCol": 309,
+  "header": "Sonesse 50 WT 10/28 Motor",
+  "sqlColumn": "Sonesse_50_WT_10_28_Motor",
+  "legacy": "sonesse_50_wt_10_28_motor"
+ },
+ {
+  "excelCol": 310,
+  "header": "Becker P4-30-C12A Motor",
+  "sqlColumn": "Becker_P4_30_C12A_Motor",
+  "legacy": "becker_p4_30_c12a_motor"
+ },
+ {
+  "excelCol": 311,
+  "header": "Becker cBus Motor",
+  "sqlColumn": "Becker_cBus_Motor",
+  "legacy": "becker_cbus_motor"
+ },
+ {
+  "excelCol": 312,
+  "header": "Becker R20-17-C12A Motor",
+  "sqlColumn": "Becker_R20_17_C12A_Motor",
+  "legacy": "becker_r20_17_c12a_motor"
+ },
+ {
+  "excelCol": 313,
+  "header": "Becker External cBus Motor",
+  "sqlColumn": "Becker_External_cBus_Motor",
+  "legacy": "becker_external_cbus_motor"
+ },
+ {
+  "excelCol": 314,
+  "header": "Becker Molex Connection",
+  "sqlColumn": "Becker_Molex_Connection",
+  "legacy": "becker_molex_connection"
+ },
+ {
+  "excelCol": 315,
+  "header": "Acmeda 1.1nm 12v Motor Crown & Drive Kit(43mm)",
+  "sqlColumn": "Acmeda_1_1nm_12v_Motor_Crown_Drive_Kit_43mm",
+  "legacy": "acmeda_1_1nm_12v_motor_crown_drive_kit_43mm"
+ },
+ {
+  "excelCol": 316,
+  "header": "Acmeda 2nm 12v Motor Crown & Drive Kit(43mm)",
+  "sqlColumn": "Acmeda_2nm_12v_Motor_Crown_Drive_Kit_43mm",
+  "legacy": "acmeda_2nm_12v_motor_crown_drive_kit_43mm"
+ },
+ {
+  "excelCol": 317,
+  "header": "Acmeda 6nm 12v Motor Crown & Drive Kit",
+  "sqlColumn": "Acmeda_6nm_12v_Motor_Crown_Drive_Kit",
+  "legacy": "acmeda_6nm_12v_motor_crown_drive_kit"
+ },
+ {
+  "excelCol": 318,
+  "header": "Acmeda 10nm 12v Motor Crown 60mm Tube",
+  "sqlColumn": "Acmeda_10nm_12v_Motor_Crown_60mm_Tube",
+  "legacy": "acmeda_10nm_12v_motor_crown_60mm_tube"
+ },
+ {
+  "excelCol": 319,
+  "header": "Acmeda 10nm 12v Motor Crown 80mm Tube",
+  "sqlColumn": "Acmeda_10nm_12v_Motor_Crown_80mm_Tube",
+  "legacy": "acmeda_10nm_12v_motor_crown_80mm_tube"
+ },
+ {
+  "excelCol": 320,
+  "header": "Acmeda 10nm 12v Motor Drive Wheel 60/80mm Tube",
+  "sqlColumn": "Acmeda_10nm_12v_Motor_Drive_Wheel_60_80mm_Tube",
+  "legacy": "acmeda_10nm_12v_motor_drive_wheel_60_80mm_tube"
+ },
+ {
+  "excelCol": 321,
+  "header": "M40 Universal Disc Adaptor",
+  "sqlColumn": "M40_Universal_Disc_Adaptor",
+  "legacy": "m40_universal_disc_adaptor"
+ },
+ {
+  "excelCol": 322,
+  "header": "M50 Universal Disc Adaptor",
+  "sqlColumn": "M50_Universal_Disc_Adaptor",
+  "legacy": "m50_universal_disc_adaptor"
+ },
+ {
+  "excelCol": 323,
+  "header": "Acmeda 6nm Motor Head Plate",
+  "sqlColumn": "Acmeda_6nm_Motor_Head_Plate",
+  "legacy": "acmeda_6nm_motor_head_plate"
+ },
+ {
+  "excelCol": 324,
+  "header": "Automate Motor Head Adaptor",
+  "sqlColumn": "Automate_Motor_Head_Adaptor",
+  "legacy": "automate_motor_head_adaptor"
+ },
+ {
+  "excelCol": 325,
+  "header": "Automate 60mm Crown",
+  "sqlColumn": "Automate_60mm_Crown",
+  "legacy": "automate_60mm_crown"
+ },
+ {
+  "excelCol": 326,
+  "header": "Automate 60mm Drive",
+  "sqlColumn": "Automate_60mm_Drive",
+  "legacy": "automate_60mm_drive"
+ },
+ {
+  "excelCol": 327,
+  "header": "Acmeda 10nm 12v Motor Adaptor  -White",
+  "sqlColumn": "Acmeda_10nm_12v_Motor_Adaptor_White",
+  "legacy": "acmeda_10nm_12v_motor_adaptor_white"
+ },
+ {
+  "excelCol": 328,
+  "header": "Automate FT Motor Adaptor Set  - Black",
+  "sqlColumn": "Automate_FT_Motor_Adaptor_Set_Black",
+  "legacy": "automate_ft_motor_adaptor_set_black"
+ },
+ {
+  "excelCol": 329,
+  "header": "Automate FT Motor Adaptor Set - White",
+  "sqlColumn": "Automate_FT_Motor_Adaptor_Set_White",
+  "legacy": "automate_ft_motor_adaptor_set_white"
+ },
+ {
+  "excelCol": 330,
+  "header": "Somfy 43mm 12v Crown & Drive",
+  "sqlColumn": "Somfy_43mm_12v_Crown_Drive",
+  "legacy": "somfy_43mm_12v_crown_drive"
+ },
+ {
+  "excelCol": 331,
+  "header": "Somfy 40 Crown",
+  "sqlColumn": "Somfy_40_Crown",
+  "legacy": "somfy_40_crown"
+ },
+ {
+  "excelCol": 332,
+  "header": "Somfy 40 Drive",
+  "sqlColumn": "Somfy_40_Drive",
+  "legacy": "somfy_40_drive"
+ },
+ {
+  "excelCol": 333,
+  "header": "Somfy 50 Crown 60mm Tube",
+  "sqlColumn": "Somfy_50_Crown_60mm_Tube",
+  "legacy": "somfy_50_crown_60mm_tube"
+ },
+ {
+  "excelCol": 334,
+  "header": "Somfy50 Crown 80mm Tube",
+  "sqlColumn": "Somfy50_Crown_80mm_Tube",
+  "legacy": "somfy50_crown_80mm_tube"
+ },
+ {
+  "excelCol": 335,
+  "header": "Somfy 50 Drive 60mm/80mm Tube",
+  "sqlColumn": "Somfy_50_Drive_60mm_80mm_Tube",
+  "legacy": "somfy_50_drive_60mm_80mm_tube"
+ },
+ {
+  "excelCol": 336,
+  "header": "M50 Somfy/Becker Motor Head Adaptor Set",
+  "sqlColumn": "M50_Somfy_Becker_Motor_Head_Adaptor_Set",
+  "legacy": "m50_somfy_becker_motor_head_adaptor_set"
+ },
+ {
+  "excelCol": 337,
+  "header": "M50 Somfy Motor Head Adaptor Plate",
+  "sqlColumn": "M50_Somfy_Motor_Head_Adaptor_Plate",
+  "legacy": "m50_somfy_motor_head_adaptor_plate"
+ },
+ {
+  "excelCol": 338,
+  "header": "Universal Zamack Bracket",
+  "sqlColumn": "Universal_Zamack_Bracket",
+  "legacy": "universal_zamack_bracket"
+ },
+ {
+  "excelCol": 339,
+  "header": "Becker 40 Crown",
+  "sqlColumn": "Becker_40_Crown",
+  "legacy": "becker_40_crown"
+ },
+ {
+  "excelCol": 340,
+  "header": "Becker 40 Drive",
+  "sqlColumn": "Becker_40_Drive",
+  "legacy": "becker_40_drive"
+ },
+ {
+  "excelCol": 341,
+  "header": "Becker M50 Drive Wheel 60mm Tube",
+  "sqlColumn": "Becker_M50_Drive_Wheel_60mm_Tube",
+  "legacy": "becker_m50_drive_wheel_60mm_tube"
+ },
+ {
+  "excelCol": 342,
+  "header": "Becker M50 Crown 60mm Tube",
+  "sqlColumn": "Becker_M50_Crown_60mm_Tube",
+  "legacy": "becker_m50_crown_60mm_tube"
+ },
+ {
+  "excelCol": 343,
+  "header": "M50 Somfy/Becker Motor Head Adaptor Set",
+  "sqlColumn": "M50_Somfy_Becker_Motor_Head_Adaptor_Set_2",
+  "legacy": "m50_somfy_becker_motor_head_adaptor_set_2"
+ },
+ {
+  "excelCol": 344,
+  "header": "Pulse Pro Automation Hub",
+  "sqlColumn": "Pulse_Pro_Automation_Hub",
+  "legacy": "pulse_pro_automation_hub"
+ },
+ {
+  "excelCol": 345,
+  "header": "Acmeda Solar Panel",
+  "sqlColumn": "Acmeda_Solar_Panel",
+  "legacy": "acmeda_solar_panel"
+ },
+ {
+  "excelCol": 346,
+  "header": "Acmeda Charging Cable",
+  "sqlColumn": "Acmeda_Charging_Cable",
+  "legacy": "acmeda_charging_cable"
+ },
+ {
+  "excelCol": 347,
+  "header": "Acmeda 3nm & 10nm Charging Cable",
+  "sqlColumn": "Acmeda_3nm_10nm_Charging_Cable",
+  "legacy": "acmeda_3nm_10nm_charging_cable"
+ },
+ {
+  "excelCol": 348,
+  "header": "210mm Extension Charging Cable",
+  "sqlColumn": "N210mm_Extension_Charging_Cable",
+  "legacy": "210mm_extension_charging_cable"
+ },
+ {
+  "excelCol": 349,
+  "header": "1200mm Extension Charging Cable",
+  "sqlColumn": "N1200mm_Extension_Charging_Cable",
+  "legacy": "1200mm_extension_charging_cable"
+ },
+ {
+  "excelCol": 350,
+  "header": "1 Channel Dry Contact Relay Module",
+  "sqlColumn": "N1_Channel_Dry_Contact_Relay_Module",
+  "legacy": "1_channel_dry_contact_relay_module"
+ },
+ {
+  "excelCol": 351,
+  "header": "USB Repeater",
+  "sqlColumn": "USB_Repeater",
+  "legacy": "usb_repeater"
+ },
+ {
+  "excelCol": 352,
+  "header": "Acmeda External Battery for DCRF Motors",
+  "sqlColumn": "Acmeda_External_Battery_for_DCRF_Motors",
+  "legacy": "acmeda_external_battery_for_dcrf_motors"
+ },
+ {
+  "excelCol": 353,
+  "header": "Acmeda Power Panel for DCRF Motors",
+  "sqlColumn": "Acmeda_Power_Panel_for_DCRF_Motors",
+  "legacy": "acmeda_power_panel_for_dcrf_motors"
+ },
+ {
+  "excelCol": 354,
+  "header": "12v Motor Covers White",
+  "sqlColumn": "N12v_Motor_Covers_White",
+  "legacy": "12v_motor_covers_white"
+ },
+ {
+  "excelCol": 355,
+  "header": "12v Motor Covers Black",
+  "sqlColumn": "N12v_Motor_Covers_Black",
+  "legacy": "12v_motor_covers_black"
+ },
+ {
+  "excelCol": 356,
+  "header": "Acmeda 1 Channel White Remote",
+  "sqlColumn": "Acmeda_1_Channel_White_Remote",
+  "legacy": "acmeda_1_channel_white_remote"
+ },
+ {
+  "excelCol": 357,
+  "header": "Acmeda 1 Channel Black Remote",
+  "sqlColumn": "Acmeda_1_Channel_Black_Remote",
+  "legacy": "acmeda_1_channel_black_remote"
+ },
+ {
+  "excelCol": 358,
+  "header": "Acmeda 5 Channel White Remote",
+  "sqlColumn": "Acmeda_5_Channel_White_Remote",
+  "legacy": "acmeda_5_channel_white_remote"
+ },
+ {
+  "excelCol": 359,
+  "header": "Acmeda 5 Channel Black Remote",
+  "sqlColumn": "Acmeda_5_Channel_Black_Remote",
+  "legacy": "acmeda_5_channel_black_remote"
+ },
+ {
+  "excelCol": 360,
+  "header": "Acmeda 15 Channel White Remote",
+  "sqlColumn": "Acmeda_15_Channel_White_Remote",
+  "legacy": "acmeda_15_channel_white_remote"
+ },
+ {
+  "excelCol": 361,
+  "header": "Acmeda 15 Channel Black Remote",
+  "sqlColumn": "Acmeda_15_Channel_Black_Remote",
+  "legacy": "acmeda_15_channel_black_remote"
+ },
+ {
+  "excelCol": 362,
+  "header": "Acmeda Wall Mounted Single Channel White Remote",
+  "sqlColumn": "Acmeda_Wall_Mounted_Single_Channel_White_Remote",
+  "legacy": "acmeda_wall_mounted_single_channel_white_remote"
+ },
+ {
+  "excelCol": 363,
+  "header": "Acmeda Wall Mounted 2 Channel White Remote",
+  "sqlColumn": "Acmeda_Wall_Mounted_2_Channel_White_Remote",
+  "legacy": "acmeda_wall_mounted_2_channel_white_remote"
+ },
+ {
+  "excelCol": 364,
+  "header": "Acmeda Wall Mounted 5 Channel White Remote",
+  "sqlColumn": "Acmeda_Wall_Mounted_5_Channel_White_Remote",
+  "legacy": "acmeda_wall_mounted_5_channel_white_remote"
+ },
+ {
+  "excelCol": 365,
+  "header": "Acmeda Wall Mounted 15 Channel White Remote",
+  "sqlColumn": "Acmeda_Wall_Mounted_15_Channel_White_Remote",
+  "legacy": "acmeda_wall_mounted_15_channel_white_remote"
+ },
+ {
+  "excelCol": 366,
+  "header": "Acmeda Push Pro White Remote",
+  "sqlColumn": "Acmeda_Push_Pro_White_Remote",
+  "legacy": "acmeda_push_pro_white_remote"
+ },
+ {
+  "excelCol": 367,
+  "header": "Acmeda Push Pro Black Remote",
+  "sqlColumn": "Acmeda_Push_Pro_Black_Remote",
+  "legacy": "acmeda_push_pro_black_remote"
+ },
+ {
+  "excelCol": 368,
+  "header": "Acmeda Push Pro Charging Cable",
+  "sqlColumn": "Acmeda_Push_Pro_Charging_Cable",
+  "legacy": "acmeda_push_pro_charging_cable"
+ },
+ {
+  "excelCol": 369,
+  "header": "Acmeda Wall Block",
+  "sqlColumn": "Acmeda_Wall_Block",
+  "legacy": "acmeda_wall_block"
+ },
+ {
+  "excelCol": 370,
+  "header": "Somfy Single Channel White Remote",
+  "sqlColumn": "Somfy_Single_Channel_White_Remote",
+  "legacy": "somfy_single_channel_white_remote"
+ },
+ {
+  "excelCol": 371,
+  "header": "Somfy Single Channel Silver Remote",
+  "sqlColumn": "Somfy_Single_Channel_Silver_Remote",
+  "legacy": "somfy_single_channel_silver_remote"
+ },
+ {
+  "excelCol": 372,
+  "header": "Somfy 2 Channel White Remote",
+  "sqlColumn": "Somfy_2_Channel_White_Remote",
+  "legacy": "somfy_2_channel_white_remote"
+ },
+ {
+  "excelCol": 373,
+  "header": "Somfy 2 Channel Silver Remote",
+  "sqlColumn": "Somfy_2_Channel_Silver_Remote",
+  "legacy": "somfy_2_channel_silver_remote"
+ },
+ {
+  "excelCol": 374,
+  "header": "Somfy 5 Channel White Remote",
+  "sqlColumn": "Somfy_5_Channel_White_Remote",
+  "legacy": "somfy_5_channel_white_remote"
+ },
+ {
+  "excelCol": 375,
+  "header": "Somfy 5 Channel Silver Remote",
+  "sqlColumn": "Somfy_5_Channel_Silver_Remote",
+  "legacy": "somfy_5_channel_silver_remote"
+ },
+ {
+  "excelCol": 376,
+  "header": "Somfy 15 Channel White Remote",
+  "sqlColumn": "Somfy_15_Channel_White_Remote",
+  "legacy": "somfy_15_channel_white_remote"
+ },
+ {
+  "excelCol": 377,
+  "header": "Somfy 15 Channel Black Remote",
+  "sqlColumn": "Somfy_15_Channel_Black_Remote",
+  "legacy": "somfy_15_channel_black_remote"
+ },
+ {
+  "excelCol": 378,
+  "header": "Somfy Single Channel Wall Mounted Smoove Remote White",
+  "sqlColumn": "Somfy_Single_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_single_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 379,
+  "header": "Somfy 2 Channel Wall Mounted Smoove Remote White",
+  "sqlColumn": "Somfy_2_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_2_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 380,
+  "header": "Somfy 5 Channel Wall Mounted Smoove Remote White",
+  "sqlColumn": "Somfy_5_Channel_Wall_Mounted_Smoove_Remote_White",
+  "legacy": "somfy_5_channel_wall_mounted_smoove_remote_white"
+ },
+ {
+  "excelCol": 381,
+  "header": "Somfy Wall Mounted Smoove Remote Cover Plate Black",
+  "sqlColumn": "Somfy_Wall_Mounted_Smoove_Remote_Cover_Plate_Black",
+  "legacy": "somfy_wall_mounted_smoove_remote_cover_plate_black"
+ },
+ {
+  "excelCol": 382,
+  "header": "Somfy Wall Mounted Smoove Remote Cover Plate Silver",
+  "sqlColumn": "Somfy_Wall_Mounted_Smoove_Remote_Cover_Plate_Silver",
+  "legacy": "somfy_wall_mounted_smoove_remote_cover_plate_silver"
+ },
+ {
+  "excelCol": 383,
+  "header": "Somfy 12v Charger",
+  "sqlColumn": "Somfy_12v_Charger",
+  "legacy": "somfy_12v_charger"
+ },
+ {
+  "excelCol": 384,
+  "header": "Somfy Connexoon App Connector",
+  "sqlColumn": "Somfy_Connexoon_App_Connector",
+  "legacy": "somfy_connexoon_app_connector"
+ },
+ {
+  "excelCol": 385,
+  "header": "Becker Single Channel White Remote",
+  "sqlColumn": "Becker_Single_Channel_White_Remote",
+  "legacy": "becker_single_channel_white_remote"
+ },
+ {
+  "excelCol": 386,
+  "header": "Becker Single Channel Black Remote",
+  "sqlColumn": "Becker_Single_Channel_Black_Remote",
+  "legacy": "becker_single_channel_black_remote"
+ },
+ {
+  "excelCol": 387,
+  "header": "Becker 5 Channel White Remote",
+  "sqlColumn": "Becker_5_Channel_White_Remote",
+  "legacy": "becker_5_channel_white_remote"
+ },
+ {
+  "excelCol": 388,
+  "header": "Becker 5 Channel Black Remote",
+  "sqlColumn": "Becker_5_Channel_Black_Remote",
+  "legacy": "becker_5_channel_black_remote"
+ },
+ {
+  "excelCol": 389,
+  "header": "Becker 10 Channel White Remote",
+  "sqlColumn": "Becker_10_Channel_White_Remote",
+  "legacy": "becker_10_channel_white_remote"
+ },
+ {
+  "excelCol": 390,
+  "header": "Becker 10 Channel Black Remote",
+  "sqlColumn": "Becker_10_Channel_Black_Remote",
+  "legacy": "becker_10_channel_black_remote"
+ },
+ {
+  "excelCol": 391,
+  "header": "Becker Wall Mounted Single Channel White Remote",
+  "sqlColumn": "Becker_Wall_Mounted_Single_Channel_White_Remote",
+  "legacy": "becker_wall_mounted_single_channel_white_remote"
+ },
+ {
+  "excelCol": 392,
+  "header": "Becker Wall Mounted 5 Channel White Remote",
+  "sqlColumn": "Becker_Wall_Mounted_5_Channel_White_Remote",
+  "legacy": "becker_wall_mounted_5_channel_white_remote"
+ },
+ {
+  "excelCol": 393,
+  "header": "Wall Switch",
+  "sqlColumn": "Wall_Switch",
+  "legacy": "wall_switch"
+ },
+ {
+  "excelCol": 394,
+  "header": "CF90 Cassette Sqaure Cover Set - White",
+  "sqlColumn": "CF90_Cassette_Sqaure_Cover_Set_White",
+  "legacy": "cf90_cassette_sqaure_cover_set_white"
+ },
+ {
+  "excelCol": 395,
+  "header": "CF90 Cassette Sqaure Cover Set -  Black",
+  "sqlColumn": "CF90_Cassette_Sqaure_Cover_Set_Black",
+  "legacy": "cf90_cassette_sqaure_cover_set_black"
+ },
+ {
+  "excelCol": 396,
+  "header": "CF90 Cassette Sqaure Cover Set - Cream",
+  "sqlColumn": "CF90_Cassette_Sqaure_Cover_Set_Cream",
+  "legacy": "cf90_cassette_sqaure_cover_set_cream"
+ },
+ {
+  "excelCol": 397,
+  "header": "CF90 Cassette Sqaure Cover Set -  Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Sqaure_Cover_Set_Anodised_Silver",
+  "legacy": "cf90_cassette_sqaure_cover_set_anodised_silver"
+ },
+ {
+  "excelCol": 398,
+  "header": "CF90 Cassette Round Cover Set - White",
+  "sqlColumn": "CF90_Cassette_Round_Cover_Set_White",
+  "legacy": "cf90_cassette_round_cover_set_white"
+ },
+ {
+  "excelCol": 399,
+  "header": "CF90 Cassette Round Cover Set - Black",
+  "sqlColumn": "CF90_Cassette_Round_Cover_Set_Black",
+  "legacy": "cf90_cassette_round_cover_set_black"
+ },
+ {
+  "excelCol": 400,
+  "header": "CF90 Cassette Round Cover Set - Cream",
+  "sqlColumn": "CF90_Cassette_Round_Cover_Set_Cream",
+  "legacy": "cf90_cassette_round_cover_set_cream"
+ },
+ {
+  "excelCol": 401,
+  "header": "CF90 Cassette Round Cover Set -  Anodised Silver",
+  "sqlColumn": "CF90_Cassette_Round_Cover_Set_Anodised_Silver",
+  "legacy": "cf90_cassette_round_cover_set_anodised_silver"
+ },
+ {
+  "excelCol": 402,
+  "header": "CF90  Cassette End Plate Set",
+  "sqlColumn": "CF90_Cassette_End_Plate_Set",
+  "legacy": "cf90_cassette_end_plate_set"
+ },
+ {
+  "excelCol": 403,
+  "header": "Square Cassette Chain Guide - Left",
+  "sqlColumn": "Square_Cassette_Chain_Guide_Left",
+  "legacy": "square_cassette_chain_guide_left"
+ },
+ {
+  "excelCol": 404,
+  "header": "Square Cassette Chain Guide - Right",
+  "sqlColumn": "Square_Cassette_Chain_Guide_Right",
+  "legacy": "square_cassette_chain_guide_right"
+ },
+ {
+  "excelCol": 405,
+  "header": "Round Cassette Chain Guide - Left",
+  "sqlColumn": "Round_Cassette_Chain_Guide_Left",
+  "legacy": "round_cassette_chain_guide_left"
+ },
+ {
+  "excelCol": 406,
+  "header": "Round Cassette Chain Guide - Right",
+  "sqlColumn": "Round_Cassette_Chain_Guide_Right",
+  "legacy": "round_cassette_chain_guide_right"
+ },
+ {
+  "excelCol": 407,
+  "header": "Bottom Rail Brsuh",
+  "sqlColumn": "Bottom_Rail_Brsuh",
+  "legacy": "bottom_rail_brsuh"
+ },
+ {
+  "excelCol": 408,
+  "header": "CF90  Cassette Side Guide Ears",
+  "sqlColumn": "CF90_Cassette_Side_Guide_Ears",
+  "legacy": "cf90_cassette_side_guide_ears"
+ },
+ {
+  "excelCol": 409,
+  "header": "CF90  Cassette Side Guide Locks",
+  "sqlColumn": "CF90_Cassette_Side_Guide_Locks",
+  "legacy": "cf90_cassette_side_guide_locks"
+ },
+ {
+  "excelCol": 410,
+  "header": "Cassette Side Guide Funnel White",
+  "sqlColumn": "Cassette_Side_Guide_Funnel_White",
+  "legacy": "cassette_side_guide_funnel_white"
+ },
+ {
+  "excelCol": 411,
+  "header": "Cassette Side Guide Funnel Black",
+  "sqlColumn": "Cassette_Side_Guide_Funnel_Black",
+  "legacy": "cassette_side_guide_funnel_black"
+ },
+ {
+  "excelCol": 412,
+  "header": "Cassette Side Guide Funnel Cream",
+  "sqlColumn": "Cassette_Side_Guide_Funnel_Cream",
+  "legacy": "cassette_side_guide_funnel_cream"
+ },
+ {
+  "excelCol": 413,
+  "header": "Cassette Side Guide Funnel Anodised Silver",
+  "sqlColumn": "Cassette_Side_Guide_Funnel_Anodised_Silver",
+  "legacy": "cassette_side_guide_funnel_anodised_silver"
+ },
+ {
+  "excelCol": 414,
+  "header": "Cassette Side Guide Bottom Cap White",
+  "sqlColumn": "Cassette_Side_Guide_Bottom_Cap_White",
+  "legacy": "cassette_side_guide_bottom_cap_white"
+ },
+ {
+  "excelCol": 415,
+  "header": "Cassette Side Guide Bottom Cap Black",
+  "sqlColumn": "Cassette_Side_Guide_Bottom_Cap_Black",
+  "legacy": "cassette_side_guide_bottom_cap_black"
+ },
+ {
+  "excelCol": 416,
+  "header": "Cassette Side Guide Bottom Cap Cream",
+  "sqlColumn": "Cassette_Side_Guide_Bottom_Cap_Cream",
+  "legacy": "cassette_side_guide_bottom_cap_cream"
+ },
+ {
+  "excelCol": 417,
+  "header": "Cassette Side Guide Bottom Cap Black",
+  "sqlColumn": "Cassette_Side_Guide_Bottom_Cap_Black_2",
+  "legacy": "cassette_side_guide_bottom_cap_black_2"
+ },
+ {
+  "excelCol": 418,
+  "header": "Valance Reveal Bracket",
+  "sqlColumn": "Valance_Reveal_Bracket",
+  "legacy": "valance_reveal_bracket"
+ },
+ {
+  "excelCol": 419,
+  "header": "Valance Centre Join Bracket",
+  "sqlColumn": "Valance_Centre_Join_Bracket",
+  "legacy": "valance_centre_join_bracket"
+ },
+ {
+  "excelCol": 420,
+  "header": "Valance End Caps Black",
+  "sqlColumn": "Valance_End_Caps_Black",
+  "legacy": "valance_end_caps_black"
+ },
+ {
+  "excelCol": 421,
+  "header": "Valance End Caps White",
+  "sqlColumn": "Valance_End_Caps_White",
+  "legacy": "valance_end_caps_white"
+ },
+ {
+  "excelCol": 422,
+  "header": "Valance End Caps Cream",
+  "sqlColumn": "Valance_End_Caps_Cream",
+  "legacy": "valance_end_caps_cream"
+ },
+ {
+  "excelCol": 423,
+  "header": "Valance End Caps Grey",
+  "sqlColumn": "Valance_End_Caps_Grey",
+  "legacy": "valance_end_caps_grey"
+ },
+ {
+  "excelCol": 424,
+  "header": "Valance Round Rubber Spline",
+  "sqlColumn": "Valance_Round_Rubber_Spline",
+  "legacy": "valance_round_rubber_spline"
+ },
+ {
+  "excelCol": 425,
+  "header": "Pelmet 95 End Caps Grey",
+  "sqlColumn": "Pelmet_95_End_Caps_Grey",
+  "legacy": "pelmet_95_end_caps_grey"
+ },
+ {
+  "excelCol": 426,
+  "header": "Pelmet 95 End Caps White",
+  "sqlColumn": "Pelmet_95_End_Caps_White",
+  "legacy": "pelmet_95_end_caps_white"
+ },
+ {
+  "excelCol": 427,
+  "header": "Pelmet 95 End Caps Black",
+  "sqlColumn": "Pelmet_95_End_Caps_Black",
+  "legacy": "pelmet_95_end_caps_black"
+ },
+ {
+  "excelCol": 428,
+  "header": "Pelmet 95 End Caps Cream",
+  "sqlColumn": "Pelmet_95_End_Caps_Cream",
+  "legacy": "pelmet_95_end_caps_cream"
+ },
+ {
+  "excelCol": 429,
+  "header": "Pelmet 95 Brackets",
+  "sqlColumn": "Pelmet_95_Brackets",
+  "legacy": "pelmet_95_brackets"
+ },
+ {
+  "excelCol": 430,
+  "header": "Mounting Rail Brackets",
+  "sqlColumn": "Mounting_Rail_Brackets",
+  "legacy": "mounting_rail_brackets"
+ },
+ {
+  "excelCol": 431,
+  "header": "Mounting Rail Bracket Screws",
+  "sqlColumn": "Mounting_Rail_Bracket_Screws",
+  "legacy": "mounting_rail_bracket_screws"
+ },
+ {
+  "excelCol": 432,
+  "header": "Box 120 End Plate Set",
+  "sqlColumn": "Box_120_End_Plate_Set",
+  "legacy": "box_120_end_plate_set"
+ },
+ {
+  "excelCol": 433,
+  "header": "Box 120 End Plate Cover Set - White",
+  "sqlColumn": "Box_120_End_Plate_Cover_Set_White",
+  "legacy": "box_120_end_plate_cover_set_white"
+ },
+ {
+  "excelCol": 434,
+  "header": "Box 120 End Plate Cover Set - Black",
+  "sqlColumn": "Box_120_End_Plate_Cover_Set_Black",
+  "legacy": "box_120_end_plate_cover_set_black"
+ },
+ {
+  "excelCol": 435,
+  "header": "Box 120 End Plate Cover Set - Grey",
+  "sqlColumn": "Box_120_End_Plate_Cover_Set_Grey",
+  "legacy": "box_120_end_plate_cover_set_grey"
+ },
+ {
+  "excelCol": 436,
+  "header": "Box 120 Chain Winder Adaptor",
+  "sqlColumn": "Box_120_Chain_Winder_Adaptor",
+  "legacy": "box_120_chain_winder_adaptor"
+ },
+ {
+  "excelCol": 437,
+  "header": "Box 120 Chain Guide - White",
+  "sqlColumn": "Box_120_Chain_Guide_White",
+  "legacy": "box_120_chain_guide_white"
+ },
+ {
+  "excelCol": 438,
+  "header": "Box 120 Chain Guide - Black",
+  "sqlColumn": "Box_120_Chain_Guide_Black",
+  "legacy": "box_120_chain_guide_black"
+ },
+ {
+  "excelCol": 439,
+  "header": "Box 120 Chain Guide - Grey",
+  "sqlColumn": "Box_120_Chain_Guide_Grey",
+  "legacy": "box_120_chain_guide_grey"
+ }
+]
