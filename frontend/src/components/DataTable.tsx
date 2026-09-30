@@ -20,6 +20,7 @@ import EXTERNAL_BLINDS_HEADERS from '../config/externalBlindsHeaders.json';
 import SQUALONET_HEADERS from '../config/squalonetHeaders.json';
 import PANEL_GLIDES_HEADERS from '../config/panelGlidesHeaders.json';
 import CURTAIN_TRACKS_HEADERS from '../config/curtainTracksHeaders.json';
+import { ReconcileJobSheet } from './ReconcileJobSheet';
 
 interface DataTableProps {
   data: any[];
@@ -1743,6 +1744,8 @@ interface DataRowProps {
   baseColumns: Set<string>;
   cellsWithComments: Set<string>;
   onComment: (columnName: string, quoteNo: string, lineNo: number, rowType: string) => void;
+  /** Click anywhere else in a row: select that row and cell (highlighted via CSS, see selectionStyle) */
+  onSelect: (rowId: string, columnName: string) => void;
 }
 
 const BASE_CELL_STYLE: CSSProperties = {
@@ -1806,16 +1809,18 @@ const COMMENT_ICON_WIDTH = 16; // px at the right edge of a cell where the hover
  * One data row. Memoised so scrolling only renders rows that come into view, and each cell is a single
  * element (the 💬 icon is CSS, see .dt-cell in index.css) so rows with 1,000+ columns stay light.
  */
-const DataRow = memo(function DataRow({ row, dataRules, baseCount, colStart, colEnd, leftPad, rightPad, striped, height, baseColumns, cellsWithComments, onComment }: DataRowProps) {
+const DataRow = memo(function DataRow({ row, dataRules, baseCount, colStart, colEnd, leftPad, rightPad, striped, height, baseColumns, cellsWithComments, onComment, onSelect }: DataRowProps) {
   const quoteNo = row.original.quote_no || '';
   const lineNo = row.original.line_no || 0;
   const handleClick = (e: React.MouseEvent<HTMLTableRowElement>) => {
     const td = (e.target as HTMLElement).closest('td[data-col]') as HTMLTableCellElement | null;
-    if (!td || e.clientX < td.getBoundingClientRect().right - COMMENT_ICON_WIDTH) return;
-    onComment(td.dataset.col || '', quoteNo, lineNo, 'data');
+    if (!td) return;
+    if (e.clientX >= td.getBoundingClientRect().right - COMMENT_ICON_WIDTH) onComment(td.dataset.col || '', quoteNo, lineNo, 'data');
+    else onSelect(row.id, td.dataset.col || '');
   };
   return (
     <tr
+      data-row={row.id}
       style={{ height: `${height}px` }}
       className={clsx('border-b border-gray-200 hover:bg-gray-50', striped ? 'bg-gray-50' : 'bg-white')}
       onClick={handleClick}
@@ -1847,6 +1852,12 @@ const DataRow = memo(function DataRow({ row, dataRules, baseCount, colStart, col
   );
 });
 
+// Report names for the reconcile popup
+const REPORT_NAMES: Record<string, string> = {
+  door_screen_components: 'Door Screen', roller_blind_components: 'Roller Blinds', roller_shutter_components: 'Roller Shutters',
+  external_blinds_components: 'External Blinds', squalonet_retractable_screens: 'Squalonet', panel_glides: 'Panel Glides', curtain_tracks: 'Curtain Tracks',
+};
+
 export default function DataTable({
   data,
   total,
@@ -1867,6 +1878,30 @@ export default function DataTable({
   } | null>(null);
   const [tableWidth, setTableWidth] = useState(0);
   const [cellsWithComments, setCellsWithComments] = useState<Set<string>>(new Set());
+  const [showReconcile, setShowReconcile] = useState(false);
+  // Selected row and cell, so you keep your place when scrolling across a wide report (ticket 148)
+  const [selected, setSelected] = useState<{ rowId: string; col: string } | null>(null);
+  const selectCell = useCallback((rowId: string, col: string) => {
+    setSelected(cur => (cur && cur.rowId === rowId && cur.col === col ? null : { rowId, col }));
+  }, []);
+  useEffect(() => { setSelected(null); }, [tableName, page]);
+  useEffect(() => {
+    if (!selected) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setSelected(null); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [selected]);
+  const selectionStyle = useMemo(() => {
+    if (!selected) return '';
+    const r = CSS.escape(selected.rowId), c = CSS.escape(selected.col);
+    // cells with their own fill (report rules) keep it and only get the blue lines
+    return `
+      #table-scroll-container td[data-col="${c}"]:not([style*="background-color"]) { background-color: #eff6ff !important; }
+      #table-scroll-container tr[data-row="${r}"] > td { box-shadow: inset 0 2px 0 #2563eb, inset 0 -2px 0 #2563eb; }
+      #table-scroll-container tr[data-row="${r}"] > td:not([style*="background-color"]) { background-color: #dbeafe !important; }
+      #table-scroll-container tr[data-row="${r}"] > td[data-col="${c}"] { outline: 2px solid #1d4ed8; outline-offset: -2px; }
+    `;
+  }, [selected]);
   const [sums, setSums] = useState<{ [key: string]: any }>({});
 
   // Virtualization ref
@@ -2638,9 +2673,25 @@ export default function DataTable({
             📋 Comments
           </button>
           <ExportButton data={data} fileName="components_report" sums={sums} baseColumns={BASE_COLUMNS} />
+          <button
+            onClick={() => setShowReconcile(true)}
+            className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 font-medium"
+          >
+            ✅ Reconcile
+          </button>
         </div>
       </div>
 
+      {showReconcile && (
+        <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/40 px-4 py-10" role="dialog" aria-modal="true" aria-label="Reconcile a job sheet"
+          onClick={() => setShowReconcile(false)} onKeyDown={e => e.key === 'Escape' && setShowReconcile(false)}>
+          <div className="w-full max-w-5xl" onClick={e => e.stopPropagation()}>
+            <ReconcileJobSheet reportTable={tableName} reportName={REPORT_NAMES[tableName ?? ''] ?? undefined} onClose={() => setShowReconcile(false)} />
+          </div>
+        </div>
+      )}
+
+      {selectionStyle && <style>{selectionStyle}</style>}
       <div
         className="overflow-x-auto border border-gray-200 rounded-lg"
         id="table-scroll-container"
@@ -2674,6 +2725,7 @@ export default function DataTable({
                   baseColumns={baseColumnSet}
                   cellsWithComments={cellsWithComments}
                   onComment={openComment}
+                  onSelect={selectCell}
                 />
               );
             })}
@@ -2703,8 +2755,8 @@ export default function DataTable({
         </div>
       )}
 
-      {/* Pagination */}
-      <div className="flex justify-between items-center mt-6">
+      {/* Pagination: only when a report ever has more rows than fit on one page */}
+      {totalPages > 1 && <div className="flex justify-between items-center mt-6">
         <div className="text-sm text-gray-600">
           Page {page + 1} of {totalPages || 1}
         </div>
@@ -2724,7 +2776,7 @@ export default function DataTable({
             Next →
           </button>
         </div>
-      </div>
+      </div>}
 
       {/* Comments Modal */}
       {commentModal && (

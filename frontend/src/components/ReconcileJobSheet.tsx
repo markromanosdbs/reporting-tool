@@ -6,7 +6,7 @@ import axios from 'axios';
 const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 interface ReconcileLine {
-  line: number; lineKey: string; code: string; descn: string; report: string | null;
+  line: number; lineKey: string; code: string; descn: string; report: string | null; reportTable: string | null;
   result: 'match' | 'different' | 'not-on-report' | 'not-supported';
   differences: { heading: string; jobSheet: unknown; report: unknown }[];
   compared: number; columns: number;   // component columns with data on either side, of all the report's columns
@@ -25,7 +25,8 @@ const RESULT: Record<ReconcileLine['result'], { label: (l: ReconcileLine) => str
   'not-supported': { label: () => 'No report for this product', style: 'bg-gray-100 text-gray-600' },
 };
 
-export function ReconcileJobSheet() {
+/** reportTable/reportName: the report it was opened from (notes a job sheet for another report); onClose: popup close */
+export function ReconcileJobSheet({ reportTable, reportName, onClose }: { reportTable?: string; reportName?: string; onClose?: () => void } = {}) {
   const [file, setFile] = useState<File | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -49,9 +50,16 @@ export function ReconcileJobSheet() {
 
   return (
     <section className="bg-white rounded-lg shadow p-5 grid gap-4">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-900">Reconcile a job sheet with the report</h3>
-        <p className="text-sm text-gray-600">Compares the job sheet's Components tab with the components report, line by line. For checking only: nothing is saved or changed.</p>
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900">Reconcile a job sheet{reportName ? ` with ${reportName}` : ' with the report'}</h3>
+          <p className="text-sm text-gray-600">Compares the job sheet's Components tab with the components report, line by line. For checking only: nothing is saved or changed.</p>
+        </div>
+        {onClose && (
+          <button onClick={onClose} aria-label="Close" className="shrink-0 rounded p-1 text-gray-500 hover:bg-gray-100 hover:text-gray-800">
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+          </button>
+        )}
       </div>
 
       <label
@@ -74,12 +82,20 @@ export function ReconcileJobSheet() {
         <div className="grid gap-3">
           <div className={`rounded border px-4 py-3 ${s.different ? 'border-red-200 bg-red-50 text-red-800' : s.match ? 'border-emerald-200 bg-emerald-50 text-emerald-800' : 'border-gray-200 bg-gray-50 text-gray-700'}`}>
             <span className="font-semibold">
-              {s.different ? `${s.different} of ${s.lines} lines differ from the report.` : s.match === s.lines ? `All ${s.lines} lines match the report.` : `${s.match} of ${s.lines} lines match the report.`}
+              {s.lines === 1
+                ? (s.different ? 'The line differs from the report.' : s.match ? 'The line matches the report.' : 'The line is not on the report.')
+                : s.different ? `${s.different} of ${s.lines} lines differ from the report.` : s.match === s.lines ? `All ${s.lines} lines match the report.` : `${s.match} of ${s.lines} lines match the report.`}
             </span>{' '}
             {result.fileName}{result.orderNo ? ` (order ${result.orderNo})` : ''}
             {s.notOnReport > 0 && <> · {s.notOnReport} not on the report</>}
             {s.notSupported > 0 && <> · {s.notSupported} with no report</>}
           </div>
+
+          {reportTable && result.lines.some(l => l.reportTable && l.reportTable !== reportTable) && (
+            <div className="rounded border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+              This job sheet is for {[...new Set(result.lines.filter(l => l.reportTable && l.reportTable !== reportTable).map(l => l.report))].join(', ')}, not {reportName ?? 'this report'}. It was checked against that report instead.
+            </div>
+          )}
 
           <div className="overflow-x-auto rounded-lg border border-gray-300">
             <table className="w-full text-sm min-w-[700px] border-collapse">

@@ -63,7 +63,7 @@ export async function reconcileJobSheet(fileName: string, content: Buffer) {
   const lines = sheet.lines.map(l => {
     const lineKey = `${sheet.orderNo ?? '?'} ${l.lineNo ?? l.line}`;
     const target = l.product ? targetFor(l.product) : undefined;
-    const base = { line: l.line, lineKey, code: l.code, descn: l.descn, report: target ? `${target.reportLabel} · ${target.codes.join('/')}` : null };
+    const base = { line: l.line, lineKey, code: l.code, descn: l.descn, report: target ? `${target.reportLabel} · ${target.codes.join('/')}` : null, reportTable: target?.reportTable ?? null };
     if (!target) return { ...base, result: 'not-supported' as const, differences: [], compared: 0, columns: 0 };
     const report = target.current(l.pkId);
     if (!report) return { ...base, result: 'not-on-report' as const, differences: [], compared: 0, columns: 0 };

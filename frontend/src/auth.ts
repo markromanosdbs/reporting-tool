@@ -14,7 +14,13 @@ let account: AccountInfo | null = null;
 
 export interface AuthState { enabled: boolean; signedIn: boolean; account: AccountInfo | null }
 
-export async function initAuth(): Promise<AuthState> {
+let started: Promise<AuthState> | null = null;
+export function initAuth(): Promise<AuthState> {
+  started ??= setUp();
+  return started;
+}
+
+async function setUp(): Promise<AuthState> {
   let cfg: { enabled: boolean; tenantId: string | null; clientId: string | null };
   try {
     cfg = (await axios.get(`${apiUrl}/auth-config`)).data;
@@ -59,13 +65,17 @@ async function idToken(forceRefresh = false): Promise<string | null> {
     const r = await msal.acquireTokenSilent({ scopes: SCOPES, account, forceRefresh });
     return r.idToken;
   } catch (e) {
-    if (e instanceof InteractionRequiredAuthError) { await signIn(); }
+    console.warn('[sign-in] could not renew the sign-in quietly:', e);
+    if (e instanceof InteractionRequiredAuthError || (e as { errorCode?: string })?.errorCode !== 'no_network_connectivity') void signIn();
     return null;
   }
 }
 
+let redirecting = false;
 export function signIn(): Promise<void> {
-  return msal ? msal.loginRedirect({ scopes: SCOPES, prompt: 'select_account' }) : Promise.resolve();
+  if (!msal || redirecting) return Promise.resolve();
+  redirecting = true;
+  return msal.loginRedirect({ scopes: SCOPES, prompt: 'select_account' }).catch(e => { redirecting = false; console.warn('[sign-in]', e); });
 }
 
 export function signOut(): Promise<void> {

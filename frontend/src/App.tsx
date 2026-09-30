@@ -51,7 +51,7 @@ function App() {
   const [showCommentsSummary, setShowCommentsSummary] = useState(false);
   // Settings lives in the address (#settings, #settings/templates, ...), so a refresh (or a bookmark) stays on it
   const settingsFromHash = (): { open: boolean; section: SettingsSection | null } => {
-    const m = window.location.hash.match(/^#settings(?:\/(templates|reconcile|users))?$/);
+    const m = window.location.hash.match(/^#settings(?:\/(templates|users))?$/);
     return { open: !!m, section: (m?.[1] as SettingsSection) ?? null };
   };
   const [settings, setSettings] = useState(settingsFromHash);
@@ -63,14 +63,17 @@ function App() {
     history.pushState(null, '', window.location.pathname + window.location.search);
     setSettings({ open: false, section: null });
   };
-  const showSettings = settings.open;
+  // Settings is for Admins; anyone else following a #settings link just sees the reports
+  const showSettings = settings.open && (me?.role ?? 'Admin') === 'Admin';
   useEffect(() => {
     const onChange = () => setSettings(settingsFromHash());
     window.addEventListener('hashchange', onChange);
     window.addEventListener('popstate', onChange);
     return () => { window.removeEventListener('hashchange', onChange); window.removeEventListener('popstate', onChange); };
   }, []);
-  const pageSize = 100;
+  // Every report on one page (ticket 149): the table only draws the rows on screen, so a few hundred
+  // rows scroll as smoothly as 100. The server sends up to 1,000 rows a request.
+  const pageSize = 1000;
 
   // Save selected table to localStorage
   useEffect(() => {
@@ -137,20 +140,22 @@ function App() {
               Davidsons Blinds & Shutters Database
             </p>
           </div>
-          <div className="flex items-center gap-3">
+          {/* signed-in name on its own line above Settings, so Sign out isn't clicked by mistake */}
+          <div className="flex flex-col items-end gap-2">
           {signedIn && (
             <span className="text-sm text-gray-600 whitespace-nowrap">
               {me!.name} <span className="text-gray-400">· {me!.role}</span>
-              <button onClick={() => signOut()} className="ml-2 text-blue-700 hover:underline">Sign out</button>
+              <span className="mx-2 text-gray-300" aria-hidden="true">|</span>
+              <button onClick={() => signOut()} className="text-blue-700 hover:underline">Sign out</button>
             </span>
           )}
-          <button
+          {(me?.role ?? 'Admin') === 'Admin' && <button
             onClick={() => (showSettings ? closeSettings() : openSettings(null))}
             className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 font-medium whitespace-nowrap"
             aria-label={showSettings ? 'Back to reports' : 'Settings'}
           >
             {showSettings ? 'Back to reports' : <span className="inline-flex items-center gap-1.5"><GearIcon /> Settings</span>}
-          </button>
+          </button>}
           </div>
         </div>
       </div>

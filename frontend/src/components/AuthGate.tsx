@@ -32,6 +32,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [auth, setAuth] = useState<AuthState | null>(null);
   const [me, setMe] = useState<Me | null>(null);
   const [problem, setProblem] = useState<{ text: string; code?: string } | null>(null);
+  const [slow, setSlow] = useState(false);
+  useEffect(() => { const t = setTimeout(() => setSlow(true), 20_000); return () => clearTimeout(t); }, []);
 
   useEffect(() => {
     (async () => {
@@ -77,6 +79,17 @@ export function AuthGate({ children }: { children: ReactNode }) {
     );
   }
   if (!me) {
+    if (slow) {
+      return (
+        <Screen title="This is taking longer than usual">
+          <p className="text-sm text-gray-600">The report server or the Microsoft sign-in isn't answering. The server may still be starting up.</p>
+          <div className="flex justify-center gap-2">
+            <button onClick={() => window.location.reload()} className="px-3 py-1 text-sm rounded bg-blue-600 text-white font-medium hover:bg-blue-700">Try again</button>
+            {auth?.enabled && <button onClick={() => signIn()} className="px-3 py-1 text-sm rounded bg-gray-200 text-gray-800 font-medium hover:bg-gray-300">Sign in again</button>}
+          </div>
+        </Screen>
+      );
+    }
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-blue-500" aria-label="Loading" />
