@@ -5,6 +5,7 @@ import sql from 'mssql';
 import { JobSheetEngine, CellInput, CycleBreak, DataSheetInput, ErrorSource, excelErrorName } from './JobSheetEngine.js';
 import type { OrderInfo } from './DoorScreenJobSheet.js';
 import { loadTemplateEngine } from './preparedTemplates.js';
+import { templateModifiedAt } from './templateSources.js';
 
 /**
  * Components for one product from SalesOrderOptions_DASON, calculated with that product's real BUZ
@@ -77,7 +78,7 @@ export function getProductMapping(p: ProductConfig): ProductColumn[] {
 }
 
 export function productTemplateModifiedAt(p: ProductConfig): number {
-  return fs.statSync(path.join(TEMPLATE_DIR, p.template)).mtimeMs;
+  return templateModifiedAt(p.template);
 }
 
 const engines = new Map<string, Promise<JobSheetEngine>>();
@@ -94,11 +95,16 @@ let engineQueue: Promise<unknown> = Promise.resolve();
  * backend 600 MB). Loading takes 2-6 s, and is only needed when there are new or changed lines.
  */
 export function withProductEngine<T>(p: ProductConfig, fn: () => Promise<T>): Promise<T> {
-  const run = engineQueue.then(fn).finally(async () => {
+  return runExclusive(fn, async () => {
     const eng = engines.get(p.template);
     engines.delete(p.template);
     if (eng) (await eng.catch(() => null))?.dispose();
   });
+}
+
+/** Run fn when no other calculation batch (or template check) is running; then `after`, even if fn fails. */
+export function runExclusive<T>(fn: () => Promise<T>, after?: () => Promise<void>): Promise<T> {
+  const run = engineQueue.then(fn).finally(async () => { await after?.(); });
   engineQueue = run.catch(() => undefined);
   return run;
 }

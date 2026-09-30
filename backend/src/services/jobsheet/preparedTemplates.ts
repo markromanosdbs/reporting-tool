@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
 import { JobSheetEngine, PreparedTemplate, TemplateOptions } from './JobSheetEngine.js';
+import { TEMPLATE_DIR, templateSourcePath } from './templateSources.js';
 
 /**
  * Job sheet templates, prepared ahead of time as plain JSON (templates/prepared/<file>.json).
@@ -13,52 +14,61 @@ import { JobSheetEngine, PreparedTemplate, TemplateOptions } from './JobSheetEng
  * file is missing) it is prepared again in a short-lived child process, whose memory goes when it exits.
  */
 
-const here = path.dirname(fileURLToPath(import.meta.url));
-export const TEMPLATE_DIR = path.resolve(here, '../../../templates');
+export { TEMPLATE_DIR };
 const PREPARED_DIR = path.join(TEMPLATE_DIR, 'prepared');
 // src/…/preparedTemplates.ts under tsx, dist/…/preparedTemplates.js when built
-const PREPARE_SCRIPT = path.join(here, 'prepareTemplatesCli' + path.extname(fileURLToPath(import.meta.url)));
+const PREPARE_SCRIPT = path.join(path.dirname(fileURLToPath(import.meta.url)), 'prepareTemplatesCli' + path.extname(fileURLToPath(import.meta.url)));
 
 interface PreparedFile { source: string; sourceModifiedAt: number; options: string; template: PreparedTemplate }
 
-const preparedPath = (file: string) => path.join(PREPARED_DIR, file + '.json');
-const optionsKey = (options: TemplateOptions) => JSON.stringify({ cycleBreaks: options.cycleBreaks ?? [], arrayArithmetic: !!options.arrayArithmetic });
+// keyed by the source file's name: go-live templates and uploaded updates (update-0003__…xlsm) never collide
+const preparedPath = (sourcePath: string) => path.join(PREPARED_DIR, path.basename(sourcePath) + '.json');
+export const optionsKey = (options: TemplateOptions) => JSON.stringify({ cycleBreaks: options.cycleBreaks ?? [], arrayArithmetic: !!options.arrayArithmetic });
 
-function readPrepared(file: string, options: TemplateOptions): PreparedTemplate | null {
+function readPrepared(sourcePath: string, options: TemplateOptions): PreparedTemplate | null {
   try {
-    const p: PreparedFile = JSON.parse(fs.readFileSync(preparedPath(file), 'utf8'));
-    const current = p.sourceModifiedAt === fs.statSync(path.join(TEMPLATE_DIR, file)).mtimeMs && p.options === optionsKey(options);
+    const p: PreparedFile = JSON.parse(fs.readFileSync(preparedPath(sourcePath), 'utf8'));
+    const current = p.sourceModifiedAt === fs.statSync(sourcePath).mtimeMs && p.options === optionsKey(options);
     return current ? p.template : null;
   } catch {
     return null;
   }
 }
 
-/** Prepare one template and save it (run by `npm run build`, or in a child process by the server). */
-export async function prepareTemplateFile(file: string, options: TemplateOptions = {}): Promise<void> {
-  const template = await JobSheetEngine.prepareTemplate(path.join(TEMPLATE_DIR, file), options);
-  const out: PreparedFile = { source: file, sourceModifiedAt: fs.statSync(path.join(TEMPLATE_DIR, file)).mtimeMs, options: optionsKey(options), template };
+/** Save a prepared template next to the others (for the job sheet at sourcePath). */
+export function savePrepared(sourcePath: string, options: TemplateOptions, template: PreparedTemplate): void {
+  const out: PreparedFile = { source: path.basename(sourcePath), sourceModifiedAt: fs.statSync(sourcePath).mtimeMs, options: optionsKey(options), template };
   fs.mkdirSync(PREPARED_DIR, { recursive: true });
-  fs.writeFileSync(preparedPath(file) + '.tmp', JSON.stringify(out));
-  fs.renameSync(preparedPath(file) + '.tmp', preparedPath(file));
+  fs.writeFileSync(preparedPath(sourcePath) + '.tmp', JSON.stringify(out));
+  fs.renameSync(preparedPath(sourcePath) + '.tmp', preparedPath(sourcePath));
 }
 
-function prepareInChildProcess(file: string, options: TemplateOptions): Promise<void> {
+/** Prepare one job sheet and save it (run by `npm run build`, or in a child process by the server). */
+export async function prepareTemplateFile(sourcePath: string, options: TemplateOptions = {}): Promise<void> {
+  savePrepared(sourcePath, options, await JobSheetEngine.prepareTemplate(sourcePath, options));
+}
+
+function prepareInChildProcess(sourcePath: string, options: TemplateOptions): Promise<void> {
   return new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, [...process.execArgv, PREPARE_SCRIPT, file, optionsKey(options)], { stdio: 'inherit' });
+    const child = spawn(process.execPath, [...process.execArgv, PREPARE_SCRIPT, sourcePath, optionsKey(options)], { stdio: 'inherit' });
     child.on('error', reject);
-    child.on('exit', code => code === 0 ? resolve() : reject(new Error(`preparing ${file} failed (exit ${code})`)));
+    child.on('exit', code => code === 0 ? resolve() : reject(new Error(`preparing ${path.basename(sourcePath)} failed (exit ${code})`)));
   });
 }
 
-/** Engine for a template file in backend/templates, built from its prepared JSON. */
-export async function loadTemplateEngine(file: string, options: TemplateOptions = {}): Promise<JobSheetEngine> {
-  let template = readPrepared(file, options);
+/** The prepared form of a job sheet file, preparing it (in a child process) when needed. */
+export async function loadPrepared(sourcePath: string, options: TemplateOptions = {}): Promise<PreparedTemplate> {
+  let template = readPrepared(sourcePath, options);
   if (!template) {
-    console.log(`Preparing job sheet template ${file} (new or changed)...`);
-    await prepareInChildProcess(file, options);
-    template = readPrepared(file, options);
-    if (!template) throw new Error(`Prepared template for ${file} could not be read`);
+    console.log(`Preparing job sheet template ${path.basename(sourcePath)} (new or changed)...`);
+    await prepareInChildProcess(sourcePath, options);
+    template = readPrepared(sourcePath, options);
+    if (!template) throw new Error(`Prepared template for ${path.basename(sourcePath)} could not be read`);
   }
-  return JobSheetEngine.fromPrepared(template);
+  return template;
+}
+
+/** Engine for a template (e.g. 'RollerBlinds_Template.xlsm'), from whichever job sheet it currently uses. */
+export async function loadTemplateEngine(file: string, options: TemplateOptions = {}): Promise<JobSheetEngine> {
+  return JobSheetEngine.fromPrepared(await loadPrepared(templateSourcePath(file), options));
 }

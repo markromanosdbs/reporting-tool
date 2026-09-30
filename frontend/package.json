@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@azure/msal-browser": "^3.30.0",
     "@tanstack/react-query": "^5.28.0",
     "@tanstack/react-table": "^8.13.2",
     "@tanstack/react-virtual": "^3.14.12",

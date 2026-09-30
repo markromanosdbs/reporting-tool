@@ -48,7 +48,8 @@ router.post('/comments', async (req: Request, res: Response) => {
   try {
     console.log('[COMMENTS POST] Request received. Body:', req.body);
 
-    const { table, quoteNo, lineNo, columnName, user, commentText } = req.body;
+    const { table, quoteNo, lineNo, columnName, commentText } = req.body;
+    const user = req.user && req.user.id ? req.user.name : req.body.user;
 
     if (!table || !quoteNo || lineNo === null || lineNo === undefined || !columnName || !user || !commentText) {
       const missingFields = [];

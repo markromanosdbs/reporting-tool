@@ -38,3 +38,5 @@ dist/
 
 # Job sheet templates prepared by npm run build
 backend/templates/prepared/
+# Job sheet templates applied through the web app (kept in braxreportsDB)
+backend/template-updates/

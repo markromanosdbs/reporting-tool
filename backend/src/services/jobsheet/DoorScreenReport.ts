@@ -69,6 +69,11 @@ let liveRows: DoorScreenResult[] = [];
 let liveAt = 0;
 let liveInFlight: Promise<DoorScreenResult[]> | null = null;
 
+/** The page's current result for a line (template update checks compare against it). */
+export function cachedDoorScreenResult(pkId: string): DoorScreenResult | undefined {
+  return lineCache.get(pkId)?.result;
+}
+
 async function calculateLiveRows(pool: sql.ConnectionPool): Promise<DoorScreenResult[]> {
   const t0 = Date.now();
   const prod = await getProductionLines(pool);

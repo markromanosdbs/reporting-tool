@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import sql from 'mssql';
 import { JobSheetEngine, CellInput, DataSheetInput } from './JobSheetEngine.js';
 import { loadTemplateEngine } from './preparedTemplates.js';
+import { templateModifiedAt, onTemplateSourceChange } from './templateSources.js';
 import { ComponentsMapper } from '../ComponentsMapper.js';
 
 /**
@@ -43,7 +44,7 @@ function roundHalfAwayFromZero(n: number, decimals = 0): number {
 
 /** Latest modification time of the job sheet templates (ms) — lines calculated before it are recalculated. */
 export function templatesModifiedAt(): number {
-  return Math.max(...Object.values(TEMPLATES).map(f => fs.statSync(path.join(TEMPLATE_DIR, f)).mtimeMs));
+  return Math.max(...Object.values(TEMPLATES).map(templateModifiedAt));
 }
 
 /** Load both templates up front so the first page load doesn't pay the ~5s start-up. */
@@ -52,6 +53,15 @@ export function warmUpDoorScreenEngines(): Promise<unknown> {
 }
 
 const engines: Record<string, Promise<JobSheetEngine>> = {};
+// Door Screen keeps its two engines loaded; a template update or rollback replaces the one it affects
+onTemplateSourceChange(file => {
+  for (const [group, f] of Object.entries(TEMPLATES)) {
+    if (f !== file || !engines[group]) continue;
+    const old = engines[group];
+    delete engines[group];
+    old.then(e => e.dispose(), () => undefined);
+  }
+});
 function getEngine(group: string): Promise<JobSheetEngine> {
   const file = TEMPLATES[group];
   if (!file) throw new Error(`No Door Screen template for group ${group}`);

@@ -2,16 +2,17 @@
  * Prepare the job sheet templates for the server (see services/jobsheet/preparedTemplates.ts).
  *
  *   node dist/services/jobsheet/prepareTemplatesCli.js                 every template (part of npm run build)
- *   node dist/services/jobsheet/prepareTemplatesCli.js <file> <opts>   one template (used by the server)
+ *   node dist/services/jobsheet/prepareTemplatesCli.js <path> <opts>   one job sheet file (used by the server)
  */
-import { prepareTemplateFile } from './preparedTemplates.js';
+import path from 'path';
+import { prepareTemplateFile, TEMPLATE_DIR } from './preparedTemplates.js';
 import { PRODUCTS } from './products.js';
 import { DOOR_SCREEN_TEMPLATES } from './DoorScreenJobSheet.js';
 
 async function main() {
   const [file, options] = process.argv.slice(2);
   if (file) {
-    await prepareTemplateFile(file, options ? JSON.parse(options) : {});
+    await prepareTemplateFile(path.resolve(file), options ? JSON.parse(options) : {});
     return;
   }
   const all = new Map<string, { cycleBreaks?: any; arrayArithmetic?: boolean }>();
@@ -19,7 +20,7 @@ async function main() {
   for (const p of PRODUCTS) all.set(p.template, { cycleBreaks: p.cycleBreaks ?? [], arrayArithmetic: p.arrayArithmetic });
   for (const [f, o] of all) {
     const t = Date.now();
-    await prepareTemplateFile(f, o);
+    await prepareTemplateFile(path.join(TEMPLATE_DIR, f), o);
     console.log(`prepared ${f} (${((Date.now() - t) / 1000).toFixed(1)}s)`);
   }
 }

@@ -19,7 +19,7 @@ export function productFromEngine(p: ProductConfig): boolean {
  * Current lines of the product (read fresh on every call): from dbsproduction, or dbswip for products
  * whose report also follows jobs outside production (Curtain Tracks), optionally only some statuses.
  */
-async function getProductionLines(p: ProductConfig, pool: sql.ConnectionPool): Promise<ProductionLine[]> {
+export async function getProductionLines(p: ProductConfig, pool: sql.ConnectionPool): Promise<ProductionLine[]> {
   const req = pool.request();
   p.groups.forEach((g, i) => req.input(`g${i}`, sql.VarChar(20), g));
   (p.jobStatuses ?? []).forEach((s, i) => req.input(`s${i}`, sql.NVarChar(100), s));
@@ -77,6 +77,11 @@ const states = new Map<string, ProductState>();
 function stateOf(p: ProductConfig): ProductState {
   if (!states.has(p.label)) states.set(p.label, { lineCache: new Map(), liveRows: [], liveAt: 0, inFlight: null });
   return states.get(p.label)!;
+}
+
+/** The page's current result for a line (template update checks compare against it). */
+export function cachedProductResult(p: ProductConfig, pkId: string): ProductResult | undefined {
+  return stateOf(p).lineCache.get(pkId)?.result;
 }
 
 async function calculateLiveRows(p: ProductConfig, pool: sql.ConnectionPool): Promise<ProductResult[]> {

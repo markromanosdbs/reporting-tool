@@ -330,6 +330,11 @@ export class JobSheetEngine {
   static async prepareTemplate(templatePath: string, options: TemplateOptions = {}): Promise<PreparedTemplate> {
     const wb = new ExcelJS.Workbook();
     await wb.xlsx.readFile(templatePath);
+    return JobSheetEngine.prepareWorkbook(wb, options);
+  }
+
+  /** prepareTemplate for a workbook that is already open (the upload check reads it once for everything). */
+  static prepareWorkbook(wb: ExcelJS.Workbook, options: TemplateOptions = {}): PreparedTemplate {
 
     const definedNames = (wb.definedNames as any).model as { name: string; ranges: string[] }[];
     const renamed = renamesFor(definedNames.map(n => n.name));
