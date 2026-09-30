@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import https from 'https';
 import fs from 'fs';
-import { connectDB, closeDB, getBraxConnection } from './db.js';
+import { closeDB, getBraxConnection } from './db.js';
 import componentsRouter from './routes/components.js';
 import commentsRouter from './routes/comments.js';
 import calculatorRouter from './routes/calculator.js';
@@ -56,7 +56,7 @@ async function start() {
   try {
     console.log('🚀 Starting server...');
     if (!AUTH_ENABLED) console.warn('⚠ Microsoft sign-in is OFF (AUTH_TENANT_ID / AUTH_CLIENT_ID not set): everyone is treated as an Admin');
-    await connectDB();
+    await getBraxConnection();
     console.log('✓ Database connected, setting up server...');
 
     // Read SSL certificates

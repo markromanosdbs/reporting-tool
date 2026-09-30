@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { getConnection, getBraxConnection } from '../db.js';
+import { getBraxConnection } from '../db.js';
 import { VALID_TABLES, sanitizeTableName, fetchTableData } from '../services/ReportData.js';
 import { calculateSummary } from '../services/SummaryCalculator.js';
 import { getProductIssues, productFromEngine } from '../services/jobsheet/ProductReport.js';
@@ -75,36 +75,6 @@ router.get('/tables', async (req: Request, res: Response) => {
         .join(' '),
     })),
   });
-});
-
-// Get summary totals for roller blind components
-router.get('/roller-blind-summary', async (req: Request, res: Response) => {
-  try {
-    const pool = await getConnection();
-
-    const result = await pool.request().query(`
-      SELECT col_name, display_name, total, ib_total, ib7_total, kanban_min
-      FROM dbo.tbl_roller_blind_summary
-      ORDER BY sort_order
-    `);
-
-    const summary: { [key: string]: any } = {};
-
-    result.recordset.forEach((row: any) => {
-      summary[row.col_name] = {
-        total: row.total || 0,
-        ib_total: row.ib_total || 0,
-        ib7_total: row.ib7_total || 0,
-        kanban_min: row.kanban_min || 0,
-        display_name: row.display_name,
-      };
-    });
-
-    res.json(summary);
-  } catch (error) {
-    console.error('Error fetching roller blind summary:', error);
-    res.status(500).json({ error: 'Failed to fetch summary data', details: (error as any).message });
-  }
 });
 
 export default router;
